@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+/* Header Starts  */
+
+.header {
+  border-bottom: 0.5px solid #e1e1e1;
+}
+
+.header .register_button {
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Header Ends  */
+
+/* Footer Starts  */
+
+.footer {
+  background-color: black;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.footer .footer_text {
+  font-size: small;
+  color: #aeacac;
+}
+
+.footer .footer_head {
+  font-size: medium;
+  color: #fff;
+}
+
+.footer .icons {
+  background-color: #5c5c5c;
+  padding-bottom: 13px;
+  padding-top: 8px;
+  padding-left: 13px;
+  padding-right: 13px;
+  border-radius: 20px;
+  margin-right: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footer_copy {
+  font-size: small;
+  color: #fff;
+  border-top: 0.5px solid #5c5c5c;
+  padding-top: 10px;
+}
+
+/* Hero Start */
+
+.hero .hero_text {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.hero .demo_btn {
+  color: black;
+  border-radius: 20px;
+}
+
+.hero .demo_btn:hover {
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+
+.hero .reviews {
+  color: #1053f3;
+  font-weight: 600;
+}
+
+/* Our Service  */
+
+.service {
+  background-color: #f0e5f6;
+}
+
+.service .card {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-radius: 15px;
+}
+
+.service .crm_icon {
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #1053f3;
+}
+
+/* Service Ends  */
+
+/* Feedback Start  */
+
+.Feedback {
+  background-color: #000;
+}
+
+.feedback-text{
+    color: #fff;
+}
+
+.feedback-text-2{
+    color: #b8b8b8;
+}
+
+/* Feedback End  */
+
+/* Bussiness Starts */
+
+.business .business_card{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    
+}
+
+.business .business_button{
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Bussiness Ends */
+
+
