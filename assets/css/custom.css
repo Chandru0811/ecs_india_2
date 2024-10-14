@@ -29,8 +29,20 @@
 
 .header .register_button {
   border-radius: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+
+.header .nav-link{
+  font-size: 90%;
+}
+
+.header .signin_btn{
+  font-size: 13px;
+  font-weight: 400;
 }
 
 /* Header Ends  */
@@ -78,6 +90,7 @@
 .hero .hero_text {
   font-size: 60px;
   font-weight: 600;
+  line-height: 80px;
 }
 
 .hero .demo_btn {
@@ -93,6 +106,25 @@
 .hero .reviews {
   color: #1053f3;
   font-weight: 600;
+  font-size: 130%;
+}
+
+.hero .client_active{
+  color: #1053f3;
+  font-size: 110%;
+  font-weight: 400;
+}
+
+.hero{
+  background-image: url('../images/Circle.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.hero .hero_bg_2{
+  background-image: url('../images/Hero\ Circle\ 2.png');
+  background-repeat: no-repeat;
+  background-position: bottom left;
 }
 
 /* Our Service  */
@@ -105,6 +137,7 @@
   padding-top: 20px;
   padding-bottom: 30px;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .service .crm_icon {
@@ -121,6 +154,15 @@
 
 .Feedback {
   background-color: #000;
+  background-image: url('../images/Feedback\ Circle.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.Feedback .bg_circle{
+  background-image: url('../images/Feedback\ bottom\ circle.png');
+  background-repeat: no-repeat;
+  background-position: bottom left;
 }
 
 .feedback-text {
@@ -216,17 +258,25 @@
    font-family: "Poppins";
 }
 
-
-/* our coure solution End */
 .solution .card-body {
   position: relative;
   padding-bottom: 60px; 
 }
 
+.solution .card {
+  cursor: pointer;
+}
+
 .card-btn {
   position: absolute;
   bottom: 20px;
-  left: 27%;
+  left: 27%; 
   transform: translateX(-50%);
-  border-radius: 20px;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 18px;
+  padding-left: 18px;
 }
+
+/* our coure solution End */
