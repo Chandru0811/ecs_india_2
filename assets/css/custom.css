@@ -36,11 +36,11 @@
   font-size: 13px;
 }
 
-.header .nav-link{
+.header .nav-link {
   font-size: 90%;
 }
 
-.header .signin_btn{
+.header .signin_btn {
   font-size: 13px;
   font-weight: 400;
 }
@@ -93,6 +93,14 @@
   line-height: 80px;
 }
 
+@media (min-width: 1600px) {
+  .hero .hero_text {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 100px;
+  }
+}
+
 .hero .demo_btn {
   color: black;
   border-radius: 20px;
@@ -109,28 +117,46 @@
   font-size: 130%;
 }
 
-.hero .client_active{
+.hero .client_active {
   color: #1053f3;
   font-size: 110%;
   font-weight: 400;
 }
 
-.hero{
-  background-image: url('../images/Circle.png');
+.hero {
+  background-image: url("../images/Circle.png");
   background-repeat: no-repeat;
   background-position: top right;
 }
 
-.hero .hero_bg_2{
-  background-image: url('../images/Hero\ Circle\ 2.png');
+.hero .hero_bg_2 {
+  background-image: url("../images/Hero\ Circle\ 2.png");
   background-repeat: no-repeat;
   background-position: bottom left;
+}
+
+@media (min-width: 1700px) {
+  .hero .hero_content {
+    font-size: large;
+  }
 }
 
 /* Our Service  */
 
 .service {
   background-color: #d9e2f9;
+}
+
+@media (min-width: 1600px) {
+  .service h1{
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .service h5{
+    font-size: 25px;
+  }
 }
 
 .service .card {
@@ -154,13 +180,13 @@
 
 .Feedback {
   background-color: #000;
-  background-image: url('../images/Feedback\ Circle.png');
+  background-image: url("../images/Feedback\ Circle.png");
   background-repeat: no-repeat;
   background-position: right top;
 }
 
-.Feedback .bg_circle{
-  background-image: url('../images/Feedback\ bottom\ circle.png');
+.Feedback .bg_circle {
+  background-image: url("../images/Feedback\ bottom\ circle.png");
   background-repeat: no-repeat;
   background-position: bottom left;
 }
@@ -187,7 +213,7 @@
   padding-top: 40px;
   padding-bottom: 60px;
   padding-left: 60px;
-  background-image: url('../images/Transform_Circle.png');
+  background-image: url("../images/Transform_Circle.png");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -204,10 +230,10 @@
 
 /* our coure solution */
 .core-hero {
-  background-color: #d9e2f9;;
+  background-color: #d9e2f9;
   text-align: center;
   padding: 30px;
-   font-family: "Poppins";
+  font-family: "Poppins";
 }
 
 .core-hero h3 {
@@ -225,14 +251,14 @@
   border-radius: 3%;
   border: 1px solid #0a58ca;
   transition: all 0.3s ease;
-   font-family: "Poppins";
+  font-family: "Poppins";
 }
 
 .core-card h2 {
   color: #0a58c1;
   text-align: center;
   padding: 10px;
-   font-family: "Poppins";
+  font-family: "Poppins";
 }
 
 .core-card:hover {
@@ -240,7 +266,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transform: translateY(-5px);
   background-color: #f0f8ff;
-   font-family: "Poppins";
+  font-family: "Poppins";
 }
 
 .core-background {
@@ -250,25 +276,31 @@
 
 .core-background h2 {
   font-size: 2.5em;
-   font-family: "Poppins";
+  font-family: "Poppins";
 }
 
 .core-background h1 {
   font-size: 2.5em;
   color: #000;
-   font-family: "Poppins";
+  font-family: "Poppins";
 }
 
 .core-background h4 {
   font-size: 1.75em;
   color: #0a58c1;
   margin-top: 20px;
-   font-family: "Poppins";
+  font-family: "Poppins";
 }
 
 .solution .card-body {
   position: relative;
-  padding-bottom: 60px; 
+  padding-bottom: 60px;
+}
+
+@media (min-width: 1600px) {
+  .solution h5{
+    font-size: 25px;
+  }
 }
 
 .solution .card {
@@ -281,10 +313,11 @@
   left: 27%;  */
   /* transform: translateX(-50%); */
   border-radius: 25px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 18px;
-  padding-left: 18px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 13px;
 }
 
 /* our coure solution End */
