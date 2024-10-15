@@ -177,11 +177,19 @@
 
 /* Bussiness Starts */
 
+/* .business .container{
+  background-image: url('../images/Transform_Circle.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+} */
+
 .business .business_card {
   padding-top: 40px;
   padding-bottom: 60px;
   padding-left: 60px;
-
+  background-image: url('../images/Transform_Circle.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .business .business_button {
@@ -267,11 +275,11 @@
   cursor: pointer;
 }
 
-.card-btn {
-  position: absolute;
-  bottom: 20px;
-  left: 27%; 
-  transform: translateX(-50%);
+.solution .card-btn {
+  /* position: absolute; */
+  /* bottom: 20px;
+  left: 27%;  */
+  /* transform: translateX(-50%); */
   border-radius: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
