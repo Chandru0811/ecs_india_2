@@ -122,20 +122,69 @@
                   </p>
                   <button
                     type="button"
+                    onclick="showVideoModal()"
                     class="btn btn-outline-primary demo_btn me-3 my-3 py-2 px-4"
                   >
                     View demo
                   </button>
-                  <button
+
+                  <!-- Video Modal -->
+                  <div
+                    class="modal fade"
+                    id="videoModal"
+                    tabindex="-1"
+                    role="dialog"
+                    aria-labelledby="videoModalLabel"
+                  >
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                      <div
+                        class="modal-content modalContent"
+                        style="background-color: rgb(70, 69, 69)"
+                      >
+                        <div class="modal-body">
+                          <div
+                            class="d-flex justify-content-end p-1 close btn"
+                            type="button"
+                            data-dismiss="modal"
+                            aria-label="Close"
+                            onclick="closeVideoModal()"
+                          >
+                            <span
+                              aria-hidden="true"
+                              class="text-dark fw-bolder"
+                              style="color: black"
+                              >&times;</span
+                            >
+                          </div>
+                          <div class="row">
+                            <div
+                              class="youtube-container"
+                              style="cursor: pointer"
+                              data-video-id="AYP0Dr_SysY"
+                            >
+                              <!-- Optimized Local Thumbnail Image -->
+                              <img
+                                loading="lazy"
+                                class="youtube-thumbnail img-fluid ls-is-cached"
+                                src="/assets/images/onclick_posting_thumbnail.webp"
+                                alt="YouTube Video Thumbnail"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <button
                     type="button"
                     class="btn btn-primary my-3 py-2 px-4"
                     style="border-radius: 20px"
                   >
                     Start your free trail
-                  </button>
+                  </button> -->
                 </div>
               </div>
-              <div class="d-flex alingn_hero_profile flex-wrap mt-3">
+              <!-- <div class="d-flex alingn_hero_profile flex-wrap mt-3">
                 <div>
                   <img
                     src="./assets/images/Group 4.png"
@@ -149,7 +198,7 @@
                     <li class="client_active">Clients Active</li>
                   </ul>
                 </div>
-              </div>
+              </div> -->
             </div>
             <div class="col-md-1 col-12"></div>
           </div>
@@ -782,106 +831,6 @@
     <section class="footer">
       <div class="container">
         <div class="row m-0 fotter_content">
-          <!-- <div class="col-md-3 col-12 mb-3">
-            <p class="footer_text">
-              Your Trusted Cloud, Technology and Digital Solutions partner in
-              Singapore. We offer a wide range of solutions, from Cloud Services
-              to Software Solutions
-            </p>
-            <div class="text-start">
-              <div class="d-flex flex-wrap my-2">
-                <a
-                  href="https://www.facebook.com/ecscloud/?_rdr"
-                  class="p-1 text-decoration-none text-white"
-                  target="_blank"
-                >
-                  <span class="mediaIconBg text-center">
-                    <i
-                      class="fa-brands fa-facebook-f"
-                      style="
-                        font-size: 22px;
-                        background: #faebd754;
-                        padding: 10px;
-                        width: 40px;
-                        border-radius: 5px;
-                      "
-                    ></i>
-                  </span>
-                </a>
-
-                <a
-                  href="https://x.com/ecscloudinfote2"
-                  class="p-1 text-decoration-none text-white"
-                  target="_blank"
-                >
-                  <span class="mediaIconBg">
-                    <i
-                      class="fa-brands fa-x-twitter"
-                      style="
-                        font-size: 22px;
-                        background: #faebd754;
-                        padding: 10px;
-                        border-radius: 5px;
-                      "
-                    ></i>
-                  </span>
-                </a>
-
-                <a
-                  href="https://www.youtube.com/channel/UCIbNIWhaDnRs-gFuJ0sTNCQ/videos"
-                  class="p-1 text-decoration-none text-white"
-                  target="_blank"
-                >
-                  <span class="mediaIconBg">
-                    <i
-                      class="fa-brands fa-youtube"
-                      style="
-                        font-size: 22px;
-                        background: #faebd754;
-                        padding: 10px;
-                        border-radius: 5px;
-                      "
-                    ></i>
-                  </span>
-                </a>
-                <a
-                  href="https://www.instagram.com/ecscloudinfotech/"
-                  class="p-1 text-decoration-none text-white"
-                  target="_blank"
-                >
-                  <span class="mediaIconBg">
-                    <i
-                      class="fa-brands fa-instagram"
-                      style="
-                        font-size: 22px;
-                        background: #faebd754;
-                        padding: 10px;
-                        border-radius: 5px;
-                      "
-                    ></i>
-                  </span>
-                </a>
-
-                <a
-                  href="https://www.linkedin.com/in/ecscloudinfotech/"
-                  class="p-1 text-decoration-none text-white"
-                  target="_blank"
-                >
-                  <span class="mediaIconBg">
-                    <i
-                      class="fa-brands fa-linkedin-in"
-                      style="
-                        font-size: 22px;
-                        background: #faebd754;
-                        padding: 10px;
-                        border-radius: 5px;
-                      "
-                    ></i>
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div> -->
           <div class="col-md-3 col-12 mb-3">
             <p class="footer_text mb-4 media_align_text">
               Your Trusted Cloud, Technology and Digital Solutions partner in
@@ -930,12 +879,46 @@
     </section>
     <!-- Footer Ends  -->
 
+    <!-- View Demo Video Script -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const youtubeContainers =
+          document.querySelectorAll(".youtube-container");
+
+        youtubeContainers.forEach((container) => {
+          container.addEventListener("click", function () {
+            const videoId = this.getAttribute("data-video-id");
+            const iframe = document.createElement("iframe");
+
+            iframe.setAttribute(
+              "src",
+              `https://www.youtube.com/embed/${videoId}?autoplay=1`
+            );
+            iframe.setAttribute("frameborder", "0");
+            iframe.setAttribute(
+              "allow",
+              "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            );
+            iframe.setAttribute("allowfullscreen", "true");
+            iframe.style.width = "100%";
+            iframe.style.height = "315px";
+            iframe.classList.add("youtube-iframe"); // Add a class for easy targeting
+
+            // Replace the container content with the iframe
+            this.innerHTML = "";
+            this.appendChild(iframe);
+          });
+        });
+      });
+    </script>
+
     <!-- Font Awesome  -->
     <script
       src="https://kit.fontawesome.com/5b8838406b.js"
       crossorigin="anonymous"
     ></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
     <!-- Bootstrap Js  -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script
@@ -943,5 +926,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <!-- Custom Js  -->
+    <script src="/assets/js/custom.js"></script>
   </body>
 </html>
