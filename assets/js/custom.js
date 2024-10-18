@@ -18,7 +18,6 @@ function closeVideoModal() {
 function showVideoModal() {
   $("#videoModal").modal("show");
 
-  // Optionally, restore the iframe src when the modal is shown
   $("#videoModal").on("shown.bs.modal", function () {
     document.querySelectorAll(".youtube-container").forEach((container) => {
       const videoId = container.getAttribute("data-video-id");
