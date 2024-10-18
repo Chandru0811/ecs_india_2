@@ -147,11 +147,9 @@
 }
 
 .hero .demo_btn {
-  color: black;
   border-radius: 50px;
   padding: 10px 20px;
   font-size: 1.5rem;
-  font-weight: 600;
 }
 
 .hero .demo_btn:hover {
