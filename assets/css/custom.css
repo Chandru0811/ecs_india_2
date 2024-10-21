@@ -270,6 +270,7 @@
 @media screen and (max-width: 555px) {
   .media_align_text {
     text-align: center !important;
+    padding: 0 !important;
   }
 }
 /* Feedback End  */
