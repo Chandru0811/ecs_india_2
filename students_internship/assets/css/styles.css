@@ -33971,3 +33971,9 @@ Course Sidebar
   background-color: #273041;
 }
 /*# sourceMappingURL=../maps/styles.css.map */
+
+.join_us {
+  padding: 10px 20px !important;
+  border-radius: 40px;
+  font-size: 1.5rem !important;
+}
