@@ -27247,7 +27247,7 @@ Course Sidebar
 }
 
 .has-show-more .has-show-more-inner-content {
-  max-height: 300px;
+  /* max-height: 300px; */
   overflow: hidden;
   position: relative;
   width: 100%;
