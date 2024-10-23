@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*********************************************************************************
 
-	Template Name: Histudy - Online Courses & Education NEXTJS14 Template
+	Template Name: Cloud ECS Infotech  - Online Courses & Education NEXTJS14 Template
 	Description: A perfect Template For Education. It comes with nice and clean design.
 
 	Note: This is style css.
@@ -15207,6 +15207,7 @@ span.transparent-button:hover i {
   margin: 0 5px;
   min-width: 56px;
   text-align: center;
+  pointer-events: none;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .rbt-category a {
@@ -21308,6 +21309,7 @@ ul.testimonial-thumb-wrapper li a.active .thumb img {
 ----------------------------*/
 .rbt-cat-box-1 {
   display: block;
+  pointer-events: none;
 }
 .rbt-cat-box-1 .inner {
   background-color: var(--color-white);
@@ -24843,7 +24845,7 @@ blockquote.has-text-align-right cite,
 	Template Styles
 ***************************************/
 /*------------------------------
- * HiStudy Banner Styles
+ * Cloud ECS Infotech  Banner Styles
 ---------------------------------*/
 .active-header-transparent .rbt-banner-area {
   padding-top: 100px;
@@ -25479,7 +25481,7 @@ blockquote.has-text-align-right cite,
   z-index: -1;
   bottom: 0;
   right: 0;
-  background-image: url(../images/banner/histudy-text.png);
+  background-image: url(../images/banner/Cloud ECS Infotech -text.png);
   background-repeat: repeat-x;
   background-size: auto;
   height: 206px;
@@ -33976,4 +33978,11 @@ Course Sidebar
   padding: 10px 20px !important;
   border-radius: 40px;
   font-size: 1.5rem !important;
+}
+
+.image_height {
+  height: 270px;
+}
+.image_height1 {
+  height: 160px;
 }
