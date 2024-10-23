@@ -18709,9 +18709,9 @@ span.transparent-button:hover i {
   margin: 5px;
 }
 .social-default li a {
-  width: 48px;
+  width: 40px;
   background-color: var(--color-gray-light);
-  height: 48px;
+  height: 40px;
   line-height: 45px;
   text-align: center;
   display: inline-block;
@@ -18746,7 +18746,7 @@ span.transparent-button:hover i {
   vertical-align: middle;
 }
 .social-default.transparent-with-border li a {
-  line-height: 41px;
+  line-height: 33px;
   background: transparent;
   border: 2px solid var(--color-border);
 }
