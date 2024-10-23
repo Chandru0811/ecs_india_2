@@ -10672,7 +10672,7 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
   .category-dropdown-menu
   .category-menu-item
   .rbt-vertical-nav {
-  min-width: 230px;
+  min-width: 300px;
   width: auto;
   border-right: 1px solid rgba(230, 227, 241, 0.3098039216);
   padding-right: 20px;
