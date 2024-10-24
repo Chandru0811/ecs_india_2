@@ -170,13 +170,13 @@
 }
 
 .hero {
-  background-image: url("../images/Circle.png");
+  background-image: url("../images/Circle.webp");
   background-repeat: no-repeat;
   background-position: top right;
 }
 
 .hero .hero_bg_2 {
-  background-image: url("../images/Hero\ Circle\ 2.png");
+  background-image: url("../images/Hero\ Circle\ 2.webp");
   background-repeat: no-repeat;
   background-position: bottom left;
 }
@@ -248,13 +248,13 @@
 
 .Feedback {
   background-color: #000;
-  background-image: url("../images/Feedback\ Circle.png");
+  background-image: url("../images/Feedback\ Circle.webp");
   background-repeat: no-repeat;
   background-position: right top;
 }
 
 .Feedback .bg_circle {
-  background-image: url("../images/Feedback\ bottom\ circle.png");
+  background-image: url("../images/Feedback\ bottom\ circle.webp");
   background-repeat: no-repeat;
   background-position: bottom left;
 }
@@ -297,7 +297,7 @@
   padding-top: 40px;
   padding-bottom: 60px;
   padding-left: 60px;
-  background-image: url("../images/Transform_Circle.png");
+  background-image: url("../images/Transform_Circle.webp");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
