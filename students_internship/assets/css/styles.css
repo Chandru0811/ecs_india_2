@@ -13575,14 +13575,14 @@ fieldset:disabled {
   transition-delay: 0.225s;
 }
 .rbt-btn:hover.rbt-switch-btn span {
-  transform: translateX(-200%);
+  transform: translateX(-100%);
 }
 .rbt-btn:hover.rbt-switch-btn span::after {
   opacity: 1;
   transform: translate(100%, -50%);
 }
 .rbt-btn:hover.rbt-switch-btn.rbt-switch-y span {
-  transform: translateY(-200%);
+  transform: translateY(-100%);
 }
 .rbt-btn:hover.rbt-switch-btn.rbt-switch-y span::after {
   transform: translate(-50%, 150%);
@@ -13739,12 +13739,12 @@ button.bg-pink-opacity:hover {
 
 @keyframes btnTxtMarqueeX {
   100% {
-    transform: translateX(-200%);
+    transform: translateX(-100%);
   }
 }
 @keyframes btnTxtMarqueeY {
   100% {
-    transform: translateY(-200%);
+    transform: translateY(-100%);
   }
 }
 a.btn-underline-gradient,
