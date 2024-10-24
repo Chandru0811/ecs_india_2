@@ -21316,10 +21316,11 @@ ul.testimonial-thumb-wrapper li a.active .thumb img {
   box-shadow: var(--shadow-1);
   border-radius: var(--radius-10);
   padding: 50px 40px;
+  height: 250px;
 }
 @media only screen and (max-width: 1199px) {
   .rbt-cat-box-1 .inner {
-    padding: 20px 20px;
+    /* padding: 20px 20px; */
   }
 }
 .rbt-cat-box-1 .inner .icons {
