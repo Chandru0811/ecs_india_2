@@ -763,12 +763,12 @@
               class="social-icon social-default transparent-with-border justify-content-start mt--20"
             >
               <li>
-                <a href="https://www.facebook.com/">
+                <a href="https://www.facebook.com/" target="_blank">
                   <i class="feather-facebook"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.twitter.com">
+                <a href="https://www.twitter.com" target="_blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="18"
@@ -783,17 +783,17 @@
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/">
+                <a href="https://www.instagram.com/" target="_blank">
                   <i class="feather-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.linkdin.com/">
+                <a href="https://www.linkdin.com/" target="_blank">
                   <i class="feather-linkedin"></i>
                 </a>
               </li>
               <li>
-                <a href="https://www.youtube.com/">
+                <a href="https://www.youtube.com/" target="_blank">
                   <i class="feather-youtube"></i>
                 </a>
               </li>
@@ -1251,7 +1251,7 @@
                           </a>
                         </li>
                         <li>
-                          <a href="https://www.twitter.com">
+                          <a href="https://www.twitter.com" target="_blank">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width="18"
@@ -1266,17 +1266,17 @@
                           </a>
                         </li>
                         <li>
-                          <a href="https://www.instagram.com/">
+                          <a href="https://www.instagram.com/" target="_blank">
                             <i class="feather-instagram"></i>
                           </a>
                         </li>
                         <li>
-                          <a href="https://www.linkdin.com/">
+                          <a href="https://www.linkdin.com/" target="_blank">
                             <i class="feather-linkedin"></i>
                           </a>
                         </li>
                         <li>
-                          <a href="https://www.youtube.com/">
+                          <a href="https://www.youtube.com/" target="_blank">
                             <i class="feather-youtube"></i>
                           </a>
                         </li>
