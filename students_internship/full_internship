@@ -1029,17 +1029,10 @@
                           confident, and modern JavaScript developer from
                           scratch.
                         </li>
-                        <li>
-                          <i class="feather-check"></i>Have an intermediate
-                          skill level of Python programming.
-                        </li>
+
                         <li>
                           <i class="feather-check"></i>Have a portfolio of
                           various data analysis projects.
-                        </li>
-                        <li>
-                          <i class="feather-check"></i>Use the numpy library to
-                          create and manipulate arrays.
                         </li>
                       </ul>
                     </div>
@@ -1049,21 +1042,33 @@
                     <div class="col-lg-6">
                       <ul class="rbt-list-style-1">
                         <li>
-                          <i class="feather-check"></i>Use the Jupyter Notebook
-                          Environment. JavaScript developer from scratch.
-                        </li>
-                        <li>
-                          <i class="feather-check"></i>Use the pandas module
-                          with Python to create and structure data.
-                        </li>
-                        <li>
-                          <i class="feather-check"></i>Create data
-                          visualizations using matplotlib and the seaborn.
+                          <i class="feather-check"></i>Have an intermediate
+                          skill level of Python programming.
                         </li>
                       </ul>
                     </div>
                     <!-- End Feture Box  -->
                   </div>
+                  <p>
+                    <b>Eligibility:</b>BSC Computer Science, BCA, BE or those
+                    who are awaiting final results
+                  </p>
+                  <p>
+                    Any graduate for Digital Marketing Course or those who are
+                    awaiting final results
+                  </p>
+                  <p>
+                    Full Internship Program is the ultimate choice for any
+                    student to transform his/her passion into a rewarding IT
+                    career. Through hands-on exercises and real-world projects,
+                    you will gain practical experience and develop the skills
+                    needed to succeed in the IT industry. You'll not only gain
+                    valuable skills but also start earning a competitive salary
+                    immediately after completing the course. Enjoy the
+                    flexibility of self-paced learning while benefiting from the
+                    expertise of industry professionals. Your path to IT success
+                    begins here. Enroll now!
+                  </p>
                 </div>
                 <!-- <div class="rbt-show-more-btn">Show More</div> -->
               </div>
