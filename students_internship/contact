@@ -40,7 +40,7 @@
       <ul>
         <li>
           <a
-            href="javascript: void(0);"
+            href="#"
             data-theme="light"
             class="setColor light"
           >
@@ -53,7 +53,7 @@
         </li>
         <li>
           <a
-            href="javascript: void(0);"
+            href="#"
             data-theme="dark"
             class="setColor dark"
           >

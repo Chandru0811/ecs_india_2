@@ -18743,7 +18743,8 @@ span.transparent-button:hover i {
   opacity: 1;
 }
 .social-default li a i {
-  vertical-align: middle;
+  /* vertical-align: middle; */
+text-align: center;
 }
 .social-default.transparent-with-border li a {
   line-height: 33px;

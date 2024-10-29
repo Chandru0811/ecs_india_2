@@ -42,7 +42,7 @@
       <ul>
         <li>
           <a
-            href="javascript: void(0);"
+            href="#"
             data-theme="light"
             class="setColor light"
           >
@@ -55,7 +55,7 @@
         </li>
         <li>
           <a
-            href="javascript: void(0);"
+            href="#"
             data-theme="dark"
             class="setColor dark"
           >
@@ -1009,7 +1009,7 @@
                     Python Programming, data analysis etc.
                   </p>
                   <p>
-                    <b>Eligibility:</b>BSC Computer Science, BCA, BE or those
+                    <b>Eligibility:</b>B.Sc. Computer Science, BCA, BE or those
                     who are awaiting final results
                   </p>
                   <p>

@@ -42,7 +42,7 @@
       <ul>
         <li>
           <a
-            href="javascript: void(0);"
+            href="#"
             data-theme="light"
             class="setColor light"
           >
@@ -55,7 +55,7 @@
         </li>
         <li>
           <a
-            href="javascript: void(0);"
+            href="#"
             data-theme="dark"
             class="setColor dark"
           >
@@ -1142,7 +1142,7 @@
                           alt="Card image"
                         />
                         <div class="rbt-badge-3 bg-white">
-                          <span>-100%</span>
+                          <span>-200%</span>
                           <span>Off</span>
                         </div>
                       </a>
@@ -1186,7 +1186,7 @@
                   <div class="video-content">
                     <img
                       class="w-100 rbt-radius"
-                      src="assets/images/others/video-01.jpg"
+                      src="assets/images/others/video-01.webp"
                       alt="Video Images"
                     />
                     <div class="position-to-top">

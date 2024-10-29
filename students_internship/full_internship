@@ -40,7 +40,7 @@
       <ul>
         <li>
           <a
-            href="javascript: void(0);"
+            href="#"
             data-theme="light"
             class="setColor light"
           >
@@ -53,7 +53,7 @@
         </li>
         <li>
           <a
-            href="javascript: void(0);"
+            href="#"
             data-theme="dark"
             class="setColor dark"
           >
@@ -1050,7 +1050,7 @@
                     <!-- End Feture Box  -->
                   </div>
                   <p>
-                    <b>Eligibility:</b>BSC Computer Science, BCA, BE or those
+                    <b>Eligibility:</b>B.Sc. Computer Science, BCA, BE or those
                     who are awaiting final results
                   </p>
                   <p>
@@ -1144,7 +1144,7 @@
                           alt="Card image"
                         />
                         <div class="rbt-badge-3 bg-white">
-                          <span>-100%</span>
+                          <span>-200%</span>
                           <span>Off</span>
                         </div>
                       </a>
@@ -1188,7 +1188,7 @@
                   <div class="video-content">
                     <img
                       class="w-100 rbt-radius"
-                      src="assets/images/others/video-01.jpg"
+                      src="assets/images/others/video-01.webp"
                       alt="Video Images"
                     />
                     <div class="position-to-top">
