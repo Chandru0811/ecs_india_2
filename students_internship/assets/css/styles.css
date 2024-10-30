@@ -14061,7 +14061,6 @@ span.transparent-button:hover i {
   display: inline-block;
   padding: 10px 20px;
   border-radius: 100px;
-  text-transform: uppercase;
   display: inline-block;
   background: #99acf5;
   color: var(--color-primary);
