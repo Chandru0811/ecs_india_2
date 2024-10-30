@@ -885,6 +885,13 @@
         <div class="col-lg-8">
           <div class="course-details-content">
             <div class="rbt-course-feature-box rbt-shadow-box thuumbnail">
+              <div class="text-end">
+                <span class="badge" style="position: relative; top: 28px;
+                          right: 5px; font-size: 14px;
+                          background-color:#fff ;
+                          color: #b550ff;">EMI Available
+                </span>
+              </div>
               <img class="w-100" src="./assets/images/banner/Full_Internship.webp" alt="Card image" />
             </div>
 

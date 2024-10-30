@@ -1101,6 +1101,15 @@
                   <div class="rbt-card variation-01 rbt-hover">
                     <div class="rbt-card-img">
                       <a href="./skill_development">
+                        <div class="text-end p-0 m-0">
+                          <span class="badge" style="
+                                    position: relative; 
+                                    top: 22px;
+                                    right: 5px; font-size: 10px;
+                                    /* background-color:#fff ; */
+                                    color: #b550ff;">
+                          </span>
+                        </div>
                         <img
                           src="./assets/images/banner/Skill_Development.webp"
                           alt="Card image"
@@ -1144,6 +1153,15 @@
                   <div class="rbt-card variation-01 rbt-hover">
                     <div class="rbt-card-img">
                       <a href="./full_internship">
+                        <div class="text-end p-0 m-0">
+                          <span class="badge" style="
+                                    position: relative; 
+                                    top: 22px;
+                                    right: 5px; font-size: 10px;
+                                    background-color:#fff ;
+                                    color: #b550ff;">EMI Available
+                          </span>
+                        </div>
                         <img
                           src="./assets/images/banner/Full_Internship.webp"
                           alt="Card image"

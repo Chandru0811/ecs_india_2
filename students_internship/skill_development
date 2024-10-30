@@ -1099,7 +1099,16 @@
                 >
                   <div class="rbt-card variation-01 rbt-hover">
                     <div class="rbt-card-img">
-                      <a href="./full_internship">
+                      <a href="./full_internship" class="m-0 p-0">
+                        <div class="text-end p-0 m-0">
+                          <span class="badge" style="
+                                    position: relative; 
+                                    top: 22px;
+                                    right: 5px; font-size: 10px;
+                                    background-color:#fff ;
+                                    color: #b550ff;">EMI Available
+                          </span>
+                        </div>
                         <img
                           src="./assets/images/banner/Full_Internship.webp"
                           alt="Card image"
@@ -1143,6 +1152,15 @@
                   <div class="rbt-card variation-01 rbt-hover">
                     <div class="rbt-card-img">
                       <a href="./certificate_course">
+                        <div class="text-end p-0 m-0">
+                          <span class="badge" style="
+                                    position: relative; 
+                                    top: 22px;
+                                    right: 5px; font-size: 10px;
+                                    /* background-color:#fff ; */
+                                    color: #b550ff;">
+                          </span>
+                        </div>
                         <img
                           src="./assets/images/banner/Certificate_Course.webp"
                           alt="Card image"
