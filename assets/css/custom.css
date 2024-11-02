@@ -410,3 +410,34 @@
 }
 
 /* our coure solution End */
+
+/* Error ans Success Modal */
+.error {
+  color: #c4c4c4 !important;
+}
+
+.errorMagnetSubHeading {
+  font-size: 16px !important;
+  text-align: center;
+}
+
+.errorMobile {
+  font-size: 26px !important;
+  font-weight: bold !important;
+}
+
+#successModal .modal-content,
+#errorModal .modal-content {
+  text-align: center;
+}
+
+.successMagnetButton {
+  background: #28a745 !important;
+  color: white;
+}
+
+.successMagnetButton:hover {
+  background: #207e36 !important;
+  color: white;
+}
+/* Error and Success Modal */

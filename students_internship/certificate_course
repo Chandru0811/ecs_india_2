@@ -36,20 +36,18 @@
 
     <link rel="stylesheet" href="assets/css/styles.css" />
 
-     <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
 
   <body>
     <div id="my_switcher" class="my_switcher">
       <ul>
         <li>
-          <a
-            href="#"
-            data-theme="light"
-            class="setColor light"
-          >
+          <a href="#" data-theme="light" class="setColor light">
             <img src="assets/images/about/sun-01.svg" alt="Sun images" /><span
               title="Light Mode"
             >
@@ -58,11 +56,7 @@
           </a>
         </li>
         <li>
-          <a
-            href="#"
-            data-theme="dark"
-            class="setColor dark"
-          >
+          <a href="#" data-theme="dark" class="setColor dark">
             <img
               src="assets/images/about/vector.svg"
               alt="Vector Images"
@@ -209,7 +203,7 @@
                               class="rbt-vertical-nav-list-wrapper vertical-nav-menu"
                             >
                               <li class="vertical-nav-item active">
-                                <a href="#tab1">FullStack Developer - Java</a>
+                                <a href="./full_intership_developer_java">FullStack Developer - Java</a>
                               </li>
                               <li class="vertical-nav-item">
                                 <a href="#tab2">FullStack Developer - Python</a>
@@ -229,16 +223,21 @@
                               class="rbt-vertical-nav-list-wrapper vertical-nav-menu"
                             >
                               <li class="vertical-nav-item">
-                                <a href="#tab1">Digital Marketing</a>
+                                <a href="#tab1">Mobile App Development</a>
                               </li>
                               <li class="vertical-nav-item">
-                                <a href="#tab2">UI/UX Development</a>
+                                <a href="#tab2">Front End Development</a>
                               </li>
                               <li class="vertical-nav-item">
-                                <a href="#tab3">Front End Development</a>
+                                <a href="#tab3">Digital Marketing</a>
                               </li>
                               <li class="vertical-nav-item">
-                                <a href="#tab4">Mobile App Development</a>
+                                <a href="#tab4">UI/UX Development</a>
+                              </li>
+                              <li class="vertical-nav-item">
+                                <a href="./sales_marketing"
+                                  >Sales and Marketing</a
+                                >
                               </li>
                             </ul>
                           </div>
@@ -379,7 +378,9 @@
                   <li class="with-megamenu has-menu-child-item position-static">
                     <a href="./certificate_course">Certificate Course</a>
                   </li>
-
+                  <!-- <li class="with-megamenu has-menu-child-item position-static">
+                    <a href="./sales_marketing">Sales & Marketing</a>
+                  </li> -->
                   <li class="has-dropdown has-menu-child-item">
                     <a href="./about">About </a>
                   </li>
@@ -1102,12 +1103,17 @@
                     <div class="rbt-card-img">
                       <a href="./skill_development">
                         <div class="text-end p-0 m-0">
-                          <span class="badge" style="
-                                    position: relative; 
-                                    top: 22px;
-                                    right: 5px; font-size: 10px;
-                                    /* background-color:#fff ; */
-                                    color: #b550ff;">
+                          <span
+                            class="badge"
+                            style="
+                              position: relative;
+                              top: 22px;
+                              right: 5px;
+                              font-size: 10px;
+                              /* background-color:#fff ; */
+                              color: #b550ff;
+                            "
+                          >
                           </span>
                         </div>
                         <img
@@ -1154,12 +1160,17 @@
                     <div class="rbt-card-img">
                       <a href="./full_internship">
                         <div class="text-end p-0 m-0">
-                          <span class="badge" style="
-                                    position: relative; 
-                                    top: 22px;
-                                    right: 5px; font-size: 10px;
-                                    background-color:#fff ;
-                                    color: #b550ff;">EMI Available
+                          <span
+                            class="badge"
+                            style="
+                              position: relative;
+                              top: 22px;
+                              right: 5px;
+                              font-size: 10px;
+                              background-color: #fff;
+                              color: #b550ff;
+                            "
+                            >EMI Available
                           </span>
                         </div>
                         <img

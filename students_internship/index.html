@@ -31,6 +31,7 @@
   <link rel="stylesheet" href="assets/css/plugins/jodit.min.css" />
 
   <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="../assets/css/custom.css" />
 
   <!-- Boostrap -->
   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -159,7 +160,7 @@
                         <div class="col-md-6 col-12">
                           <ul class="rbt-vertical-nav-list-wrapper vertical-nav-menu">
                             <li class="vertical-nav-item active">
-                              <a href="#tab1">FullStack Developer - Java</a>
+                              <a href="./full_intership_developer_java">FullStack Developer - Java</a>
                             </li>
                             <li class="vertical-nav-item">
                               <a href="#tab2">FullStack Developer - Python</a>
@@ -175,16 +176,21 @@
                         <div class="col-md-6 col-12">
                           <ul class="rbt-vertical-nav-list-wrapper vertical-nav-menu">
                             <li class="vertical-nav-item">
-                              <a href="#tab1">Digital Marketing</a>
+                              <a href="#tab1">Mobile App Development</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="#tab2">UI/UX Development</a>
+                              <a href="#tab2">Front End Development</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="#tab3">Front End Development</a>
+                              <a href="#tab3">Digital Marketing</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="#tab4">Mobile App Development</a>
+                              <a href="#tab4">UI/UX Development</a>
+                            </li>
+                            <li class="vertical-nav-item">
+                              <a href="./sales_marketing"
+                                >Sales and Marketing</a
+                              >
                             </li>
                           </ul>
                         </div>
@@ -325,7 +331,9 @@
                 <li class="with-megamenu has-menu-child-item position-static">
                   <a href="./certificate_course">Certificate Course</a>
                 </li>
-
+                 <!-- <li class="with-megamenu has-menu-child-item position-static">
+                    <a href="./sales_marketing">Sales & Marketing</a>
+                  </li> -->
                 <li class="has-dropdown has-menu-child-item">
                   <a href="./about">About </a>
                 </li>
@@ -2241,8 +2249,9 @@
                   trends.
                 </p>
               </div>
-              <form action="#" class="newsletter-form-1 mt--40">
-                <input type="email" placeholder="Enter Your E-Email" />
+              <form id="enquiryEmail" class="newsletter-form-1 mt--40">
+                <div>              
+               <input type="email" id="email" name="email" placeholder="Enter Your E-Email" required/>
                 <button type="submit" class="rbt-btn btn-md btn-gradient hover-icon-reverse">
                   <span class="icon-reverse-wrapper">
                     <span class="btn-text">Subscribe</span>
@@ -2250,6 +2259,8 @@
                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
                   </span>
                 </button>
+                <div class="error mt-0 mb-3 col-12"></div>
+              </div>
               </form>
               <span class="note-text color-white mt--20">No ads, No trail, No commitments</span>
 
@@ -2455,6 +2466,111 @@
     </svg>
   </div>
 
+      <!-- error model -->
+      <div
+      class="modal fade"
+      id="errorModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="errorModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content modalContent">
+          <div
+            class="modal-header errorHeading shadow-none mb-2"
+            style="background-color: rgb(255, 80, 80); color: white"
+          >
+            <h5
+              class="modal-title"
+              id="errorModalLabel"
+              style="font-size: 28px"
+            >
+              There was an error
+            </h5>
+            <button
+              type="button"
+              class="close btn"
+              onclick="closePopup()"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body pt-0">
+            <!-- Error Icon -->
+            <i
+              class="fa-solid fa-circle-exclamation my-4"
+              style="color: rgb(255, 80, 80); font-size: 70px"
+            ></i>
+            <p class="mb-0 errorMagnetSubHeading fw-bold pb-4">
+              We are sorry !
+            </p>
+            <p class="mb-0 errorMagnetSubHeading text-muted fw-bold pb-2">
+              You can reach us on
+            </p>
+            <p class="mb-0 errorMobile pb-4">+91 9361365818</p>
+
+            <!-- Contact Us Button -->
+            <a
+              href="./contact"
+              class="btn successMagnetButton btn-successrounded-5"
+            >
+              <i class="fas fa-arrow m-0-left"></i> Contact Page
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Success model -->
+    <div
+      class="modal fade text-center"
+      id="successModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="successModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content modalContent">
+          <div class="modal-header" style="background: #28a745; color: #fff">
+            <h5
+              class="modal-title"
+              id="successModalLabel"
+              style="font-size: 28px"
+            >
+              That's all required !
+            </h5>
+            <button
+              type="button"
+              class="close btn"
+              onclick="closePopup()"
+              data-dismiss="modal"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body pt-0">
+            <!-- Success Video -->
+            <i
+              class="fa-solid fa-circle-check my-5"
+              style="color: #28a745; font-size: 80px"
+            ></i>
+            <p class="mb-0 SuccessMagnetSubHeading pb-4">
+              We will get back you soon!
+            </p>
+
+            <!-- Back to Home Button -->
+            <a href="/">
+              <button class="btn successMagnetButton">Back to Website</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
   <!-- JS
 ============================================ -->
   <!-- Modernizer JS -->
@@ -2463,9 +2579,9 @@
   <script src="assets/js/vendor/jquery.js"></script>
   <!-- Bootstrap JS -->
   <script src="assets/js/vendor/bootstrap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script> -->
   <!-- sal.js -->
   <script src="assets/js/vendor/sal.js"></script>
   <!-- Dark Mode Switcher -->
@@ -2495,6 +2611,10 @@
 
   <!-- Main JS -->
   <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+  <script src="../assets/js/custom.js"></script>
+
 </body>
 
 </html>
