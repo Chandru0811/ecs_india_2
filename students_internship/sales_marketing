@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Course Details - Sales and Marketing | Cloud ECS Infotech</title>
+    <title>Full Internship - Sales & Marketing</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="" />
     <meta
@@ -221,7 +221,7 @@
                                 <a href="#tab2">Front End Development</a>
                               </li>
                               <li class="vertical-nav-item">
-                                <a href="#tab3">Digital Marketing</a>
+                                <a href="./digital_marketing">Digital Marketing</a>
                               </li>
                               <li class="vertical-nav-item">
                                 <a href="#tab4">UI/UX Development</a>
@@ -969,18 +969,20 @@
         <div class="row g-5">
           <div class="col-lg-8">
             <div class="course-details-content">
-              <div class="rbt-course-feature-box rbt-shadow-box thuumbnail">
+              <div class="rbt-course-feature-box rbt-shadow-box thuumbnail"  style="position: relative;">
                 <div class="text-end">
-                  <span
+                   <span
                     class="badge"
                     style="
-                      position: relative;
-                      top: 28px;
-                      right: 5px;
+                      position: absolute;
+                      top: 50px;
+                      right: 50px;
+                      background-color: #fff;
                       font-size: 14px;
                       color: #b550ff;
                     "
-                    >
+                  >
+                    EMI Available
                   </span>
                 </div>
                 <img
@@ -988,6 +990,10 @@
                   src="./assets/images/banner/Sales and Marketing.webp"
                   alt="Card image"
                 />
+                <div class="rbt-badge-3" style="bottom: 50px;right: 50px;">
+                  <span>-50%</span>
+                  <span>Off</span>
+                </div>
               </div>
 
               <div class="rbt-inner-onepage-navigation sticky-top mt--30">

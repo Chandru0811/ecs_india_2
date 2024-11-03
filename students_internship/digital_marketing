@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Course Details - Full Internship Program | Cloud ECS Infotech</title>
+    <title>Full Internship - Digital Marketing</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="" />
     <meta
@@ -195,7 +195,9 @@
                               class="rbt-vertical-nav-list-wrapper vertical-nav-menu"
                             >
                               <li class="vertical-nav-item active">
-                                <a href="./full_intership_developer_java">FullStack Developer - Java</a>
+                                <a href="./full_intership_developer_java"
+                                  >FullStack Developer - Java</a
+                                >
                               </li>
                               <li class="vertical-nav-item">
                                 <a href="#tab2">FullStack Developer - Python</a>
@@ -221,7 +223,9 @@
                                 <a href="#tab2">Front End Development</a>
                               </li>
                               <li class="vertical-nav-item">
-                                <a href="./digital_marketing">Digital Marketing</a>
+                                <a href="./digital_marketing"
+                                  >Digital Marketing</a
+                                >
                               </li>
                               <li class="vertical-nav-item">
                                 <a href="#tab4">UI/UX Development</a>
@@ -370,9 +374,7 @@
                   <li class="with-megamenu has-menu-child-item position-static">
                     <a href="./certificate_course">Certificate Course</a>
                   </li>
-                  <!-- <li class="with-megamenu has-menu-child-item position-static">
-                    <a href="./sales_marketing">Sales & Marketing</a>
-                  </li> -->
+
                   <li class="has-dropdown has-menu-child-item">
                     <a href="./about">About </a>
                   </li>
@@ -941,23 +943,21 @@
                   </div>
                 </li>
 
-                <li class="rbt-breadcrumb-item active">Full Internship</li>
+                <li class="rbt-breadcrumb-item active">Digital Marketing</li>
               </ul>
 
               <div class="rbt-new-badge rbt-new-badge-one">
                 <span class="rbt-new-badge-icon">🏆</span> Salary from Day 1
               </div>
 
-              <h2 class="title">Full Internship - 100% Placement Assured !</h2>
+              <h2 class="title">Full Internship - Digital Marketing</h2>
               <p class="description">
-                Your skill, our guarantee. Not only we offer 100% placement
-                after the successful completion of the internship program, you
-                get paid from the day one of joining the program.
-              </p>
-              <p class="description">
-                Industry grade training and coaching, certifiate after
-                completion, job ready skill set due to hands-on experience in
-                day to day projects under expert supervision.
+                Let’s go with the Global Trend of Digital Marketing! Nowadays
+                Digital Marketing is creating a buzz around the world. Digital
+                Marketing has become the Success Mantra for any business. This
+                is creating several job opportunities in India and Abroad. ECS
+                Cloud Infotech is conducting an exclusive Digital Marketing
+                program to cater the needs of our fast growing economy.
               </p>
             </div>
           </div>
@@ -971,26 +971,34 @@
         <div class="row g-5">
           <div class="col-lg-8">
             <div class="course-details-content">
-              <div class="rbt-course-feature-box rbt-shadow-box thuumbnail">
+              <div
+                class="rbt-card-img rbt-course-feature-box rbt-shadow-box thuumbnail"
+                style="position: relative"
+              >
                 <div class="text-end">
                   <span
                     class="badge"
                     style="
-                      position: relative;
-                      top: 28px;
-                      right: 5px;
-                      font-size: 14px;
+                      position: absolute;
+                      top: 50px;
+                      right: 50px;
                       background-color: #fff;
+                      font-size: 14px;
                       color: #b550ff;
                     "
-                    >EMI Available
+                  >
+                    EMI Available
                   </span>
                 </div>
                 <img
                   class="w-100"
-                  src="./assets/images/banner/Full_Internship.webp"
-                  alt="Card image"
+                  src="./assets/images/banner/digital_marketing.webp"
+                  alt="Digital Marketing"
                 />
+                <div class="rbt-badge-3" style="bottom: 50px; right: 50px">
+                  <span>-50%</span>
+                  <span>Off</span>
+                </div>
               </div>
 
               <div class="rbt-inner-onepage-navigation sticky-top mt--30">
@@ -1014,180 +1022,75 @@
                   class="rbt-course-feature-inner has-show-more-inner-content"
                 >
                   <div class="section-title">
-                    <h4 class="rbt-title-style-3">FULL INTERNSHIP PROGRAM</h4>
+                    <h4 class="rbt-title-style-3">Digital Marketing</h4>
                   </div>
                   <p>
-                    Our Full Internship programs are meant to help upgrade your
-                    skill set, provide you with a chance to understand real life
-                    industry challenges and the opportunity to work with experts
-                    you have years of on-hand experience. We make sure that you
-                    are well acknowledged through a certificate, well trained
-                    through an upgraded skill set and an attitude that is
-                    industry ready.
+                    Let’s go with the Global Trend of Digital Marketing!
+                    Nowadays Digital Marketing is creating a buzz around the
+                    world. Digital Marketing has become the Success Mantra for
+                    any business. This is creating several job opportunities in
+                    India and Abroad. ECS Cloud Infotech is conducting an
+                    exclusive Digital Marketing program to cater the needs of
+                    our fast growing economy.
+                  </p>
+                  <p>
+                    <b>Eligibility:</b> Any Degree or Diploma. Students awaiting
+                    final results can also apply.
+                  </p>
+                  <p><b>KEY FEATURES OF THIS COURSE</b></p>
+                  <p>
+                    <b>Industry-aligned Curriculum:</b> Latest international
+                    industry trends and technologies are included in the
+                    curriculum to keep the students updated daily.
+                  </p>
+                  <p>
+                    <b>Flexible Timings:</b> Flexible timings help students to
+                    dive deep into the subjects and learn at their will.
+                  </p>
+                  <p>
+                    <b>Individual Assessments:</b>This course is tailored to
+                    each student's individual needs and to reach their full
+                    potential.
+                  </p>
+                  <p>
+                    <b>Professional Instructors:</b> Our experienced
+                    instructors, drawn from the industry, equip students with
+                    the practical skills needed to succeed.
+                  </p>
+                  <p>
+                    <b>Portfolio Building:</b> Interns can create a strong
+                    portfolio showcasing their skills and accomplishments after
+                    completing real-time projects.
+                  </p>
+                  <p>
+                    <b>Industry Insights:</b> Interns will have valuable
+                    insights into industry trends, challenges, and best
+                    practices.
+                  </p>
+                  
+                  <p>Why Digital Marketing is Important Nowadays?</p>
+                  <p>
+                    <b>Global Reach:</b> Digital marketing empowers businesses to reach a global audience, transcending geographical boundaries.  
+                  </p>
+                  <p>
+                    <b>Targeted Marketing:</b> Precise targeting of specific demographics, interests, and behaviours is possible with the right digital marketing techniques.  This will maximize the impact of marketing efforts.
+                  </p>
+                  <p>
+                    <b>Results are Measurable:</b> Digital Marketing provides valuable insights into campaign performance, allowing businesses to track key metrics like website traffic, conversions, and ROI.  This will help us to readjust the campaigns if necessary.
+                  </p>
+                  <p>
+                    <b>Cost Effective:</b> When compared to traditional marketing, digital marketing is more effective and budget-friendly.
+                  </p>
+                  <p>
+                    <b>Better Customer Interaction:</b> Digital marketing facilitates real-time interaction, resulting in better customer relationships.
+                  </p>
+                  <p>
+                    <b>Better Brand Visibility:</b> Digital Marketing enhances brand awareness through content marketing, social media marketing, and email marketing.
                   </p>
 
-                  <div class="row g-5 mb--30">
-                    <!-- Start Feture Box  -->
-                    <div class="col-lg-6">
-                      <ul class="rbt-list-style-1">
-                        <li>
-                          <i class="feather-check"></i>Become an advanced,
-                          confident, and modern JavaScript developer from
-                          scratch.
-                        </li>
-
-                        <li>
-                          <i class="feather-check"></i>Have a portfolio of
-                          various data analysis projects.
-                        </li>
-                      </ul>
-                    </div>
-                    <!-- End Feture Box  -->
-
-                    <!-- Start Feture Box  -->
-                    <div class="col-lg-6">
-                      <ul class="rbt-list-style-1">
-                        <li>
-                          <i class="feather-check"></i>Have an intermediate
-                          skill level of Python programming.
-                        </li>
-                      </ul>
-                    </div>
-                    <!-- End Feture Box  -->
-                  </div>
                   <p>
-                    <b>Eligibility:</b> Any Degree or Diploma. Students awaiting final results can also apply.
+                    Exciting career opportunities await every smart digital marketer in India and Abroad.  Are you ready for an interesting career in Digital Marketing?  Join us right now!
                   </p>
-                  <p>
-                    Any graduate for Digital Marketing Course or those who are
-                    awaiting final results
-                  </p>
-                  <p>
-                    Full Internship Program is the ultimate choice for any
-                    student to transform his/her passion into a rewarding IT
-                    career. Through hands-on exercises and real-world projects,
-                    you will gain practical experience and develop the skills
-                    needed to succeed in the IT industry. You'll not only gain
-                    valuable skills but also start earning a competitive salary
-                    immediately after completing the course. Enjoy the
-                    flexibility of self-paced learning while benefiting from the
-                    expertise of industry professionals. Your path to IT success
-                    begins here. Enroll now!
-                  </p>
-                  <p>Courses offered in :</p>
-                  <p>FullStack Developer - Java</p>
-                  <div class="row g-5 mb--30">
-                    <div class="col-lg-6">
-                      <ul class="rbt-list-style-1">
-                        <li><i class="feather-check"></i>Java</li>
-                        <li><i class="feather-check"></i>Springboot</li>
-                        <li><i class="feather-check"></i>Messaging Queue</li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-6">
-                      <ul class="rbt-list-style-1">
-                        <li><i class="feather-check"></i>Hibernate</li>
-                        <li><i class="feather-check"></i>SQL</li>
-                        <li><i class="feather-check"></i>Kafka</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <p>FullStack Developer - Python</p>
-                  <p>Digital Marketing Courses</p>
-                  <div class="row g-5 mb--30">
-                    <div class="col-lg-6">
-                      <ul class="rbt-list-style-1">
-                        <li><i class="feather-check"></i>UI/UX Designer</li>
-                        <li><i class="feather-check"></i>Graphic Designer</li>
-                        <li><i class="feather-check"></i>Content Marketing</li>
-                        <li><i class="feather-check"></i>Video Marketing</li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-6">
-                      <ul class="rbt-list-style-1">
-                        <li>
-                          <i class="feather-check"></i>Social Media Marketing
-                        </li>
-                        <li><i class="feather-check"></i>Digital Marketing</li>
-                        <li><i class="feather-check"></i>SEO</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <p>DevSecOps / Networking /Cybersecurity Engineer</p>
-                  <div class="row g-5 mb--30">
-                    <div class="col-lg-6">
-                      <ul class="rbt-list-style-1">
-                        <li>
-                          <i class="feather-check"></i>Linux Administration
-                        </li>
-                        <li><i class="feather-check"></i>AWS Administration</li>
-                        <li>
-                          <i class="feather-check"></i>Production Support Tools
-                        </li>
-                        <li><i class="feather-check"></i>Docker</li>
-                        <li><i class="feather-check"></i>Cloud Security</li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-6">
-                      <ul class="rbt-list-style-1">
-                        <li><i class="feather-check"></i>Kubernetes</li>
-                        <li><i class="feather-check"></i>Cloud Formation</li>
-                        <li><i class="feather-check"></i>Ansible</li>
-                        <li><i class="feather-check"></i>Shell Scripting</li>
-                        <li>
-                          <i class="feather-check"></i>Advanced Networking
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <p>Data Scientist</p>
-                  <div class="row g-5 mb--30">
-                    <div class="col-lg-6">
-                      <ul class="rbt-list-style-1">
-                        <li><i class="feather-check"></i>Python</li>
-                        <li><i class="feather-check"></i>GenerativeAI</li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-6">
-                      <ul class="rbt-list-style-1">
-                        <li>
-                          <i class="feather-check"></i>AWS Foundation classes
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <p>Mobile App Developer</p>
-                  <div class="row g-5 mb--30">
-                    <div class="col-lg-6">
-                      <ul class="rbt-list-style-1">
-                        <li>
-                          <i class="feather-check"></i>Android and iOS
-                          Development
-                        </li>
-                        <li><i class="feather-check"></i>Flutter</li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-6">
-                      <ul class="rbt-list-style-1">
-                        <li><i class="feather-check"></i>Swift</li>
-                        <li><i class="feather-check"></i>Kotlin</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <p>FrontEnd Development</p>
-                  <div class="row g-5 mb--30">
-                    <div class="col-lg-6">
-                      <ul class="rbt-list-style-1">
-                        <li><i class="feather-check"></i>ReactJS</li>
-                        <li><i class="feather-check"></i>Angular</li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-6">
-                      <ul class="rbt-list-style-1">
-                        <li><i class="feather-check"></i>UI/UX</li>
-                      </ul>
-                    </div>
-                  </div>
                 </div>
                 <!-- <div class="rbt-show-more-btn">Show More</div> -->
               </div>

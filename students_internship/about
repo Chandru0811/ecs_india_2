@@ -221,7 +221,7 @@
                                 <a href="#tab2">Front End Development</a>
                               </li>
                               <li class="vertical-nav-item">
-                                <a href="#tab3">Digital Marketing</a>
+                                <a href="./digital_marketing">Digital Marketing</a>
                               </li>
                               <li class="vertical-nav-item">
                                 <a href="#tab4">UI/UX Development</a>

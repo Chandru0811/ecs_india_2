@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Course Details - FullStack Internship Developer Java | Cloud ECS Infotech</title>
+    <title>
+      Full Internship - FullStack Developer - Java
+    </title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="" />
     <meta
@@ -223,7 +225,7 @@
                                 <a href="#tab2">Front End Development</a>
                               </li>
                               <li class="vertical-nav-item">
-                                <a href="#tab3">Digital Marketing</a>
+                                <a href="./digital_marketing">Digital Marketing</a>
                               </li>
                               <li class="vertical-nav-item">
                                 <a href="#tab4">UI/UX Development</a>
@@ -942,7 +944,7 @@
                 </li>
 
                 <li class="rbt-breadcrumb-item active">
-                  FullStack Developer Java
+                  FullStack Developer - Java
                 </li>
               </ul>
 
@@ -950,7 +952,7 @@
                 <span class="rbt-new-badge-icon">🏆</span> Salary from Day 1
               </div>
 
-              <h2 class="title">Full Internship - FullStack Developer Java</h2>
+              <h2 class="title">Full Internship - FullStack Developer - Java</h2>
               <p class="description">
                 Ready to become a Java pro? You're in the right place at the
                 right time. ECS Cloud Infotech offers a Full Stack Java
@@ -972,18 +974,20 @@
         <div class="row g-5">
           <div class="col-lg-8">
             <div class="course-details-content">
-              <div class="rbt-course-feature-box rbt-shadow-box thuumbnail">
+              <div class="rbt-card-img rbt-course-feature-box rbt-shadow-box thuumbnail" style="position: relative;">
                 <div class="text-end">
                   <span
                     class="badge"
                     style="
-                      position: relative;
-                      top: 28px;
-                      right: 5px;
+                      position: absolute;
+                      top: 50px;
+                      right: 50px;
+                      background-color: #fff;
                       font-size: 14px;
                       color: #b550ff;
                     "
-                    >
+                  >
+                    EMI Available
                   </span>
                 </div>
                 <img
@@ -991,6 +995,10 @@
                   src="./assets/images/banner/FullStack Java.webp"
                   alt="Card image"
                 />
+                <div class="rbt-badge-3" style="bottom: 50px;right: 50px;">
+                  <span>-50%</span>
+                  <span>Off</span>
+                </div>
               </div>
 
               <div class="rbt-inner-onepage-navigation sticky-top mt--30">
@@ -1014,7 +1022,7 @@
                   class="rbt-course-feature-inner has-show-more-inner-content"
                 >
                   <div class="section-title">
-                    <h4 class="rbt-title-style-3">FullStack Developer Java</h4>
+                    <h4 class="rbt-title-style-3">FullStack Developer - Java</h4>
                   </div>
                   <p>
                     A Full Stack Java Developer is a versatile programmer who
