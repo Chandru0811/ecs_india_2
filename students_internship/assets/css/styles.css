@@ -12475,6 +12475,7 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
   display: block;
   font-size: 16px;
   font-weight: 500;
+  color: black;
 }
 .popup-mobile-menu .mainmenu li a.active {
   color: var(--color-primary) !important;
@@ -17834,8 +17835,6 @@ span.transparent-button:hover i {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  left: 50px;
-  top: 50px;
   z-index: -1;
   right: 0;
   bottom: 0;
@@ -32266,7 +32265,7 @@ Course Sidebar
   background: var(--color-primary) !important;
 }
 .active-dark-mode .rbt-information-list li a {
-  color: var(--color-white-dark);
+  color:white;
 }
 .active-dark-mode .rbt-information-list li a:hover {
   color: var(--color-white);
@@ -32532,13 +32531,13 @@ Course Sidebar
   background: var(--color-darker);
 }
 .active-dark-mode .logo-dark {
-  display: none;
+  display: flex !important;  
 }
 .active-dark-mode .breadcrumb-dark {
   display: none;
 }
 .active-dark-mode .logo-light {
-  display: block !important;
+  display: none !important;
 }
 .active-dark-mode .rbt-header .mainmenu-nav .mainmenu li.has-dropdown .submenu {
   border-top: 1px solid transparent;
@@ -33636,13 +33635,13 @@ Course Sidebar
   color: var(--color-white);
 }
 .active-dark-mode .social-default.transparent-with-border li a {
-  background: transparent !important;
-  border: 2px solid var(--dark-color-border);
+    background: transparent !important;
+    border: 2px solid #1356ff33;
 }
 .active-dark-mode .social-default li a {
   background-color: var(--color-bodyest-2);
   color: var(--color-white-dark);
-  line-height: 44px;
+  /* line-height: 44px; */
 }
 .active-dark-mode .service-card-6 .inner {
   border: 1px solid var(--dark-color-border);
