@@ -32,7 +32,7 @@
 
   <link rel="stylesheet" href="assets/css/styles.css" />
   <link rel="stylesheet" href="../assets/css/custom.css" />
-  
+
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
@@ -81,7 +81,8 @@
                 <div class="header-info d-none d-xl-block">
                   <ul class="social-share-transparent">
                     <li>
-                      <a href="https://www.facebook.com/profile.php?id=61568134386784" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://www.facebook.com/profile.php?id=61568134386784" target="_blank"><i
+                          class="fab fa-facebook-f"></i></a>
                     </li>
                     <li>
                       <a href="https://x.com/Cloudecsin" target="_blank">
@@ -92,10 +93,12 @@
                       <a href="https://www.linkdin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                     </li>
                     <li>
-                      <a href="https://www.instagram.com/cloudecs_infotech/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      <a href="https://www.instagram.com/cloudecs_infotech/" target="_blank"><i
+                          class="fab fa-instagram"></i></a>
                     </li>
                     <li>
-                      <a href="https://www.youtube.com/@Cloudecsinfotech" target="_blank"><i class="fab fa-youtube"></i></a>
+                      <a href="https://www.youtube.com/@Cloudecsinfotech" target="_blank"><i
+                          class="fab fa-youtube"></i></a>
                     </li>
                     <li>
                       <a href="https://www.whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
@@ -155,20 +158,20 @@
                               <a href="./full_intership_developer_java">FullStack Developer - Java</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="#tab2">FullStack Developer - Python</a>
+                              <a href="./full_intership_python">FullStack Developer - Python</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="#tab3">Data Scientist</a>
+                              <a href="./data_science">Data Scientist</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="#tab4">DevSecOps / Networking /Cybersecurity</a>
+                              <a href="./devsocops_network">DevSecOps / Networking /Cybersecurity</a>
                             </li>
                           </ul>
                         </div>
                         <div class="col-md-6 col-12">
                           <ul class="rbt-vertical-nav-list-wrapper vertical-nav-menu">
                             <li class="vertical-nav-item">
-                              <a href="#tab1">Mobile App Development</a>
+                              <a href="./mobile_app_developement">Mobile App Development</a>
                             </li>
                             <li class="vertical-nav-item">
                               <a href="#tab2">Front End Development</a>
