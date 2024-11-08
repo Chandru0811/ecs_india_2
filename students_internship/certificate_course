@@ -173,13 +173,13 @@
                               <a href="./mobile_app_developement">Mobile App Development</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="#tab2">Front End Development</a>
+                              <a href="./frontend_development">Front End Development</a>
                             </li>
                             <li class="vertical-nav-item">
                               <a href="./digital_marketing">Digital Marketing</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="#tab4">UI/UX Development</a>
+                              <a href="./ui_ux_development">UI/UX Development</a>
                             </li>
                             <li class="vertical-nav-item">
                               <a href="./sales_marketing">Sales and Marketing</a>
@@ -876,7 +876,7 @@
         <div class="col-lg-8">
           <div class="course-details-content">
             <div class="rbt-course-feature-box rbt-shadow-box thuumbnail">
-              <img class="w-100" src="./assets/images/banner/Certificate_Course.webp" alt="Card image" />
+              <img class="w-100" src="./assets/images/banner/Certificate_Course.webp" alt="Certificate Courses" />
             </div>
 
             <div class="rbt-inner-onepage-navigation sticky-top mt--30">

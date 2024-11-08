@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Full Internship - Data Scientist</title>
+    <title>Full Internship - Frontend Development</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -329,7 +329,7 @@
                                     <a href="./certificate_course">Certificate Course</a>
                                 </li>
                                 <!-- <li class="with-megamenu has-menu-child-item position-static">
-                      <a href="./sales_marketing">Data Scientist</a>
+                      <a href="./sales_marketing">Sales & Marketing</a>
                     </li> -->
                                 <li class="has-dropdown has-menu-child-item">
                                     <a href="./about">About </a>
@@ -862,20 +862,19 @@
                                 </div>
                             </li>
 
-                            <li class="rbt-breadcrumb-item active">Data Scientist</li>
+                            <li class="rbt-breadcrumb-item active">Frontend Development</li>
                         </ul>
 
                         <div class="rbt-new-badge rbt-new-badge-one">
                             <span class="rbt-new-badge-icon">🏆</span> Salary from Day 1
                         </div>
 
-                        <h2 class="title">Full Internship - Data Scientist</h2>
+                        <h2 class="title">Full Internship - Frontend Development</h2>
                         <p class="description">
-                            Are you ready to step into the world of Data Science? Cloud ECS Infotech gives you a
-                            comprehensive training program in Data Science. Data Science is a dynamic field with
-                            limitless potential. With the increasing reliance on data-driven decision-making, Data
-                            Scientists are in high demand and will remain so for years to come. Position yourself for
-                            success in the high-demand field of Data Science.
+                            Want to become a Front-End Developer? Launch your Front-End Development career with Cloud
+                            ECS Infotech's tailored courses. As you know, front-end development is the art of creating
+                            the user interface (UI) and user experience (UX) of a website or web application. Front-end
+                            developer builds the visual and interactive layer of web applications.
                         </p>
                     </div>
                 </div>
@@ -902,7 +901,7 @@
                                     EMI Available
                                 </span>
                             </div>
-                            <img class="w-100" src="./assets/images/banner/data_scientist.webp" alt="Data Scientist" />
+                            <img class="w-100" src="./assets/images/banner/frontend_developer.webp" alt="Frontend Development" />
                             <div class="rbt-badge-3" style="bottom: 50px;right: 50px;">
                                 <span>-50%</span>
                                 <span>Off</span>
@@ -924,13 +923,13 @@
                             id="overview">
                             <div class="rbt-course-feature-inner has-show-more-inner-content">
                                 <div class="section-title">
-                                    <h4 class="rbt-title-style-3">Data Scientist</h4>
+                                    <h4 class="rbt-title-style-3">Frontend Development</h4>
                                 </div>
                                 <p>
-                                    In today's data-driven world, Data Scientists have become indispensable. They apply
-                                    advanced analytical techniques to extract meaningful patterns from complex datasets.
-                                    As data continues to shape our world, Data Scientists will be at the forefront of
-                                    innovation, making it one of the most coveted professions.
+                                    The digital revolution is driving businesses to create stunning, user-friendly
+                                    websites. Nowadays, more and more businesses are moving online, requiring visually
+                                    appealing and user-friendly websites. This creates many job opportunities in India
+                                    and abroad.
                                 </p>
                                 <p>
                                     <b>Eligibility:</b> Any Degree or Diploma. Students awaiting final results can also
@@ -938,45 +937,48 @@
                                 </p>
                                 <p><b>KEY FEATURES</b></p>
                                 <p>
-                                    <b>Highly Relevant Conten:</b> The curriculum is specially designed to teach Data
-                                    Science from scratch.
+                                    <b>Well-Structured Content:</b> Up-to-date curriculum for a successful career.
                                 </p>
                                 <p>
-                                    <b>Team of Experts to Train:</b> Benefit from the expertise of our seasoned
-                                    instructors.
+                                    <b>Seasoned Instructors:</b> We have a bunch of skilled instructors.
                                 </p>
                                 <p>
-                                    <b>Customized Learning:</b> Flexible timings enable students to learn at their own
-                                    pace and convenience.
+                                    <b>Flexible Schedule:</b> Learn at your pace learn at your will.
                                 </p>
                                 <p>
-                                    <b>Practical-Oriented Sessions:</b> This will enhance your practical skills and make
-                                    you job-ready.
+                                    <b>Practical-Oriented Sessions:</b> This training module emphasized hands-on
+                                    learning to enhance essential skills.
                                 </p>
                                 <p>
-                                    <b>Showcase Your Skills:</b> Real-time projects will give your portfolio a
-                                    competitive edge.
+                                    <b>Interactive Learning Experience:</b> Forums, chat rooms, and live sessions foster
+                                    community and collaboration.
                                 </p>
-                                <p><b>Career Opportunities for Data Scientists</b></p>
-                                <p>
-                                    <b>Data Scientis:</b> This job involves data mining, analysis, and interpretation to
-                                    extract insights. These insights help businesses make informed decisions, optimize
-                                    operations, and identify new opportunities.
-                                </p>
-                                <p><b>Machine Learning Engineer:</b> The job profile includes developing and deploying
-                                    machine learning models to solve specific problems.</p>
-                                <p><b>Data Analyst:</b> In order to identify the trends and patterns, the Data Analyst
-                                    will clean, transform, and visualize data.</p>
-                                <p><b>Data Engineer:</b> Design, develop, and deploy data pipelines to extract,
-                                    transform, and load data into data warehouses and data lakes.</p>
+                                <div class="row mb-0">
+                                    <p>
+                                        <b>Career Opportunities For A Front-End Developer</b>
+                                    </p>
+                                    <ol>
+                                        <li><b>1. Front-End Developer:</b> Develops the user interface of websites and web
+                                            applications. Works with HTML, CSS, and JavaScript. Interacts with designers
+                                            and back-end developers.</li>
+                                        <li><b>2. UI/UX Designer:</b> Creating user-friendly designs. Uses design tools to
+                                            create wireframes, mockups, and prototypes.</li>
+                                        <li><b>3. Front-End Engineer:</b> The key role is developing complex front-end
+                                            applications. Expertise in advanced JavaScript frameworks and libraries
+                                            is also necessary. They also focus on performance optimization and
+                                            scalability.</li>
+                                        <li><b>4. Web Designer:</b> Expertise in visual design aspects of websites.
+                                            Improves the user experience with beautiful layouts, colour schemes, and
+                                            typography of the websites.</li>
 
+                                    </ol>
+                                </div>
                                 <p>
-                                    Data Science skills are becoming more valuable in different fields nowadays
-                                    including Finance, Healthcare, Marketing, E-Commerce, Government, etc. As the world
-                                    becomes more data-driven, the demand for skilled Data Scientists is expected to
-                                    remain strong.
+                                    Cloud ECS Infotech’s front-end development gives you a competitive edge in the job
+                                    market. As India’s emerging economy and large population drive the country’s digital
+                                    transformation, the demand for sophisticated websites and proficient front-end
+                                    developers is surging.
                                 </p>
-                                <p>Come and join us for an exciting career in Data Science!</p>
                             </div>
                             <!-- <div class="rbt-show-more-btn">Show More</div> -->
                         </div>

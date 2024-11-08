@@ -173,13 +173,13 @@
                               <a href="./mobile_app_developement">Mobile App Development</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="#tab2">Front End Development</a>
+                              <a href="./frontend_development">Front End Development</a>
                             </li>
                             <li class="vertical-nav-item">
                               <a href="./digital_marketing">Digital Marketing</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="#tab4">UI/UX Development</a>
+                              <a href="./ui_ux_development">UI/UX Development</a>
                             </li>
                             <li class="vertical-nav-item">
                               <a href="./sales_marketing">Sales and Marketing</a>
@@ -868,7 +868,7 @@
             <h2 class="title">Full Internship - FullStack Developer - Java</h2>
             <p class="description">
               Ready to become a Java pro? You're in the right place at the
-              right time. ECS Cloud Infotech offers a Full Stack Java
+              right time. Cloud ECS Infotech offers a Full Stack Java
               Developer Program exclusively designed to become a Java Pro from
               scratch. Java has been a reliable choice for building robust and
               scalable applications for over two decades since 1995. Java's
@@ -900,7 +900,7 @@
                   EMI Available
                 </span>
               </div>
-              <img class="w-100" src="./assets/images/banner/FullStack Java.webp" alt="Card image" />
+              <img class="w-100" src="./assets/images/banner/FullStack Java.webp" alt="FullStack Java" />
               <div class="rbt-badge-3" style="bottom: 50px;right: 50px;">
                 <span>-50%</span>
                 <span>Off</span>
