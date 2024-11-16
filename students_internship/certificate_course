@@ -154,16 +154,16 @@
                         <div class="col-md-6 col-12">
                           <ul class="rbt-vertical-nav-list-wrapper vertical-nav-menu">
                             <li class="vertical-nav-item active">
-                              <a href="./full_intership_developer_java">FullStack Developer - Java</a>
+                              <a href="./fullstack_developer_java">FullStack Developer - Java</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="./full_intership_python">FullStack Developer - Python</a>
+                              <a href="./fullstack_developer_python">FullStack Developer - Python</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="./data_science">Data Scientist</a>
+                              <a href="./data_scientist">Data Scientist</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="./devsocops_network">DevSecOps / Networking /Cybersecurity</a>
+                              <a href="./devsecops_networking">DevSecOps / Networking /Cybersecurity</a>
                             </li>
                           </ul>
                         </div>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Full Internship - DevSec Ops, Networking, Cyber Security</title>
+    <title>Full Internship - Data Scientist</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -155,18 +155,18 @@
                                                 <div class="col-md-6 col-12">
                                                     <ul class="rbt-vertical-nav-list-wrapper vertical-nav-menu">
                                                         <li class="vertical-nav-item active">
-                                                            <a href="./full_intership_developer_java">FullStack
+                                                            <a href="./fullstack_developer_java">FullStack
                                                                 Developer - Java</a>
                                                         </li>
                                                         <li class="vertical-nav-item">
-                                                            <a href="./full_intership_python">FullStack Developer -
+                                                            <a href="./fullstack_developer_python">FullStack Developer -
                                                                 Python</a>
                                                         </li>
                                                         <li class="vertical-nav-item">
-                                                            <a href="./data_science">Data Scientist</a>
+                                                            <a href="./data_scientist">Data Scientist</a>
                                                         </li>
                                                         <li class="vertical-nav-item">
-                                                            <a href="./devsocops_network">DevSecOps / Networking
+                                                            <a href="./devsecops_networking">DevSecOps / Networking
                                                                 /Cybersecurity</a>
                                                         </li>
                                                     </ul>
@@ -700,6 +700,9 @@
                         <li>
                             <a href="https://x.com/Cloudecsin">
                                 <i class="fa-brands fa-x-twitter"></i>
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#6b7385">
+                    <path d="M17.7 2L12 9.3 6.3 2H2l8.6 10.7L2 22h4.3l5.7-7.5L17.7 22H22l-8.6-9.3L22 2h-4.3z" />
+                  </svg> -->
                             </a>
                         </li>
                         <li>
@@ -859,20 +862,20 @@
                                 </div>
                             </li>
 
-                            <li class="rbt-breadcrumb-item active">DevSec Ops, Networking, Cyber Security</li>
+                            <li class="rbt-breadcrumb-item active">Data Scientist</li>
                         </ul>
 
                         <div class="rbt-new-badge rbt-new-badge-one">
                             <span class="rbt-new-badge-icon">🏆</span> Salary from Day 1
                         </div>
 
-                        <h2 class="title">Full Internship - DevSec Ops, Networking, Cyber Security</h2>
+                        <h2 class="title">Full Internship - Data Scientist</h2>
                         <p class="description">
-                            Learn DevSecOps, Networking, and Cyber Security and empower yourself with cybersecurity
-                            expertise! Cloud ECS Infotech is conducting a detailed DevSecOps, Networking, and Cyber
-                            Security program helps to mitigate cyber threats in the future. In an era of increasing
-                            cyberattacks, understanding DevSecOps, Networking, and Cyber Security is vital to safeguard
-                            digital assets and ensure business continuity.
+                            Are you ready to step into the world of Data Science? Cloud ECS Infotech gives you a
+                            comprehensive training program in Data Science. Data Science is a dynamic field with
+                            limitless potential. With the increasing reliance on data-driven decision-making, Data
+                            Scientists are in high demand and will remain so for years to come. Position yourself for
+                            success in the high-demand field of Data Science.
                         </p>
                     </div>
                 </div>
@@ -899,7 +902,7 @@
                                     EMI Available
                                 </span>
                             </div>
-                            <img class="w-100" src="./assets/images/banner/devops.webp" alt="Devops" />
+                            <img class="w-100" src="./assets/images/banner/data_scientist.webp" alt="Data Scientist" />
                             <div class="rbt-badge-3" style="bottom: 50px;right: 50px;">
                                 <span>-50%</span>
                                 <span>Off</span>
@@ -921,16 +924,13 @@
                             id="overview">
                             <div class="rbt-course-feature-inner has-show-more-inner-content">
                                 <div class="section-title">
-                                    <h4 class="rbt-title-style-3">DevSec Ops, Networking, Cyber Security</h4>
+                                    <h4 class="rbt-title-style-3">Data Scientist</h4>
                                 </div>
                                 <p>
-                                    To thrive in the digital age, it's essential to have a solid foundation in
-                                    DevSecOps, Networking, and Cyber Security. India's booming tech sector offers plenty
-                                    of opportunities for professionals in these domains. Tech Giants and Start-Ups in
-                                    major IT hubs in India like Bengaluru, Chennai, Trivandrum, Hyderabad, Pune, and
-                                    Delhi-NCR are constantly hiring skilled persons. Countries like the US, UK, Canada,
-                                    and Australia offer competitive salaries, excellent work-life balance, and
-                                    opportunities for professional growth.
+                                    In today's data-driven world, Data Scientists have become indispensable. They apply
+                                    advanced analytical techniques to extract meaningful patterns from complex datasets.
+                                    As data continues to shape our world, Data Scientists will be at the forefront of
+                                    innovation, making it one of the most coveted professions.
                                 </p>
                                 <p>
                                     <b>Eligibility:</b> Any Degree or Diploma. Students awaiting final results can also
@@ -938,45 +938,45 @@
                                 </p>
                                 <p><b>KEY FEATURES</b></p>
                                 <p>
-                                    <b>Global Curriculum:</b> Updated Industry-Relevant curriculum.
+                                    <b>Highly Relevant Conten:</b> The curriculum is specially designed to teach Data
+                                    Science from scratch.
                                 </p>
                                 <p>
-                                    <b>Individual Assessments:</b> Individual assessments to evaluate individual
-                                    progress and identify areas for improvement.
+                                    <b>Team of Experts to Train:</b> Benefit from the expertise of our seasoned
+                                    instructors.
                                 </p>
                                 <p>
-                                    <b>Industry-Best Instructors:</b> We have top-notch instructors to ensure your
-                                    success.
+                                    <b>Customized Learning:</b> Flexible timings enable students to learn at their own
+                                    pace and convenience.
                                 </p>
                                 <p>
-                                    <b>Real-Time Projects:</b> Live projects to get relevant industrial experience.
+                                    <b>Practical-Oriented Sessions:</b> This will enhance your practical skills and make
+                                    you job-ready.
                                 </p>
                                 <p>
-                                    <b>Flexible Schedule:</b>Flexible timings to ensure optimized learning.
+                                    <b>Showcase Your Skills:</b> Real-time projects will give your portfolio a
+                                    competitive edge.
                                 </p>
-                                <p><b>DevSec Ops, Networking, Cyber Security Career Opportunities</b></p>
+                                <p><b>Career Opportunities for Data Scientists</b></p>
                                 <p>
-                                    <b>Network Engineer:</b> Designing, implementing, and maintaining network
-                                    infrastructure.
+                                    <b>Data Scientis:</b> This job involves data mining, analysis, and interpretation to
+                                    extract insights. These insights help businesses make informed decisions, optimize
+                                    operations, and identify new opportunities.
                                 </p>
+                                <p><b>Machine Learning Engineer:</b> The job profile includes developing and deploying
+                                    machine learning models to solve specific problems.</p>
+                                <p><b>Data Analyst:</b> In order to identify the trends and patterns, the Data Analyst
+                                    will clean, transform, and visualize data.</p>
+                                <p><b>Data Engineer:</b> Design, develop, and deploy data pipelines to extract,
+                                    transform, and load data into data warehouses and data lakes.</p>
+
                                 <p>
-                                    <b>Cyber Security Analyst:</b> Identifying, assessing, and mitigating cyber threats.
+                                    Data Science skills are becoming more valuable in different fields nowadays
+                                    including Finance, Healthcare, Marketing, E-Commerce, Government, etc. As the world
+                                    becomes more data-driven, the demand for skilled Data Scientists is expected to
+                                    remain strong.
                                 </p>
-                                <p>
-                                    <b>DevOps Engineer:</b> Automating software development and deployment processes.
-                                </p>
-                                <p>
-                                    <b>Cloud Security Engineer:</b> Protecting cloud-based applications and data.
-                                </p>
-                                <p>
-                                    <b>Security Analyst:</b> Monitoring networks for security breaches and responding to
-                                    incidents.
-                                </p>
-                                <p>
-                                    <b>Penetration Tester:</b> Identifying vulnerabilities in systems and networks.
-                                </p>
-                                <p>Join us to learn the most futuristic DevSec Ops, Networking, Cyber Security course
-                                    and start your interesting and challenging career in Cyber Security! </p>
+                                <p>Come and join us for an exciting career in Data Science!</p>
                             </div>
                             <!-- <div class="rbt-show-more-btn">Show More</div> -->
                         </div>

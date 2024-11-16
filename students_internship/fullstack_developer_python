@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Full Internship - Data Scientist</title>
+    <title>Full Internship - Fullstack Developer - Python</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -155,18 +155,18 @@
                                                 <div class="col-md-6 col-12">
                                                     <ul class="rbt-vertical-nav-list-wrapper vertical-nav-menu">
                                                         <li class="vertical-nav-item active">
-                                                            <a href="./full_intership_developer_java">FullStack
+                                                            <a href="./fullstack_developer_java">FullStack
                                                                 Developer - Java</a>
                                                         </li>
                                                         <li class="vertical-nav-item">
-                                                            <a href="./full_intership_python">FullStack Developer -
+                                                            <a href="./fullstack_developer_python">FullStack Developer -
                                                                 Python</a>
                                                         </li>
                                                         <li class="vertical-nav-item">
-                                                            <a href="./data_science">Data Scientist</a>
+                                                            <a href="./data_scientist">Data Scientist</a>
                                                         </li>
                                                         <li class="vertical-nav-item">
-                                                            <a href="./devsocops_network">DevSecOps / Networking
+                                                            <a href="./devsecops_networking">DevSecOps / Networking
                                                                 /Cybersecurity</a>
                                                         </li>
                                                     </ul>
@@ -328,9 +328,6 @@
                                 <li class="with-megamenu has-menu-child-item position-static">
                                     <a href="./certificate_course">Certificate Course</a>
                                 </li>
-                                <!-- <li class="with-megamenu has-menu-child-item position-static">
-                      <a href="./sales_marketing">Data Scientist</a>
-                    </li> -->
                                 <li class="has-dropdown has-menu-child-item">
                                     <a href="./about">About </a>
                                 </li>
@@ -862,20 +859,20 @@
                                 </div>
                             </li>
 
-                            <li class="rbt-breadcrumb-item active">Data Scientist</li>
+                            <li class="rbt-breadcrumb-item active">Fullstack Developer - Python</li>
                         </ul>
 
                         <div class="rbt-new-badge rbt-new-badge-one">
                             <span class="rbt-new-badge-icon">🏆</span> Salary from Day 1
                         </div>
 
-                        <h2 class="title">Full Internship - Data Scientist</h2>
+                        <h2 class="title">Full Internship - Fullstack Developer - Python</h2>
                         <p class="description">
-                            Are you ready to step into the world of Data Science? Cloud ECS Infotech gives you a
-                            comprehensive training program in Data Science. Data Science is a dynamic field with
-                            limitless potential. With the increasing reliance on data-driven decision-making, Data
-                            Scientists are in high demand and will remain so for years to come. Position yourself for
-                            success in the high-demand field of Data Science.
+                            Master Python, Launch your IT Career. Cloud ECS Infotech provides comprehensive training to
+                            become a skilled Full-Stack Python Developer. This course covers front-end, back-end, and
+                            database technologies. Since Python was first released in February 1991, Python has gained
+                            significant popularity among developers. This results in providing ample career
+                            opportunities for Python developers in India and abroad.
                         </p>
                     </div>
                 </div>
@@ -902,7 +899,7 @@
                                     EMI Available
                                 </span>
                             </div>
-                            <img class="w-100" src="./assets/images/banner/data_scientist.webp" alt="Data Scientist" />
+                            <img class="w-100" src="./assets/images/banner/fullstact_python.webp" alt="Fullstact Python" />
                             <div class="rbt-badge-3" style="bottom: 50px;right: 50px;">
                                 <span>-50%</span>
                                 <span>Off</span>
@@ -924,13 +921,13 @@
                             id="overview">
                             <div class="rbt-course-feature-inner has-show-more-inner-content">
                                 <div class="section-title">
-                                    <h4 class="rbt-title-style-3">Data Scientist</h4>
+                                    <h4 class="rbt-title-style-3">Fullstack Developer - Python</h4>
                                 </div>
                                 <p>
-                                    In today's data-driven world, Data Scientists have become indispensable. They apply
-                                    advanced analytical techniques to extract meaningful patterns from complex datasets.
-                                    As data continues to shape our world, Data Scientists will be at the forefront of
-                                    innovation, making it one of the most coveted professions.
+                                    Python's versatility and readability have made it a highly sought-after language. A
+                                    Full-Stack Python developer possesses a versatile skillset that opens doors to a
+                                    wide range of career opportunities. Cloud ECS Infotech is conducting a full
+                                    internship program with a tailor-made curriculum.
                                 </p>
                                 <p>
                                     <b>Eligibility:</b> Any Degree or Diploma. Students awaiting final results can also
@@ -938,45 +935,69 @@
                                 </p>
                                 <p><b>KEY FEATURES</b></p>
                                 <p>
-                                    <b>Highly Relevant Conten:</b> The curriculum is specially designed to teach Data
-                                    Science from scratch.
+                                    <b>Real-World Curriculum:</b> Our practical-oriented curriculum helps to develop
+                                    real-world skills.
                                 </p>
                                 <p>
-                                    <b>Team of Experts to Train:</b> Benefit from the expertise of our seasoned
-                                    instructors.
+                                    <b>Top-Notch Instructors:</b> The instructors are hand-picked from the IT Industry
+                                    with relevant knowledge.
                                 </p>
                                 <p>
-                                    <b>Customized Learning:</b> Flexible timings enable students to learn at their own
-                                    pace and convenience.
+                                    <b>Self-Paced Learning:</b> Flexible timings empower students to learn at their own
+                                    pace.
                                 </p>
                                 <p>
-                                    <b>Practical-Oriented Sessions:</b> This will enhance your practical skills and make
-                                    you job-ready.
+                                    <b>Live Projects:</b> Live projects will help students to strengthen
+                                    their problem-solving abilities and develop real-world skills.
                                 </p>
                                 <p>
-                                    <b>Showcase Your Skills:</b> Real-time projects will give your portfolio a
-                                    competitive edge.
+                                    <b>Expert Guidance and Support:</b> Expert guidance will equip students to overcome
+                                    future challenges.
                                 </p>
-                                <p><b>Career Opportunities for Data Scientists</b></p>
                                 <p>
-                                    <b>Data Scientis:</b> This job involves data mining, analysis, and interpretation to
-                                    extract insights. These insights help businesses make informed decisions, optimize
-                                    operations, and identify new opportunities.
+                                    <b>Teamwork:</b> Students will learn the importance of teamwork in problem-solving,
+                                    how it boosts productivity, and how it enhances job satisfaction.
                                 </p>
-                                <p><b>Machine Learning Engineer:</b> The job profile includes developing and deploying
-                                    machine learning models to solve specific problems.</p>
-                                <p><b>Data Analyst:</b> In order to identify the trends and patterns, the Data Analyst
-                                    will clean, transform, and visualize data.</p>
-                                <p><b>Data Engineer:</b> Design, develop, and deploy data pipelines to extract,
-                                    transform, and load data into data warehouses and data lakes.</p>
+                                <p><b>Career Opportunities for Python:</b></p>
+                                <p>
+                                <ol>
+                                    <li>
+                                        <b> Web Developer:</b>
+                                        <ul>
+                                            <li><b>Front-end:</b> Develop user interfaces using frameworks like Django
+                                                or
+                                                Flask.</li>
+                                            <li><b>Back-end:</b> Handle server-side logic, databases, and APIs.</li>
+                                            <li><b>Full-Stack:</b> Work on both front-end and back-end development.</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <b>Data Scientist:</b> Analyze data to gain insights. Design, train, and deploy
+                                        machine learning models to predict future outcomes. Develop data visualization
+                                        tools.
+                                    </li>
+                                    <li>
+                                        <b>Machine Learning Engineer:</b> Design, develop, and deploy machine learning
+                                        models.
+                                    </li>
+                                    <li>
+                                        <b>Data Analyst:</b> Clean, transform, and analyze data to uncover trends and
+                                        patterns.
+                                    </li>
+                                    <li>
+                                        <b>DevOps Engineer:</b> Automate infrastructure and deployment processes using
+                                        tools like Ansible and Jenkins.
+                                    </li>
+                                    <li>
+                                        <b>Software Engineer:</b> Develop software applications for various industries,
+                                        including finance, healthcare, and e-commerce.
+                                    </li>
+                                </ol>
+                                </p>
+                                <p>As Python's popularity continues to grow, so does the demand for skilled Python
+                                    developers. Whether you're passionate about web development, data science, or
+                                    machine learning, Python is a powerful tool to help you succeed. </p>
 
-                                <p>
-                                    Data Science skills are becoming more valuable in different fields nowadays
-                                    including Finance, Healthcare, Marketing, E-Commerce, Government, etc. As the world
-                                    becomes more data-driven, the demand for skilled Data Scientists is expected to
-                                    remain strong.
-                                </p>
-                                <p>Come and join us for an exciting career in Data Science!</p>
                             </div>
                             <!-- <div class="rbt-show-more-btn">Show More</div> -->
                         </div>
