@@ -277,13 +277,13 @@
             <div class="col-lg-3 col-md-4 col-sm-6 col-12">
               <div class="rbt-card variation-01 rbt-hover">
                 <div class="rbt-card-img">
-                  <a href="./full_internship">
+                  <a href="./students_internship/full_internship">
                     <img src="./students_internship/assets/images/course/course-online-01.jpg" alt="Card image" />
                   </a>
                 </div>
                 <div class="rbt-card-body">
                   <h5 class="rbt-card-title">
-                    <a href="./full_internship">React Js</a>
+                    <a href="./students_internship/full_internship">React Js</a>
                   </h5>
                   <div class="rbt-review">
                     <div class="rating">
@@ -310,13 +310,13 @@
             <div class="col-lg-3 col-md-4 col-sm-6 col-12">
               <div class="rbt-card variation-01 rbt-hover">
                 <div class="rbt-card-img">
-                  <a href="./full_internship">
+                  <a href="./students_internship/full_internship">
                     <img src="./students_internship/assets/images/course/course-online-02.jpg" alt="Card image" />
                   </a>
                 </div>
                 <div class="rbt-card-body">
                   <h5 class="rbt-card-title">
-                    <a href="./full_internship">Java Program</a>
+                    <a href="./students_internship/full_internship">Java Program</a>
                   </h5>
                   <div class="rbt-review">
                     <div class="rating">
@@ -343,13 +343,13 @@
             <div class="col-lg-3 col-md-4 col-sm-6 col-12">
               <div class="rbt-card variation-01 rbt-hover">
                 <div class="rbt-card-img">
-                  <a href="./full_internship">
+                  <a href="./students_internship/full_internship">
                     <img src="./students_internship/assets/images/course/course-online-03.jpg" alt="Card image" />
                   </a>
                 </div>
                 <div class="rbt-card-body">
                   <h5 class="rbt-card-title">
-                    <a href="./full_internship">Web Design</a>
+                    <a href="./students_internship/full_internship">Web Design</a>
                   </h5>
                   <div class="rbt-review">
                     <div class="rating">
@@ -376,13 +376,13 @@
             <div class="col-lg-3 col-md-4 col-sm-6 col-12">
               <div class="rbt-card variation-01 rbt-hover">
                 <div class="rbt-card-img">
-                  <a href="./full_internship">
+                  <a href="./students_internship/full_internship">
                     <img src="./students_internship/assets/images/course/course-online-04.jpg" alt="Card image" />
                   </a>
                 </div>
                 <div class="rbt-card-body">
                   <h5 class="rbt-card-title">
-                    <a href="./full_internship">Web Design</a>
+                    <a href="./students_internship/full_internship">Web Design</a>
                   </h5>
                   <div class="rbt-review">
                     <div class="rating">
@@ -752,7 +752,7 @@
                   completion and a salary from day one of joining us.
                 </p>
                 <div class="slider-btn">
-                  <a class="rbt-btn btn-gradient hover-icon-reverse" href="./full_internship">
+                  <a class="rbt-btn btn-gradient hover-icon-reverse" href="./students_internship/full_internship">
                     <span class="icon-reverse-wrapper">
                       <span class="btn-text">View Course</span>
                       <span class="btn-icon"><i class="feather-arrow-right"></i></span>
@@ -780,7 +780,7 @@
                   <div class="swiper-slide">
                     <div class="rbt-card variation-01 rbt-hover">
                       <div class="rbt-card-img">
-                        <a href="./full_internship">
+                        <a href="./students_internship/full_internship">
                           <div class="text-end">
                             <span class="badge" style="position: relative; top: 22px;
                               right: 5px; font-size: 10px;
@@ -797,7 +797,7 @@
                       </div>
                       <div class="rbt-card-body">
                         <h4 class="rbt-card-title">
-                          <a href="./full_internship">Full Internship</a>
+                          <a href="./students_internship/full_internship">Full Internship</a>
                         </h4>
                         <p class="rbt-card-text">
                           Salary from Day One, Assured Placement Assistance,
@@ -818,7 +818,7 @@
                             <span class="current-price">₹ 1,00,000</span>
                             <span class="off-price">₹ 2,00,000</span>
                           </div>
-                          <a class="rbt-btn-link" href="./full_internship">Learn More<i
+                          <a class="rbt-btn-link" href="./students_internship/full_internship">Learn More<i
                               class="feather-arrow-right"></i></a>
                         </div>
                       </div>
@@ -830,7 +830,7 @@
                   <div class="swiper-slide">
                     <div class="rbt-card variation-01 rbt-hover">
                       <div class="rbt-card-img">
-                        <a href="./skill_development">
+                        <a href="./students_internship/skill_development">
                           <span class="badge" style="position: relative; top: 22px;
                           right: 5px; font-size: 10px;
                           color: #b550ff;">
@@ -844,7 +844,7 @@
                       </div>
                       <div class="rbt-card-body">
                         <h4 class="rbt-card-title">
-                          <a href="./skill_development">Skill Development</a>
+                          <a href="./students_internship/skill_development">Skill Development</a>
                         </h4>
                         <p class="rbt-card-text">
                           Industry grade training on all selected modules. Get
@@ -865,7 +865,7 @@
                             <span class="current-price">₹ 30,000</span>
                             <span class="off-price">₹ 1,00,000</span>
                           </div>
-                          <a class="rbt-btn-link" href="./skill_development">Learn More<i
+                          <a class="rbt-btn-link" href="./students_internship/skill_development">Learn More<i
                               class="feather-arrow-right"></i></a>
                         </div>
                       </div>
@@ -877,7 +877,7 @@
                   <div class="swiper-slide">
                     <div class="rbt-card variation-01 rbt-hover">
                       <div class="rbt-card-img">
-                        <a href="./certificate_course">
+                        <a href="./students_internship/certificate_course">
                           <span class="badge" style="position: relative; top: 22px;
                           right: 5px; font-size: 10px;
                           color: #b550ff;">
@@ -891,7 +891,7 @@
                       </div>
                       <div class="rbt-card-body">
                         <h4 class="rbt-card-title">
-                          <a href="./certificate_course">Certificate Course</a>
+                          <a href="./students_internship/certificate_course">Certificate Course</a>
                         </h4>
                         <p class="rbt-card-text">
                           Certificate on successful completion. Highly trained
@@ -912,7 +912,7 @@
                             <span class="current-price">₹ 799</span>
                             <span class="off-price">₹ 10,000</span>
                           </div>
-                          <a class="rbt-btn-link" href="./certificate_course">Learn More<i
+                          <a class="rbt-btn-link" href="./students_internship/certificate_course">Learn More<i
                               class="feather-arrow-right"></i></a>
                         </div>
                       </div>
@@ -1099,7 +1099,7 @@
           <div class="col-lg-4 col-md-6 col-12">
             <div class="rbt-card variation-01 rbt-hover">
               <div class="rbt-card-img">
-                <a href="./full_internship">
+                <a href="./students_internship/full_internship">
                   <div class="text-end">
                     <span class="badge" style="position: relative; top: 22px;
                               right: 5px; font-size: 10px;
@@ -1116,7 +1116,7 @@
               </div>
               <div class="rbt-card-body">
                 <h4 class="rbt-card-title">
-                  <a href="./full_internship" style="text-decoration: none;">Full Internship</a>
+                  <a href="./students_internship/full_internship" style="text-decoration: none;">Full Internship</a>
                 </h4>
                 <p class="rbt-card-text">
                   Salary from Day One, Assured Placement Assistance, Industry
@@ -1128,7 +1128,7 @@
                     <span class="off-price">₹ 2,00,000</span>
                   </div>
                 </div>
-                <a class="rbt-btn-link" href="./full_internship" style="text-decoration: none;">Learn More<i class="feather-arrow-right"></i></a>
+                <a class="rbt-btn-link" href="./students_internship/full_internship" style="text-decoration: none;">Learn More<i class="feather-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -1138,7 +1138,7 @@
           <div class="col-lg-4 col-md-6 col-12">
             <div class="rbt-card variation-01 rbt-hover">
               <div class="rbt-card-img">
-                <a href="./skill_development">
+                <a href="./students_internship/skill_development">
                   <div class="text-end">
                     <span class="badge" style="position: relative; top: 22px;
                               right: 5px; font-size: 10px;
@@ -1154,7 +1154,7 @@
               </div>
               <div class="rbt-card-body">
                 <h4 class="rbt-card-title">
-                  <a href="./skill_development" style="text-decoration: none;">Skill Development</a>
+                  <a href="./students_internship/skill_development" style="text-decoration: none;">Skill Development</a>
                 </h4>
                 <p class="rbt-card-text">
                   Industry grade training on all selected modules. Get ready
@@ -1166,7 +1166,7 @@
                     <span class="off-price">₹ 1,00,000</span>
                   </div>
                 </div>
-                <a class="rbt-btn-link" href="./skill_development" style="text-decoration: none;">Learn More<i class="feather-arrow-right"></i></a>
+                <a class="rbt-btn-link" href="./students_internship/skill_development" style="text-decoration: none;">Learn More<i class="feather-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -1176,7 +1176,7 @@
           <div class="col-lg-4 col-md-6 col-12">
             <div class="rbt-card variation-01 rbt-hover">
               <div class="rbt-card-img">
-                <a href="./certificate_course">
+                <a href="./students_internship/certificate_course">
                   <span class="badge" style="position: relative; top: 22px;
                               right: 5px; font-size: 10px;
                               color: #b550ff;">
@@ -1190,7 +1190,7 @@
               </div>
               <div class="rbt-card-body">
                 <h4 class="rbt-card-title">
-                  <a href="./certificate_course" style="text-decoration: none;">Certificate Course</a>
+                  <a href="./students_internship/certificate_course" style="text-decoration: none;">Certificate Course</a>
                 </h4>
                 <p class="rbt-card-text">
                   Certificate on successful completion. Highly trained
@@ -1202,7 +1202,7 @@
                     <span class="off-price">₹ 10,000</span>
                   </div>
                 </div>
-                <a class="rbt-btn-link" href="./certificate_course" style="text-decoration: none;">Learn More<i class="feather-arrow-right"></i></a>
+                <a class="rbt-btn-link" href="./students_internship/certificate_course" style="text-decoration: none;">Learn More<i class="feather-arrow-right"></i></a>
               </div>
             </div>
           </div>
