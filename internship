@@ -19,28 +19,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
   <!-- Favicon -->
-  <link rel="icon" href="../assets/images/favicon.ico" />
+  <link rel="icon" href="./assets/images/favicon.ico" />
 
   <!-- CSS
 	============================================ -->
-  <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
-  <link rel="stylesheet" href="assets/css/vendor/slick.css" />
-  <link rel="stylesheet" href="assets/css/vendor/slick-theme.css" />
-  <link rel="stylesheet" href="assets/css/plugins/sal.css" />
-  <link rel="stylesheet" href="assets/css/plugins/feather.css" />
-  <link rel="stylesheet" href="assets/css/plugins/fontawesome.min.css" />
-  <link rel="stylesheet" href="assets/css/plugins/euclid-circulara.css" />
-  <link rel="stylesheet" href="assets/css/plugins/swiper.css" />
-  <link rel="stylesheet" href="assets/css/plugins/odometer.css" />
-  <link rel="stylesheet" href="assets/css/plugins/animation.css" />
-  <link rel="stylesheet" href="assets/css/plugins/bootstrap-select.min.css" />
-  <link rel="stylesheet" href="assets/css/plugins/jquery-ui.css" />
-  <link rel="stylesheet" href="assets/css/plugins/magnigy-popup.min.css" />
-  <link rel="stylesheet" href="assets/css/plugins/plyr.css" />
-  <link rel="stylesheet" href="assets/css/plugins/jodit.min.css" />
+  <link rel="stylesheet" href="students_internship/assets/css/vendor/bootstrap.min.css" />
+  <link rel="stylesheet" href="students_internship/assets/css/vendor/slick.css" />
+  <link rel="stylesheet" href="students_internship/assets/css/vendor/slick-theme.css" />
+  <link rel="stylesheet" href="students_internship/assets/css/plugins/sal.css" />
+  <link rel="stylesheet" href="students_internship/assets/css/plugins/feather.css" />
+  <link rel="stylesheet" href="students_internship/assets/css/plugins/fontawesome.min.css" />
+  <link rel="stylesheet" href="students_internship/assets/css/plugins/euclid-circulara.css" />
+  <link rel="stylesheet" href="students_internship/assets/css/plugins/swiper.css" />
+  <link rel="stylesheet" href="students_internship/assets/css/plugins/odometer.css" />
+  <link rel="stylesheet" href="students_internship/assets/css/plugins/animation.css" />
+  <link rel="stylesheet" href="students_internship/assets/css/plugins/bootstrap-select.min.css" />
+  <link rel="stylesheet" href="students_internship/assets/css/plugins/jquery-ui.css" />
+  <link rel="stylesheet" href="students_internship/assets/css/plugins/magnigy-popup.min.css" />
+  <link rel="stylesheet" href="students_internship/assets/css/plugins/plyr.css" />
+  <link rel="stylesheet" href="students_internship/assets/css/plugins/jodit.min.css" />
 
-  <link rel="stylesheet" href="assets/css/styles.css" />
-  <link rel="stylesheet" href="../assets/css/custom.css" />
+  <link rel="stylesheet" href="students_internship/assets/css/styles.css" />
+  <link rel="stylesheet" href="./assets/css/custom.css" />
 
 
   <!-- Font Awesome -->
@@ -53,13 +53,13 @@
     <ul>
       <li>
         <a href="#" data-theme="light" class="setColor light">
-          <img src="assets/images/about/sun-01.svg" alt="Sun images" /><span title="Light Mode">
+          <img src="students_internship/assets/images/about/sun-01.svg" alt="Sun images" /><span title="Light Mode">
             Light</span>
         </a>
       </li>
       <li>
         <a href="#" data-theme="dark" class="setColor dark">
-          <img src="assets/images/about/vector.svg" alt="Vector Images" /><span title="Dark Mode"> Dark</span>
+          <img src="students_internship/assets/images/about/vector.svg" alt="Vector Images" /><span title="Dark Mode"> Dark</span>
         </a>
       </li>
     </ul>
@@ -133,13 +133,13 @@
             <div class="header-info">
               <div class="logo d-none logo-dark">
                 <a href="/">
-                  <img src="../assets/images/logo.webp" alt="Education Logo Images" />
+                  <img src="./assets/images/logo.webp" alt="Education Logo Images" />
                 </a>
               </div>
 
               <div class="logo d-block logo-light">
                 <a href="/">
-                  <img src="../assets/images/logo.webp" alt="Education Logo Images" />
+                  <img src="./assets/images/logo.webp" alt="Education Logo Images" />
                 </a>
               </div>
             </div>
@@ -162,35 +162,35 @@
                         <div class="col-md-6 col-12">
                           <ul class="rbt-vertical-nav-list-wrapper vertical-nav-menu">
                             <li class="vertical-nav-item active">
-                              <a href="./fullstack_developer_java">FullStack Developer - Java</a>
+                              <a href="./students_internship/fullstack_developer_java">FullStack Developer - Java</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="./fullstack_developer_python">FullStack Developer - Python</a>
+                              <a href="./students_internship/fullstack_developer_python">FullStack Developer - Python</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="./data_scientist">Data Scientist</a>
+                              <a href="./students_internship/data_scientist">Data Scientist</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="./devsecops_networking">DevSecOps / Networking /Cybersecurity</a>
+                              <a href="./students_internship/devsecops_networking">DevSecOps / Networking /Cybersecurity</a>
                             </li>
                           </ul>
                         </div>
                         <div class="col-md-6 col-12">
                           <ul class="rbt-vertical-nav-list-wrapper vertical-nav-menu">
                             <li class="vertical-nav-item">
-                              <a href="./mobile_app_developement">Mobile App Development</a>
+                              <a href="./students_internship/mobile_app_developement">Mobile App Development</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="./frontend_development">Front End Development</a>
+                              <a href="./students_internship/frontend_development">Front End Development</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="./digital_marketing">Digital Marketing</a>
+                              <a href="./students_internship/digital_marketing">Digital Marketing</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="./ui_ux_development">UI/UX Development</a>
+                              <a href="./students_internship/ui_ux_development">UI/UX Development</a>
                             </li>
                             <li class="vertical-nav-item">
-                              <a href="./sales_marketing"
+                              <a href="./students_internship/sales_marketing"
                                 >Sales and Marketing</a
                               >
                             </li>
@@ -198,119 +198,6 @@
                         </div>
                       </div>
                     </div>
-                    <!-- <div class="rbt-vertical-nav-content"> -->
-                    <!-- Start One Item  -->
-                    <!-- <div
-                            class="rbt-vertical-inner tab-content"
-                            id="tab1"
-                            style="display: block"
-                          >
-                            <div class="rbt-vertical-single">
-                              <div class="row">
-                                <div class="col-lg-6 col-sm-6 col-6">
-                                  <div class="vartical-nav-content-menu">
-                                    <h3 class="rbt-short-title">Course Title</h3>
-                                    <ul class="rbt-vertical-nav-list-wrapper">
-                                      <li><a href="#">Web Design</a></li>
-                                      <li><a href="#">Art</a></li>
-                                      <li><a href="#">Figma</a></li>
-                                      <li><a href="#">Adobe</a></li>
-                                    </ul>
-                                  </div>
-                                </div>
-                                <div class="col-lg-6 col-sm-6 col-6">
-                                  <div class="vartical-nav-content-menu">
-                                    <h3 class="rbt-short-title">Course Title</h3>
-                                    <ul class="rbt-vertical-nav-list-wrapper">
-                                      <li><a href="#">Photo</a></li>
-                                      <li><a href="#">English</a></li>
-                                      <li><a href="#">Math</a></li>
-                                      <li><a href="#">Read</a></li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div> -->
-                    <!-- End One Item  -->
-
-                    <!-- Start One Item  -->
-                    <!-- <div class="rbt-vertical-inner tab-content" id="tab2">
-                            <div class="rbt-vertical-single">
-                              <div class="row">
-                                <div class="col-lg-6">
-                                  <div class="vartical-nav-content-menu">
-                                    <h3 class="rbt-short-title">Course Title</h3>
-                                    <ul class="rbt-vertical-nav-list-wrapper">
-                                      <li><a href="#">Photo</a></li>
-                                      <li><a href="#">English</a></li>
-                                      <li><a href="#">Math</a></li>
-                                      <li><a href="#">Read</a></li>
-                                    </ul>
-                                  </div>
-                                </div>
-                                <div class="col-lg-6">
-                                  <div class="vartical-nav-content-menu">
-                                    <h3 class="rbt-short-title">Course Title</h3>
-                                    <ul class="rbt-vertical-nav-list-wrapper">
-                                      <li><a href="#">Web Design</a></li>
-                                      <li><a href="#">Art</a></li>
-                                      <li><a href="#">Figma</a></li>
-                                      <li><a href="#">Adobe</a></li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div> -->
-                    <!-- End One Item  -->
-
-                    <!-- Start One Item  -->
-                    <!-- <div class="rbt-vertical-inner tab-content" id="tab3">
-                            <div class="rbt-vertical-single">
-                              <div class="row">
-                                <div class="col-lg-12">
-                                  <div class="vartical-nav-content-menu">
-                                    <h3 class="rbt-short-title">Course Title</h3>
-                                    <ul class="rbt-vertical-nav-list-wrapper">
-                                      <li><a href="#">Photo</a></li>
-                                      <li><a href="#">English</a></li>
-                                      <li><a href="#">Math</a></li>
-                                    </ul>
-                                    <div class="read-more-btn">
-                                      <a class="rbt-btn-link" href="#"
-                                        >Learn More<i
-                                          class="feather-arrow-right"
-                                        ></i
-                                      ></a>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div> -->
-                    <!-- End One Item  -->
-
-                    <!-- Start One Item  -->
-                    <!-- <div class="rbt-vertical-inner tab-content" id="tab4">
-                            <div class="rbt-vertical-single">
-                              <div class="row">
-                                <div class="col-lg-12">
-                                  <div class="vartical-nav-content-menu">
-                                    <h3 class="rbt-short-title">Course Title</h3>
-                                    <ul class="rbt-vertical-nav-list-wrapper">
-                                      <li><a href="#">Photo</a></li>
-                                      <li><a href="#">English</a></li>
-                                      <li><a href="#">Math</a></li>
-                                      <li><a href="#">Read</a></li>
-                                    </ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div> -->
-                    <!-- End One Item  -->
-                    <!-- </div> -->
                   </div>
                 </div>
                 <!-- End category Area  -->
@@ -325,23 +212,20 @@
                   <a href="../">Home</a>
                 </li>
                 <li class="with-megamenu has-menu-child-item position-static">
-                  <a href="./full_internship">Full Internship</a>
+                  <a href="./students_internship/full_internship">Full Internship</a>
                 </li>
                 <li class="with-megamenu has-menu-child-item position-static">
-                  <a href="./skill_development">Skill Development</a>
+                  <a href="./students_internship/skill_development">Skill Development</a>
                 </li>
                 <li class="with-megamenu has-menu-child-item position-static">
-                  <a href="./certificate_course">Certificate Course</a>
+                  <a href="./students_internship/certificate_course">Certificate Course</a>
                 </li>
-                 <!-- <li class="with-megamenu has-menu-child-item position-static">
-                    <a href="./sales_marketing">Sales & Marketing</a>
-                  </li> -->
                 <li class="has-dropdown has-menu-child-item">
-                  <a href="./about">About </a>
+                  <a href="./students_internship/about">About </a>
                 </li>
 
                 <li class="with-megamenu has-menu-child-item position-static">
-                  <a href="./contact">Contact Us </a>
+                  <a href="./students_internship/contact">Contact Us </a>
                 </li>
               </ul>
             </nav>
@@ -394,7 +278,7 @@
               <div class="rbt-card variation-01 rbt-hover">
                 <div class="rbt-card-img">
                   <a href="./full_internship">
-                    <img src="assets/images/course/course-online-01.jpg" alt="Card image" />
+                    <img src="./students_internship/assets/images/course/course-online-01.jpg" alt="Card image" />
                   </a>
                 </div>
                 <div class="rbt-card-body">
@@ -427,7 +311,7 @@
               <div class="rbt-card variation-01 rbt-hover">
                 <div class="rbt-card-img">
                   <a href="./full_internship">
-                    <img src="assets/images/course/course-online-02.jpg" alt="Card image" />
+                    <img src="./students_internship/assets/images/course/course-online-02.jpg" alt="Card image" />
                   </a>
                 </div>
                 <div class="rbt-card-body">
@@ -460,7 +344,7 @@
               <div class="rbt-card variation-01 rbt-hover">
                 <div class="rbt-card-img">
                   <a href="./full_internship">
-                    <img src="assets/images/course/course-online-03.jpg" alt="Card image" />
+                    <img src="./students_internship/assets/images/course/course-online-03.jpg" alt="Card image" />
                   </a>
                 </div>
                 <div class="rbt-card-body">
@@ -493,7 +377,7 @@
               <div class="rbt-card variation-01 rbt-hover">
                 <div class="rbt-card-img">
                   <a href="./full_internship">
-                    <img src="assets/images/course/course-online-04.jpg" alt="Card image" />
+                    <img src="./students_internship/assets/images/course/course-online-04.jpg" alt="Card image" />
                   </a>
                 </div>
                 <div class="rbt-card-body">
@@ -639,13 +523,13 @@
           <div class="logo">
             <div class="logo logo-dark">
               <a href="/">
-                <img src="../assets/images/logo.webp" alt="Education Logo Images" />
+                <img src="./assets/images/logo.webp" alt="Education Logo Images" />
               </a>
             </div>
 
             <div class="logo d-none logo-light">
               <a href="/">
-                <img src="../assets/images/logo.webp" alt="Education Logo Images" />
+                <img src="./assets/images/logo.webp" alt="Education Logo Images" />
               </a>
             </div>
           </div>
@@ -675,19 +559,19 @@
             <a href="../">Home </a>
           </li>
           <li>
-            <a href="./full_internship">Full Internship </a>
+            <a href="./students_internship/full_internship">Full Internship </a>
           </li>
           <li>
-            <a href="./skill_development">Skill Development</a>
+            <a href="./students_internship/skill_development">Skill Development</a>
           </li>
           <li>
-            <a href="./certificate_course">Certificate Courses</a>
+            <a href="./students_internship/certificate_course">Certificate Courses</a>
           </li>
           <li>
-            <a href="./about">About</a>
+            <a href="./students_internship/about">About</a>
           </li>
           <li>
-            <a href="./contact">Contact Us</a>
+            <a href="./students_internship/contact">Contact Us</a>
           </li>
         </ul>
       </nav>
@@ -749,7 +633,7 @@
           <li class="minicart-item">
             <div class="thumbnail">
               <a href="#">
-                <img src="assets/images/product/1.jpg" alt="Product Images" />
+                <img src="./students_internship/assets/images/product/1.jpg" alt="Product Images" />
               </a>
             </div>
             <div class="product-content">
@@ -767,7 +651,7 @@
           <li class="minicart-item">
             <div class="thumbnail">
               <a href="#">
-                <img src="assets/images/product/7.jpg" alt="Product Images" />
+                <img src="./students_internship/assets/images/product/7.jpg" alt="Product Images" />
               </a>
             </div>
             <div class="product-content">
@@ -785,7 +669,7 @@
           <li class="minicart-item">
             <div class="thumbnail">
               <a href="#">
-                <img src="assets/images/product/3.jpg" alt="Product Images" />
+                <img src="./students_internship/assets/images/product/3.jpg" alt="Product Images" />
               </a>
             </div>
             <div class="product-content">
@@ -803,7 +687,7 @@
           <li class="minicart-item">
             <div class="thumbnail">
               <a href="#">
-                <img src="assets/images/product/4.jpg" alt="Product Images" />
+                <img src="./students_internship/assets/images/product/4.jpg" alt="Product Images" />
               </a>
             </div>
             <div class="product-content">
@@ -878,7 +762,7 @@
                 </div>
               </div>
               <div class="shape-wrapper" id="scene">
-                <img src="./assets/images/banner/student_intex_img.webp" alt="Hero Image" />
+                <img src="./students_internship/assets/images/banner/student_intex_img.webp" alt="Hero Image" />
                 <div class="hero-bg-shape-1 layer" data-depth="0.4">
                   <!-- <img
                       src="assets/images/shape/shape-01.png"
@@ -886,7 +770,7 @@
                     /> -->
                 </div>
                 <div class="hero-bg-shape-2 layer" data-depth="0.4">
-                  <!-- <img src="assets/images/shape/shape-02.png" alt="Hero Image Background Shape"> -->
+                  <!-- <img src="./students_internship/assets/images/shape/shape-02.png" alt="Hero Image Background Shape"> -->
                 </div>
               </div>
 
@@ -904,7 +788,7 @@
                               color: #b550ff;">EMI Available
                             </span>
                           </div>
-                          <img src="./assets/images/banner/Full_Internship.webp" alt="Card image" />
+                          <img src="./students_internship/assets/images/banner/Full_Internship.webp" alt="Card image" />
                           <div class="rbt-badge-3">
                             <span>-50%</span>
                             <span>Off</span>
@@ -951,7 +835,7 @@
                           right: 5px; font-size: 10px;
                           color: #b550ff;">
                         </span>
-                          <img src="./assets/images/banner/Skill_Development.webp" alt="Card image" />
+                          <img src="./students_internship/assets/images/banner/Skill_Development.webp" alt="Card image" />
                           <div class="rbt-badge-3">
                             <span>-70%</span>
                             <span>Off</span>
@@ -998,7 +882,7 @@
                           right: 5px; font-size: 10px;
                           color: #b550ff;">
                         </span>
-                          <img src="./assets/images/banner/Certificate_Course.webp" alt="Card image" />
+                          <img src="./students_internship/assets/images/banner/Certificate_Course.webp" alt="Card image" />
                           <div class="rbt-badge-3">
                             <span>-200%</span>
                             <span>Off</span>
@@ -1064,7 +948,7 @@
             <a class="rbt-cat-box rbt-cat-box-1 text-center" href="course-filter-one-toggle">
               <div class="inner">
                 <div class="icons">
-                  <img src="assets/images/category/java.webp" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/category/java.webp" alt="Icons Images" />
                 </div>
                 <div class="content">
                   <h5 class="title flex-grow-1">
@@ -1082,7 +966,7 @@
             <a class="rbt-cat-box rbt-cat-box-1 text-center" href="course-filter-one-toggle">
               <div class="inner">
                 <div class="icons">
-                  <img src="assets/images/category/app-development.webp" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/category/app-development.webp" alt="Icons Images" />
                 </div>
                 <div class="content">
                   <h5 class="title flex-grow-1">
@@ -1099,7 +983,7 @@
             <a class="rbt-cat-box rbt-cat-box-1 text-center" href="course-filter-one-toggle">
               <div class="inner">
                 <div class="icons">
-                  <img src="assets/images/category/personal.webp" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/category/personal.webp" alt="Icons Images" />
                 </div>
                 <div class="content">
                   <h5 class="title flex-grow-1">
@@ -1117,7 +1001,7 @@
             <a class="rbt-cat-box rbt-cat-box-1 text-center" href="course-filter-one-toggle">
               <div class="inner">
                 <div class="icons">
-                  <img src="assets/images/category/server.webp" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/category/server.webp" alt="Icons Images" />
                 </div>
                 <div class="content">
                   <h5 class="title flex-grow-1">
@@ -1134,7 +1018,7 @@
             <a class="rbt-cat-box rbt-cat-box-1 text-center" href="course-filter-one-toggle">
               <div class="inner">
                 <div class="icons">
-                  <img src="assets/images/category/digital-marketing.webp" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/category/digital-marketing.webp" alt="Icons Images" />
                 </div>
                 <div class="content">
                   <h5 class="title flex-grow-1">
@@ -1152,7 +1036,7 @@
             <a class="rbt-cat-box rbt-cat-box-1 text-center" href="course-filter-one-toggle">
               <div class="inner">
                 <div class="icons">
-                  <img src="assets/images/category/web-design.webp" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/category/web-design.webp" alt="Icons Images" />
                 </div>
                 <div class="content">
                   <h5 class="title flex-grow-1">UI/UX Development</h5>
@@ -1167,7 +1051,7 @@
             <a class="rbt-cat-box rbt-cat-box-1 text-center" href="course-filter-one-toggle">
               <div class="inner">
                 <div class="icons">
-                  <img src="assets/images/category/design.webp" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/category/design.webp" alt="Icons Images" />
                 </div>
                 <div class="content">
                   <h5 class="title">Front End Development</h5>
@@ -1182,7 +1066,7 @@
             <a class="rbt-cat-box rbt-cat-box-1 text-center" href="course-filter-one-toggle">
               <div class="inner">
                 <div class="icons">
-                  <img src="assets/images/category/smartphone.webp" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/category/smartphone.webp" alt="Icons Images" />
                 </div>
                 <div class="content">
                   <h5 class="title">Mobile App Development</h5>
@@ -1223,7 +1107,7 @@
                               color: #b550ff;">EMI Available
                     </span>
                   </div>
-                  <img src="./assets/images/banner/Full_Internship.webp" alt="Card image" />
+                  <img src="./students_internship/assets/images/banner/Full_Internship.webp" alt="Card image" />
                   <div class="rbt-badge-3">
                     <span>-50%</span>
                     <span>Off</span>
@@ -1261,7 +1145,7 @@
                               color: #b550ff;">
                     </span>
                   </div>
-                  <img src="./assets/images/banner/Skill_Development.webp" alt="Card image" />
+                  <img src="./students_internship/assets/images/banner/Skill_Development.webp" alt="Card image" />
                   <div class="rbt-badge-3">
                     <span>-70%</span>
                     <span>Off</span>
@@ -1297,7 +1181,7 @@
                               right: 5px; font-size: 10px;
                               color: #b550ff;">
                     </span>
-                  <img src="./assets/images/banner/Certificate_Course.webp" alt="Card image" />
+                  <img src="./students_internship/assets/images/banner/Certificate_Course.webp" alt="Card image" />
                   <div class="rbt-badge-3">
                     <span>-200%</span>
                     <span>Off</span>
@@ -1336,15 +1220,15 @@
           <div class="col-lg-6">
             <div class="thumbnail-wrapper">
               <div class="thumbnail image-1">
-                <img data-parallax='{"x": 0, "y": -20}' src="assets/images/banner/slide_img1.webp"
+                <img data-parallax='{"x": 0, "y": -20}' src="./students_internship/assets/images/banner/slide_img1.webp"
                   alt="Education Images" />
               </div>
               <div class="thumbnail image-2 d-none d-xl-block">
-                <img data-parallax='{"x": 0, "y": 60}' src="assets/images/banner/slide_img2.webp"
+                <img data-parallax='{"x": 0, "y": 60}' src="./students_internship/assets/images/banner/slide_img2.webp"
                   alt="Education Images" />
               </div>
               <div class="thumbnail image-3 d-none d-md-block">
-                <img data-parallax='{"x": 0, "y": 80}' src="assets/images/banner/slide_img3.webp"
+                <img data-parallax='{"x": 0, "y": 80}' src="./students_internship/assets/images/banner/slide_img3.webp"
                   alt="Education Images" />
               </div>
             </div>
@@ -1482,7 +1366,7 @@
               <div class="top-circle-shape"></div>
               <div class="inner">
                 <div class="rbt-round-icon">
-                  <img src="assets/images/icons/counter-01.png" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/icons/counter-01.png" alt="Icons Images" />
                 </div>
                 <div class="content">
                   <h3 class="counter">
@@ -1501,7 +1385,7 @@
               <div class="top-circle-shape"></div>
               <div class="inner">
                 <div class="rbt-round-icon">
-                  <img src="assets/images/icons/counter-02.png" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/icons/counter-02.png" alt="Icons Images" />
                 </div>
                 <div class="content">
                   <h3 class="counter">
@@ -1520,7 +1404,7 @@
               <div class="top-circle-shape"></div>
               <div class="inner">
                 <div class="rbt-round-icon">
-                  <img src="assets/images/icons/counter-03.png" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/icons/counter-03.png" alt="Icons Images" />
                 </div>
                 <div class="content">
                   <h3 class="counter">
@@ -1539,7 +1423,7 @@
               <div class="top-circle-shape"></div>
               <div class="inner">
                 <div class="rbt-round-icon">
-                  <img src="assets/images/icons/counter-04.png" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/icons/counter-04.png" alt="Icons Images" />
                 </div>
                 <div class="content">
                   <h3 class="counter">
@@ -2126,7 +2010,7 @@
             <div class="rbt-testimonial-box style-2">
               <div class="inner">
                 <!-- <div class="icons">
-                  <img src="assets/images/icons/bing.png" alt="Clint Images" />
+                  <img src="./students_internship/assets/images/icons/bing.png" alt="Clint Images" />
                 </div> -->
                 <div class="description">
                   <p class="subtitle-3">
@@ -2136,7 +2020,7 @@
                   </p>
                   <div class="clint-info-wrapper">
                     <!-- <div class="thumb">
-                      <img src="assets/images/testimonial/client-07.png" alt="Clint Images" />
+                      <img src="./students_internship/assets/images/testimonial/client-07.png" alt="Clint Images" />
                     </div> -->
                     <div class="client-info">
                       <h5 class="title">
@@ -2155,7 +2039,7 @@
             <div class="rbt-testimonial-box style-2">
               <div class="inner">
                 <!-- <div class="icons">
-                  <img src="assets/images/icons/facebook.png" alt="Clint Images" />
+                  <img src="./students_internship/assets/images/icons/facebook.png" alt="Clint Images" />
                 </div> -->
                 <div class="description">
                   <p class="subtitle-3">
@@ -2165,7 +2049,7 @@
                   </p>
                   <div class="clint-info-wrapper">
                     <!-- <div class="thumb">
-                      <img src="assets/images/testimonial/client-08.png" alt="Clint Images" />
+                      <img src="./students_internship/assets/images/testimonial/client-08.png" alt="Clint Images" />
                     </div> -->
                     <div class="client-info">
                       <h5 class="title">Kishore Kumar R
@@ -2182,7 +2066,7 @@
             <div class="rbt-testimonial-box style-2">
               <div class="inner">
                 <!-- <div class="icons">
-                  <img src="assets/images/icons/yelp.png" alt="Clint Images" />
+                  <img src="./students_internship/assets/images/icons/yelp.png" alt="Clint Images" />
                 </div> -->
                 <div class="description">
                   <p class="subtitle-3">
@@ -2193,7 +2077,7 @@
                   </p>
                   <div class="clint-info-wrapper">
                     <!-- <div class="thumb">
-                      <img src="assets/images/testimonial/client-06.png" alt="Clint Images" />
+                      <img src="./students_internship/assets/images/testimonial/client-06.png" alt="Clint Images" />
                     </div> -->
                     <div class="client-info">
                       <h5 class="title">Nikhil S
@@ -2210,7 +2094,7 @@
             <div class="rbt-testimonial-box style-2">
               <div class="inner">
                 <!-- <div class="icons">
-                  <img src="assets/images/icons/yelp.png" alt="Clint Images" />
+                  <img src="./students_internship/assets/images/icons/yelp.png" alt="Clint Images" />
                 </div> -->
                 <div class="description">
                   <p class="subtitle-3">
@@ -2220,7 +2104,7 @@
                     innovations. </p>
                   <div class="clint-info-wrapper">
                     <!-- <div class="thumb">
-                      <img src="assets/images/testimonial/client-06.png" alt="Clint Images" />
+                      <img src="./students_internship/assets/images/testimonial/client-06.png" alt="Clint Images" />
                     </div> -->
                     <div class="client-info">
                       <h5 class="title">Ragul I
@@ -2318,12 +2202,12 @@
               <div class="footer-widget">
                 <div class="logo logo-dark">
                   <a href="/">
-                    <img src="../assets/images/logo.webp" alt="Edu-cause" />
+                    <img src="./assets/images/logo.webp" alt="Edu-cause" />
                   </a>
                 </div>
                 <div class="logo d-none logo-light">
                   <a href="/">
-                    <img src="../assets/images/logo.webp" alt="Edu-cause" />
+                    <img src="./assets/images/logo.webp" alt="Edu-cause" />
                   </a>
                 </div>
 
@@ -2349,13 +2233,13 @@
                 <h5 class="ft-title">Courses</h5>
                 <ul class="ft-link">
                   <li>
-                    <a href="./full_internship">Full Internship</a>
+                    <a href="./students_internship/full_internship">Full Internship</a>
                   </li>
                   <li>
-                    <a href="./skill_development">Skill Development</a>
+                    <a href="./students_internship/skill_development">Skill Development</a>
                   </li>
                   <li>
-                    <a href="./certificate_course">Certificate Course</a>
+                    <a href="./students_internship/certificate_course">Certificate Course</a>
                   </li>
                 </ul>
               </div>
@@ -2366,19 +2250,19 @@
                 <h5 class="ft-title">Useful Links</h5>
                 <ul class="ft-link">
                   <li>
-                    <a href="./contact">Contact Us</a>
+                    <a href="./students_internship/contact">Contact Us</a>
                   </li>
                   <li>
-                    <a href="../refund_cancellation_policy">Refund and Cancellation Policy</a>
+                    <a href="./refund_cancellation_policy">Refund and Cancellation Policy</a>
                   </li>
                   <li>
-                    <a href="../shipping_and_delivery_policy">Shipping and Delivery Policy</a>
+                    <a href="./shipping_and_delivery_policy">Shipping and Delivery Policy</a>
                   </li>
                   <li>
-                    <a href="../privacy_policy">Privacy Policy</a>
+                    <a href="./privacy_policy">Privacy Policy</a>
                   </li>
                   <li>
-                    <a href="../terms_and_conditions">Terms of Services</a>
+                    <a href="./terms_and_conditions">Terms of Services</a>
                   </li>
                 </ul>
               </div>
@@ -2576,46 +2460,46 @@
   <!-- JS
 ============================================ -->
   <!-- Modernizer JS -->
-  <script src="assets/js/vendor/modernizr.min.js"></script>
+  <script src="students_internship/assets/js/vendor/modernizr.min.js"></script>
   <!-- jQuery JS -->
-  <script src="assets/js/vendor/jquery.js"></script>
+  <script src="students_internship/assets/js/vendor/jquery.js"></script>
   <!-- Bootstrap JS -->
-  <script src="assets/js/vendor/bootstrap.min.js"></script>
+  <script src="students_internship/assets/js/vendor/bootstrap.min.js"></script>
   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script> -->
   <!-- sal.js -->
-  <script src="assets/js/vendor/sal.js"></script>
+  <script src="students_internship/assets/js/vendor/sal.js"></script>
   <!-- Dark Mode Switcher -->
-  <script src="assets/js/vendor/js.cookie.js"></script>
-  <script src="assets/js/vendor/jquery.style.switcher.js"></script>
-  <script src="assets/js/vendor/swiper.js"></script>
-  <script src="assets/js/vendor/jquery-appear.js"></script>
-  <script src="assets/js/vendor/odometer.js"></script>
-  <script src="assets/js/vendor/backtotop.js"></script>
-  <script src="assets/js/vendor/isotop.js"></script>
-  <script src="assets/js/vendor/imageloaded.js"></script>
+  <script src="students_internship/assets/js/vendor/js.cookie.js"></script>
+  <script src="students_internship/assets/js/vendor/jquery.style.switcher.js"></script>
+  <script src="students_internship/assets/js/vendor/swiper.js"></script>
+  <script src="students_internship/assets/js/vendor/jquery-appear.js"></script>
+  <script src="students_internship/assets/js/vendor/odometer.js"></script>
+  <script src="students_internship/assets/js/vendor/backtotop.js"></script>
+  <script src="students_internship/assets/js/vendor/isotop.js"></script>
+  <script src="students_internship/assets/js/vendor/imageloaded.js"></script>
 
-  <script src="assets/js/vendor/wow.js"></script>
-  <script src="assets/js/vendor/waypoint.min.js"></script>
-  <script src="assets/js/vendor/easypie.js"></script>
-  <script src="assets/js/vendor/text-type.js"></script>
-  <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
-  <script src="assets/js/vendor/bootstrap-select.min.js"></script>
-  <script src="assets/js/vendor/jquery-ui.js"></script>
-  <script src="assets/js/vendor/magnify-popup.min.js"></script>
-  <script src="assets/js/vendor/paralax-scroll.js"></script>
-  <script src="assets/js/vendor/paralax.min.js"></script>
-  <script src="assets/js/vendor/countdown.js"></script>
-  <script src="assets/js/vendor/plyr.js"></script>
-  <script src="assets/js/vendor/jodit.min.js"></script>
-  <script src="assets/js/vendor/Sortable.min.js"></script>
+  <script src="students_internship/assets/js/vendor/wow.js"></script>
+  <script src="students_internship/assets/js/vendor/waypoint.min.js"></script>
+  <script src="students_internship/assets/js/vendor/easypie.js"></script>
+  <script src="students_internship/assets/js/vendor/text-type.js"></script>
+  <script src="students_internship/assets/js/vendor/jquery-one-page-nav.js"></script>
+  <script src="students_internship/assets/js/vendor/bootstrap-select.min.js"></script>
+  <script src="students_internship/assets/js/vendor/jquery-ui.js"></script>
+  <script src="students_internship/assets/js/vendor/magnify-popup.min.js"></script>
+  <script src="students_internship/assets/js/vendor/paralax-scroll.js"></script>
+  <script src="students_internship/assets/js/vendor/paralax.min.js"></script>
+  <script src="students_internship/assets/js/vendor/countdown.js"></script>
+  <script src="students_internship/assets/js/vendor/plyr.js"></script>
+  <script src="students_internship/assets/js/vendor/jodit.min.js"></script>
+  <script src="students_internship/assets/js/vendor/Sortable.min.js"></script>
 
-  <!-- Main JS -->
-  <script src="assets/js/main.js"></script>
+  <!-- Main JS students_internship/-->
+  <script src="students_internship/assets/js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
-  <script src="../assets/js/custom.js"></script>
+  <script src="./students_internship/sassets/js/custom.js"></script>
 
 </body>
 
