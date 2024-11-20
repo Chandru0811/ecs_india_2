@@ -390,8 +390,7 @@ $(document).ready(function () {
     `
         );
 
-        const apiUrl =
-          "https://crmlah.com/ecscrm/api/sendMailWithSingleAttachment";
+        const apiUrl = "https://crmlah.com/ecscrm/api/sendMailWithOutToken";
 
         $.ajax({
           url: apiUrl,
@@ -399,10 +398,6 @@ $(document).ready(function () {
           data: payload,
           processData: false,
           contentType: false,
-          headers: {
-            Authorization:
-              "eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6WyJDTVBfVVNFUiJdLCJzdWIiOiJCaWxsIERlc2siLCJpYXQiOjE3MzIwOTM0NjksImV4cCI6MTczMjA5NzA2OX0.lzJJYgfAmLxTwUE9vBQs9Fi8c2KehhP1pXr86uTa-BiYao9PQH0NcFS0h-axuByZW1T0BZmsvNmwo0ocKn1DuQ",
-          },
           success: function (mailResponse) {
             console.log(mailResponse.message);
           },
