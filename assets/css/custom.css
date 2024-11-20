@@ -50,7 +50,7 @@
 /* Footer Starts  */
 
 .footer {
-  background-color: #0d6efd;
+  background-color: #0055d3;
   color: #fff;
   padding-bottom: 30px;
 }
@@ -366,7 +366,6 @@
   font-size: 1.5rem;
 }
 
-
 .core-card:hover {
   border-color: #0056b3;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -465,3 +464,15 @@
 }
 
 /* Error and Success Modal */
+
+.modal_title {
+  font-size: 30px;
+  color: #000;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 450px) {
+  .modal_title {
+    font-size: 20px !important;
+  }
+}

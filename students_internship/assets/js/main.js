@@ -39,7 +39,7 @@
       eduJs.categoryMenuHover();
       eduJs.cartSidenav();
       eduJs.filterClickButton();
-      eduJs.selectPicker();
+      // eduJs.selectPicker();
       eduJs.headerTopActivation();
       eduJs.magnificPopupActivation();
       eduJs.showMoreBtn();
@@ -47,9 +47,9 @@
       eduJs.courseActionBottom();
       eduJs.topbarExpend();
       eduJs.categoryOffcanvas();
-      eduJs.autoslidertab();
+      // eduJs.autoslidertab();
       eduJs.moveAnimation();
-      eduJs.contactForm();
+      // eduJs.contactForm();
       eduJs.player();
       eduJs.quizAns();
       eduJs.lessonAccor();
@@ -244,18 +244,6 @@
           clearInterval(interval);
         }
       }, 1000);
-    },
-    autoslidertab: function (params) {
-      function tabChange() {
-        var tabs = $(".nav-tabs.splash-nav-tabs > li");
-        var active = tabs.find("a.active");
-        var next = active.parent("li").next("li").find("a");
-        if (next.length === 0) {
-          next = tabs.first().find("a").on("click");
-        }
-        next.tab("show");
-      }
-      var tabCycle = setInterval(tabChange, 5000);
     },
 
     offCanvas: function (params) {
@@ -1080,9 +1068,9 @@
       });
     },
 
-    selectPicker: function () {
-      $("select").selectpicker();
-    },
+    // selectPicker: function () {
+    //   $("select").selectpicker();
+    // },
 
     filterClickButton: function () {
       $(".discover-filter-activation").on("click", function () {
