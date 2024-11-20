@@ -229,19 +229,7 @@ $(document).ready(function () {
 
   function fillSecondModal(data) {
     const checkoutSummary = `
-      <div class="row m-0 p-3">
-        <div class="col-md-6 col-12">
-          <div class="text-start pt-3 pe-5">
-            <p class="mb-1" style="font-weight: 500; background: linear-gradient(90deg, #2f57efbf 0%, #c586eeab 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
-              <b>Salary from Day 1</b>
-            </p>
-            <p class="pb-0 text-dark modal_title">Full Internship - 100% Placement Assured!</p>
-            <p class="py-1">Your skill, our guarantee. Not only we offer 100% placement
-                      after the successful completion of the internship program,
-                      you get paid from the day one of joining the program.</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-12">
+        <div >
           <p class="text-center" style="font-weight: 500; font-size: 3rem; background: linear-gradient(90deg, #2f57efbf 0%, #c586eeab 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
             <b>Checkout</b>
           </p>
@@ -275,9 +263,9 @@ $(document).ready(function () {
             </button>
           </div>
         </div>
-      </div>
+
     `;
-    $("#checkout .modal-body").html(checkoutSummary);
+    $("#checkout .amount-column").html(checkoutSummary);
   }
 
   $("#checkout").on("click", ".checkout-btn", function (event) {

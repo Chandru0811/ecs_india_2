@@ -70,10 +70,11 @@
         </li>
         <li>
           <a href="#" data-theme="dark" class="setColor dark">
-            <img
-              src="assets/images/about/vector.svg"
-              alt="vector"
-            /><span title="Dark Mode"> Dark</span>
+            <img src="assets/images/about/vector.svg" alt="vector" /><span
+              title="Dark Mode"
+            >
+              Dark</span
+            >
           </a>
         </li>
       </ul>
@@ -170,19 +171,13 @@
               <div class="header-info">
                 <div class="logo d-none logo-dark">
                   <a href="/">
-                    <img
-                      src="../assets/images/logo.webp"
-                      alt="logo"
-                    />
+                    <img src="../assets/images/logo.webp" alt="logo" />
                   </a>
                 </div>
 
                 <div class="logo d-block logo-light">
                   <a href="/">
-                    <img
-                      src="../assets/images/logo.webp"
-                      alt="logo"
-                    />
+                    <img src="../assets/images/logo.webp" alt="logo" />
                   </a>
                 </div>
               </div>
@@ -717,19 +712,13 @@
             <div class="logo">
               <div class="logo logo-dark">
                 <a href="/">
-                  <img
-                    src="../assets/images/logo.webp"
-                    alt="logo"
-                  />
+                  <img src="../assets/images/logo.webp" alt="logo" />
                 </a>
               </div>
 
               <div class="logo d-none logo-light">
                 <a href="/">
-                  <img
-                    src="../assets/images/logo.webp"
-                    alt="logo"
-                  />
+                  <img src="../assets/images/logo.webp" alt="logo" />
                 </a>
               </div>
             </div>
@@ -789,9 +778,7 @@
               class="social-icon social-default transparent-with-border justify-content-start mt--20"
             >
               <li>
-                <a
-                  href="https://www.facebook.com/CloudecsInfotech"
-                >
+                <a href="https://www.facebook.com/CloudecsInfotech">
                   <i class="feather-facebook"></i>
                 </a>
               </li>
@@ -1310,7 +1297,7 @@
                       class="rbt-btn btn-border icon-hover w-100 d-block text-center"
                       href="#"
                       data-bs-toggle="modal"
-                  data-bs-target="#course-register"
+                      data-bs-target="#course-register"
                     >
                       <span class="btn-text">Buy Now</span>
                       <span class="btn-icon"
@@ -1327,9 +1314,7 @@
                         class="social-icon social-default transparent-with-border justify-content-center"
                       >
                         <li>
-                          <a
-                            href="https://www.facebook.com/CloudecsInfotech"
-                          >
+                          <a href="https://www.facebook.com/CloudecsInfotech">
                             <i class="feather-facebook"></i>
                           </a>
                         </li>
@@ -1597,221 +1582,35 @@
     </footer>
     <!-- End Footer aera -->
 
-        <!-- course register modal -->
-        <div
-        class="modal fade"
-        id="course-register"
-        tabindex="-1"
-        aria-labelledby="currentModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-          <div class="modal-content">
-            <div class="d-flex justify-content-end pt-4 pe-4">
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              <!-- Modal content goes here -->
-              <div class="row m-0 p-3">
-                <div
-                  class="col-md-6 col-12 order-1 order-lg-0 d-flex flex-column justify-content-center"
-                >
-                  <div class="text-start pt-3 pe-5">
-                    <p
-                      class="mb-1"
-                      style="
-                        font-weight: 500;
-                        background: linear-gradient(
-                          90deg,
-                          #2f57efbf 0%,
-                          #c586eeab 100%
-                        );
-                        -webkit-background-clip: text;
-                        -webkit-text-fill-color: transparent;
-                      "
-                    >
-                      <b>Salary from Day 1</b>
-                    </p>
-  
-                    <p class="pb-0 text-dark modal_title">
-                      Full Internship - 100% Placement Assured !
-                    </p>
-                    <p class="py-1">
-                      Your skill, our guarantee. Not only we offer 100% placement
-                      after the successful completion of the internship program,
-                      you get paid from the day one of joining the program.
-                    </p>
-                  </div>
-                </div>
-                <div class="col-md-6 col-12 order-0 order-lg-1">
-                  <div class="text-start">
-                    <p
-                      style="
-                        font-size: 24px;
-                        background: linear-gradient(
-                          90deg,
-                          #2f57efbf 0%,
-                          #c586eeab 100%
-                        );
-                        -webkit-background-clip: text;
-                        -webkit-text-fill-color: transparent;
-                        font-weight: 500;
-                      "
-                    >
-                      Register Our Course
-                    </p>
-                    <form id="course_register">
-                      <div class="mb-4">
-                        <input
-                          placeholder="Name"
-                          type="text"
-                          class="form-control form-control-sm"
-                          id="name"
-                          name="name"
-                          style="outline: none; box-shadow: none"
-                        />
-                      </div>
-                      <div class="mb-4">
-                        <input
-                          placeholder="Email"
-                          type="email"
-                          class="form-control form-control-sm"
-                          id="checkout_email"
-                          name="checkout_email"
-                          style="outline: none; box-shadow: none"
-                        />
-                      </div>
-                      <input
-                      type="hidden"
-                      class="form-control form-control-sm"
-                      id="courses"
-                      name="courses"
-                      value="Full Internship - Sales & Marketing"
-                    />
-                      <div class="mb-4">
-                        <input
-                          placeholder="Phone"
-                          type="text"
-                          class="form-control form-control-sm"
-                          id="phone"
-                          name="phone"
-                          style="outline: none; box-shadow: none"
-                        />
-                      </div>
-                      <div class="mb-4">
-                        <input
-                          placeholder="City"
-                          type="text"
-                          class="form-control form-control-sm"
-                          id="city"
-                          value="chennai"
-                          name="city"
-                          style="outline: none; box-shadow: none"
-                        />
-                      </div>
-                      <input
-                        type="hidden"
-                        class="form-control form-control-sm"
-                        id="course_fee"
-                        name="course_fee"
-                        value="100000"
-                      />
-                      <input
-                        type="hidden"
-                        class="form-control form-control-sm"
-                        id="course_gst"
-                        name="course_gst"
-                        value="18000"
-                      />
-                      <button
-                        type="submit"
-                        class="btn btn-primary w-100 my-2"
-                        style="
-                          font-size: 1.5rem;
-                          border-radius: 6px;
-                          background: linear-gradient(
-                            to right,
-                            #2f57efbf 0%,
-                            #b964e3 100%
-                          );
-                          padding: 10px;
-                          border: none;
-                          transition: background 0.3s ease-in-out;
-                        "
-                        onmouseover="this.style.background='linear-gradient(to left, #2f57efbf 0%, #b964e3 100%)'"
-                        onmouseout="this.style.background='linear-gradient(to right, #2f57efbf 0%, #b964e3 100%)'"
-                      >
-                        Register a new course
-                      </button>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <!-- course register modal -->
+    <div
+      class="modal fade"
+      id="course-register"
+      tabindex="-1"
+      aria-labelledby="currentModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="d-flex justify-content-end pt-4 pe-4">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
-        </div>
-      </div>
-  
-      <!-- checkout modal -->
-  
-      <div
-        class="modal fade"
-        id="checkout"
-        tabindex="-1"
-        aria-labelledby="newModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-          <div class="modal-content">
-            <div class="d-flex justify-content-end pt-4 pe-4">
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              <div class="row m-0 p-3">
-                <div class="col-md-6 col-12">
-                  <div class="text-start pt-3 pe-5">
-                    <p
-                      class="mb-1"
-                      style="
-                        font-weight: 500;
-                        background: linear-gradient(
-                          90deg,
-                          #2f57efbf 0%,
-                          #c586eeab 100%
-                        );
-                        -webkit-background-clip: text;
-                        -webkit-text-fill-color: transparent;
-                      "
-                    >
-                      <b>Salary from Day 1</b>
-                    </p>
-  
-                    <p class="pb-0 text-dark modal_title">
-                      Full Internship - 100% Placement Assured !
-                    </p>
-                    <p class="py-1">
-                      Your skill, our guarantee. Not only we offer 100% placement
-                      after the successful completion of the internship program,
-                      you get paid from the day one of joining the program.
-                    </p>
-                  </div>
-                </div>
-                <div class="col-md-6 col-12">
+          <div class="modal-body">
+            <!-- Modal content goes here -->
+            <div class="row m-0 p-3">
+              <div
+                class="col-md-6 col-12 order-1 order-lg-0 d-flex flex-column justify-content-center"
+              >
+                <div class="text-start pt-3 pe-5">
                   <p
-                    class="text-center"
+                    class="mb-1"
                     style="
                       font-weight: 500;
-                      font-size: 3rem;
                       background: linear-gradient(
                         90deg,
                         #2f57efbf 0%,
@@ -1821,31 +1620,99 @@
                       -webkit-text-fill-color: transparent;
                     "
                   >
-                    <b>Checkout</b>
+                    <b>Salary from Day 1</b>
                   </p>
-  
-                  <div class="pt-4">
-                    <div
-                      class="d-flex justify-content-between align-items-center py-2"
-                    >
-                      <div>Sub Total</div>
-                      <div>₹ 1,00,000</div>
+
+                  <p class="pb-0 text-dark modal_title">
+                    Full Internship - 100% Placement Assured !
+                  </p>
+                  <p class="py-1">
+                    Your skill, our guarantee. Not only we offer 100% placement
+                    after the successful completion of the internship program,
+                    you get paid from the day one of joining the program.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-12 order-0 order-lg-1">
+                <div class="text-start">
+                  <p
+                    style="
+                      font-size: 24px;
+                      background: linear-gradient(
+                        90deg,
+                        #2f57efbf 0%,
+                        #c586eeab 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                      font-weight: 500;
+                    "
+                  >
+                    Register Our Course
+                  </p>
+                  <form id="course_register">
+                    <div class="mb-4">
+                      <input
+                        placeholder="Name"
+                        type="text"
+                        class="form-control form-control-sm"
+                        id="name"
+                        name="name"
+                        style="outline: none; box-shadow: none"
+                      />
                     </div>
-                    <div
-                      class="d-flex justify-content-between align-items-center py-2"
-                    >
-                      <div>GST</div>
-                      <div>₹ 18,000</div>
+                    <div class="mb-4">
+                      <input
+                        placeholder="Email"
+                        type="email"
+                        class="form-control form-control-sm"
+                        id="checkout_email"
+                        name="checkout_email"
+                        style="outline: none; box-shadow: none"
+                      />
                     </div>
-                    <hr />
-                    <div
-                      class="d-flex justify-content-between align-items-center py-2"
-                    >
-                      <div>Total</div>
-                      <div>₹ 1,18,000</div>
+                    <input
+                      type="hidden"
+                      class="form-control form-control-sm"
+                      id="courses"
+                      name="courses"
+                      value="Full Internship - Sales & Marketing"
+                    />
+                    <div class="mb-4">
+                      <input
+                        placeholder="Phone"
+                        type="text"
+                        class="form-control form-control-sm"
+                        id="phone"
+                        name="phone"
+                        style="outline: none; box-shadow: none"
+                      />
                     </div>
-                  </div>
-                  <div class="py-5">
+                    <div class="mb-4">
+                      <input
+                        placeholder="City"
+                        type="text"
+                        class="form-control form-control-sm"
+                        id="city"
+                        value="chennai"
+                        name="city"
+                        style="outline: none; box-shadow: none"
+                      />
+                    </div>
+                    <input
+                      type="hidden"
+                      class="form-control form-control-sm"
+                      id="course_fee"
+                      name="course_fee"
+                      value="100000"
+                    />
+                    <input
+                      type="hidden"
+                      class="form-control form-control-sm"
+                      id="course_gst"
+                      name="course_gst"
+                      value="18000"
+                    />
                     <button
                       type="submit"
                       class="btn btn-primary w-100 my-2"
@@ -1864,70 +1731,126 @@
                       onmouseover="this.style.background='linear-gradient(to left, #2f57efbf 0%, #b964e3 100%)'"
                       onmouseout="this.style.background='linear-gradient(to right, #2f57efbf 0%, #b964e3 100%)'"
                     >
-                      Checkout
+                      Register a new course
                     </button>
-                  </div>
+                  </form>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-  
-      <!-- checkout success modal -->
-      <div
-        class="modal fade"
-        id="chceckout-success"
-        tabindex="-1"
-        aria-labelledby="newModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content modalContent">
-            <div
-              class="d-flex justify-content-between p-4"
-              style="background: #28a745"
-            >
-              <h5 class="modal-title text-light">
-                Thank you for sharing your details!
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-                style="font-size: 12px"
-              ></button>
-            </div>
-            <div class="modal-body pt-0 text-center">
-              <i
-                class="fa-solid fa-circle-check my-5"
-                style="color: #28a745; font-size: 80px"
-              ></i>
-  
-              <p class="mb-0 text-center pb-3 px-2" style="font-size: 14px">
-                <strong class="text-center pb-3" style="font-size: 20px"
-                  >We have sent the payment link to your email address</strong
-                >
-                <br />
-                Check your inbox for instructions. <br />If details are correct,
-                complete the payment promptly. <br />
-                For assistance, reply to this email or contact support.
-              </p>
-  
-              <div class="text-center py-3">
-                <p class="mb-0 fw-bold" style="font-size: 26px">+91 9361365818</p>
-                <p class="fw-bold">info@ecsaio.in</p>
+    </div>
+
+    <!-- checkout modal -->
+
+    <div
+      class="modal fade"
+      id="checkout"
+      tabindex="-1"
+      aria-labelledby="newModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="d-flex justify-content-end pt-4 pe-4">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row m-0 p-3">
+              <div class="col-md-6 col-12">
+                <div class="text-start pt-3 pe-5">
+                  <p
+                    class="mb-1"
+                    style="
+                      font-weight: 500;
+                      background: linear-gradient(
+                        90deg,
+                        #2f57efbf 0%,
+                        #c586eeab 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    <b>Salary from Day 1</b>
+                  </p>
+                  <p class="pb-0 text-dark modal_title">
+                    Full Internship - Sales & Marketing
+                  </p>
+                  <p class="py-1">
+                    Master the art of Sales and Marketing with Cloud ECS
+                    Infotech and acquire in-demand Sales and Marketing skills!
+                    Sales and marketing offer worldwide opportunities.
+                  </p>
+                </div>
               </div>
-  
-              <!-- Back to Home Button -->
-              <a href="/" class="py-3">
-                <button class="btn successMagnetButton">Back to Website</button>
-              </a>
+              <div class="col-md-6 col-12 amount-column"></div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- checkout success modal -->
+    <div
+      class="modal fade"
+      id="chceckout-success"
+      tabindex="-1"
+      aria-labelledby="newModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content modalContent">
+          <div
+            class="d-flex justify-content-between p-4"
+            style="background: #28a745"
+          >
+            <h5 class="modal-title text-light">
+              Thank you for sharing your details!
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+              style="font-size: 12px"
+            ></button>
+          </div>
+          <div class="modal-body pt-0 text-center">
+            <i
+              class="fa-solid fa-circle-check my-5"
+              style="color: #28a745; font-size: 80px"
+            ></i>
+
+            <p class="mb-0 text-center pb-3 px-2" style="font-size: 14px">
+              <strong class="text-center pb-3" style="font-size: 20px"
+                >We have sent the payment link to your email address</strong
+              >
+              <br />
+              Check your inbox for instructions. <br />If details are correct,
+              complete the payment promptly. <br />
+              For assistance, reply to this email or contact support.
+            </p>
+
+            <div class="text-center py-3">
+              <p class="mb-0 fw-bold" style="font-size: 26px">+91 9361365818</p>
+              <p class="fw-bold">info@ecsaio.in</p>
+            </div>
+
+            <!-- Back to Home Button -->
+            <a href="/" class="py-3">
+              <button class="btn successMagnetButton">Back to Website</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="rbt-separator-mid">
       <div class="container">
@@ -1992,7 +1915,7 @@
     <script src="assets/js/vendor/Sortable.min.js"></script>
 
     <!-- Main JS -->
- <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
     <script src="../assets/js/custom.js"></script>

@@ -1986,9 +1986,8 @@
                   >
                     <b>Salary from Day 1</b>
                   </p>
-
                   <p class="pb-0 text-dark modal_title">
-                    Full Internship - 100% Placement Assured !
+                    Full Internship - 100% Placement Assured!
                   </p>
                   <p class="py-1">
                     Your skill, our guarantee. Not only we offer 100% placement
@@ -1997,68 +1996,7 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-6 col-12">
-                <p
-                  class="text-center"
-                  style="
-                    font-weight: 500;
-                    font-size: 3rem;
-                    background: linear-gradient(
-                      90deg,
-                      #2f57efbf 0%,
-                      #c586eeab 100%
-                    );
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                  "
-                >
-                  <b>Checkout</b>
-                </p>
-
-                <div class="pt-4">
-                  <div
-                    class="d-flex justify-content-between align-items-center py-2"
-                  >
-                    <div>Sub Total</div>
-                    <div>₹ 1,00,000</div>
-                  </div>
-                  <div
-                    class="d-flex justify-content-between align-items-center py-2"
-                  >
-                    <div>GST</div>
-                    <div>₹ 18,000</div>
-                  </div>
-                  <hr />
-                  <div
-                    class="d-flex justify-content-between align-items-center py-2"
-                  >
-                    <div>Total</div>
-                    <div>₹ 1,18,000</div>
-                  </div>
-                </div>
-                <div class="py-5">
-                  <button
-                    type="submit"
-                    class="btn btn-primary w-100 my-2"
-                    style="
-                      font-size: 1.5rem;
-                      border-radius: 6px;
-                      background: linear-gradient(
-                        to right,
-                        #2f57efbf 0%,
-                        #b964e3 100%
-                      );
-                      padding: 10px;
-                      border: none;
-                      transition: background 0.3s ease-in-out;
-                    "
-                    onmouseover="this.style.background='linear-gradient(to left, #2f57efbf 0%, #b964e3 100%)'"
-                    onmouseout="this.style.background='linear-gradient(to right, #2f57efbf 0%, #b964e3 100%)'"
-                  >
-                    Checkout
-                  </button>
-                </div>
-              </div>
+              <div class="col-md-6 col-12 amount-column"></div>
             </div>
           </div>
         </div>
