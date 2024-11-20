@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://ecsaio.in/</loc>
+	<lastmod>2024-11-20T09:26:52+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://ecsaio.in/students_internship/about</loc>
+	<lastmod>2024-11-20T09:26:52+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://ecsaio.in/students_internship/contact</loc>
+	<lastmod>2024-11-20T09:26:52+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://ecsaio.in/internship</loc>
+	<lastmod>2024-11-20T09:26:52+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://ecsaio.in/terms_and_conditions</loc>
+	<lastmod>2024-11-20T09:26:52+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://ecsaio.in/privacy_policy</loc>
+	<lastmod>2024-11-20T09:26:52+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+</urlset>

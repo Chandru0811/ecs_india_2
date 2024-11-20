@@ -1671,7 +1671,7 @@
                         type="text"
                         class="form-control form-control-sm"
                         id="city"
-                        value="chennai"
+                        value=""
                         name="city"
                         style="outline: none; box-shadow: none"
                       />

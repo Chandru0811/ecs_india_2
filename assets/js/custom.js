@@ -287,7 +287,7 @@ $(document).ready(function () {
         const payload = new FormData();
         payload.append("from", "ecscloudinfotech@gmail.com");
         payload.append("to", modalData.email);
-        payload.append("subject", "Ecs Cloud Infotech Verification Processing");
+        payload.append("subject", `Secure Your Spot: Complete Your ${modalData.course} Payment Today!`);
         payload.append(
           "htmlContent",
           `
