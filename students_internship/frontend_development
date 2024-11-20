@@ -842,7 +842,7 @@
             <li class="minicart-item">
               <div class="thumbnail">
                 <a href="#">
-                  <img src="assets/images/product/1.jpg" alt="Product Images" />
+                  <img src="assets/images/product/1.webp" alt="Product Images" />
                 </a>
               </div>
               <div class="product-content">
@@ -976,7 +976,7 @@
                 <span class="rbt-new-badge-icon">🏆</span> Salary from Day 1
               </div>
 
-              <h2 class="title">Full Internship - Frontend Development</h2>
+              <h1 class="title">Full Internship - Frontend Development</h1>
               <p class="description">
                 Want to become a Front-End Developer? Launch your Front-End
                 Development career with Cloud ECS Infotech's tailored courses.
@@ -1048,7 +1048,7 @@
                   class="rbt-course-feature-inner has-show-more-inner-content"
                 >
                   <div class="section-title">
-                    <h4 class="rbt-title-style-3">Frontend Development</h4>
+                    <h2 class="rbt-title-style-3">Frontend Development</h2>
                   </div>
                   <p>
                     The digital revolution is driving businesses to create
