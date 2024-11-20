@@ -1,269 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-XWHQQM5H1G"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
 
-      gtag("config", "G-XWHQQM5H1G");
-    </script>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Full Internship - DevSec Ops, Networking, Cyber Security</title>
-    <meta name="robots" content="noindex, follow" />
-    <meta name="description" content="" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XWHQQM5H1G"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-    <!-- Favicon -->
-    <link rel="icon" href="../assets/images/favicon.ico" />
+    gtag("config", "G-XWHQQM5H1G");
+  </script>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Full Internship - DevSec Ops, Networking, Cyber Security</title>
+  <meta name="robots" content="noindex, follow" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- CSS
+  <!-- Favicon -->
+  <link rel="icon" href="../assets/images/favicon.ico" />
+
+  <!-- CSS
 	============================================ -->
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/vendor/slick.css" />
-    <link rel="stylesheet" href="assets/css/vendor/slick-theme.css" />
-    <link rel="stylesheet" href="assets/css/plugins/sal.css" />
-    <link rel="stylesheet" href="assets/css/plugins/feather.css" />
-    <link rel="stylesheet" href="assets/css/plugins/fontawesome.min.css" />
-    <link rel="stylesheet" href="assets/css/plugins/euclid-circulara.css" />
-    <link rel="stylesheet" href="assets/css/plugins/swiper.css" />
-    <link rel="stylesheet" href="assets/css/plugins/odometer.css" />
-    <link rel="stylesheet" href="assets/css/plugins/animation.css" />
-    <link rel="stylesheet" href="assets/css/plugins/bootstrap-select.min.css" />
-    <link rel="stylesheet" href="assets/css/plugins/jquery-ui.css" />
-    <link rel="stylesheet" href="assets/css/plugins/magnigy-popup.min.css" />
-    <link rel="stylesheet" href="assets/css/plugins/plyr.css" />
-    <link rel="stylesheet" href="assets/css/plugins/jodit.min.css" />
+  <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/vendor/slick.css" />
+  <link rel="stylesheet" href="assets/css/vendor/slick-theme.css" />
+  <link rel="stylesheet" href="assets/css/plugins/sal.css" />
+  <link rel="stylesheet" href="assets/css/plugins/feather.css" />
+  <link rel="stylesheet" href="assets/css/plugins/fontawesome.min.css" />
+  <link rel="stylesheet" href="assets/css/plugins/euclid-circulara.css" />
+  <link rel="stylesheet" href="assets/css/plugins/swiper.css" />
+  <link rel="stylesheet" href="assets/css/plugins/odometer.css" />
+  <link rel="stylesheet" href="assets/css/plugins/animation.css" />
+  <link rel="stylesheet" href="assets/css/plugins/bootstrap-select.min.css" />
+  <link rel="stylesheet" href="assets/css/plugins/jquery-ui.css" />
+  <link rel="stylesheet" href="assets/css/plugins/magnigy-popup.min.css" />
+  <link rel="stylesheet" href="assets/css/plugins/plyr.css" />
+  <link rel="stylesheet" href="assets/css/plugins/jodit.min.css" />
 
-    <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="../assets/css/custom.css" />
 
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-  </head>
 
-  <body>
-    <div id="my_switcher" class="my_switcher">
-      <ul>
-        <li>
-          <a href="#" data-theme="light" class="setColor light">
-            <img src="assets/images/about/sun-01.svg" alt="sun-01" /><span
-              title="Light Mode"
-            >
-              Light</span
-            >
-          </a>
-        </li>
-        <li>
-          <a href="#" data-theme="dark" class="setColor dark">
-            <img
-              src="assets/images/about/vector.svg"
-              alt="vector"
-            /><span title="Dark Mode"> Dark</span>
-          </a>
-        </li>
-      </ul>
-    </div>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
 
-    <header class="rbt-header rbt-header-10">
-      <div class="rbt-sticky-placeholder"></div>
-      <!-- Start Header Top  -->
-      <div
-        class="rbt-header-top d-flex rbt-header-top-1 header-space-betwween bg-not-transparent bg-color-darker top-expended-activation logo logo-darklogo logo-dark"
-      >
-        <div class="container-fluid">
-          <div class="top-expended-wrapper">
-            <div class="top-expended-inner rbt-header-sec align-items-center">
-              <div class="rbt-header-sec-col rbt-header-left d-none d-xl-block">
-                <div class="rbt-header-content">
-                  <!-- Start Header Information List  -->
-                  <div class="header-info">
-                    <ul class="rbt-information-list">
-                      <li>
-                        <a href="tel:+919361365818"
-                          ><i class="feather-phone"></i>+91 9361365818</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                  <!-- End Header Information List  -->
+<body>
+  <div id="my_switcher" class="my_switcher">
+    <ul>
+      <li>
+        <a href="#" data-theme="light" class="setColor light">
+          <img src="assets/images/about/sun-01.svg" alt="sun-01" /><span title="Light Mode">
+            Light</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" data-theme="dark" class="setColor dark">
+          <img src="assets/images/about/vector.svg" alt="vector" /><span title="Dark Mode"> Dark</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <header class="rbt-header rbt-header-10">
+    <div class="rbt-sticky-placeholder"></div>
+    <!-- Start Header Top  -->
+    <div
+      class="rbt-header-top d-flex rbt-header-top-1 header-space-betwween bg-not-transparent bg-color-darker top-expended-activation logo logo-darklogo logo-dark">
+      <div class="container-fluid">
+        <div class="top-expended-wrapper">
+          <div class="top-expended-inner rbt-header-sec align-items-center">
+            <div class="rbt-header-sec-col rbt-header-left d-none d-xl-block">
+              <div class="rbt-header-content">
+                <!-- Start Header Information List  -->
+                <div class="header-info">
+                  <ul class="rbt-information-list">
+                    <li>
+                      <a href="tel:+919361365818"><i class="feather-phone"></i>+91 9361365818</a>
+                    </li>
+                  </ul>
                 </div>
+                <!-- End Header Information List  -->
               </div>
-              <div
-                class="rbt-header-sec-col rbt-header-right mt_md--10 mt_sm--10"
-              >
-                <div
-                  class="rbt-header-content justify-content-start justify-content-lg-end"
-                >
-                  <div class="header-info d-none d-xl-block">
-                    <ul class="social-share-transparent">
-                      <li>
-                        <a
-                          href="https://www.facebook.com/CloudecsInfotech"
-                          target="_blank"
-                          ><i class="fab fa-facebook-f"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="https://x.com/Cloudecsin" target="_blank">
-                          <i class="fa-brands fa-x-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.linkdin.com/" target="_blank"
-                          ><i class="fab fa-linkedin-in"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.instagram.com/cloudecs_infotech/"
-                          target="_blank"
-                          ><i class="fab fa-instagram"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.youtube.com/@Cloudecsinfotech"
-                          target="_blank"
-                          ><i class="fab fa-youtube"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="https://www.whatsapp.com" target="_blank"
-                          ><i class="fab fa-whatsapp"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
+            </div>
+            <div class="rbt-header-sec-col rbt-header-right mt_md--10 mt_sm--10">
+              <div class="rbt-header-content justify-content-start justify-content-lg-end">
+                <div class="header-info d-none d-xl-block">
+                  <ul class="social-share-transparent">
+                    <li>
+                      <a href="https://www.facebook.com/CloudecsInfotech" target="_blank"><i
+                          class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://x.com/Cloudecsin" target="_blank">
+                        <i class="fa-brands fa-x-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkdin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/cloudecs_infotech/" target="_blank"><i
+                          class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/@Cloudecsinfotech" target="_blank"><i
+                          class="fab fa-youtube"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
-            <div class="header-info">
-              <!-- <div class="top-bar-expended d-block d-lg-none">
+          </div>
+          <div class="header-info">
+            <!-- <div class="top-bar-expended d-block d-lg-none">
                   <button class="topbar-expend-button rbt-round-btn">
                     <i class="feather-plus"></i>
                   </button>
                 </div> -->
-            </div>
           </div>
         </div>
       </div>
-      <!-- End Header Top  -->
-      <div class="rbt-header-wrapper header-space-betwween header-sticky">
-        <div class="container-fluid">
-          <div class="mainbar-row rbt-navigation-center align-items-center">
-            <div class="header-left rbt-header-content">
-              <div class="header-info">
-                <div class="logo d-none logo-dark">
-                  <a href="/">
-                    <img
-                      src="../assets/images/logo.webp"
-                      alt="logo"
-                    />
-                  </a>
-                </div>
-
-                <div class="logo d-block logo-light">
-                  <a href="/">
-                    <img
-                      src="../assets/images/logo.webp"
-                      alt="logo"
-                    />
-                  </a>
-                </div>
+    </div>
+    <!-- End Header Top  -->
+    <div class="rbt-header-wrapper header-space-betwween header-sticky">
+      <div class="container-fluid">
+        <div class="mainbar-row rbt-navigation-center align-items-center">
+          <div class="header-left rbt-header-content">
+            <div class="header-info">
+              <div class="logo d-none logo-dark">
+                <a href="/">
+                  <img src="../assets/images/logo.webp" alt="logo" />
+                </a>
               </div>
-              <div class="header-info">
-                <div class="rbt-category-menu-wrapper rbt-category-update">
-                  <div class="rbt-category-btn">
-                    <div class="rbt-offcanvas-trigger md-size icon">
-                      <span class="d-none d-xl-block">
-                        <i class="feather-book-open"></i>
-                      </span>
-                      <i
-                        title="Category"
-                        class="feather-book-open d-none d-xl-none"
-                      ></i>
-                    </div>
-                    <span class="category-text d-none d-xl-block">Courses</span>
+
+              <div class="logo d-block logo-light">
+                <a href="/">
+                  <img src="../assets/images/logo.webp" alt="logo" />
+                </a>
+              </div>
+            </div>
+            <div class="header-info">
+              <div class="rbt-category-menu-wrapper rbt-category-update">
+                <div class="rbt-category-btn">
+                  <div class="rbt-offcanvas-trigger md-size icon">
+                    <span class="d-none d-xl-block">
+                      <i class="feather-book-open"></i>
+                    </span>
+                    <i title="Category" class="feather-book-open d-none d-xl-none"></i>
                   </div>
-                  <!-- Start category Area  -->
-                  <div class="category-dropdown-menu d-none d-xl-block">
-                    <div class="category-menu-item">
-                      <div class="rbt-vertical-nav">
-                        <div class="row">
-                          <div class="col-md-6 col-12">
-                            <ul
-                              class="rbt-vertical-nav-list-wrapper vertical-nav-menu"
-                            >
-                              <li class="vertical-nav-item active">
-                                <a href="./fullstack_developer_java"
-                                  >FullStack Developer - Java</a
-                                >
-                              </li>
-                              <li class="vertical-nav-item">
-                                <a href="./fullstack_developer_python"
-                                  >FullStack Developer - Python</a
-                                >
-                              </li>
-                              <li class="vertical-nav-item">
-                                <a href="./data_scientist">Data Scientist</a>
-                              </li>
-                              <li class="vertical-nav-item">
-                                <a href="./devsecops_networking"
-                                  >DevSecOps / Networking /Cybersecurity</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-md-6 col-12">
-                            <ul
-                              class="rbt-vertical-nav-list-wrapper vertical-nav-menu"
-                            >
-                              <li class="vertical-nav-item">
-                                <a href="./mobile_app_developement"
-                                  >Mobile App Development</a
-                                >
-                              </li>
-                              <li class="vertical-nav-item">
-                                <a href="./frontend_development"
-                                  >Front End Development</a
-                                >
-                              </li>
-                              <li class="vertical-nav-item">
-                                <a href="./digital_marketing"
-                                  >Digital Marketing</a
-                                >
-                              </li>
-                              <li class="vertical-nav-item">
-                                <a href="./ui_ux_development"
-                                  >UI/UX Development</a
-                                >
-                              </li>
-                              <li class="vertical-nav-item">
-                                <a href="./sales_marketing"
-                                  >Sales and Marketing</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
+                  <span class="category-text d-none d-xl-block">Courses</span>
+                </div>
+                <!-- Start category Area  -->
+                <div class="category-dropdown-menu d-none d-xl-block">
+                  <div class="category-menu-item">
+                    <div class="rbt-vertical-nav">
+                      <div class="row">
+                        <div class="col-md-6 col-12">
+                          <ul class="rbt-vertical-nav-list-wrapper vertical-nav-menu">
+                            <li class="vertical-nav-item active">
+                              <a href="./fullstack_developer_java">FullStack Developer - Java</a>
+                            </li>
+                            <li class="vertical-nav-item">
+                              <a href="./fullstack_developer_python">FullStack Developer - Python</a>
+                            </li>
+                            <li class="vertical-nav-item">
+                              <a href="./data_scientist">Data Scientist</a>
+                            </li>
+                            <li class="vertical-nav-item">
+                              <a href="./devsecops_networking">DevSecOps / Networking /Cybersecurity</a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-md-6 col-12">
+                          <ul class="rbt-vertical-nav-list-wrapper vertical-nav-menu">
+                            <li class="vertical-nav-item">
+                              <a href="./mobile_app_developement">Mobile App Development</a>
+                            </li>
+                            <li class="vertical-nav-item">
+                              <a href="./frontend_development">Front End Development</a>
+                            </li>
+                            <li class="vertical-nav-item">
+                              <a href="./digital_marketing">Digital Marketing</a>
+                            </li>
+                            <li class="vertical-nav-item">
+                              <a href="./ui_ux_development">UI/UX Development</a>
+                            </li>
+                            <li class="vertical-nav-item">
+                              <a href="./sales_marketing">Sales and Marketing</a>
+                            </li>
+                          </ul>
                         </div>
                       </div>
-                      <!-- <div class="rbt-vertical-nav-content"> -->
-                      <!-- Start One Item  -->
-                      <!-- <div
+                    </div>
+                    <!-- <div class="rbt-vertical-nav-content"> -->
+                    <!-- Start One Item  -->
+                    <!-- <div
                               class="rbt-vertical-inner tab-content"
                               id="tab1"
                               style="display: block"
@@ -295,10 +234,10 @@
                                 </div>
                               </div>
                             </div> -->
-                      <!-- End One Item  -->
+                    <!-- End One Item  -->
 
-                      <!-- Start One Item  -->
-                      <!-- <div class="rbt-vertical-inner tab-content" id="tab2">
+                    <!-- Start One Item  -->
+                    <!-- <div class="rbt-vertical-inner tab-content" id="tab2">
                               <div class="rbt-vertical-single">
                                 <div class="row">
                                   <div class="col-lg-6">
@@ -326,10 +265,10 @@
                                 </div>
                               </div>
                             </div> -->
-                      <!-- End One Item  -->
+                    <!-- End One Item  -->
 
-                      <!-- Start One Item  -->
-                      <!-- <div class="rbt-vertical-inner tab-content" id="tab3">
+                    <!-- Start One Item  -->
+                    <!-- <div class="rbt-vertical-inner tab-content" id="tab3">
                               <div class="rbt-vertical-single">
                                 <div class="row">
                                   <div class="col-lg-12">
@@ -352,10 +291,10 @@
                                 </div>
                               </div>
                             </div> -->
-                      <!-- End One Item  -->
+                    <!-- End One Item  -->
 
-                      <!-- Start One Item  -->
-                      <!-- <div class="rbt-vertical-inner tab-content" id="tab4">
+                    <!-- Start One Item  -->
+                    <!-- <div class="rbt-vertical-inner tab-content" id="tab4">
                               <div class="rbt-vertical-single">
                                 <div class="row">
                                   <div class="col-lg-12">
@@ -372,995 +311,880 @@
                                 </div>
                               </div>
                             </div> -->
-                      <!-- End One Item  -->
-                      <!-- </div> -->
-                    </div>
+                    <!-- End One Item  -->
+                    <!-- </div> -->
                   </div>
-                  <!-- End category Area  -->
                 </div>
+                <!-- End category Area  -->
               </div>
             </div>
+          </div>
 
-            <div class="rbt-main-navigation d-none d-xl-block">
-              <nav class="mainmenu-nav">
-                <ul class="mainmenu">
-                  <li class="with-megamenu has-menu-child-item position-static">
-                    <a href="../">Home</a>
-                  </li>
-                  <li class="with-megamenu has-menu-child-item position-static">
-                    <a href="./full_internship">Full Internship</a>
-                  </li>
-                  <li class="with-megamenu has-menu-child-item position-static">
-                    <a href="./skill_development">Skill Development</a>
-                  </li>
-                  <li class="with-megamenu has-menu-child-item position-static">
-                    <a href="./certificate_course">Certificate Course</a>
-                  </li>
-                  <!-- <li class="with-megamenu has-menu-child-item position-static">
+          <div class="rbt-main-navigation d-none d-xl-block">
+            <nav class="mainmenu-nav">
+              <ul class="mainmenu">
+                <li class="with-megamenu has-menu-child-item position-static">
+                  <a href="../">Home</a>
+                </li>
+                <li class="with-megamenu has-menu-child-item position-static">
+                  <a href="./full_internship">Full Internship</a>
+                </li>
+                <li class="with-megamenu has-menu-child-item position-static">
+                  <a href="./skill_development">Skill Development</a>
+                </li>
+                <li class="with-megamenu has-menu-child-item position-static">
+                  <a href="./certificate_course">Certificate Course</a>
+                </li>
+                <!-- <li class="with-megamenu has-menu-child-item position-static">
                       <a href="./sales_marketing">Data Scientist</a>
                     </li> -->
-                  <li class="has-dropdown has-menu-child-item">
-                    <a href="./about">About </a>
-                  </li>
+                <li class="has-dropdown has-menu-child-item">
+                  <a href="./about">About </a>
+                </li>
 
-                  <li class="with-megamenu has-menu-child-item position-static">
-                    <a href="./contact">Contact Us </a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
+                <li class="with-megamenu has-menu-child-item position-static">
+                  <a href="./contact">Contact Us </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
 
-            <div class="header-right">
-              <a href="./contact" style="text-decoration: none;">
+          <div class="header-right">
+            <a href="./contact" style="text-decoration: none;">
               <div class="rbt-btn-wrapper d-none d-xl-block">
                 <button class="btn btn-primary join_us">Join Us</button>
               </div>
             </a>
 
-              <!-- Start Mobile-Menu-Bar -->
-              <div class="mobile-menu-bar d-block d-xl-none">
-                <div class="hamberger">
-                  <button class="hamberger-button rbt-round-btn">
-                    <i class="feather-menu"></i>
-                  </button>
-                </div>
-              </div>
-              <!-- Start Mobile-Menu-Bar -->
-            </div>
-          </div>
-        </div>
-        <!-- Start Search Dropdown  -->
-        <div class="rbt-search-dropdown">
-          <div class="wrapper">
-            <div class="row">
-              <div class="col-lg-12">
-                <form action="#">
-                  <input type="text" placeholder="What are you looking for?" />
-                  <div class="submit-btn">
-                    <a class="rbt-btn btn-gradient btn-md" href="#">Search</a>
-                  </div>
-                </form>
+            <!-- Start Mobile-Menu-Bar -->
+            <div class="mobile-menu-bar d-block d-xl-none">
+              <div class="hamberger">
+                <button class="hamberger-button rbt-round-btn">
+                  <i class="feather-menu"></i>
+                </button>
               </div>
             </div>
-
-            <div class="rbt-separator-mid">
-              <hr class="rbt-separator m-0" />
-            </div>
-
-            <div class="row g-4 pt--30 pb--60">
-              <div class="col-lg-12">
-                <div class="section-title">
-                  <h5 class="rbt-title-style-2">Our Top Course</h5>
-                </div>
-              </div>
-
-              <!-- Start Single Card  -->
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                <div class="rbt-card variation-01 rbt-hover">
-                  <div class="rbt-card-img">
-                    <a href="./full_internship">
-                      <img
-                        src="assets/images/course/course-online-01.webp"
-                        alt="course-online-01"
-                      />
-                    </a>
-                  </div>
-                  <div class="rbt-card-body">
-                    <h5 class="rbt-card-title">
-                      <a href="./full_internship">React Js</a>
-                    </h5>
-                    <div class="rbt-review">
-                      <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                      </div>
-                      <span class="rating-count"> (15 Reviews)</span>
-                    </div>
-                    <div class="rbt-card-bottom">
-                      <div class="rbt-price">
-                        <span class="current-price">$15</span>
-                        <span class="off-price">$25</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Single Card  -->
-
-              <!-- Start Single Card  -->
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                <div class="rbt-card variation-01 rbt-hover">
-                  <div class="rbt-card-img">
-                    <a href="./full_internship">
-                      <img
-                        src="assets/images/course/course-online-02.webp"
-                        alt="course-online-02"
-                      />
-                    </a>
-                  </div>
-                  <div class="rbt-card-body">
-                    <h5 class="rbt-card-title">
-                      <a href="./full_internship">Java Program</a>
-                    </h5>
-                    <div class="rbt-review">
-                      <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                      </div>
-                      <span class="rating-count"> (15 Reviews)</span>
-                    </div>
-                    <div class="rbt-card-bottom">
-                      <div class="rbt-price">
-                        <span class="current-price">$10</span>
-                        <span class="off-price">$40</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Single Card  -->
-
-              <!-- Start Single Card  -->
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                <div class="rbt-card variation-01 rbt-hover">
-                  <div class="rbt-card-img">
-                    <a href="./full_internship">
-                      <img
-                        src="assets/images/course/course-online-03.webp"
-                        alt="course-online-03"
-                      />
-                    </a>
-                  </div>
-                  <div class="rbt-card-body">
-                    <h5 class="rbt-card-title">
-                      <a href="./full_internship">Web Design</a>
-                    </h5>
-                    <div class="rbt-review">
-                      <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                      </div>
-                      <span class="rating-count"> (15 Reviews)</span>
-                    </div>
-                    <div class="rbt-card-bottom">
-                      <div class="rbt-price">
-                        <span class="current-price">$10</span>
-                        <span class="off-price">$20</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Single Card  -->
-
-              <!-- Start Single Card  -->
-              <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                <div class="rbt-card variation-01 rbt-hover">
-                  <div class="rbt-card-img">
-                    <a href="./full_internship">
-                      <img
-                        src="assets/images/course/course-online-04.webp"
-                        alt="course-online-04"
-                      />
-                    </a>
-                  </div>
-                  <div class="rbt-card-body">
-                    <h5 class="rbt-card-title">
-                      <a href="./full_internship">Web Design</a>
-                    </h5>
-                    <div class="rbt-review">
-                      <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                      </div>
-                      <span class="rating-count"> (15 Reviews)</span>
-                    </div>
-                    <div class="rbt-card-bottom">
-                      <div class="rbt-price">
-                        <span class="current-price">$20</span>
-                        <span class="off-price">$40</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Single Card  -->
-            </div>
-          </div>
-        </div>
-        <!-- End Search Dropdown  -->
-      </div>
-      <!-- Start Side Vav -->
-      <div class="rbt-offcanvas-side-menu rbt-category-sidemenu">
-        <div class="inner-wrapper">
-          <div class="inner-top">
-            <div class="inner-title">
-              <h4 class="title">Course Category</h4>
-            </div>
-            <div class="rbt-btn-close">
-              <button class="rbt-close-offcanvas rbt-round-btn">
-                <i class="feather-x"></i>
-              </button>
-            </div>
-          </div>
-          <nav class="side-nav w-100">
-            <ul class="rbt-vertical-nav-list-wrapper vertical-nav-menu">
-              <li class="vertical-nav-item">
-                <a href="#">Course School</a>
-                <div class="vartical-nav-content-menu-wrapper">
-                  <div class="vartical-nav-content-menu">
-                    <h3 class="rbt-short-title">Course Title</h3>
-                    <ul class="rbt-vertical-nav-list-wrapper">
-                      <li><a href="#">Web Design</a></li>
-                      <li><a href="#">Art</a></li>
-                      <li><a href="#">Figma</a></li>
-                      <li><a href="#">Adobe</a></li>
-                    </ul>
-                  </div>
-                  <div class="vartical-nav-content-menu">
-                    <h3 class="rbt-short-title">Course Title</h3>
-                    <ul class="rbt-vertical-nav-list-wrapper">
-                      <li><a href="#">Photo</a></li>
-                      <li><a href="#">English</a></li>
-                      <li><a href="#">Math</a></li>
-                      <li><a href="#">Read</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li class="vertical-nav-item">
-                <a href="#">Online School</a>
-                <div class="vartical-nav-content-menu-wrapper">
-                  <div class="vartical-nav-content-menu">
-                    <h3 class="rbt-short-title">Course Title</h3>
-                    <ul class="rbt-vertical-nav-list-wrapper">
-                      <li><a href="#">Photo</a></li>
-                      <li><a href="#">English</a></li>
-                      <li><a href="#">Math</a></li>
-                      <li><a href="#">Read</a></li>
-                    </ul>
-                  </div>
-                  <div class="vartical-nav-content-menu">
-                    <h3 class="rbt-short-title">Course Title</h3>
-                    <ul class="rbt-vertical-nav-list-wrapper">
-                      <li><a href="#">Web Design</a></li>
-                      <li><a href="#">Art</a></li>
-                      <li><a href="#">Figma</a></li>
-                      <li><a href="#">Adobe</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li class="vertical-nav-item">
-                <a href="#">kindergarten</a>
-                <div class="vartical-nav-content-menu-wrapper">
-                  <div class="vartical-nav-content-menu">
-                    <h3 class="rbt-short-title">Course Title</h3>
-                    <ul class="rbt-vertical-nav-list-wrapper">
-                      <li><a href="#">Photo</a></li>
-                      <li><a href="#">English</a></li>
-                      <li><a href="#">Math</a></li>
-                      <li><a href="#">Read</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li class="vertical-nav-item">
-                <a href="#">Classic LMS</a>
-                <div class="vartical-nav-content-menu-wrapper">
-                  <div class="vartical-nav-content-menu">
-                    <h3 class="rbt-short-title">Course Title</h3>
-                    <ul class="rbt-vertical-nav-list-wrapper">
-                      <li><a href="#">Web Design</a></li>
-                      <li><a href="#">Art</a></li>
-                      <li><a href="#">Figma</a></li>
-                      <li><a href="#">Adobe</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-            </ul>
-            <div class="read-more-btn">
-              <div class="rbt-btn-wrapper mt--20">
-                <a
-                  class="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center"
-                  href="#"
-                >
-                  <span>Learn More</span>
-                </a>
-              </div>
-            </div>
-          </nav>
-          <div class="rbt-offcanvas-footer"></div>
-        </div>
-      </div>
-      <!-- End Side Vav -->
-      <a class="rbt-close_side_menu" href="javascript:void(0);"></a>
-    </header>
-
-    <!-- Mobile Menu Section -->
-    <div class="popup-mobile-menu">
-      <div class="inner-wrapper">
-        <div class="inner-top">
-          <div class="content">
-            <div class="logo">
-              <div class="logo logo-dark">
-                <a href="/">
-                  <img
-                    src="../assets/images/logo.webp"
-                    alt="logo"
-                  />
-                </a>
-              </div>
-
-              <div class="logo d-none logo-light">
-                <a href="/">
-                  <img
-                    src="../assets/images/logo.webp"
-                    alt="logo"
-                  />
-                </a>
-              </div>
-            </div>
-            <div class="rbt-btn-close">
-              <button class="close-button rbt-round-btn">
-                <i class="feather-x"></i>
-              </button>
-            </div>
-          </div>
-          <p class="description text-dark">
-            We’re always in search for talented and motivated people. Don’t be
-            shy introduce yourself!
-          </p>
-          <ul
-            class="navbar-top-left rbt-information-list justify-content-start"
-          >
-            <li>
-              <a href="mailto:hello@example.com" class="text-dark"
-                ><i class="feather-mail"></i>info@ecsaio.in</a
-              >
-            </li>
-            <li>
-              <a href="tel:+919361365818" class="text-dark"
-                ><i class="feather-phone"></i>+91 9361365818</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <nav class="mainmenu-nav">
-          <ul class="mainmenu">
-            <li>
-              <a href="../">Home </a>
-            </li>
-            <li>
-              <a href="./full_internship">Full Internship </a>
-            </li>
-            <li>
-              <a href="./skill_development">Skill Development</a>
-            </li>
-            <li>
-              <a href="./certificate_course">Certificate Courses</a>
-            </li>
-            <li>
-              <a href="./about">About</a>
-            </li>
-            <li>
-              <a href="./contact">Contact Us</a>
-            </li>
-          </ul>
-        </nav>
-
-        <div class="mobile-menu-bottom">
-          <div class="social-share-wrapper">
-            <span class="rbt-short-title d-block text-dark">Find With Us</span>
-            <ul
-              class="social-icon social-default transparent-with-border justify-content-start mt--20"
-            >
-              <li>
-                <a
-                  href="https://www.facebook.com/CloudecsInfotech"
-                >
-                  <i class="feather-facebook"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://x.com/Cloudecsin">
-                  <i class="fa-brands fa-x-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/cloudecs_infotech/">
-                  <i class="feather-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkdin.com/">
-                  <i class="feather-linkedin"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/@Cloudecsinfotech">
-                  <i class="feather-youtube"></i>
-                </a>
-              </li>
-            </ul>
+            <!-- Start Mobile-Menu-Bar -->
           </div>
         </div>
       </div>
+      <!-- Start Search Dropdown  -->
+      <div class="rbt-search-dropdown">
+        <div class="wrapper">
+          <div class="row">
+            <div class="col-lg-12">
+              <form action="#">
+                <input type="text" placeholder="What are you looking for?" />
+                <div class="submit-btn">
+                  <a class="rbt-btn btn-gradient btn-md" href="#">Search</a>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="rbt-separator-mid">
+            <hr class="rbt-separator m-0" />
+          </div>
+
+          <div class="row g-4 pt--30 pb--60">
+            <div class="col-lg-12">
+              <div class="section-title">
+                <h5 class="rbt-title-style-2">Our Top Course</h5>
+              </div>
+            </div>
+
+            <!-- Start Single Card  -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="rbt-card variation-01 rbt-hover">
+                <div class="rbt-card-img">
+                  <a href="./full_internship">
+                    <img src="assets/images/course/course-online-01.webp" alt="course-online-01" />
+                  </a>
+                </div>
+                <div class="rbt-card-body">
+                  <h5 class="rbt-card-title">
+                    <a href="./full_internship">React Js</a>
+                  </h5>
+                  <div class="rbt-review">
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <span class="rating-count"> (15 Reviews)</span>
+                  </div>
+                  <div class="rbt-card-bottom">
+                    <div class="rbt-price">
+                      <span class="current-price">$15</span>
+                      <span class="off-price">$25</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Single Card  -->
+
+            <!-- Start Single Card  -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="rbt-card variation-01 rbt-hover">
+                <div class="rbt-card-img">
+                  <a href="./full_internship">
+                    <img src="assets/images/course/course-online-02.webp" alt="course-online-02" />
+                  </a>
+                </div>
+                <div class="rbt-card-body">
+                  <h5 class="rbt-card-title">
+                    <a href="./full_internship">Java Program</a>
+                  </h5>
+                  <div class="rbt-review">
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <span class="rating-count"> (15 Reviews)</span>
+                  </div>
+                  <div class="rbt-card-bottom">
+                    <div class="rbt-price">
+                      <span class="current-price">$10</span>
+                      <span class="off-price">$40</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Single Card  -->
+
+            <!-- Start Single Card  -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="rbt-card variation-01 rbt-hover">
+                <div class="rbt-card-img">
+                  <a href="./full_internship">
+                    <img src="assets/images/course/course-online-03.webp" alt="course-online-03" />
+                  </a>
+                </div>
+                <div class="rbt-card-body">
+                  <h5 class="rbt-card-title">
+                    <a href="./full_internship">Web Design</a>
+                  </h5>
+                  <div class="rbt-review">
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <span class="rating-count"> (15 Reviews)</span>
+                  </div>
+                  <div class="rbt-card-bottom">
+                    <div class="rbt-price">
+                      <span class="current-price">$10</span>
+                      <span class="off-price">$20</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Single Card  -->
+
+            <!-- Start Single Card  -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="rbt-card variation-01 rbt-hover">
+                <div class="rbt-card-img">
+                  <a href="./full_internship">
+                    <img src="assets/images/course/course-online-04.webp" alt="course-online-04" />
+                  </a>
+                </div>
+                <div class="rbt-card-body">
+                  <h5 class="rbt-card-title">
+                    <a href="./full_internship">Web Design</a>
+                  </h5>
+                  <div class="rbt-review">
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <span class="rating-count"> (15 Reviews)</span>
+                  </div>
+                  <div class="rbt-card-bottom">
+                    <div class="rbt-price">
+                      <span class="current-price">$20</span>
+                      <span class="off-price">$40</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Single Card  -->
+          </div>
+        </div>
+      </div>
+      <!-- End Search Dropdown  -->
     </div>
     <!-- Start Side Vav -->
-    <div class="rbt-cart-side-menu">
+    <div class="rbt-offcanvas-side-menu rbt-category-sidemenu">
       <div class="inner-wrapper">
         <div class="inner-top">
-          <div class="content">
-            <div class="title">
-              <h4 class="title mb--0">Your shopping cart</h4>
-            </div>
-            <div class="rbt-btn-close" id="btn_sideNavClose">
-              <button class="minicart-close-button rbt-round-btn">
-                <i class="feather-x"></i>
-              </button>
-            </div>
+          <div class="inner-title">
+            <h4 class="title">Course Category</h4>
+          </div>
+          <div class="rbt-btn-close">
+            <button class="rbt-close-offcanvas rbt-round-btn">
+              <i class="feather-x"></i>
+            </button>
           </div>
         </div>
         <nav class="side-nav w-100">
-          <ul class="rbt-minicart-wrapper">
-            <li class="minicart-item">
-              <div class="thumbnail">
-                <a href="#">
-                  <img src="assets/images/product/1.webp" alt="Product_img" />
-                </a>
-              </div>
-              <div class="product-content">
-                <h6 class="title">
-                  <a href="single-product">Miracle Morning</a>
-                </h6>
-
-                <span class="quantity">1 * <span class="price">$22</span></span>
-              </div>
-              <div class="close-btn">
-                <button class="rbt-round-btn"><i class="feather-x"></i></button>
-              </div>
-            </li>
-
-            <li class="minicart-item">
-              <div class="thumbnail">
-                <a href="#">
-                  <img src="assets/images/product/7.webp" alt="Product_img" />
-                </a>
-              </div>
-              <div class="product-content">
-                <h6 class="title">
-                  <a href="single-product">Happy Strong</a>
-                </h6>
-
-                <span class="quantity">1 * <span class="price">$30</span></span>
-              </div>
-              <div class="close-btn">
-                <button class="rbt-round-btn"><i class="feather-x"></i></button>
+          <ul class="rbt-vertical-nav-list-wrapper vertical-nav-menu">
+            <li class="vertical-nav-item">
+              <a href="#">Course School</a>
+              <div class="vartical-nav-content-menu-wrapper">
+                <div class="vartical-nav-content-menu">
+                  <h3 class="rbt-short-title">Course Title</h3>
+                  <ul class="rbt-vertical-nav-list-wrapper">
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Art</a></li>
+                    <li><a href="#">Figma</a></li>
+                    <li><a href="#">Adobe</a></li>
+                  </ul>
+                </div>
+                <div class="vartical-nav-content-menu">
+                  <h3 class="rbt-short-title">Course Title</h3>
+                  <ul class="rbt-vertical-nav-list-wrapper">
+                    <li><a href="#">Photo</a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Math</a></li>
+                    <li><a href="#">Read</a></li>
+                  </ul>
+                </div>
               </div>
             </li>
-
-            <li class="minicart-item">
-              <div class="thumbnail">
-                <a href="#">
-                  <img src="assets/images/product/3.webp" alt="Product_img" />
-                </a>
-              </div>
-              <div class="product-content">
-                <h6 class="title">
-                  <a href="single-product">Rich Dad Poor Dad</a>
-                </h6>
-
-                <span class="quantity">1 * <span class="price">$50</span></span>
-              </div>
-              <div class="close-btn">
-                <button class="rbt-round-btn"><i class="feather-x"></i></button>
+            <li class="vertical-nav-item">
+              <a href="#">Online School</a>
+              <div class="vartical-nav-content-menu-wrapper">
+                <div class="vartical-nav-content-menu">
+                  <h3 class="rbt-short-title">Course Title</h3>
+                  <ul class="rbt-vertical-nav-list-wrapper">
+                    <li><a href="#">Photo</a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Math</a></li>
+                    <li><a href="#">Read</a></li>
+                  </ul>
+                </div>
+                <div class="vartical-nav-content-menu">
+                  <h3 class="rbt-short-title">Course Title</h3>
+                  <ul class="rbt-vertical-nav-list-wrapper">
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Art</a></li>
+                    <li><a href="#">Figma</a></li>
+                    <li><a href="#">Adobe</a></li>
+                  </ul>
+                </div>
               </div>
             </li>
-
-            <li class="minicart-item">
-              <div class="thumbnail">
-                <a href="#">
-                  <img src="assets/images/product/4.webp" alt="Product_img" />
-                </a>
+            <li class="vertical-nav-item">
+              <a href="#">kindergarten</a>
+              <div class="vartical-nav-content-menu-wrapper">
+                <div class="vartical-nav-content-menu">
+                  <h3 class="rbt-short-title">Course Title</h3>
+                  <ul class="rbt-vertical-nav-list-wrapper">
+                    <li><a href="#">Photo</a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Math</a></li>
+                    <li><a href="#">Read</a></li>
+                  </ul>
+                </div>
               </div>
-              <div class="product-content">
-                <h6 class="title">
-                  <a href="single-product">Momentum Theorem</a>
-                </h6>
-
-                <span class="quantity">1 * <span class="price">$50</span></span>
-              </div>
-              <div class="close-btn">
-                <button class="rbt-round-btn"><i class="feather-x"></i></button>
+            </li>
+            <li class="vertical-nav-item">
+              <a href="#">Classic LMS</a>
+              <div class="vartical-nav-content-menu-wrapper">
+                <div class="vartical-nav-content-menu">
+                  <h3 class="rbt-short-title">Course Title</h3>
+                  <ul class="rbt-vertical-nav-list-wrapper">
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Art</a></li>
+                    <li><a href="#">Figma</a></li>
+                    <li><a href="#">Adobe</a></li>
+                  </ul>
+                </div>
               </div>
             </li>
           </ul>
+          <div class="read-more-btn">
+            <div class="rbt-btn-wrapper mt--20">
+              <a class="rbt-btn btn-border-gradient radius-round btn-sm hover-transform-none w-100 justify-content-center text-center"
+                href="#">
+                <span>Learn More</span>
+              </a>
+            </div>
+          </div>
         </nav>
-
-        <div class="rbt-minicart-footer">
-          <hr class="mb--0" />
-          <div class="rbt-cart-subttotal">
-            <p class="subtotal"><strong>Subtotal:</strong></p>
-            <p class="price">$121</p>
-          </div>
-          <hr class="mb--0" />
-          <div class="rbt-minicart-bottom mt--20">
-            <div class="view-cart-btn">
-              <a
-                class="rbt-btn btn-border icon-hover w-100 text-center"
-                href="#"
-              >
-                <span class="btn-text">View Cart</span>
-                <span class="btn-icon"
-                  ><i class="feather-arrow-right"></i
-                ></span>
-              </a>
-            </div>
-            <div class="checkout-btn mt--20">
-              <a
-                class="rbt-btn btn-gradient icon-hover w-100 text-center"
-                href="#"
-              >
-                <span class="btn-text">Checkout</span>
-                <span class="btn-icon"
-                  ><i class="feather-arrow-right"></i
-                ></span>
-              </a>
-            </div>
-          </div>
-        </div>
+        <div class="rbt-offcanvas-footer"></div>
       </div>
     </div>
     <!-- End Side Vav -->
-    <a class="close_side_menu" href="javascript:void(0);"></a>
+    <a class="rbt-close_side_menu" href="javascript:void(0);"></a>
+  </header>
 
-    <!-- Start breadcrumb Area -->
-    <div class="rbt-breadcrumb-default rbt-breadcrumb-style-3">
-      <div class="breadcrumb-inner breadcrumb-dark">
-        <img src="./assets/images/bg/bg-g1.webp" alt="bg-g1" />
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8">
-            <div class="content text-start">
-              <ul class="page-list">
-                <li class="rbt-breadcrumb-item">
-                  <a href="/">Home</a>
-                </li>
-                <li>
-                  <div class="icon-right">
-                    <i class="feather-chevron-right"></i>
-                  </div>
-                </li>
-
-                <li class="rbt-breadcrumb-item active">
-                  DevSec Ops, Networking, Cyber Security
-                </li>
-              </ul>
-
-              <div class="rbt-new-badge rbt-new-badge-one">
-                <span class="rbt-new-badge-icon">🏆</span> Salary from Day 1
-              </div>
-
-              <h1 class="title">
-                Full Internship - DevSec Ops, Networking, Cyber Security
-              </h1>
-              <p class="description">
-                Learn DevSecOps, Networking, and Cyber Security and empower
-                yourself with cybersecurity expertise! Cloud ECS Infotech is
-                conducting a detailed DevSecOps, Networking, and Cyber Security
-                program helps to mitigate cyber threats in the future. In an era
-                of increasing cyberattacks, understanding DevSecOps, Networking,
-                and Cyber Security is vital to safeguard digital assets and
-                ensure business continuity.
-              </p>
+  <!-- Mobile Menu Section -->
+  <div class="popup-mobile-menu">
+    <div class="inner-wrapper">
+      <div class="inner-top">
+        <div class="content">
+          <div class="logo">
+            <div class="logo logo-dark">
+              <a href="/">
+                <img src="../assets/images/logo.webp" alt="logo" />
+              </a>
             </div>
+
+            <div class="logo d-none logo-light">
+              <a href="/">
+                <img src="../assets/images/logo.webp" alt="logo" />
+              </a>
+            </div>
+          </div>
+          <div class="rbt-btn-close">
+            <button class="close-button rbt-round-btn">
+              <i class="feather-x"></i>
+            </button>
+          </div>
+        </div>
+        <p class="description text-dark">
+          We’re always in search for talented and motivated people. Don’t be
+          shy introduce yourself!
+        </p>
+        <ul class="navbar-top-left rbt-information-list justify-content-start">
+          <li>
+            <a href="mailto:hello@example.com" class="text-dark"><i class="feather-mail"></i>info@ecsaio.in</a>
+          </li>
+          <li>
+            <a href="tel:+919361365818" class="text-dark"><i class="feather-phone"></i>+91 9361365818</a>
+          </li>
+        </ul>
+      </div>
+
+      <nav class="mainmenu-nav">
+        <ul class="mainmenu">
+          <li>
+            <a href="../">Home </a>
+          </li>
+          <li>
+            <a href="./full_internship">Full Internship </a>
+          </li>
+          <li>
+            <a href="./skill_development">Skill Development</a>
+          </li>
+          <li>
+            <a href="./certificate_course">Certificate Courses</a>
+          </li>
+          <li>
+            <a href="./about">About</a>
+          </li>
+          <li>
+            <a href="./contact">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="mobile-menu-bottom">
+        <div class="social-share-wrapper">
+          <span class="rbt-short-title d-block text-dark">Find With Us</span>
+          <ul class="social-icon social-default transparent-with-border justify-content-start mt--20">
+            <li>
+              <a href="https://www.facebook.com/CloudecsInfotech">
+                <i class="feather-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com/Cloudecsin">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/cloudecs_infotech/">
+                <i class="feather-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkdin.com/">
+                <i class="feather-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@Cloudecsinfotech">
+                <i class="feather-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Start Side Vav -->
+  <div class="rbt-cart-side-menu">
+    <div class="inner-wrapper">
+      <div class="inner-top">
+        <div class="content">
+          <div class="title">
+            <h4 class="title mb--0">Your shopping cart</h4>
+          </div>
+          <div class="rbt-btn-close" id="btn_sideNavClose">
+            <button class="minicart-close-button rbt-round-btn">
+              <i class="feather-x"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <nav class="side-nav w-100">
+        <ul class="rbt-minicart-wrapper">
+          <li class="minicart-item">
+            <div class="thumbnail">
+              <a href="#">
+                <img src="assets/images/product/1.webp" alt="Product_img" />
+              </a>
+            </div>
+            <div class="product-content">
+              <h6 class="title">
+                <a href="single-product">Miracle Morning</a>
+              </h6>
+
+              <span class="quantity">1 * <span class="price">$22</span></span>
+            </div>
+            <div class="close-btn">
+              <button class="rbt-round-btn"><i class="feather-x"></i></button>
+            </div>
+          </li>
+
+          <li class="minicart-item">
+            <div class="thumbnail">
+              <a href="#">
+                <img src="assets/images/product/7.webp" alt="Product_img" />
+              </a>
+            </div>
+            <div class="product-content">
+              <h6 class="title">
+                <a href="single-product">Happy Strong</a>
+              </h6>
+
+              <span class="quantity">1 * <span class="price">$30</span></span>
+            </div>
+            <div class="close-btn">
+              <button class="rbt-round-btn"><i class="feather-x"></i></button>
+            </div>
+          </li>
+
+          <li class="minicart-item">
+            <div class="thumbnail">
+              <a href="#">
+                <img src="assets/images/product/3.webp" alt="Product_img" />
+              </a>
+            </div>
+            <div class="product-content">
+              <h6 class="title">
+                <a href="single-product">Rich Dad Poor Dad</a>
+              </h6>
+
+              <span class="quantity">1 * <span class="price">$50</span></span>
+            </div>
+            <div class="close-btn">
+              <button class="rbt-round-btn"><i class="feather-x"></i></button>
+            </div>
+          </li>
+
+          <li class="minicart-item">
+            <div class="thumbnail">
+              <a href="#">
+                <img src="assets/images/product/4.webp" alt="Product_img" />
+              </a>
+            </div>
+            <div class="product-content">
+              <h6 class="title">
+                <a href="single-product">Momentum Theorem</a>
+              </h6>
+
+              <span class="quantity">1 * <span class="price">$50</span></span>
+            </div>
+            <div class="close-btn">
+              <button class="rbt-round-btn"><i class="feather-x"></i></button>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="rbt-minicart-footer">
+        <hr class="mb--0" />
+        <div class="rbt-cart-subttotal">
+          <p class="subtotal"><strong>Subtotal:</strong></p>
+          <p class="price">$121</p>
+        </div>
+        <hr class="mb--0" />
+        <div class="rbt-minicart-bottom mt--20">
+          <div class="view-cart-btn">
+            <a class="rbt-btn btn-border icon-hover w-100 text-center" href="#">
+              <span class="btn-text">View Cart</span>
+              <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+            </a>
+          </div>
+          <div class="checkout-btn mt--20">
+            <a class="rbt-btn btn-gradient icon-hover w-100 text-center" href="#">
+              <span class="btn-text">Checkout</span>
+              <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+            </a>
           </div>
         </div>
       </div>
     </div>
-    <!-- End Breadcrumb Area -->
+  </div>
+  <!-- End Side Vav -->
+  <a class="close_side_menu" href="javascript:void(0);"></a>
 
-    <div class="rbt-course-details-area ptb--60">
-      <div class="container">
-        <div class="row g-5">
-          <div class="col-lg-8">
-            <div class="course-details-content">
-              <div
-                class="rbt-course-feature-box rbt-shadow-box thuumbnail"
-                style="position: relative"
-              >
-                <div class="text-end">
-                  <span
-                    class="badge"
-                    style="
+  <!-- Start breadcrumb Area -->
+  <div class="rbt-breadcrumb-default rbt-breadcrumb-style-3">
+    <div class="breadcrumb-inner breadcrumb-dark">
+      <img src="./assets/images/bg/bg-g1.webp" alt="bg-g1" />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="content text-start">
+            <ul class="page-list">
+              <li class="rbt-breadcrumb-item">
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <div class="icon-right">
+                  <i class="feather-chevron-right"></i>
+                </div>
+              </li>
+
+              <li class="rbt-breadcrumb-item active">
+                DevSec Ops, Networking, Cyber Security
+              </li>
+            </ul>
+
+            <div class="rbt-new-badge rbt-new-badge-one">
+              <span class="rbt-new-badge-icon">🏆</span> Salary from Day 1
+            </div>
+
+            <h1 class="title">
+              Full Internship - DevSec Ops, Networking, Cyber Security
+            </h1>
+            <p class="description">
+              Learn DevSecOps, Networking, and Cyber Security and empower
+              yourself with cybersecurity expertise! Cloud ECS Infotech is
+              conducting a detailed DevSecOps, Networking, and Cyber Security
+              program helps to mitigate cyber threats in the future. In an era
+              of increasing cyberattacks, understanding DevSecOps, Networking,
+              and Cyber Security is vital to safeguard digital assets and
+              ensure business continuity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Breadcrumb Area -->
+
+  <div class="rbt-course-details-area ptb--60">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-8">
+          <div class="course-details-content">
+            <div class="rbt-course-feature-box rbt-shadow-box thuumbnail" style="position: relative">
+              <div class="text-end">
+                <span class="badge" style="
                       position: absolute;
                       top: 50px;
                       right: 50px;
                       background-color: #fff;
                       font-size: 14px;
                       color: #b550ff;
-                    "
-                  >
-                    EMI Available
-                  </span>
-                </div>
-                <img
-                  class="w-100"
-                  src="./assets/images/banner/devops.webp"
-                  alt="devops"
-                />
-                <div class="rbt-badge-3" style="bottom: 50px; right: 50px">
-                  <span>-50%</span>
-                  <span>Off</span>
-                </div>
+                    ">
+                  EMI Available
+                </span>
               </div>
-
-              <div class="rbt-inner-onepage-navigation sticky-top mt--30">
-                <nav class="mainmenu-nav onepagenav">
-                  <ul class="mainmenu">
-                    <li class="current">
-                      <a href="#overview" style="pointer-events: none"
-                        >Course Details</a
-                      >
-                    </li>
-                  </ul>
-                </nav>
+              <img class="w-100" src="./assets/images/banner/devops.webp" alt="devops" />
+              <div class="rbt-badge-3" style="bottom: 50px; right: 50px">
+                <span>-50%</span>
+                <span>Off</span>
               </div>
-
-              <!-- Start Course Feature Box  -->
-              <div
-                class="rbt-course-feature-box overview-wrapper rbt-shadow-box mt--30 has-show-more"
-                id="overview"
-              >
-                <div
-                  class="rbt-course-feature-inner has-show-more-inner-content"
-                >
-                  <div class="section-title">
-                    <h2 class="rbt-title-style-3">
-                      DevSec Ops, Networking, Cyber Security
-                    </h2>
-                  </div>
-                  <p>
-                    To thrive in the digital age, it's essential to have a solid
-                    foundation in DevSecOps, Networking, and Cyber Security.
-                    India's booming tech sector offers plenty of opportunities
-                    for professionals in these domains. Tech Giants and
-                    Start-Ups in major IT hubs in India like Bengaluru, Chennai,
-                    Trivandrum, Hyderabad, Pune, and Delhi-NCR are constantly
-                    hiring skilled persons. Countries like the US, UK, Canada,
-                    and Australia offer competitive salaries, excellent
-                    work-life balance, and opportunities for professional
-                    growth.
-                  </p>
-                  <p>
-                    <b>Eligibility:</b> Any Degree or Diploma. Students awaiting
-                    final results can also apply.
-                  </p>
-                  <p><b>KEY FEATURES</b></p>
-                  <p>
-                    <b>Global Curriculum:</b> Updated Industry-Relevant
-                    curriculum.
-                  </p>
-                  <p>
-                    <b>Individual Assessments:</b> Individual assessments to
-                    evaluate individual progress and identify areas for
-                    improvement.
-                  </p>
-                  <p>
-                    <b>Industry-Best Instructors:</b> We have top-notch
-                    instructors to ensure your success.
-                  </p>
-                  <p>
-                    <b>Real-Time Projects:</b> Live projects to get relevant
-                    industrial experience.
-                  </p>
-                  <p>
-                    <b>Flexible Schedule:</b>Flexible timings to ensure
-                    optimized learning.
-                  </p>
-                  <p>
-                    <b
-                      >DevSec Ops, Networking, Cyber Security Career
-                      Opportunities</b
-                    >
-                  </p>
-                  <p>
-                    <b>Network Engineer:</b> Designing, implementing, and
-                    maintaining network infrastructure.
-                  </p>
-                  <p>
-                    <b>Cyber Security Analyst:</b> Identifying, assessing, and
-                    mitigating cyber threats.
-                  </p>
-                  <p>
-                    <b>DevOps Engineer:</b> Automating software development and
-                    deployment processes.
-                  </p>
-                  <p>
-                    <b>Cloud Security Engineer:</b> Protecting cloud-based
-                    applications and data.
-                  </p>
-                  <p>
-                    <b>Security Analyst:</b> Monitoring networks for security
-                    breaches and responding to incidents.
-                  </p>
-                  <p>
-                    <b>Penetration Tester:</b> Identifying vulnerabilities in
-                    systems and networks.
-                  </p>
-                  <p>
-                    Join us to learn the most futuristic DevSec Ops, Networking,
-                    Cyber Security course and start your interesting and
-                    challenging career in Cyber Security!
-                  </p>
-                </div>
-                <!-- <div class="rbt-show-more-btn">Show More</div> -->
-              </div>
-              <!-- End Course Feature Box  -->
             </div>
-            <div class="related-course mt--60">
-              <div class="row g-5 align-items-end mb--40">
-                <div class="col-lg-8 col-md-8 col-12">
-                  <div class="section-title">
-                    <span class="subtitle bg-pink-opacity">Top Course</span>
-                  </div>
+
+            <div class="rbt-inner-onepage-navigation sticky-top mt--30">
+              <nav class="mainmenu-nav onepagenav">
+                <ul class="mainmenu">
+                  <li class="current">
+                    <a href="#overview" style="pointer-events: none">Course Details</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+            <!-- Start Course Feature Box  -->
+            <div class="rbt-course-feature-box overview-wrapper rbt-shadow-box mt--30 has-show-more" id="overview">
+              <div class="rbt-course-feature-inner has-show-more-inner-content">
+                <div class="section-title">
+                  <h2 class="rbt-title-style-3">
+                    DevSec Ops, Networking, Cyber Security
+                  </h2>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12">
-                  <div class="read-more-btn text-start text-md-end"></div>
+                <p>
+                  To thrive in the digital age, it's essential to have a solid
+                  foundation in DevSecOps, Networking, and Cyber Security.
+                  India's booming tech sector offers plenty of opportunities
+                  for professionals in these domains. Tech Giants and
+                  Start-Ups in major IT hubs in India like Bengaluru, Chennai,
+                  Trivandrum, Hyderabad, Pune, and Delhi-NCR are constantly
+                  hiring skilled persons. Countries like the US, UK, Canada,
+                  and Australia offer competitive salaries, excellent
+                  work-life balance, and opportunities for professional
+                  growth.
+                </p>
+                <p>
+                  <b>Eligibility:</b> Any Degree or Diploma. Students awaiting
+                  final results can also apply.
+                </p>
+                <p><b>KEY FEATURES</b></p>
+                <p>
+                  <b>Global Curriculum:</b> Updated Industry-Relevant
+                  curriculum.
+                </p>
+                <p>
+                  <b>Individual Assessments:</b> Individual assessments to
+                  evaluate individual progress and identify areas for
+                  improvement.
+                </p>
+                <p>
+                  <b>Industry-Best Instructors:</b> We have top-notch
+                  instructors to ensure your success.
+                </p>
+                <p>
+                  <b>Real-Time Projects:</b> Live projects to get relevant
+                  industrial experience.
+                </p>
+                <p>
+                  <b>Flexible Schedule:</b>Flexible timings to ensure
+                  optimized learning.
+                </p>
+                <p>
+                  <b>DevSec Ops, Networking, Cyber Security Career
+                    Opportunities</b>
+                </p>
+                <p>
+                  <b>Network Engineer:</b> Designing, implementing, and
+                  maintaining network infrastructure.
+                </p>
+                <p>
+                  <b>Cyber Security Analyst:</b> Identifying, assessing, and
+                  mitigating cyber threats.
+                </p>
+                <p>
+                  <b>DevOps Engineer:</b> Automating software development and
+                  deployment processes.
+                </p>
+                <p>
+                  <b>Cloud Security Engineer:</b> Protecting cloud-based
+                  applications and data.
+                </p>
+                <p>
+                  <b>Security Analyst:</b> Monitoring networks for security
+                  breaches and responding to incidents.
+                </p>
+                <p>
+                  <b>Penetration Tester:</b> Identifying vulnerabilities in
+                  systems and networks.
+                </p>
+                <p>
+                  Join us to learn the most futuristic DevSec Ops, Networking,
+                  Cyber Security course and start your interesting and
+                  challenging career in Cyber Security!
+                </p>
+              </div>
+              <!-- <div class="rbt-show-more-btn">Show More</div> -->
+            </div>
+            <!-- End Course Feature Box  -->
+          </div>
+          <div class="related-course mt--60">
+            <div class="row g-5 align-items-end mb--40">
+              <div class="col-lg-8 col-md-8 col-12">
+                <div class="section-title">
+                  <span class="subtitle bg-pink-opacity">Top Course</span>
                 </div>
               </div>
-              <div class="row g-5">
-                <!-- Start Single Card  -->
-                <div
-                  class="col-lg-6 col-md-6 col-sm-6 col-12"
-                  data-sal-delay="150"
-                  data-sal="slide-up"
-                  data-sal-duration="800"
-                >
-                  <div class="rbt-card variation-01 rbt-hover">
-                    <div class="rbt-card-img">
-                      <a href="./skill_development">
-                        <img
-                          src="./assets/images/banner/Skill_Development.webp"
-                          alt="Skill_Development"
-                        />
-                        <div class="rbt-badge-3 bg-white">
-                          <span>-70%</span>
-                          <span>Off</span>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="rbt-card-body">
-                      <h4 class="rbt-card-title">
-                        <a href="./skill_development">Skill Development</a>
-                      </h4>
-
-                      <p class="rbt-card-text">
-                        Industry grade training on all selected modules. Get
-                        ready for interviews. Certificate after completion.
-                      </p>
-                      <div class="rbt-card-bottom">
-                        <div class="rbt-price">
-                          <span class="current-price">₹ 30,000</span>
-                          <span class="off-price">₹ 1,00,000</span>
-                        </div>
-                      </div>
-                      <a class="rbt-btn-link" href="./skill_development"
-                        >Learn More<i class="feather-arrow-right"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Card  -->
-
-                <!-- Start Single Card  -->
-                <div
-                  class="col-lg-6 col-md-6 col-sm-6 col-12"
-                  data-sal-delay="150"
-                  data-sal="slide-up"
-                  data-sal-duration="800"
-                >
-                  <div class="rbt-card variation-01 rbt-hover">
-                    <div class="rbt-card-img">
-                      <a href="./certificate_course">
-                        <img
-                          src="./assets/images/banner/Certificate_Course.webp"
-                          alt="Certificate_Course"
-                        />
-                        <div class="rbt-badge-3 bg-white">
-                          <span>-200%</span>
-                          <span>Off</span>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="rbt-card-body">
-                      <h4 class="rbt-card-title">
-                        <a href="./certificate_course">Certificate Course</a>
-                      </h4>
-
-                      <p class="rbt-card-text">
-                        Certificate on successful completion. Highly trained
-                        instructors with years of industry experience.
-                      </p>
-                      <div class="rbt-card-bottom">
-                        <div class="rbt-price">
-                          <span class="current-price">₹ 799</span>
-                          <span class="off-price">₹ 10,000</span>
-                        </div>
-                      </div>
-                      <a class="rbt-btn-link" href="./certificate_course"
-                        >Learn More<i class="feather-arrow-right"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Single Card  -->
+              <div class="col-lg-4 col-md-4 col-12">
+                <div class="read-more-btn text-start text-md-end"></div>
               </div>
+            </div>
+            <div class="row g-5">
+              <!-- Start Single Card  -->
+              <div class="col-lg-6 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up"
+                data-sal-duration="800">
+                <div class="rbt-card variation-01 rbt-hover">
+                  <div class="rbt-card-img">
+                    <a href="./skill_development">
+                      <img src="./assets/images/banner/Skill_Development.webp" alt="Skill_Development" />
+                      <div class="rbt-badge-3 bg-white">
+                        <span>-70%</span>
+                        <span>Off</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="rbt-card-body">
+                    <h4 class="rbt-card-title">
+                      <a href="./skill_development">Skill Development</a>
+                    </h4>
+
+                    <p class="rbt-card-text">
+                      Industry grade training on all selected modules. Get
+                      ready for interviews. Certificate after completion.
+                    </p>
+                    <div class="rbt-card-bottom">
+                      <div class="rbt-price">
+                        <span class="current-price">₹ 30,000</span>
+                        <span class="off-price">₹ 1,00,000</span>
+                      </div>
+                    </div>
+                    <a class="rbt-btn-link" href="./skill_development">Learn More<i class="feather-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Single Card  -->
+
+              <!-- Start Single Card  -->
+              <div class="col-lg-6 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up"
+                data-sal-duration="800">
+                <div class="rbt-card variation-01 rbt-hover">
+                  <div class="rbt-card-img">
+                    <a href="./certificate_course">
+                      <img src="./assets/images/banner/Certificate_Course.webp" alt="Certificate_Course" />
+                      <div class="rbt-badge-3 bg-white">
+                        <span>-200%</span>
+                        <span>Off</span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="rbt-card-body">
+                    <h4 class="rbt-card-title">
+                      <a href="./certificate_course">Certificate Course</a>
+                    </h4>
+
+                    <p class="rbt-card-text">
+                      Certificate on successful completion. Highly trained
+                      instructors with years of industry experience.
+                    </p>
+                    <div class="rbt-card-bottom">
+                      <div class="rbt-price">
+                        <span class="current-price">₹ 799</span>
+                        <span class="off-price">₹ 10,000</span>
+                      </div>
+                    </div>
+                    <a class="rbt-btn-link" href="./certificate_course">Learn More<i
+                        class="feather-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Single Card  -->
             </div>
           </div>
+        </div>
 
-          <div class="col-lg-4">
-            <div
-              class="course-sidebar sticky-top rbt-shadow-box course-sidebar-top rbt-gradient-border"
-            >
-              <div class="inner">
-                <!-- Start Viedo Wrapper  -->
-                <a
-                  class="video-popup-with-text video-popup-wrapper text-center popup-video sidebar-video-hidden mb--15"
-                  href="https://www.youtube.com/@Cloudecsinfotechwatch?v=nA1Aqp0sPQo"
-                >
-                  <div class="video-content">
-                    <img
-                      class="w-100 rbt-radius"
-                      src="./assets/images/others/video-01.webp"
-                      alt="video-01"
-                    />
-                    <div class="position-to-top">
-                      <span class="rbt-btn rounded-player-2 with-animation">
-                        <span class="play-icon"></span>
-                      </span>
-                    </div>
-                    <span class="play-view-text d-block color-white"
-                      ><i class="feather-eye"></i> Preview this course</span
-                    >
+        <div class="col-lg-4">
+          <div class="course-sidebar sticky-top rbt-shadow-box course-sidebar-top rbt-gradient-border">
+            <div class="inner">
+              <!-- Start Viedo Wrapper  -->
+              <a class="video-popup-with-text video-popup-wrapper text-center popup-video sidebar-video-hidden mb--15"
+                href="https://www.youtube.com/@Cloudecsinfotechwatch?v=nA1Aqp0sPQo">
+                <div class="video-content">
+                  <img class="w-100 rbt-radius" src="./assets/images/others/video-01.webp" alt="video-01" />
+                  <div class="position-to-top">
+                    <span class="rbt-btn rounded-player-2 with-animation">
+                      <span class="play-icon"></span>
+                    </span>
                   </div>
-                </a>
-                <!-- End Viedo Wrapper  -->
+                  <span class="play-view-text d-block color-white"><i class="feather-eye"></i> Preview this
+                    course</span>
+                </div>
+              </a>
+              <!-- End Viedo Wrapper  -->
 
-                <div class="content-item-content">
-                  <div
-                    class="rbt-price-wrapper d-flex flex-wrap align-items-center justify-content-between"
-                  >
-                    <div class="rbt-price">
-                      <span class="current-price">₹ 1,00,000</span>
-                      <span class="off-price">₹ 2,00,000</span>
-                    </div>
-                    <div class="discount-time">
-                      <span
-                        class="rbt-badge color-danger bg-color-danger-opacity"
-                        ><i class="feather-clock"></i> 3 days left!</span
-                      >
-                    </div>
+              <div class="content-item-content">
+                <div class="rbt-price-wrapper d-flex flex-wrap align-items-center justify-content-between">
+                  <div class="rbt-price">
+                    <span class="current-price">₹ 1,00,000</span>
+                    <span class="off-price">₹ 2,00,000</span>
                   </div>
-
-                  <div class="add-to-card-button mt--15">
-                    <a
-                      class="rbt-btn btn-gradient icon-hover w-100 d-block text-center"
-                      href="#"
-                    >
-                      <span class="btn-text">Add to Cart</span>
-                      <span class="btn-icon"
-                        ><i class="feather-arrow-right"></i
-                      ></span>
-                    </a>
+                  <div class="discount-time">
+                    <span class="rbt-badge color-danger bg-color-danger-opacity"><i class="feather-clock"></i> 3 days
+                      left!</span>
                   </div>
+                </div>
 
-                  <div class="buy-now-btn mt--15">
-                    <a
-                      class="rbt-btn btn-border icon-hover w-100 d-block text-center"
-                      href="#"
-                    >
-                      <span class="btn-text">Buy Now</span>
-                      <span class="btn-icon"
-                        ><i class="feather-arrow-right"></i
-                      ></span>
-                    </a>
-                  </div>
+                <div class="add-to-card-button mt--15">
+                  <a class="rbt-btn btn-gradient icon-hover w-100 d-block text-center" href="#">
+                    <span class="btn-text">Add to Cart</span>
+                    <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                  </a>
+                </div>
 
-                  <div class="social-share-wrapper mt--30 text-center">
-                    <div
-                      class="rbt-post-share d-flex align-items-center justify-content-center"
-                    >
-                      <ul
-                        class="social-icon social-default transparent-with-border justify-content-center"
-                      >
-                        <li>
-                          <a
-                            href="https://www.facebook.com/CloudecsInfotech"
-                          >
-                            <i class="feather-facebook"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="https://x.com/Cloudecsin" target="_blank">
-                            <i class="fa-brands fa-x-twitter"></i>
-                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                <div class="buy-now-btn mt--15">
+                  <a class="rbt-btn btn-border icon-hover w-100 d-block text-center" href="#" data-bs-toggle="modal"
+                    data-bs-target="#course-register">
+                    <span class="btn-text">Buy Now</span>
+                    <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                  </a>
+                </div>
+
+                <div class="social-share-wrapper mt--30 text-center">
+                  <div class="rbt-post-share d-flex align-items-center justify-content-center">
+                    <ul class="social-icon social-default transparent-with-border justify-content-center">
+                      <li>
+                        <a href="https://www.facebook.com/CloudecsInfotech">
+                          <i class="feather-facebook"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://x.com/Cloudecsin" target="_blank">
+                          <i class="fa-brands fa-x-twitter"></i>
+                          <!-- <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                             fill="#6b7385">
                             <path d="M17.7 2L12 9.3 6.3 2H2l8.6 10.7L2 22h4.3l5.7-7.5L17.7 22H22l-8.6-9.3L22 2h-4.3z" />
                           </svg> -->
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://www.instagram.com/cloudecs_infotech/"
-                            target="_blank"
-                          >
-                            <i class="feather-instagram"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="https://www.linkdin.com/" target="_blank">
-                            <i class="feather-linkedin"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://www.youtube.com/@Cloudecsinfotech"
-                            target="_blank"
-                          >
-                            <i class="feather-youtube"></i>
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <hr class="mt--20" />
-                    <div class="contact-with-us text-center">
-                      <p>For details about the course</p>
-                      <p
-                        class="rbt-badge-2 mt--10 justify-content-center w-100"
-                      >
-                        <i class="feather-phone mr--5"></i> Call Us:
-                        <a href="tel:+919361365818"
-                          ><strong>+91 9361365818</strong></a
-                        >
-                      </p>
-                    </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.instagram.com/cloudecs_infotech/" target="_blank">
+                          <i class="feather-instagram"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.linkdin.com/" target="_blank">
+                          <i class="feather-linkedin"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.youtube.com/@Cloudecsinfotech" target="_blank">
+                          <i class="feather-youtube"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <hr class="mt--20" />
+                  <div class="contact-with-us text-center">
+                    <p>For details about the course</p>
+                    <p class="rbt-badge-2 mt--10 justify-content-center w-100">
+                      <i class="feather-phone mr--5"></i> Call Us:
+                      <a href="tel:+919361365818"><strong>+91 9361365818</strong></a>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1369,278 +1193,471 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="rbt-separator-mid">
-      <div class="container">
-        <hr class="rbt-separator m-0" />
-      </div>
+  <div class="rbt-separator-mid">
+    <div class="container">
+      <hr class="rbt-separator m-0" />
     </div>
+  </div>
 
-    <!-- Start Course Action Bottom  -->
-    <div class="rbt-course-action-bottom">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6 col-md-6">
-            <div class="section-title text-center text-md-start">
-              <h5 class="title mb--0">
-                The Complete Cloud ECS Infotech 2024: From Zero to Expert!
-              </h5>
+  <!-- Start Course Action Bottom  -->
+  <div class="rbt-course-action-bottom">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-6">
+          <div class="section-title text-center text-md-start">
+            <h5 class="title mb--0">
+              The Complete Cloud ECS Infotech 2024: From Zero to Expert!
+            </h5>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 mt_sm--15">
+          <div class="course-action-bottom-right rbt-single-group">
+            <div class="rbt-single-list rbt-price large-size justify-content-center">
+              <span class="current-price color-primary">$1,00,000</span>
+              <span class="off-price">$ 2,00,000</span>
+            </div>
+            <div class="rbt-single-list action-btn">
+              <a class="rbt-btn btn-gradient hover-icon-reverse btn-md" href="#" data-bs-toggle="modal"
+                data-bs-target="#course-register">
+                <span class="icon-reverse-wrapper">
+                  <span class="btn-text">Join now</span>
+                  <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                  <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                </span>
+              </a>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 mt_sm--15">
-            <div class="course-action-bottom-right rbt-single-group">
-              <div
-                class="rbt-single-list rbt-price large-size justify-content-center"
-              >
-                <span class="current-price color-primary">$1,00,000</span>
-                <span class="off-price">$ 2,00,000</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Course Action Bottom  -->
+  <div class="rbt-separator-mid">
+    <div class="container">
+      <hr class="rbt-separator m-0" />
+    </div>
+  </div>
+  <!-- Start Footer aera -->
+  <footer class="rbt-footer footer-style-1">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row row--15 mt_dec--30">
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
+            <div class="footer-widget">
+              <div class="logo logo-dark">
+                <a href="/">
+                  <img src="../assets/images/logo.webp" alt="logo" />
+                </a>
               </div>
-              <div class="rbt-single-list action-btn">
-                <a
-                  class="rbt-btn btn-gradient hover-icon-reverse btn-md"
-                  href="#"
-                >
-                  <span class="icon-reverse-wrapper">
-                    <span class="btn-text">Join now</span>
-                    <span class="btn-icon"
-                      ><i class="feather-arrow-right"></i
-                    ></span>
-                    <span class="btn-icon"
-                      ><i class="feather-arrow-right"></i
-                    ></span>
-                  </span>
+              <div class="logo d-none logo-light">
+                <a href="/">
+                  <img src="../assets/images/logo.webp" alt="logo" />
+                </a>
+              </div>
+
+              <p class="description mt--20">
+                We’re always in search for talented and motivated people.
+                Don’t be shy introduce yourself!
+              </p>
+
+              <div class="contact-btn mt--30">
+                <a class="rbt-btn hover-icon-reverse btn-border-gradient radius-round" href="./contact">
+                  <div class="icon-reverse-wrapper">
+                    <span class="btn-text">Contact Us</span>
+                    <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                    <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                  </div>
                 </a>
               </div>
             </div>
           </div>
+
+          <div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6 col-12 mt--30">
+            <div class="footer-widget">
+              <h5 class="ft-title">Courses</h5>
+              <ul class="ft-link">
+                <li>
+                  <a href="./full_internship">Full Internship</a>
+                </li>
+                <li>
+                  <a href="./skill_development">Skill Development</a>
+                </li>
+                <li>
+                  <a href="./certificate_course">Certificate Course</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-6 col-12 mt--30">
+            <div class="footer-widget">
+              <h5 class="ft-title">Useful Links</h5>
+              <ul class="ft-link">
+                <li>
+                  <a href="./contact">Contact Us</a>
+                </li>
+                <li>
+                  <a href="../refund_cancellation_policy">Refund and Cancellation Policy</a>
+                </li>
+                <li>
+                  <a href="../shipping_and_delivery_policy">Shipping and Delivery Policy</a>
+                </li>
+                <li>
+                  <a href="../privacy_policy">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="../terms_and_conditions">Terms of Services</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt--30">
+            <div class="footer-widget">
+              <h5 class="ft-title">Get Contact</h5>
+              <ul class="ft-link">
+                <li>
+                  <span>Phone:</span>
+                  <a href="tel:+919361365818">+91 9361365818</a>
+                </li>
+                <li>
+                  <span>E-mail:</span>
+                  <a href="mailto:info@ecsaio.in"> info@ecsaio.in</a>
+                </li>
+                <li>
+                  <span>Location:</span> 766, Sakthi Tower Ln, <br />
+                  Anna Salai, Thousand Lights, Chennai, Tamil Nadu 600002.
+                </li>
+              </ul>
+              <ul class="social-icon social-default icon-naked justify-content-start mt--20">
+                <li>
+                  <a href="https://www.facebook.com/CloudecsInfotech" target="_blank">
+                    <i class="feather-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://x.com/Cloudecsin" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#6b7385">
+                      <path d="M17.7 2L12 9.3 6.3 2H2l8.6 10.7L2 22h4.3l5.7-7.5L17.7 22H22l-8.6-9.3L22 2h-4.3z" />
+                    </svg> -->
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/cloudecs_infotech/" target="_blank">
+                    <i class="feather-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkdin.com/" target="_blank">
+                    <i class="feather-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/@Cloudecsinfotech" target="_blank">
+                    <i class="feather-youtube"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.whatsapp.com" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <!-- End Course Action Bottom  -->
-    <div class="rbt-separator-mid">
-      <div class="container">
-        <hr class="rbt-separator m-0" />
+  </footer>
+  <!-- End Footer aera -->
+  <div class="rbt-separator-mid">
+    <div class="container">
+      <hr class="rbt-separator m-0" />
+    </div>
+  </div>
+  <!-- Start Copyright Area  -->
+  <div class="copyright-area copyright-style-1 ptb--20">
+    <div class="container">
+      <div class="row align-items-center">
+        <p class="rbt-link-hover text-center">
+          Copyright © 2024 Cloud ECS Infotech Pvt Ltd. All Rights Reserved
+        </p>
       </div>
     </div>
-    <!-- Start Footer aera -->
-    <footer class="rbt-footer footer-style-1">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row row--15 mt_dec--30">
-            <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--30">
-              <div class="footer-widget">
-                <div class="logo logo-dark">
-                  <a href="/">
-                    <img src="../assets/images/logo.webp" alt="logo" />
-                  </a>
-                </div>
-                <div class="logo d-none logo-light">
-                  <a href="/">
-                    <img src="../assets/images/logo.webp" alt="logo" />
-                  </a>
-                </div>
+  </div>
+  <!-- End Copyright Area  -->
+  <div class="rbt-progress-parent">
+    <svg class="rbt-back-circle svg-inner" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
 
-                <p class="description mt--20">
-                  We’re always in search for talented and motivated people.
-                  Don’t be shy introduce yourself!
+  <!-- course register modal -->
+  <div class="modal fade" id="course-register" tabindex="-1" aria-labelledby="currentModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="d-flex justify-content-end pt-4 pe-4">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Modal content goes here -->
+          <div class="row m-0 p-3">
+            <div class="col-md-6 col-12 order-1 order-lg-0 d-flex flex-column justify-content-center">
+              <div class="text-start pt-3 pe-5">
+                <p class="mb-1" style="
+                        font-weight: 500;
+                        background: linear-gradient(
+                          90deg,
+                          #2f57efbf 0%,
+                          #c586eeab 100%
+                        );
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                      ">
+                  <b>Salary from Day 1</b>
                 </p>
 
-                <div class="contact-btn mt--30">
-                  <a
-                    class="rbt-btn hover-icon-reverse btn-border-gradient radius-round"
-                    href="./contact"
-                  >
-                    <div class="icon-reverse-wrapper">
-                      <span class="btn-text">Contact Us</span>
-                      <span class="btn-icon"
-                        ><i class="feather-arrow-right"></i
-                      ></span>
-                      <span class="btn-icon"
-                        ><i class="feather-arrow-right"></i
-                      ></span>
-                    </div>
-                  </a>
-                </div>
+                <p class="pb-0 text-dark modal_title">
+                  Full Internship - DevSec Ops, Networking, Cyber Security
+                </p>
+                <p class="py-1">
+                  Learn DevSecOps, Networking, and Cyber Security and empower yourself with cybersecurity expertise!
+                  Cloud ECS Infotech is conducting a detailed DevSecOps, Networking, and Cyber Security program helps to
+                  mitigate cyber threats in the future.
+                </p>
               </div>
             </div>
-
-            <div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6 col-12 mt--30">
-              <div class="footer-widget">
-                <h5 class="ft-title">Courses</h5>
-                <ul class="ft-link">
-                  <li>
-                    <a href="./full_internship">Full Internship</a>
-                  </li>
-                  <li>
-                    <a href="./skill_development">Skill Development</a>
-                  </li>
-                  <li>
-                    <a href="./certificate_course">Certificate Course</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-lg-2 col-md-6 col-sm-6 col-12 mt--30">
-              <div class="footer-widget">
-                <h5 class="ft-title">Useful Links</h5>
-                <ul class="ft-link">
-                  <li>
-                    <a href="./contact">Contact Us</a>
-                  </li>
-                  <li>
-                    <a href="../refund_cancellation_policy"
-                      >Refund and Cancellation Policy</a
-                    >
-                  </li>
-                  <li>
-                    <a href="../shipping_and_delivery_policy"
-                      >Shipping and Delivery Policy</a
-                    >
-                  </li>
-                  <li>
-                    <a href="../privacy_policy">Privacy Policy</a>
-                  </li>
-                  <li>
-                    <a href="../terms_and_conditions">Terms of Services</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12 mt--30">
-              <div class="footer-widget">
-                <h5 class="ft-title">Get Contact</h5>
-                <ul class="ft-link">
-                  <li>
-                    <span>Phone:</span>
-                    <a href="tel:+919361365818">+91 9361365818</a>
-                  </li>
-                  <li>
-                    <span>E-mail:</span>
-                    <a href="mailto:info@ecsaio.in"> info@ecsaio.in</a>
-                  </li>
-                  <li>
-                    <span>Location:</span> 766, Sakthi Tower Ln, <br />
-                    Anna Salai, Thousand Lights, Chennai, Tamil Nadu 600002.
-                  </li>
-                </ul>
-                <ul
-                  class="social-icon social-default icon-naked justify-content-start mt--20"
-                >
-                  <li>
-                    <a
-                      href="https://www.facebook.com/CloudecsInfotech"
-                      target="_blank"
-                    >
-                      <i class="feather-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://x.com/Cloudecsin" target="_blank">
-                      <i class="fa-brands fa-x-twitter"></i>
-                      <!-- <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#6b7385">
-                      <path d="M17.7 2L12 9.3 6.3 2H2l8.6 10.7L2 22h4.3l5.7-7.5L17.7 22H22l-8.6-9.3L22 2h-4.3z" />
-                    </svg> -->
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.instagram.com/cloudecs_infotech/"
-                      target="_blank"
-                    >
-                      <i class="feather-instagram"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkdin.com/" target="_blank">
-                      <i class="feather-linkedin"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.youtube.com/@Cloudecsinfotech"
-                      target="_blank"
-                    >
-                      <i class="feather-youtube"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.whatsapp.com" target="_blank">
-                      <i class="fab fa-whatsapp"></i>
-                    </a>
-                  </li>
-                </ul>
+            <div class="col-md-6 col-12 order-0 order-lg-1">
+              <div class="text-start">
+                <p style="
+                        font-size: 24px;
+                        background: linear-gradient(
+                          90deg,
+                          #2f57efbf 0%,
+                          #c586eeab 100%
+                        );
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        font-weight: 500;
+                      ">
+                  Register Our Course
+                </p>
+                <form id="course_register">
+                  <div class="mb-4">
+                    <input placeholder="Name" type="text" class="form-control form-control-sm" id="name" name="name"
+                      style="outline: none; box-shadow: none" />
+                  </div>
+                  <div class="mb-4">
+                    <input placeholder="Email" type="email" class="form-control form-control-sm" id="checkout_email"
+                      name="checkout_email" style="outline: none; box-shadow: none" />
+                  </div>
+                  <div class="mb-4">
+                    <input placeholder="Phone" type="text" class="form-control form-control-sm" id="phone" name="phone"
+                      style="outline: none; box-shadow: none" />
+                  </div>
+                  <div class="mb-4">
+                    <input placeholder="City" type="text" class="form-control form-control-sm" id="city" value="chennai"
+                      name="city" style="outline: none; box-shadow: none" />
+                  </div>
+                  <input type="hidden" class="form-control form-control-sm" id="course_fee" name="course_fee"
+                    value="100000" />
+                  <input type="hidden" class="form-control form-control-sm" id="courses" name="courses"
+                    value="Full Internship - DevSec Ops, Networking, Cyber Security" />
+                  <input type="hidden" class="form-control form-control-sm" id="course_gst" name="course_gst"
+                    value="18000" />
+                  <button type="submit" class="btn btn-primary w-100 my-2" style="
+                          font-size: 1.5rem;
+                          border-radius: 6px;
+                          background: linear-gradient(
+                            to right,
+                            #2f57efbf 0%,
+                            #b964e3 100%
+                          );
+                          padding: 10px;
+                          border: none;
+                          transition: background 0.3s ease-in-out;
+                        " onmouseover="this.style.background='linear-gradient(to left, #2f57efbf 0%, #b964e3 100%)'"
+                    onmouseout="this.style.background='linear-gradient(to right, #2f57efbf 0%, #b964e3 100%)'">
+                    Register a new course
+                  </button>
+                </form>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- End Footer aera -->
-    <div class="rbt-separator-mid">
-      <div class="container">
-        <hr class="rbt-separator m-0" />
-      </div>
     </div>
-    <!-- Start Copyright Area  -->
-    <div class="copyright-area copyright-style-1 ptb--20">
-      <div class="container">
-        <div class="row align-items-center">
-          <p class="rbt-link-hover text-center">
-            Copyright © 2024 Cloud ECS Infotech Pvt Ltd. All Rights Reserved
-          </p>
+  </div>
+
+  <!-- checkout modal -->
+
+  <div class="modal fade" id="checkout" tabindex="-1" aria-labelledby="newModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="d-flex justify-content-end pt-4 pe-4">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row m-0 p-3">
+            <div class="col-md-6 col-12">
+              <div class="text-start pt-3 pe-5">
+                <p class="mb-1" style="
+                        font-weight: 500;
+                        background: linear-gradient(
+                          90deg,
+                          #2f57efbf 0%,
+                          #c586eeab 100%
+                        );
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                      ">
+                  <b>Salary from Day 1</b>
+                </p>
+
+                <p class="pb-0 text-dark modal_title">
+                  Full Internship - 100% Placement Assured !
+                </p>
+                <p class="py-1">
+                  Your skill, our guarantee. Not only we offer 100% placement
+                  after the successful completion of the internship program,
+                  you get paid from the day one of joining the program.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <p class="text-center" style="
+                      font-weight: 500;
+                      font-size: 3rem;
+                      background: linear-gradient(
+                        90deg,
+                        #2f57efbf 0%,
+                        #c586eeab 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    ">
+                <b>Checkout</b>
+              </p>
+
+              <div class="pt-4">
+                <div class="d-flex justify-content-between align-items-center py-2">
+                  <div>Sub Total</div>
+                  <div>₹ 1,00,000</div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center py-2">
+                  <div>GST</div>
+                  <div>₹ 18,000</div>
+                </div>
+                <hr />
+                <div class="d-flex justify-content-between align-items-center py-2">
+                  <div>Total</div>
+                  <div>₹ 1,18,000</div>
+                </div>
+              </div>
+              <div class="py-5">
+                <button type="submit" class="btn btn-primary w-100 my-2" style="
+                        font-size: 1.5rem;
+                        border-radius: 6px;
+                        background: linear-gradient(
+                          to right,
+                          #2f57efbf 0%,
+                          #b964e3 100%
+                        );
+                        padding: 10px;
+                        border: none;
+                        transition: background 0.3s ease-in-out;
+                      " onmouseover="this.style.background='linear-gradient(to left, #2f57efbf 0%, #b964e3 100%)'"
+                  onmouseout="this.style.background='linear-gradient(to right, #2f57efbf 0%, #b964e3 100%)'">
+                  Checkout
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <!-- End Copyright Area  -->
-    <div class="rbt-progress-parent">
-      <svg
-        class="rbt-back-circle svg-inner"
-        width="100%"
-        height="100%"
-        viewBox="-1 -1 102 102"
-      >
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-      </svg>
+  </div>
+
+  <!-- checkout success modal -->
+  <div class="modal fade" id="chceckout-success" tabindex="-1" aria-labelledby="newModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content modalContent">
+        <div class="d-flex justify-content-between p-4" style="background: #28a745">
+          <h5 class="modal-title text-light">
+            Thank you for sharing your details!
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+            style="font-size: 12px"></button>
+        </div>
+        <div class="modal-body pt-0 text-center">
+          <i class="fa-solid fa-circle-check my-5" style="color: #28a745; font-size: 80px"></i>
+
+          <p class="mb-0 text-center pb-3 px-2" style="font-size: 14px">
+            <strong class="text-center pb-3" style="font-size: 20px">We have sent the payment link to your email
+              address</strong>
+            <br />
+            Check your inbox for instructions. <br />If details are correct,
+            complete the payment promptly. <br />
+            For assistance, reply to this email or contact support.
+          </p>
+
+          <div class="text-center py-3">
+            <p class="mb-0 fw-bold" style="font-size: 26px">+91 9361365818</p>
+            <p class="fw-bold">info@ecsaio.in</p>
+          </div>
+
+          <!-- Back to Home Button -->
+          <a href="/" class="py-3">
+            <button class="btn successMagnetButton">Back to Website</button>
+          </a>
+        </div>
+      </div>
     </div>
+  </div>
 
-    <!-- JS
+  <!-- JS
 ============================================ -->
-    <!-- Modernizer JS -->
-    <script src="assets/js/vendor/modernizr.min.js"></script>
-    <!-- jQuery JS -->
-    <script src="assets/js/vendor/jquery.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
-    <!-- sal.js -->
-    <script src="assets/js/vendor/sal.js"></script>
-    <!-- Dark Mode Switcher -->
-    <script src="assets/js/vendor/js.cookie.js"></script>
-    <script src="assets/js/vendor/jquery.style.switcher.js"></script>
-    <script src="assets/js/vendor/swiper.js"></script>
-    <script src="assets/js/vendor/jquery-appear.js"></script>
-    <script src="assets/js/vendor/odometer.js"></script>
-    <script src="assets/js/vendor/backtotop.js"></script>
-    <script src="assets/js/vendor/isotop.js"></script>
-    <script src="assets/js/vendor/imageloaded.js"></script>
+  <!-- Modernizer JS -->
+  <script src="assets/js/vendor/modernizr.min.js"></script>
+  <!-- jQuery JS -->
+  <script src="assets/js/vendor/jquery.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="assets/js/vendor/bootstrap.min.js"></script>
+  <!-- sal.js -->
+  <script src="assets/js/vendor/sal.js"></script>
+  <!-- Dark Mode Switcher -->
+  <script src="assets/js/vendor/js.cookie.js"></script>
+  <script src="assets/js/vendor/jquery.style.switcher.js"></script>
+  <script src="assets/js/vendor/swiper.js"></script>
+  <script src="assets/js/vendor/jquery-appear.js"></script>
+  <script src="assets/js/vendor/odometer.js"></script>
+  <script src="assets/js/vendor/backtotop.js"></script>
+  <script src="assets/js/vendor/isotop.js"></script>
+  <script src="assets/js/vendor/imageloaded.js"></script>
 
-    <script src="assets/js/vendor/wow.js"></script>
-    <script src="assets/js/vendor/waypoint.min.js"></script>
-    <script src="assets/js/vendor/easypie.js"></script>
-    <script src="assets/js/vendor/text-type.js"></script>
-    <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
-    <script src="assets/js/vendor/bootstrap-select.min.js"></script>
-    <script src="assets/js/vendor/jquery-ui.js"></script>
-    <script src="assets/js/vendor/magnify-popup.min.js"></script>
-    <script src="assets/js/vendor/paralax-scroll.js"></script>
-    <script src="assets/js/vendor/paralax.min.js"></script>
-    <script src="assets/js/vendor/countdown.js"></script>
-    <script src="assets/js/vendor/plyr.js"></script>
-    <script src="assets/js/vendor/jodit.min.js"></script>
-    <script src="assets/js/vendor/Sortable.min.js"></script>
+  <script src="assets/js/vendor/wow.js"></script>
+  <script src="assets/js/vendor/waypoint.min.js"></script>
+  <script src="assets/js/vendor/easypie.js"></script>
+  <script src="assets/js/vendor/text-type.js"></script>
+  <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
+  <script src="assets/js/vendor/bootstrap-select.min.js"></script>
+  <script src="assets/js/vendor/jquery-ui.js"></script>
+  <script src="assets/js/vendor/magnify-popup.min.js"></script>
+  <script src="assets/js/vendor/paralax-scroll.js"></script>
+  <script src="assets/js/vendor/paralax.min.js"></script>
+  <script src="assets/js/vendor/countdown.js"></script>
+  <script src="assets/js/vendor/plyr.js"></script>
+  <script src="assets/js/vendor/jodit.min.js"></script>
+  <script src="assets/js/vendor/Sortable.min.js"></script>
 
-    <!-- Main JS -->
-    <script src="assets/js/main.js"></script>
-  </body>
+  <!-- Main JS -->
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+  <script src="../assets/js/custom.js"></script>
+</body>
+
 </html>
