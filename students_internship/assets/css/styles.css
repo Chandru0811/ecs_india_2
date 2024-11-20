@@ -31696,7 +31696,7 @@ Course Sidebar
   background: transparent;
 }
 .active-dark-mode .rbt-splash-slider {
-  background-image: url(../images/dark/bg/bg-image-10.jpg);
+  background-image: url(../images/dark/bg/bg-image-10.webp);
 }
 .active-dark-mode .rbt-splash-slider::after {
   background-image: url(../images/dark/bg/banner-bg-shape-1.svg);

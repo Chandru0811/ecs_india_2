@@ -53,13 +53,13 @@
     <ul>
       <li>
         <a href="#" data-theme="light" class="setColor light">
-          <img src="students_internship/assets/images/about/sun-01.svg" alt="Sun images" /><span title="Light Mode">
+          <img src="students_internship/assets/images/about/sun-01.svg" alt="sun-01" /><span title="Light Mode">
             Light</span>
         </a>
       </li>
       <li>
         <a href="#" data-theme="dark" class="setColor dark">
-          <img src="students_internship/assets/images/about/vector.svg" alt="Vector Images" /><span title="Dark Mode"> Dark</span>
+          <img src="students_internship/assets/images/about/vector.svg" alt="vector" /><span title="Dark Mode"> Dark</span>
         </a>
       </li>
     </ul>
@@ -91,7 +91,7 @@
                 <div class="header-info d-none d-xl-block">
                   <ul class="social-share-transparent">
                     <li>
-                      <a href="https://www.facebook.com/profile.php?id=61568134386784" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                      <a href="https://www.facebook.com/CloudecsInfotech" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     </li>
                     <li>
                       <a href="https://x.com/Cloudecsin" target="_blank">
@@ -133,13 +133,13 @@
             <div class="header-info">
               <div class="logo d-none logo-dark">
                 <a href="/">
-                  <img src="./assets/images/logo.webp" alt="Education Logo Images" />
+                  <img src="./assets/images/logo.webp" alt="logo" />
                 </a>
               </div>
 
               <div class="logo d-block logo-light">
                 <a href="/">
-                  <img src="./assets/images/logo.webp" alt="Education Logo Images" />
+                  <img src="./assets/images/logo.webp" alt="logo" />
                 </a>
               </div>
             </div>
@@ -232,9 +232,11 @@
           </div>
 
           <div class="header-right">
+            <a href="./students_internship/contact" style="text-decoration: none;">
             <div class="rbt-btn-wrapper d-none d-xl-block">
               <button class="btn btn-primary join_us">Join Us</button>
             </div>
+            </a>
 
             <!-- Start Mobile-Menu-Bar -->
             <div class="mobile-menu-bar d-block d-xl-none">
@@ -278,7 +280,7 @@
               <div class="rbt-card variation-01 rbt-hover">
                 <div class="rbt-card-img">
                   <a href="./students_internship/full_internship">
-                    <img src="./students_internship/assets/images/course/course-online-01.jpg" alt="Card image" />
+                    <img src="./students_internship/assets/images/course/course-online-01.webp" alt="course-online-01" />
                   </a>
                 </div>
                 <div class="rbt-card-body">
@@ -311,7 +313,7 @@
               <div class="rbt-card variation-01 rbt-hover">
                 <div class="rbt-card-img">
                   <a href="./students_internship/full_internship">
-                    <img src="./students_internship/assets/images/course/course-online-02.jpg" alt="Card image" />
+                    <img src="./students_internship/assets/images/course/course-online-02.webp" alt="course-online-02" />
                   </a>
                 </div>
                 <div class="rbt-card-body">
@@ -344,7 +346,7 @@
               <div class="rbt-card variation-01 rbt-hover">
                 <div class="rbt-card-img">
                   <a href="./students_internship/full_internship">
-                    <img src="./students_internship/assets/images/course/course-online-03.jpg" alt="Card image" />
+                    <img src="./students_internship/assets/images/course/course-online-03.webp" alt="course-online-03" />
                   </a>
                 </div>
                 <div class="rbt-card-body">
@@ -377,7 +379,7 @@
               <div class="rbt-card variation-01 rbt-hover">
                 <div class="rbt-card-img">
                   <a href="./students_internship/full_internship">
-                    <img src="./students_internship/assets/images/course/course-online-04.jpg" alt="Card image" />
+                    <img src="./students_internship/assets/images/course/course-online-04.webp" alt="course-online-04" />
                   </a>
                 </div>
                 <div class="rbt-card-body">
@@ -523,13 +525,13 @@
           <div class="logo">
             <div class="logo logo-dark">
               <a href="/">
-                <img src="./assets/images/logo.webp" alt="Education Logo Images" />
+                <img src="./assets/images/logo.webp" alt="logo" />
               </a>
             </div>
 
             <div class="logo d-none logo-light">
               <a href="/">
-                <img src="./assets/images/logo.webp" alt="Education Logo Images" />
+                <img src="./assets/images/logo.webp" alt="logo" />
               </a>
             </div>
           </div>
@@ -581,7 +583,7 @@
           <span class="rbt-short-title d-block text-dark">Find With Us</span>
           <ul class="social-icon social-default transparent-with-border justify-content-start mt--20">
             <li>
-              <a href="https://www.facebook.com/profile.php?id=61568134386784">
+              <a href="https://www.facebook.com/CloudecsInfotech">
                 <i class="feather-facebook"></i>
               </a>
             </li>
@@ -633,7 +635,7 @@
           <li class="minicart-item">
             <div class="thumbnail">
               <a href="#">
-                <img src="./students_internship/assets/images/product/1.jpg" alt="Product Images" />
+                <img src="./students_internship/assets/images/product/1.webp" alt="Product_img1" />
               </a>
             </div>
             <div class="product-content">
@@ -651,7 +653,7 @@
           <li class="minicart-item">
             <div class="thumbnail">
               <a href="#">
-                <img src="./students_internship/assets/images/product/7.jpg" alt="Product Images" />
+                <img src="./students_internship/assets/images/product/7.webp" alt="Product_img7" />
               </a>
             </div>
             <div class="product-content">
@@ -669,7 +671,7 @@
           <li class="minicart-item">
             <div class="thumbnail">
               <a href="#">
-                <img src="./students_internship/assets/images/product/3.jpg" alt="Product Images" />
+                <img src="./students_internship/assets/images/product/3.webp" alt="Product_img" />
               </a>
             </div>
             <div class="product-content">
@@ -687,7 +689,7 @@
           <li class="minicart-item">
             <div class="thumbnail">
               <a href="#">
-                <img src="./students_internship/assets/images/product/4.jpg" alt="Product Images" />
+                <img src="./students_internship/assets/images/product/4.webp" alt="Product_img" />
               </a>
             </div>
             <div class="product-content">
@@ -762,7 +764,7 @@
                 </div>
               </div>
               <div class="shape-wrapper" id="scene">
-                <img src="./students_internship/assets/images/banner/student_intex_img.webp" alt="Hero Image" />
+                <img src="./students_internship/assets/images/banner/student_intex_img.webp" alt="student_intex_img" />
                 <div class="hero-bg-shape-1 layer" data-depth="0.4">
                   <!-- <img
                       src="assets/images/shape/shape-01.png"
@@ -788,7 +790,7 @@
                               color: #b550ff;">EMI Available
                             </span>
                           </div>
-                          <img src="./students_internship/assets/images/banner/Full_Internship.webp" alt="Card image" />
+                          <img src="./students_internship/assets/images/banner/Full_Internship.webp" alt="Full_Internship" />
                           <div class="rbt-badge-3">
                             <span>-50%</span>
                             <span>Off</span>
@@ -835,7 +837,7 @@
                           right: 5px; font-size: 10px;
                           color: #b550ff;">
                         </span>
-                          <img src="./students_internship/assets/images/banner/Skill_Development.webp" alt="Card image" />
+                          <img src="./students_internship/assets/images/banner/Skill_Development.webp" alt="Skill_Development" />
                           <div class="rbt-badge-3">
                             <span>-70%</span>
                             <span>Off</span>
@@ -882,7 +884,7 @@
                           right: 5px; font-size: 10px;
                           color: #b550ff;">
                         </span>
-                          <img src="./students_internship/assets/images/banner/Certificate_Course.webp" alt="Card image" />
+                          <img src="./students_internship/assets/images/banner/Certificate_Course.webp" alt="Certificate_Course" />
                           <div class="rbt-badge-3">
                             <span>-200%</span>
                             <span>Off</span>
@@ -948,7 +950,7 @@
             <a class="rbt-cat-box rbt-cat-box-1 text-center" href="course-filter-one-toggle">
               <div class="inner">
                 <div class="icons">
-                  <img src="./students_internship/assets/images/category/java.webp" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/category/java.webp" alt="java" />
                 </div>
                 <div class="content">
                   <h5 class="title flex-grow-1">
@@ -966,7 +968,7 @@
             <a class="rbt-cat-box rbt-cat-box-1 text-center" href="course-filter-one-toggle">
               <div class="inner">
                 <div class="icons">
-                  <img src="./students_internship/assets/images/category/app-development.webp" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/category/app-development.webp" alt="app-development" />
                 </div>
                 <div class="content">
                   <h5 class="title flex-grow-1">
@@ -983,7 +985,7 @@
             <a class="rbt-cat-box rbt-cat-box-1 text-center" href="course-filter-one-toggle">
               <div class="inner">
                 <div class="icons">
-                  <img src="./students_internship/assets/images/category/personal.webp" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/category/personal.webp" alt="personal" />
                 </div>
                 <div class="content">
                   <h5 class="title flex-grow-1">
@@ -1001,7 +1003,7 @@
             <a class="rbt-cat-box rbt-cat-box-1 text-center" href="course-filter-one-toggle">
               <div class="inner">
                 <div class="icons">
-                  <img src="./students_internship/assets/images/category/server.webp" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/category/server.webp" alt="server" />
                 </div>
                 <div class="content">
                   <h5 class="title flex-grow-1">
@@ -1018,7 +1020,7 @@
             <a class="rbt-cat-box rbt-cat-box-1 text-center" href="course-filter-one-toggle">
               <div class="inner">
                 <div class="icons">
-                  <img src="./students_internship/assets/images/category/digital-marketing.webp" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/category/digital-marketing.webp" alt="digital-marketing" />
                 </div>
                 <div class="content">
                   <h5 class="title flex-grow-1">
@@ -1036,7 +1038,7 @@
             <a class="rbt-cat-box rbt-cat-box-1 text-center" href="course-filter-one-toggle">
               <div class="inner">
                 <div class="icons">
-                  <img src="./students_internship/assets/images/category/web-design.webp" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/category/web-design.webp" alt="web-design" />
                 </div>
                 <div class="content">
                   <h5 class="title flex-grow-1">UI/UX Development</h5>
@@ -1051,7 +1053,7 @@
             <a class="rbt-cat-box rbt-cat-box-1 text-center" href="course-filter-one-toggle">
               <div class="inner">
                 <div class="icons">
-                  <img src="./students_internship/assets/images/category/design.webp" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/category/design.webp" alt="design" />
                 </div>
                 <div class="content">
                   <h5 class="title">Front End Development</h5>
@@ -1066,7 +1068,7 @@
             <a class="rbt-cat-box rbt-cat-box-1 text-center" href="course-filter-one-toggle">
               <div class="inner">
                 <div class="icons">
-                  <img src="./students_internship/assets/images/category/smartphone.webp" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/category/smartphone.webp" alt="smartphone" />
                 </div>
                 <div class="content">
                   <h5 class="title">Mobile App Development</h5>
@@ -1107,7 +1109,7 @@
                               color: #b550ff;">EMI Available
                     </span>
                   </div>
-                  <img src="./students_internship/assets/images/banner/Full_Internship.webp" alt="Card image" />
+                  <img src="./students_internship/assets/images/banner/Full_Internship.webp" alt="Full_Internship" />
                   <div class="rbt-badge-3">
                     <span>-50%</span>
                     <span>Off</span>
@@ -1145,7 +1147,7 @@
                               color: #b550ff;">
                     </span>
                   </div>
-                  <img src="./students_internship/assets/images/banner/Skill_Development.webp" alt="Card image" />
+                  <img src="./students_internship/assets/images/banner/Skill_Development.webp" alt="Skill_Development" />
                   <div class="rbt-badge-3">
                     <span>-70%</span>
                     <span>Off</span>
@@ -1181,7 +1183,7 @@
                               right: 5px; font-size: 10px;
                               color: #b550ff;">
                     </span>
-                  <img src="./students_internship/assets/images/banner/Certificate_Course.webp" alt="Card image" />
+                  <img src="./students_internship/assets/images/banner/Certificate_Course.webp" alt="Certificate_Course" />
                   <div class="rbt-badge-3">
                     <span>-200%</span>
                     <span>Off</span>
@@ -1221,15 +1223,15 @@
             <div class="thumbnail-wrapper">
               <div class="thumbnail image-1">
                 <img data-parallax='{"x": 0, "y": -20}' src="./students_internship/assets/images/banner/slide_img1.webp"
-                  alt="Education Images" />
+                  alt="slide_img1" />
               </div>
               <div class="thumbnail image-2 d-none d-xl-block">
                 <img data-parallax='{"x": 0, "y": 60}' src="./students_internship/assets/images/banner/slide_img2.webp"
-                  alt="Education Images" />
+                  alt="slide_img2" />
               </div>
               <div class="thumbnail image-3 d-none d-md-block">
                 <img data-parallax='{"x": 0, "y": 80}' src="./students_internship/assets/images/banner/slide_img3.webp"
-                  alt="Education Images" />
+                  alt="slide_img3" />
               </div>
             </div>
           </div>
@@ -1366,7 +1368,7 @@
               <div class="top-circle-shape"></div>
               <div class="inner">
                 <div class="rbt-round-icon">
-                  <img src="./students_internship/assets/images/icons/counter-01.png" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/icons/counter-01.webp" alt="counter-01" />
                 </div>
                 <div class="content">
                   <h3 class="counter">
@@ -1385,7 +1387,7 @@
               <div class="top-circle-shape"></div>
               <div class="inner">
                 <div class="rbt-round-icon">
-                  <img src="./students_internship/assets/images/icons/counter-02.png" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/icons/counter-02.webp" alt="counter-02" />
                 </div>
                 <div class="content">
                   <h3 class="counter">
@@ -1404,7 +1406,7 @@
               <div class="top-circle-shape"></div>
               <div class="inner">
                 <div class="rbt-round-icon">
-                  <img src="./students_internship/assets/images/icons/counter-03.png" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/icons/counter-03.webp" alt="counter-03" />
                 </div>
                 <div class="content">
                   <h3 class="counter">
@@ -1423,7 +1425,7 @@
               <div class="top-circle-shape"></div>
               <div class="inner">
                 <div class="rbt-round-icon">
-                  <img src="./students_internship/assets/images/icons/counter-04.png" alt="Icons Images" />
+                  <img src="./students_internship/assets/images/icons/counter-04.webp" alt="counter-04" />
                 </div>
                 <div class="content">
                   <h3 class="counter">
@@ -1516,7 +1518,7 @@
                         />
                       </div> -->
                     <div class="client-info">
-                      <h5 class="title">Chandru
+                      <h5 class="title">Chandru </h5>
                     </div>
                   </div>
                 </div>
@@ -1549,7 +1551,7 @@
                         />
                       </div> -->
                     <div class="client-info">
-                      <h5 class="title">Sumaiya
+                      <h5 class="title">Sumaiya </h5>
                     </div>
                   </div>
                 </div>
@@ -1582,7 +1584,7 @@
                         />
                       </div> -->
                     <div class="client-info">
-                      <h5 class="title">Saravanan M
+                      <h5 class="title">Saravanan M </h5>
                     </div>
                   </div>
                 </div>
@@ -1632,7 +1634,7 @@
                 <!-- <div class="icons">
                     <img
                       src="assets/images/icons/facebook.png"
-                      alt="Clint Images"
+                      alt="facebook"
                     />
                   </div> -->
                 <div class="description">
@@ -1645,7 +1647,7 @@
                     <!-- <div class="thumb">
                         <img
                           src="assets/images/testimonial/client-01.png"
-                          alt="Clint Images"
+                          alt="client-01"
                         />
                       </div> -->
                     <div class="client-info">
@@ -1667,7 +1669,7 @@
                 <!-- <div class="icons">
                     <img
                       src="assets/images/icons/hubs.png"
-                      alt="Clint Images"
+                      alt="hubs"
                     />
                   </div> -->
                 <div class="description">
@@ -1680,7 +1682,7 @@
                     <!-- <div class="thumb">
                         <img
                           src="assets/images/testimonial/client-07.png"
-                          alt="Clint Images"
+                          alt="client-07"
                         />
                       </div> -->
                     <div class="client-info">
@@ -1702,7 +1704,7 @@
                 <!-- <div class="icons">
                     <img
                       src="assets/images/icons/bing.png"
-                      alt="Clint Images"
+                      alt="bing"
                     />
                   </div> -->
                 <div class="description">
@@ -1715,11 +1717,11 @@
                     <!-- <div class="thumb">
                         <img
                           src="assets/images/testimonial/client-08.png"
-                          alt="Clint Images"
+                          alt="client-08"
                         />
                       </div> -->
                     <div class="client-info">
-                      <h5 class="title">Prem kumar V
+                      <h5 class="title">Prem kumar V </h5>
                     </div>
                   </div>
                 </div>
@@ -1748,11 +1750,11 @@
                     <!-- <div class="thumb">
                         <img
                           src="assets/images/testimonial/client-06.png"
-                          alt="Clint Images"
+                          alt="client-06"
                         />
                       </div> -->
                     <div class="client-info">
-                      <h5 class="title">Suriya G
+                      <h5 class="title">Suriya G </h5>
                     </div>
                   </div>
                 </div>
@@ -1768,7 +1770,7 @@
                 <!-- <div class="icons">
           <img
             src="assets/images/icons/yelp.png"
-            alt="Clint Images"
+            alt="yelp"
           />
         </div> -->
                 <div class="description">
@@ -1781,11 +1783,11 @@
                     <!-- <div class="thumb">
               <img
                 src="assets/images/testimonial/client-06.png"
-                alt="Clint Images"
+                alt="client-06"
               />
             </div> -->
                     <div class="client-info">
-                      <h5 class="title">Rohini Devi D
+                      <h5 class="title">Rohini Devi D </h5>
                     </div>
                   </div>
                 </div>
@@ -1806,7 +1808,7 @@
                 <!-- <div class="icons">
                     <img
                       src="assets/images/icons/facebook.png"
-                      alt="Clint Images"
+                      alt="facebook"
                     />
                   </div> -->
                 <div class="description">
@@ -1820,7 +1822,7 @@
                     <!-- <div class="thumb">
                         <img
                           src="assets/images/testimonial/client-01.png"
-                          alt="Clint Images"
+                          alt="client-01"
                         />
                       </div> -->
                     <div class="client-info">
@@ -1842,7 +1844,7 @@
                 <!-- <div class="icons">
                     <img
                       src="assets/images/icons/google.png"
-                      alt="Clint Images"
+                      alt="google"
                     />
                   </div> -->
                 <div class="description">
@@ -1855,11 +1857,11 @@
                     <!-- <div class="thumb">
                         <img
                           src="assets/images/testimonial/client-02.png"
-                          alt="Clint Images"
+                          alt="client-02"
                         />
                       </div> -->
                     <div class="client-info">
-                      <h5 class="title">Leela Prasanna
+                      <h5 class="title">Leela Prasanna </h5>
                     </div>
                   </div>
                 </div>
@@ -1875,7 +1877,7 @@
                 <!-- <div class="icons">
                     <img
                       src="assets/images/icons/yelp.png"
-                      alt="Clint Images"
+                      alt="yelp"
                     />
                   </div> -->
                 <div class="description">
@@ -1888,11 +1890,11 @@
                     <!-- <div class="thumb">
                         <img
                           src="assets/images/testimonial/client-03.png"
-                          alt="Clint Images"
+                          alt="client-03"
                         />
                       </div> -->
                     <div class="client-info">
-                      <h5 class="title">Sangeetha A
+                      <h5 class="title">Sangeetha A </h5>
                     </div>
                   </div>
                 </div>
@@ -1908,7 +1910,7 @@
                 <!-- <div class="icons">
                     <img
                       src="assets/images/icons/bing.png"
-                      alt="Clint Images"
+                      alt="bing"
                     />
                   </div> -->
                 <div class="description">
@@ -1921,11 +1923,11 @@
                     <!-- <div class="thumb">
                         <img
                           src="assets/images/testimonial/client-04.png"
-                          alt="Clint Images"
+                          alt="client-04"
                         />
                       </div> -->
                     <div class="client-info">
-                      <h5 class="title">Marimuthu R
+                      <h5 class="title">Marimuthu R </h5>
                     </div>
                   </div>
                 </div>
@@ -1940,7 +1942,7 @@
                 <!-- <div class="icons">
                     <img
                       src="assets/images/icons/hubs.png"
-                      alt="Clint Images"
+                      alt="hubs"
                     />
                   </div> -->
                 <div class="description">
@@ -1955,7 +1957,7 @@
                     <!-- <div class="thumb">
                         <img
                           src="assets/images/testimonial/client-05.png"
-                          alt="Clint Images"
+                          alt="client-05"
                         />
                       </div> -->
                     <div class="client-info">
@@ -1977,7 +1979,7 @@
                 <!-- <div class="icons">
                     <img
                       src="assets/images/icons/yelp.png"
-                      alt="Clint Images"
+                      alt="yelp"
                     />
                   </div> -->
                 <div class="description">
@@ -1990,7 +1992,7 @@
                     <!-- <div class="thumb">
                         <img
                           src="assets/images/testimonial/client-01.png"
-                          alt="Clint Images"
+                          alt="client-01"
                         />
                       </div> -->
                     <div class="client-info">
@@ -2010,7 +2012,7 @@
             <div class="rbt-testimonial-box style-2">
               <div class="inner">
                 <!-- <div class="icons">
-                  <img src="./students_internship/assets/images/icons/bing.png" alt="Clint Images" />
+                  <img src="./students_internship/assets/images/icons/bing.png" alt="bing" />
                 </div> -->
                 <div class="description">
                   <p class="subtitle-3">
@@ -2020,7 +2022,7 @@
                   </p>
                   <div class="clint-info-wrapper">
                     <!-- <div class="thumb">
-                      <img src="./students_internship/assets/images/testimonial/client-07.png" alt="Clint Images" />
+                      <img src="./students_internship/assets/images/testimonial/client-07.png" alt="client-07" />
                     </div> -->
                     <div class="client-info">
                       <h5 class="title">
@@ -2039,7 +2041,7 @@
             <div class="rbt-testimonial-box style-2">
               <div class="inner">
                 <!-- <div class="icons">
-                  <img src="./students_internship/assets/images/icons/facebook.png" alt="Clint Images" />
+                  <img src="./students_internship/assets/images/icons/facebook.png" alt="facebook" />
                 </div> -->
                 <div class="description">
                   <p class="subtitle-3">
@@ -2049,7 +2051,7 @@
                   </p>
                   <div class="clint-info-wrapper">
                     <!-- <div class="thumb">
-                      <img src="./students_internship/assets/images/testimonial/client-08.png" alt="Clint Images" />
+                      <img src="./students_internship/assets/images/testimonial/client-08.png" alt="client-08" />
                     </div> -->
                     <div class="client-info">
                       <h5 class="title">Kishore Kumar R
@@ -2066,7 +2068,7 @@
             <div class="rbt-testimonial-box style-2">
               <div class="inner">
                 <!-- <div class="icons">
-                  <img src="./students_internship/assets/images/icons/yelp.png" alt="Clint Images" />
+                  <img src="./students_internship/assets/images/icons/yelp.png" alt="yelp" />
                 </div> -->
                 <div class="description">
                   <p class="subtitle-3">
@@ -2077,7 +2079,7 @@
                   </p>
                   <div class="clint-info-wrapper">
                     <!-- <div class="thumb">
-                      <img src="./students_internship/assets/images/testimonial/client-06.png" alt="Clint Images" />
+                      <img src="./students_internship/assets/images/testimonial/client-06.png" alt="client-06" />
                     </div> -->
                     <div class="client-info">
                       <h5 class="title">Nikhil S
@@ -2094,7 +2096,7 @@
             <div class="rbt-testimonial-box style-2">
               <div class="inner">
                 <!-- <div class="icons">
-                  <img src="./students_internship/assets/images/icons/yelp.png" alt="Clint Images" />
+                  <img src="./students_internship/assets/images/icons/yelp.png" alt="yelp" />
                 </div> -->
                 <div class="description">
                   <p class="subtitle-3">
@@ -2104,7 +2106,7 @@
                     innovations. </p>
                   <div class="clint-info-wrapper">
                     <!-- <div class="thumb">
-                      <img src="./students_internship/assets/images/testimonial/client-06.png" alt="Clint Images" />
+                      <img src="./students_internship/assets/images/testimonial/client-06.png" alt="client-06" />
                     </div> -->
                     <div class="client-info">
                       <h5 class="title">Ragul I
@@ -2202,12 +2204,12 @@
               <div class="footer-widget">
                 <div class="logo logo-dark">
                   <a href="/">
-                    <img src="./assets/images/logo.webp" alt="Edu-cause" />
+                    <img src="./assets/images/logo.webp" alt="logo" />
                   </a>
                 </div>
                 <div class="logo d-none logo-light">
                   <a href="/">
-                    <img src="./assets/images/logo.webp" alt="Edu-cause" />
+                    <img src="./assets/images/logo.webp" alt="logo" />
                   </a>
                 </div>
 
@@ -2287,7 +2289,7 @@
                 </ul>
                 <ul class="social-icon social-default icon-naked justify-content-start mt--20">
                   <li>
-                    <a href="https://www.facebook.com/profile.php?id=61568134386784" target="_blank">
+                    <a href="https://www.facebook.com/CloudecsInfotech" target="_blank">
                       <i class="feather-facebook"></i>
                     </a>
                   </li>

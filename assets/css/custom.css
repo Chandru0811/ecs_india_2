@@ -88,10 +88,12 @@
 .fotter_content {
   padding-top: 60px;
 }
+
 @media (max-width: 555px) {
   .fotter_content {
     padding-top: 30px;
   }
+
   .footer_icons {
     display: flex;
     flex-direction: row;
@@ -115,16 +117,20 @@
     line-height: 30px;
     text-align: center;
   }
+
   .hero_container {
     padding: 10px !important;
   }
+
   .circle_bg {
     padding: 10px !important;
   }
+
   .para_content {
     margin-top: 10px !important;
     text-align: center;
   }
+
   .demo_btn {
     margin: 10px !important;
     text-align: center;
@@ -132,12 +138,14 @@
     font-weight: normal !important;
     padding: 4px 10px !important;
   }
+
   .alingn_hero_profile {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 }
+
 @media (min-width: 1600px) {
   .hero .hero_text {
     font-size: 70px;
@@ -197,24 +205,29 @@
   .service {
     padding: 10px !important;
   }
+
   .card_content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
+
   .service .crm_icon {
     font-size: 30px;
     padding: 0 !important;
     color: #1053f3;
   }
+
   .card_text_content h5 {
     text-align: center !important;
   }
+
   .card_text_content p {
     text-align: center !important;
   }
 }
+
 @media (min-width: 1600px) {
   .service h1 {
     font-size: 50px;
@@ -273,6 +286,7 @@
     padding: 0 !important;
   }
 }
+
 /* Feedback End  */
 
 /* Bussiness Starts */
@@ -287,12 +301,14 @@
   .business .business_card {
     padding: 10px !important;
   }
+
   .talk {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 }
+
 .business .business_card {
   padding-top: 40px;
   padding-bottom: 60px;
@@ -338,12 +354,18 @@
   font-family: "Poppins";
 }
 
-.core-card h4 {
+.core-card h4,
+.core-card h3 {
   color: #0a58c1;
   text-align: center;
   padding: 10px;
-  font-family: "Poppins";
+  font-family: "Poppins" !important;
 }
+
+.core-card h3 {
+  font-size: 1.5rem;
+}
+
 
 .core-card:hover {
   border-color: #0056b3;
@@ -386,6 +408,7 @@
     padding: 10px 0 !important;
   }
 }
+
 @media (min-width: 1600px) {
   .solution h5 {
     font-size: 30px;
@@ -440,4 +463,5 @@
   background: #207e36 !important;
   color: white;
 }
+
 /* Error and Success Modal */
