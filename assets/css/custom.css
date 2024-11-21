@@ -201,6 +201,10 @@
   background-color: #d9e2f9;
 }
 
+.card_title_service {
+  font-size: 26px !important;
+}
+
 @media (max-width: 555px) {
   .service {
     padding: 10px !important;
@@ -278,6 +282,10 @@
 
 .feedback-text-2 {
   color: #b8b8b8;
+}
+
+.media_align_text {
+  font-size: 20px;
 }
 
 @media screen and (max-width: 555px) {

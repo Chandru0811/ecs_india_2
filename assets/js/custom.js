@@ -478,7 +478,7 @@ $(document).ready(function () {
             <td align="right" style="vertical-align: middle">
               <div class="headerText" style="font-size: 14px; color: #333">
                 <a
-                  href="https://ecsaio.com/"
+                  href="https://info@ecsaio.in/"
                   target="_blank"
                   style="text-decoration: none; color: #333"
                 >
@@ -638,7 +638,7 @@ $(document).ready(function () {
               <p style="font-size: 12px; color: #333; margin: 0">
                 Connect with
                 <a
-                  href="https://ecsaio.com/"
+                  href="https://ecsaio.in/"
                   target="_blank"
                   style="color: #005aea; text-decoration: none"
                   >cloud ECS infotech</a
