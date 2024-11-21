@@ -202,7 +202,7 @@
 }
 
 .card_title_service {
-  font-size: 26px !important;
+  font-size: 24px !important;
 }
 
 @media (max-width: 555px) {
@@ -284,10 +284,6 @@
   color: #b8b8b8;
 }
 
-.media_align_text {
-  font-size: 20px;
-}
-
 @media screen and (max-width: 555px) {
   .media_align_text {
     text-align: center !important;
@@ -357,7 +353,7 @@
 
 .core-card {
   border-radius: 3%;
-  border: 1px solid #0a58ca;
+  border: 1px solid #0a58ca !important;
   transition: all 0.3s ease;
   font-family: "Poppins";
 }
