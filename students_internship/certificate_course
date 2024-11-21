@@ -1714,7 +1714,7 @@
                       class="form-control form-control-sm"
                       id="course_gst"
                       name="course_gst"
-                      value="0"
+                      value="143.82"
                     />
                     <button
                       type="submit"

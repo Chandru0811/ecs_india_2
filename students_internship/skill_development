@@ -1700,7 +1700,7 @@
                       class="form-control form-control-sm"
                       id="course_gst"
                       name="course_gst"
-                      value="0"
+                      value="5400"
                     />
                     <button
                       type="submit"

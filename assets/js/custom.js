@@ -193,8 +193,11 @@ $(document).ready(function () {
       },
     },
     submitHandler: function (form) {
-      const amount =
-        parseFloat($("#course_fee").val()) + parseFloat($("#course_gst").val());
+      const amount = (
+        parseFloat($("#course_fee").val()) + parseFloat($("#course_gst").val())
+      )
+        .toFixed(2)
+        .toString();
       const modalData = {
         name: $("#name").val(),
         phoneNumber: $("#phone").val(),
@@ -247,7 +250,7 @@ $(document).ready(function () {
               <div>Total</div>
               <div>₹  ${(
                 parseFloat(data.course_fee) + parseFloat(data.course_gst)
-              ).toFixed(0)}</div>
+              ).toFixed(2)}</div>
             </div>
           </div>
           <div class="py-5">
@@ -467,7 +470,7 @@ $(document).ready(function () {
           <tr>
             <td align="left" style="vertical-align: middle">
               <img
-                src="https://ecsaio.in/assets/images/logo.webp"
+                src="https://sgitjobs.com/logo/Cloud_ECS_Infotech.png"
                 alt="Deals Machi"
                 style="max-width: 150px; height: auto"
               />
@@ -553,58 +556,69 @@ $(document).ready(function () {
               ${(
                 parseFloat(modalData.course_fee) +
                 parseFloat(modalData.course_gst)
-              ).toFixed(0)}
+              ).toFixed(2)}
+            </td>
+          </tr>
+        </table>
+        <table
+          width="100%"
+          cellspacing="0"
+          cellpadding="0"
+          style="border-collapse: collapse"
+        >
+          <tr>
+            <td align="center" style="padding: 15px 0">
+              <form
+                name="sdklaunch"
+                id="sdklaunch"
+                action="${response.href}"
+                method="POST"
+              >
+                <input
+                  type="hidden"
+                  id="bdorderid"
+                  name="bdorderid"
+                  value="${response.bdOrderId}"
+                />
+                <input
+                  type="hidden"
+                  id="merchantid"
+                  name="merchantid"
+                  value="${response.merchantId}"
+                />
+                <input
+                  type="hidden"
+                  id="rdata"
+                  name="rdata"
+                  value="${response.rdata}"
+                />
+                <div style="text-align: center">
+                  <input
+                    name="submit"
+                    type="submit"
+                    style="
+                      display: inline-block;
+                      padding: 14px 28px;
+                      background-color: #0076f7;
+                      color: #fff;
+                      font-size: 16px;
+                      text-decoration: none;
+                      border-radius: 6px;
+                      border: none;
+                      cursor: pointer;
+                      box-shadow: 0 4px 10px rgba(255, 153, 0, 0.2);
+                      transition: background-color 0.3s;
+                      margin: 0 182px;
+                    "
+                    value="Complete your Payment"
+                  />
+                </div>
+              </form>
             </td>
           </tr>
         </table>
       </div>
 
-      <div class="align_button" style="text-align: center; padding: 20px">
-        <form
-          name="sdklaunch"
-          id="sdklaunch"
-          action="${response.href}"
-          method="POST"
-        >
-          <input
-            type="hidden"
-            id="bdorderid"
-            name="bdorderid"
-            value="${response.bdOrderId}"
-          />
-          <input
-            type="hidden"
-            id="merchantid"
-            name="merchantid"
-            value="${response.merchantId}"
-          />
-          <input
-            type="hidden"
-            id="rdata"
-            name="rdata"
-            value="${response.rdata}"
-          />
-          <div style="text-align:center;">
-          <input
-            name="submit"
-            type="submit"
-            style="
-              display: inline-block;
-              padding: 14px 28px;
-              background-color: #0076f7;
-              color: #fff;
-              font-size: 16px;
-              text-decoration: none;
-              border-radius: 6px;
-              border: none;
-              cursor: pointer;
-              box-shadow: 0 4px 10px rgba(255, 153, 0, 0.2);
-              transition: background-color 0.3s;
-            "
-            value="Complete your Payment"
-          /></div>
-        </form>
-      </div>
       <div class="footer" style="padding: 15px 25px; text-align: center">
         <table
           width="100%"
@@ -615,7 +629,7 @@ $(document).ready(function () {
           <tr>
             <td align="left" style="vertical-align: middle">
               <img
-                src="https://ecsaio.in/assets/images/logo.webp"
+                src="https://sgitjobs.com/logo/Cloud_ECS_Infotech.png"
                 alt="dealsmachi"
                 style="max-width: 150px; height: auto; margin-bottom: 10px"
               />
@@ -638,7 +652,6 @@ $(document).ready(function () {
     </div>
   </body>
 </html>
-
     `
         );
 
