@@ -61,7 +61,7 @@
       <ul>
         <li>
           <a href="#" data-theme="light" class="setColor light">
-            <img src="assets/images/about/sun-01.svg" alt="Sun images" /><span
+            <img src="assets/images/about/sun-01.svg" alt="sun-01" /><span
               title="Light Mode"
             >
               Light</span
@@ -72,7 +72,7 @@
           <a href="#" data-theme="dark" class="setColor dark">
             <img
               src="assets/images/about/vector.svg"
-              alt="Vector Images"
+              alt="vector"
             /><span title="Dark Mode"> Dark</span>
           </a>
         </li>
@@ -172,7 +172,7 @@
                   <a href="/">
                     <img
                       src="../assets/images/logo.webp"
-                      alt="Education Logo Images"
+                      alt="logo"
                     />
                   </a>
                 </div>
@@ -181,7 +181,7 @@
                   <a href="/">
                     <img
                       src="../assets/images/logo.webp"
-                      alt="Education Logo Images"
+                      alt="logo"
                     />
                   </a>
                 </div>
@@ -459,8 +459,8 @@
                   <div class="rbt-card-img">
                     <a href="./full_internship">
                       <img
-                        src="assets/images/course/course-online-01.jpg"
-                        alt="Card image"
+                        src="assets/images/course/course-online-01.webp"
+                        alt="course-online-01"
                       />
                     </a>
                   </div>
@@ -495,8 +495,8 @@
                   <div class="rbt-card-img">
                     <a href="./full_internship">
                       <img
-                        src="assets/images/course/course-online-02.jpg"
-                        alt="Card image"
+                        src="assets/images/course/course-online-02.webp"
+                        alt="course-online-02"
                       />
                     </a>
                   </div>
@@ -531,8 +531,8 @@
                   <div class="rbt-card-img">
                     <a href="./full_internship">
                       <img
-                        src="assets/images/course/course-online-03.jpg"
-                        alt="Card image"
+                        src="assets/images/course/course-online-03.webp"
+                        alt="course-online-03"
                       />
                     </a>
                   </div>
@@ -567,8 +567,8 @@
                   <div class="rbt-card-img">
                     <a href="./full_internship">
                       <img
-                        src="assets/images/course/course-online-04.jpg"
-                        alt="Card image"
+                        src="assets/images/course/course-online-04.webp"
+                        alt="course-online-04"
                       />
                     </a>
                   </div>
@@ -719,7 +719,7 @@
                 <a href="/">
                   <img
                     src="../assets/images/logo.webp"
-                    alt="Education Logo Images"
+                    alt="logo"
                   />
                 </a>
               </div>
@@ -728,7 +728,7 @@
                 <a href="/">
                   <img
                     src="../assets/images/logo.webp"
-                    alt="Education Logo Images"
+                    alt="logo"
                   />
                 </a>
               </div>
@@ -843,7 +843,7 @@
                 <a href="#">
                   <img
                     src="assets/images/product/1.webp"
-                    alt="Product Images"
+                    alt="Product_img"
                   />
                 </a>
               </div>
@@ -862,7 +862,7 @@
             <li class="minicart-item">
               <div class="thumbnail">
                 <a href="#">
-                  <img src="assets/images/product/7.jpg" alt="Product Images" />
+                  <img src="assets/images/product/7.webp" alt="Product_img" />
                 </a>
               </div>
               <div class="product-content">
@@ -880,7 +880,7 @@
             <li class="minicart-item">
               <div class="thumbnail">
                 <a href="#">
-                  <img src="assets/images/product/3.jpg" alt="Product Images" />
+                  <img src="assets/images/product/3.webp" alt="Product_img" />
                 </a>
               </div>
               <div class="product-content">
@@ -898,7 +898,7 @@
             <li class="minicart-item">
               <div class="thumbnail">
                 <a href="#">
-                  <img src="assets/images/product/4.jpg" alt="Product Images" />
+                  <img src="assets/images/product/4.webp" alt="Product_img" />
                 </a>
               </div>
               <div class="product-content">
@@ -955,7 +955,7 @@
     <!-- Start breadcrumb Area -->
     <div class="rbt-breadcrumb-default rbt-breadcrumb-style-3">
       <div class="breadcrumb-inner breadcrumb-dark">
-        <img src="./assets/images/bg/bg-g1.webp" alt="Education Images" />
+        <img src="./assets/images/bg/bg-g1.webp" alt="bg-g1" />
       </div>
       <div class="container">
         <div class="row">
@@ -978,7 +978,7 @@
                 <span class="rbt-new-badge-icon">🏆</span> Salary from Day 1
               </div>
 
-              <h2 class="title">Full Internship - Digital Marketing</h2>
+              <h1 class="title">Full Internship - Digital Marketing</h1>
               <p class="description">
                 Let’s go with the Global Trend of Digital Marketing! Nowadays
                 Digital Marketing is creating a buzz around the world. Digital
@@ -1050,7 +1050,7 @@
                   class="rbt-course-feature-inner has-show-more-inner-content"
                 >
                   <div class="section-title">
-                    <h4 class="rbt-title-style-3">Digital Marketing</h4>
+                    <h2 class="rbt-title-style-3">Digital Marketing</h2>
                   </div>
                   <p>
                     Digital marketing plays a vital role in the success of any
@@ -1165,7 +1165,7 @@
                       <a href="./skill_development">
                         <img
                           src="./assets/images/banner/Skill_Development.webp"
-                          alt="Card image"
+                          alt="Skill_Development"
                         />
                         <div class="rbt-badge-3 bg-white">
                           <span>-70%</span>
@@ -1208,7 +1208,7 @@
                       <a href="./certificate_course">
                         <img
                           src="./assets/images/banner/Certificate_Course.webp"
-                          alt="Card image"
+                          alt="Certificate_Course"
                         />
                         <div class="rbt-badge-3 bg-white">
                           <span>-200%</span>
@@ -1256,7 +1256,7 @@
                     <img
                       class="w-100 rbt-radius"
                       src="./assets/images/others/video-01.webp"
-                      alt="Video Images"
+                      alt="video-01"
                     />
                     <div class="position-to-top">
                       <span class="rbt-btn rounded-player-2 with-animation">
@@ -1440,12 +1440,12 @@
               <div class="footer-widget">
                 <div class="logo logo-dark">
                   <a href="/">
-                    <img src="../assets/images/logo.webp" alt="Edu-cause" />
+                    <img src="../assets/images/logo.webp" alt="logo" />
                   </a>
                 </div>
                 <div class="logo d-none logo-light">
                   <a href="/">
-                    <img src="../assets/images/logo.webp" alt="Edu-cause" />
+                    <img src="../assets/images/logo.webp" alt="logo" />
                   </a>
                 </div>
 
@@ -1630,12 +1630,10 @@
                   </p>
 
                   <p class="pb-0 text-dark modal_title">
-                    Full Internship - 100% Placement Assured !
+                    Full Internship - Digital Marketing
                   </p>
                   <p class="py-1">
-                    Your skill, our guarantee. Not only we offer 100% placement
-                    after the successful completion of the internship program,
-                    you get paid from the day one of joining the program.
+                    Let’s go with the Global Trend of Digital Marketing! Nowadays Digital Marketing is creating a buzz around the world. Digital Marketing has become the Success Mantra for any business. This is creating several job opportunities in India and Abroad. ECS Cloud Infotech is conducting an exclusive Digital Marketing program to cater the needs of our fast growing economy.
                   </p>
                 </div>
               </div>

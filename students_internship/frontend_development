@@ -172,7 +172,7 @@
                   <a href="/">
                     <img
                       src="../assets/images/logo.webp"
-                      alt="Education Logo Images"
+                      alt="logo"
                     />
                   </a>
                 </div>
@@ -181,7 +181,7 @@
                   <a href="/">
                     <img
                       src="../assets/images/logo.webp"
-                      alt="Education Logo Images"
+                      alt="logo"
                     />
                   </a>
                 </div>
@@ -459,8 +459,8 @@
                   <div class="rbt-card-img">
                     <a href="./full_internship">
                       <img
-                        src="assets/images/course/course-online-01.jpg"
-                        alt="Card image"
+                        src="assets/images/course/course-online-01.webp"
+                        alt="course-online-04"
                       />
                     </a>
                   </div>
@@ -495,8 +495,8 @@
                   <div class="rbt-card-img">
                     <a href="./full_internship">
                       <img
-                        src="assets/images/course/course-online-02.jpg"
-                        alt="Card image"
+                        src="assets/images/course/course-online-02.webp"
+                        alt="course-online-02"
                       />
                     </a>
                   </div>
@@ -531,8 +531,8 @@
                   <div class="rbt-card-img">
                     <a href="./full_internship">
                       <img
-                        src="assets/images/course/course-online-03.jpg"
-                        alt="Card image"
+                        src="assets/images/course/course-online-03.webp"
+                        alt="course-online-03"
                       />
                     </a>
                   </div>
@@ -567,8 +567,8 @@
                   <div class="rbt-card-img">
                     <a href="./full_internship">
                       <img
-                        src="assets/images/course/course-online-04.jpg"
-                        alt="Card image"
+                        src="assets/images/course/course-online-04.webp"
+                        alt="course-online-04"
                       />
                     </a>
                   </div>
@@ -719,7 +719,7 @@
                 <a href="/">
                   <img
                     src="../assets/images/logo.webp"
-                    alt="Education Logo Images"
+                    alt="logo"
                   />
                 </a>
               </div>
@@ -728,7 +728,7 @@
                 <a href="/">
                   <img
                     src="../assets/images/logo.webp"
-                    alt="Education Logo Images"
+                    alt="logo"
                   />
                 </a>
               </div>
@@ -843,7 +843,7 @@
                 <a href="#">
                   <img
                     src="assets/images/product/1.webp"
-                    alt="Product Images"
+                    alt="Product_img"
                   />
                 </a>
               </div>
@@ -862,7 +862,7 @@
             <li class="minicart-item">
               <div class="thumbnail">
                 <a href="#">
-                  <img src="assets/images/product/7.jpg" alt="Product Images" />
+                  <img src="assets/images/product/7.webp" alt="Product_img" />
                 </a>
               </div>
               <div class="product-content">
@@ -880,7 +880,7 @@
             <li class="minicart-item">
               <div class="thumbnail">
                 <a href="#">
-                  <img src="assets/images/product/3.jpg" alt="Product Images" />
+                  <img src="assets/images/product/3.webp" alt="Product_img" />
                 </a>
               </div>
               <div class="product-content">
@@ -898,7 +898,7 @@
             <li class="minicart-item">
               <div class="thumbnail">
                 <a href="#">
-                  <img src="assets/images/product/4.jpg" alt="Product Images" />
+                  <img src="assets/images/product/4.webp" alt="Product_img" />
                 </a>
               </div>
               <div class="product-content">
@@ -955,7 +955,7 @@
     <!-- Start breadcrumb Area -->
     <div class="rbt-breadcrumb-default rbt-breadcrumb-style-3">
       <div class="breadcrumb-inner breadcrumb-dark">
-        <img src="./assets/images/bg/bg-g1.webp" alt="Education Images" />
+        <img src="./assets/images/bg/bg-g1.webp" alt="bg-g1" />
       </div>
       <div class="container">
         <div class="row">
@@ -1021,7 +1021,7 @@
                 <img
                   class="w-100"
                   src="./assets/images/banner/frontend_developer.webp"
-                  alt="Frontend Development"
+                  alt="Frontend Developer"
                 />
                 <div class="rbt-badge-3" style="bottom: 50px; right: 50px">
                   <span>-50%</span>
@@ -1151,7 +1151,7 @@
                       <a href="./skill_development">
                         <img
                           src="./assets/images/banner/Skill_Development.webp"
-                          alt="Card image"
+                          alt="Skill_Development"
                         />
                         <div class="rbt-badge-3 bg-white">
                           <span>-70%</span>
@@ -1194,7 +1194,7 @@
                       <a href="./certificate_course">
                         <img
                           src="./assets/images/banner/Certificate_Course.webp"
-                          alt="Card image"
+                          alt="Certificate_Course"
                         />
                         <div class="rbt-badge-3 bg-white">
                           <span>-200%</span>
@@ -1242,7 +1242,7 @@
                     <img
                       class="w-100 rbt-radius"
                       src="./assets/images/others/video-01.webp"
-                      alt="Video Images"
+                      alt="video-01"
                     />
                     <div class="position-to-top">
                       <span class="rbt-btn rounded-player-2 with-animation">
@@ -1426,12 +1426,12 @@
               <div class="footer-widget">
                 <div class="logo logo-dark">
                   <a href="/">
-                    <img src="../assets/images/logo.webp" alt="Edu-cause" />
+                    <img src="../assets/images/logo.webp" alt="logo" />
                   </a>
                 </div>
                 <div class="logo d-none logo-light">
                   <a href="/">
-                    <img src="../assets/images/logo.webp" alt="Edu-cause" />
+                    <img src="../assets/images/logo.webp" alt="logo" />
                   </a>
                 </div>
 
@@ -1616,12 +1616,10 @@
                   </p>
 
                   <p class="pb-0 text-dark modal_title">
-                    Full Internship - 100% Placement Assured !
+                    Full Internship - Frontend Development
                   </p>
                   <p class="py-1">
-                    Your skill, our guarantee. Not only we offer 100% placement
-                    after the successful completion of the internship program,
-                    you get paid from the day one of joining the program.
+                    Want to become a Front-End Developer? Launch your Front-End Development career with Cloud ECS Infotech's tailored courses. As you know, front-end development is the art of creating the user interface (UI) and user experience (UX) of a website or web application. Front-end developer builds the visual and interactive layer of web applications.
                   </p>
                 </div>
               </div>
