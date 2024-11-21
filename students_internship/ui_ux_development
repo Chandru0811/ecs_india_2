@@ -459,7 +459,7 @@
                   <div class="rbt-card-img">
                     <a href="./full_internship">
                       <img
-                        src="assets/images/course/course-online-01.jpg"
+                        src="assets/images/course/course-online-01.webp"
                         alt="Card image"
                       />
                     </a>
@@ -495,7 +495,7 @@
                   <div class="rbt-card-img">
                     <a href="./full_internship">
                       <img
-                        src="assets/images/course/course-online-02.jpg"
+                        src="assets/images/course/course-online-02.webp"
                         alt="Card image"
                       />
                     </a>
@@ -531,7 +531,7 @@
                   <div class="rbt-card-img">
                     <a href="./full_internship">
                       <img
-                        src="assets/images/course/course-online-03.jpg"
+                        src="assets/images/course/course-online-03.webp"
                         alt="Card image"
                       />
                     </a>
@@ -567,7 +567,7 @@
                   <div class="rbt-card-img">
                     <a href="./full_internship">
                       <img
-                        src="assets/images/course/course-online-04.jpg"
+                        src="assets/images/course/course-online-04.webp"
                         alt="Card image"
                       />
                     </a>
@@ -859,7 +859,7 @@
             <li class="minicart-item">
               <div class="thumbnail">
                 <a href="#">
-                  <img src="assets/images/product/7.jpg" alt="Product Images" />
+                  <img src="assets/images/product/7.webp" alt="Product Images" />
                 </a>
               </div>
               <div class="product-content">
@@ -877,7 +877,7 @@
             <li class="minicart-item">
               <div class="thumbnail">
                 <a href="#">
-                  <img src="assets/images/product/3.jpg" alt="Product Images" />
+                  <img src="assets/images/product/3.webp" alt="Product Images" />
                 </a>
               </div>
               <div class="product-content">
@@ -895,7 +895,7 @@
             <li class="minicart-item">
               <div class="thumbnail">
                 <a href="#">
-                  <img src="assets/images/product/4.jpg" alt="Product Images" />
+                  <img src="assets/images/product/4.webp" alt="Product Images" />
                 </a>
               </div>
               <div class="product-content">
@@ -975,7 +975,7 @@
                 <span class="rbt-new-badge-icon">🏆</span> Salary from Day 1
               </div>
 
-              <h2 class="title">Full Internship - UI/UX Development</h2>
+              <h1 class="title">Full Internship - UI/UX Development</h1>
               <p class="description">
                 Are you looking for an interesting career in Marketing and
                 Sales?
@@ -1050,7 +1050,7 @@
                   class="rbt-course-feature-inner has-show-more-inner-content"
                 >
                   <div class="section-title">
-                    <h4 class="rbt-title-style-3">UI/UX Development</h4>
+                    <h2 class="rbt-title-style-3">UI/UX Development</h2>
                   </div>
                   <p>
                     A career in UI/UX design offers several job opportunities
@@ -1604,12 +1604,16 @@
                   </p>
 
                   <p class="pb-0 text-dark modal_title">
-                    Full Internship - 100% Placement Assured !
+                    Full Internship - UI/UX Development
                   </p>
                   <p class="py-1">
-                    Your skill, our guarantee. Not only we offer 100% placement
-                    after the successful completion of the internship program,
-                    you get paid from the day one of joining the program.
+                    Are you looking for an interesting career in Marketing and
+                    Sales? Dreaming of a career in UI/UX Development? Empower
+                    your design career with Cloud ECS Infotech's UI/UX courses.
+                    UI/UX Development is the process of designing the User
+                    Interface and User Experience of digital products. The
+                    demand for skilled UI/UX designers is growing rapidly both
+                    in India and abroad.
                   </p>
                 </div>
               </div>
