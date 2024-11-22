@@ -99,7 +99,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.linkdin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="https://www.linkedin.com/company/ecs-cloud-infotech/posts/?feedView=all" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                     </li>
                     <li>
                       <a href="https://www.instagram.com/cloudecs_infotech/" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -601,7 +601,7 @@
               </a>
             </li>
             <li>
-              <a href="https://www.linkdin.com/">
+              <a href="https://www.linkedin.com/company/ecs-cloud-infotech/posts/?feedView=all">
                 <i class="feather-linkedin"></i>
               </a>
             </li>
@@ -2307,7 +2307,7 @@
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkdin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/company/ecs-cloud-infotech/posts/?feedView=all" target="_blank">
                       <i class="feather-linkedin"></i>
                     </a>
                   </li>
@@ -2498,10 +2498,10 @@
   <script src="students_internship/assets/js/vendor/Sortable.min.js"></script>
 
   <!-- Main JS students_internship/-->
-  <script src="students_internship/assets/js/main.js"></script>
+  <script src="./students_internship/assets/js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
-  <script src="./students_internship/sassets/js/custom.js"></script>
+  <!-- <script src="./students_internship/sassets/js/custom.js"></script> -->
 
 </body>
 

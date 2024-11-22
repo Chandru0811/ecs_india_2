@@ -480,3 +480,6 @@
     font-size: 20px !important;
   }
 }
+.active-dark-mode .form-control {
+  color: #000 !important;
+}

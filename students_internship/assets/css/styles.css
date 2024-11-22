@@ -17802,11 +17802,10 @@ span.transparent-button:hover i {
   transform: rotate(90deg);
 }
 
-
 .rbt-course-feature-box .rbt-badge-3 {
   position: absolute;
   bottom: 50px;
-  right: 50px ;
+  right: 50px;
   height: 60px;
   width: 60px;
   border-radius: 100%;
@@ -18786,7 +18785,7 @@ span.transparent-button:hover i {
 }
 .social-default li a i {
   vertical-align: middle;
-/* text-align: center; */
+  /* text-align: center; */
 }
 .social-default.transparent-with-border li a {
   line-height: 33px;
@@ -19108,7 +19107,7 @@ span.transparent-button:hover i {
   right: 0;
   height: 100%;
   width: 100%;
-  background: url(../images/shape/dots.png) repeat center/auto;
+  /* background: url(../images/shape/dots.png) repeat center/auto; */
   top: 0;
   z-index: -1;
 }
@@ -20151,7 +20150,7 @@ ul.testimonial-thumb-wrapper li a.active .thumb img {
   right: 40px;
   top: 40px;
   z-index: -1;
-  background-image: url(../images/shape/quote.svg);
+  /* background-image: url(../images/shape/quote.svg); */
   background-repeat: no-repeat, repeat;
   width: 52px;
   height: 44px;
@@ -20176,7 +20175,7 @@ ul.testimonial-thumb-wrapper li a.active .thumb img {
   border-radius: var(--radius);
 }
 .rbt-testimonial-box.bg-gradient-7 .inner::before {
-  background-image: url(../images/icons/quote.svg);
+  /* background-image: url(../images/icons/quote.svg); */
 }
 .rbt-testimonial-box.no-padding .inner {
   padding: 0;
@@ -20278,7 +20277,7 @@ ul.testimonial-thumb-wrapper li a.active .thumb img {
   text-align: center;
 }
 .rbt-testimonial-box.style-2 .inner::before {
-  background-image: url(../images/icons/quote.svg);
+  /* background-image: url(../images/icons/quote.svg); */
 }
 .rbt-testimonial-box.style-2 .icons {
   display: flex;
@@ -23825,7 +23824,7 @@ blockquote.has-text-align-right::before,
   top: 40px;
   left: 30px;
   z-index: -1;
-  background-image: url(../images/shape/quote.svg);
+  /* background-image: url(../images/shape/quote.svg); */
   background-repeat: no-repeat, repeat;
   width: 52px;
   height: 44px;
@@ -32265,7 +32264,7 @@ Course Sidebar
   background: var(--color-primary) !important;
 }
 .active-dark-mode .rbt-information-list li a {
-  color:white;
+  color: white;
 }
 .active-dark-mode .rbt-information-list li a:hover {
   color: var(--color-white);
@@ -32531,7 +32530,7 @@ Course Sidebar
   background: var(--color-darker);
 }
 .active-dark-mode .logo-dark {
-  display: flex !important;  
+  display: flex !important;
 }
 .active-dark-mode .breadcrumb-dark {
   display: none;
@@ -33635,8 +33634,8 @@ Course Sidebar
   color: var(--color-white);
 }
 .active-dark-mode .social-default.transparent-with-border li a {
-    background: transparent !important;
-    border: 2px solid #1356ff33;
+  background: transparent !important;
+  border: 2px solid #1356ff33;
 }
 .active-dark-mode .social-default li a {
   background-color: var(--color-bodyest-2);

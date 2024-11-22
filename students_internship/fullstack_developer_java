@@ -124,7 +124,9 @@
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.linkdin.com/" target="_blank"
+                        <a
+                          href="https://www.linkedin.com/company/ecs-cloud-infotech/posts/?feedView=all"
+                          target="_blank"
                           ><i class="fab fa-linkedin-in"></i
                         ></a>
                       </li>
@@ -797,7 +799,9 @@
                 </a>
               </li>
               <li>
-                <a href="https://www.linkdin.com/">
+                <a
+                  href="https://www.linkedin.com/company/ecs-cloud-infotech/posts/?feedView=all"
+                >
                   <i class="feather-linkedin"></i>
                 </a>
               </li>
@@ -1334,7 +1338,10 @@
                           </a>
                         </li>
                         <li>
-                          <a href="https://www.linkdin.com/" target="_blank">
+                          <a
+                            href="https://www.linkedin.com/company/ecs-cloud-infotech/posts/?feedView=all"
+                            target="_blank"
+                          >
                             <i class="feather-linkedin"></i>
                           </a>
                         </li>
@@ -1554,7 +1561,10 @@
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkdin.com/" target="_blank">
+                    <a
+                      href="https://www.linkedin.com/company/ecs-cloud-infotech/posts/?feedView=all"
+                      target="_blank"
+                    >
                       <i class="feather-linkedin"></i>
                     </a>
                   </li>
@@ -1650,7 +1660,7 @@
                   <p class="pb-0 text-dark modal_title">
                     Full Internship - FullStack Developer - Java
                   </p>
-                  <p class="py-1">
+                  <p class="py-1 text-dark">
                     Ready to become a Java pro? You're in the right place at the
                     right time. Cloud ECS Infotech offers a Full Stack Java
                     Developer Program exclusively designed to become a Java Pro
@@ -1683,8 +1693,17 @@
                         class="form-control form-control-sm"
                         id="name"
                         name="name"
-                        style="outline: none; box-shadow: none"
+                        style="
+                          outline: none;
+                          box-shadow: none;
+                          background: whitesmoke;
+                        "
                       />
+                      <style>
+                        #name::placeholder {
+                          color: black !important;
+                        }
+                      </style>
                     </div>
                     <div class="mb-4">
                       <input
@@ -1693,8 +1712,17 @@
                         class="form-control form-control-sm"
                         id="checkout_email"
                         name="checkout_email"
-                        style="outline: none; box-shadow: none"
+                        style="
+                          outline: none;
+                          box-shadow: none;
+                          background: whitesmoke;
+                        "
                       />
+                      <style>
+                        #checkout_email::placeholder {
+                          color: black !important;
+                        }
+                      </style>
                     </div>
                     <div class="mb-4">
                       <input
@@ -1703,16 +1731,18 @@
                         class="form-control form-control-sm"
                         id="phone"
                         name="phone"
-                        style="outline: none; box-shadow: none"
+                        style="
+                          outline: none;
+                          box-shadow: none;
+                          background: whitesmoke;
+                        "
                       />
+                      <style>
+                        #phone::placeholder {
+                          color: black !important;
+                        }
+                      </style>
                     </div>
-                    <input
-                      type="hidden"
-                      class="form-control form-control-sm"
-                      id="courses"
-                      name="courses"
-                      value="Full Internship - FullStack Developer - Java"
-                    />
                     <div class="mb-4">
                       <input
                         placeholder="City"
@@ -1721,9 +1751,25 @@
                         id="city"
                         value=""
                         name="city"
-                        style="outline: none; box-shadow: none"
+                        style="
+                          outline: none;
+                          box-shadow: none;
+                          background: whitesmoke;
+                        "
                       />
+                      <style>
+                        #city::placeholder {
+                          color: black !important;
+                        }
+                      </style>
                     </div>
+                    <input
+                      type="hidden"
+                      class="form-control form-control-sm"
+                      id="courses"
+                      name="courses"
+                      value="Full Internship - FullStack Developer - Java"
+                    />
                     <input
                       type="hidden"
                       class="form-control form-control-sm"
@@ -1768,7 +1814,6 @@
     </div>
 
     <!-- checkout modal -->
-
     <div
       class="modal fade"
       id="checkout"
@@ -1808,7 +1853,7 @@
                   <p class="pb-0 text-dark modal_title">
                     Full Internship - FullStack Developer - Java
                   </p>
-                  <p class="py-1">
+                  <p class="py-1 text-dark">
                     Ready to become a Java pro? You're in the right place at the
                     right time. Cloud ECS Infotech offers a Full Stack Java
                     Developer Program exclusively designed to become a Java Pro
@@ -1854,8 +1899,11 @@
               style="color: #28a745; font-size: 80px"
             ></i>
 
-            <p class="mb-0 text-center pb-3 px-2" style="font-size: 14px">
-              <strong class="text-center pb-3" style="font-size: 20px"
+            <p
+              class="mb-0 text-center text-dark pb-3 px-2"
+              style="font-size: 14px"
+            >
+              <strong class="text-center text-dark pb-3" style="font-size: 20px"
                 >We have sent the payment link to your email address</strong
               >
               <br />
@@ -1864,9 +1912,11 @@
               For assistance, reply to this email or contact support.
             </p>
 
-            <div class="text-center py-3">
-              <p class="mb-0 fw-bold" style="font-size: 26px">+91 9361365818</p>
-              <p class="fw-bold">info@ecsaio.in</p>
+            <div class="text-center text-dark py-3">
+              <p class="mb-0 fw-bold text-dark" style="font-size: 26px">
+                +91 9361365818
+              </p>
+              <p class="fw-bold text-dark">info@ecsaio.in</p>
             </div>
 
             <!-- Back to Home Button -->

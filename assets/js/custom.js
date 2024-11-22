@@ -175,6 +175,12 @@ $(document).ready(function () {
         minlength: 10,
         maxlength: 10,
       },
+      city: {
+        required: true,
+      },
+      courses: {
+        required: true,
+      },
     },
     messages: {
       name: {
@@ -190,6 +196,12 @@ $(document).ready(function () {
         digits: "Phone number must contain only digits.",
         minlength: "Phone number must be exactly 10 digits.",
         maxlength: "Phone number must be exactly 10 digits.",
+      },
+      city: {
+        required: "City is Required.",
+      },
+      courses: {
+        required: "Please select at least one course.",
       },
     },
     submitHandler: function (form) {
@@ -237,21 +249,27 @@ $(document).ready(function () {
             <b>Checkout</b>
           </p>
           <div class="pt-4">
-            <div class="d-flex justify-content-between align-items-center py-2">
-              <div>Sub Total</div>
-              <div>₹ ${data.course_fee}</div>
-            </div>
-            <div class="d-flex justify-content-between align-items-center py-2">
-              <div>GST</div>
-              <div>₹ ${data.course_gst}</div>
-            </div>
-            <hr />
-            <div class="d-flex justify-content-between align-items-center py-2">
-              <div>Total</div>
-              <div>₹  ${(
-                parseFloat(data.course_fee) + parseFloat(data.course_gst)
-              ).toFixed(2)}</div>
-            </div>
+           <div class="d-flex justify-content-between align-items-center py-2">
+             <div class="text-dark">Sub Total</div>
+             <div class="text-dark">₹ ${new Intl.NumberFormat("en-IN").format(
+               data.course_fee
+             )}</div>
+           </div>
+           <div class="d-flex justify-content-between align-items-center py-2">
+             <div class="text-dark">GST</div>
+             <div class="text-dark">₹ ${new Intl.NumberFormat("en-IN").format(
+               data.course_gst
+             )}</div>
+           </div>
+           <div style="width: 100%; border-bottom: 1px solid #2f3437"></div>
+           <div class="d-flex justify-content-between align-items-center py-2">
+             <div class="text-dark">Total</div>
+             <div class="text-dark">₹ ${new Intl.NumberFormat("en-IN").format(
+               (
+                 parseFloat(data.course_fee) + parseFloat(data.course_gst)
+               ).toFixed(2)
+             )}</div>
+           </div>
           </div>
           <div class="py-5">
             <button 
@@ -529,7 +547,7 @@ $(document).ready(function () {
               Amount :
             </td>
             <td align="right" style="vertical-align: middle">
-              ${modalData.course_fee}
+             ₹ ${new Intl.NumberFormat("en-IN").format(modalData.course_fee)}
             </td>
           </tr>
           <tr>
@@ -537,7 +555,7 @@ $(document).ready(function () {
               GST :
             </td>
             <td align="right" style="vertical-align: middle">
-              ${modalData.course_gst}
+              ₹ ${new Intl.NumberFormat("en-IN").format(modalData.course_gst)}
             </td>
           </tr>
         </table>
@@ -553,10 +571,12 @@ $(document).ready(function () {
               Total :
             </td>
             <td align="right" style="vertical-align: middle">
-              ${(
-                parseFloat(modalData.course_fee) +
-                parseFloat(modalData.course_gst)
-              ).toFixed(2)}
+              ₹ ${new Intl.NumberFormat("en-IN").format(
+                (
+                  parseFloat(modalData.course_fee) +
+                  parseFloat(modalData.course_gst)
+                ).toFixed(2)
+              )}
             </td>
           </tr>
         </table>
@@ -680,5 +700,14 @@ $(document).ready(function () {
         alert("There was an error submitting your order. Please try again.");
       },
     });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const modal = document.getElementById("course-register");
+  const form = document.getElementById("course_register");
+
+  modal.addEventListener("hidden.bs.modal", function () {
+    form.reset();
   });
 });
