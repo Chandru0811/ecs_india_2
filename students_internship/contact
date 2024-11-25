@@ -124,7 +124,9 @@
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.linkedin.com/company/ecs-cloud-infotech/posts/?feedView=all" target="_blank"
+                        <a
+                          href="https://www.linkedin.com/company/ecs-cloud-infotech/posts/?feedView=all"
+                          target="_blank"
                           ><i class="fab fa-linkedin-in"></i
                         ></a>
                       </li>
@@ -789,9 +791,7 @@
               class="social-icon social-default transparent-with-border justify-content-start mt--20"
             >
               <li>
-                <a
-                  href="https://www.facebook.com/CloudecsInfotech"
-                >
+                <a href="https://www.facebook.com/CloudecsInfotech">
                   <i class="feather-facebook"></i>
                 </a>
               </li>
@@ -809,7 +809,9 @@
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/company/ecs-cloud-infotech/posts/?feedView=all">
+                <a
+                  href="https://www.linkedin.com/company/ecs-cloud-infotech/posts/?feedView=all"
+                >
                   <i class="feather-linkedin"></i>
                 </a>
               </li>
@@ -843,7 +845,10 @@
             <li class="minicart-item">
               <div class="thumbnail">
                 <a href="#">
-                  <img src="assets/images/product/1.webp" alt="Product Images" />
+                  <img
+                    src="assets/images/product/1.webp"
+                    alt="Product Images"
+                  />
                 </a>
               </div>
               <div class="product-content">
@@ -1004,16 +1009,22 @@
               <div class="icon">
                 <i class="feather-map-pin"></i>
               </div>
-              <div class="inner">
-                <h4 class="title">Our Location</h4>
+              <div>
+                <h5 class="title" style="font-size: 16px">Our Location</h5>
                 <p>
                   <a
                     href="https://maps.app.goo.gl/4tdNADoV7Uc5j5AF8"
                     target="_blank"
-                    style="text-decoration: none"
+                    style="text-decoration: none; font-size: 14px"
                   >
                     766, Sakthi Tower Ln, Anna Salai,Thousand Lights, <br />
                     Chennai,Tamil Nadu 600002.
+                  </a>
+                </p>
+                <p>
+                  <a href="#" style="text-decoration: none; font-size: 14px">
+                    NO 67/1, K.M.A Gardens. Kodungaiyur,<br />
+                    Chennai,Chennai, Tamil Nadu, 600118.
                   </a>
                 </p>
               </div>
@@ -1206,8 +1217,9 @@
                     <span>Location:</span> 766, Sakthi Tower Ln, <br />
                     Anna Salai, Thousand Lights, Chennai, Tamil Nadu 600002.
                   </li>
-<li>
-                    <span>Location:</span> NO 67/1, K.M.A Gardens. Kodungaiyur,<br />
+                  <li>
+                    <span>Location:</span> NO 67/1, K.M.A Gardens.
+                    Kodungaiyur,<br />
                     Chennai,Chennai, Tamil Nadu, 600118.
                   </li>
                 </ul>
@@ -1239,7 +1251,10 @@
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/company/ecs-cloud-infotech/posts/?feedView=all" target="_blank">
+                    <a
+                      href="https://www.linkedin.com/company/ecs-cloud-infotech/posts/?feedView=all"
+                      target="_blank"
+                    >
                       <i class="feather-linkedin"></i>
                     </a>
                   </li>
