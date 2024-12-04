@@ -17,14 +17,47 @@
     </script>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Full Internship - Digital Marketing</title>
+    <title>Dream Big in Digital Marketing Training Conducted by Cloud ECS Infotech</title>
+
+    <link rel="canonical" href="https://ecsaio.in/students_internship/digital_marketing" />
     <meta name="robots" content="noindex, follow" />
-    <meta name="description" content="" />
+    <meta name="description" content="Elevate your dream career as a digital marketer with Cloud ECS Infotech. As businesses increasingly establish their online presence, the scope for digital marketing continues to expand.  " />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+    <!-- ===OG meta tags=== -->
+    <meta property="og:locale" content="en_In" />
+    <meta
+      property="og:title"
+      content="Dream Big in Digital Marketing Training Conducted by Cloud ECS Infotech"
+    />
+    <meta
+      property="og:description"
+      content="Elevate your dream career as a digital marketer with Cloud ECS Infotech. As businesses increasingly establish their online presence, the scope for digital marketing continues to expand.  "
+    />
+    <meta
+      property="og:image"
+      content="../assets/images/cloud_ecs_infotech_og.webp"
+    />
+    <meta property="og:url" content="https://ecsaio.in/" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:alt" content="Cloud ECS Infotech" />
+    <meta property="og:image:type" content="image/webp" />
+
+    <meta name="twitter:card" content="twitter image" />
+    <meta name="twitter:title" content="Dream Big in Digital Marketing Training Conducted by Cloud ECS Infotech" />
+    <meta
+      name="twitter:description"
+      content="Elevate your dream career as a digital marketer with Cloud ECS Infotech. As businesses increasingly establish their online presence, the scope for digital marketing continues to expand.  "
+    />
+    <meta name="twitter:site" content="@xxxxxxx" />
+    <meta
+      name="twitter:image"
+      content="../assets/images/cloud_ecs_infotech_twitter.webp"
+    />
     <!-- Favicon -->
     <link rel="icon" href="../assets/images/favicon.ico" />
 

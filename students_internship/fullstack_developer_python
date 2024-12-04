@@ -3,14 +3,52 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Full Internship - Fullstack Developer - Python</title>
+    <title>Full Stack Developer-Python, become a hero from zero!</title>
+
+    <link
+      rel="canonical"
+      href="https://ecsaio.in/students_internship/fullstack_developer_python"
+    />
     <meta name="robots" content="noindex, follow" />
-    <meta name="description" content="" />
+    <meta name="description" content="Launch your Web Development career in Python with Cloud ECS Infotech. Learn from scratch.  Global curriculum.  Real-time projects. Experienced Instructors.  " />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <!-- ===OG meta tags=== -->
+    <meta property="og:locale" content="en_In" />
+    <meta
+      property="og:title"
+      content="Full Stack Developer-Python, become a hero from zero!"
+    />
+    <meta
+      property="og:description"
+      content="Launch your Web Development career in Python with Cloud ECS Infotech. Learn from scratch.  Global curriculum.  Real-time projects. Experienced Instructors.  "
+    />
+    <meta
+      property="og:image"
+      content="../assets/images/cloud_ecs_infotech_og.webp"
+    />
+    <meta property="og:url" content="https://ecsaio.in/" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:alt" content="Cloud ECS Infotech" />
+    <meta property="og:image:type" content="image/webp" />
 
+    <meta name="twitter:card" content="twitter image" />
+    <meta
+      name="twitter:title"
+      content="Full Stack Developer-Python, become a hero from zero!"
+    />
+    <meta
+      name="twitter:description"
+      content="Launch your Web Development career in Python with Cloud ECS Infotech. Learn from scratch.  Global curriculum.  Real-time projects. Experienced Instructors.  "
+    />
+    <meta name="twitter:site" content="@xxxxxxx" />
+    <meta
+      name="twitter:image"
+      content="../assets/images/cloud_ecs_infotech_twitter.webp"
+    />
     <!-- Favicon -->
     <link rel="icon" href="../assets/images/favicon.ico" />
 
@@ -1522,8 +1560,9 @@
                     <span>Location:</span> 766, Sakthi Tower Ln, <br />
                     Anna Salai, Thousand Lights, Chennai, Tamil Nadu 600002.
                   </li>
-<li>
-                    <span>Location:</span> NO 67/1, K.M.A Gardens. Kodungaiyur,<br />
+                  <li>
+                    <span>Location:</span> NO 67/1, K.M.A Gardens.
+                    Kodungaiyur,<br />
                     Chennai,Chennai, Tamil Nadu, 600118.
                   </li>
                 </ul>

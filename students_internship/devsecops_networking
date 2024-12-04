@@ -17,14 +17,47 @@
     </script>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Full Internship - DevSec Ops, Networking, Cyber Security</title>
+    <title>Get ready for a challenging career in Cyber Security.</title>
+
+    <link rel="canonical" href="https://ecsaio.in/students_internship/devsecops_networking" />
     <meta name="robots" content="noindex, follow" />
-    <meta name="description" content="" />
+    <meta name="description" content="Master DevSecOps/Networking/Cyber Security and pursue a challenging and rewarding career.  One-of-a-kind curriculum.  Live sessions.  Top-notch training from Cloud ECS Infotech." />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+    <!-- ===OG meta tags=== -->
+    <meta property="og:locale" content="en_In" />
+    <meta
+      property="og:title"
+      content="Get ready for a challenging career in Cyber Security."
+    />
+    <meta
+      property="og:description"
+      content="Master DevSecOps/Networking/Cyber Security and pursue a challenging and rewarding career.  One-of-a-kind curriculum.  Live sessions.  Top-notch training from Cloud ECS Infotech."
+    />
+    <meta
+      property="og:image"
+      content="../assets/images/cloud_ecs_infotech_og.webp"
+    />
+    <meta property="og:url" content="https://ecsaio.in/" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:alt" content="Cloud ECS Infotech" />
+    <meta property="og:image:type" content="image/webp" />
+
+    <meta name="twitter:card" content="twitter image" />
+    <meta name="twitter:title" content="Get ready for a challenging career in Cyber Security." />
+    <meta
+      name="twitter:description"
+      content="Master DevSecOps/Networking/Cyber Security and pursue a challenging and rewarding career.  One-of-a-kind curriculum.  Live sessions.  Top-notch training from Cloud ECS Infotech."
+    />
+    <meta name="twitter:site" content="@xxxxxxx" />
+    <meta
+      name="twitter:image"
+      content="../assets/images/cloud_ecs_infotech_twitter.webp"
+    />
     <!-- Favicon -->
     <link rel="icon" href="../assets/images/favicon.ico" />
 
