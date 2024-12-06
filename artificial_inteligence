@@ -17,7 +17,7 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Cloud ECS Infotech | Artificial Intelligence</title>
 
     <!-- Google fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,7 +34,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../assets/css/ai.css" />
+    <link rel="stylesheet" href="./assets/css/ai.css" />
     <!-- <link rel="stylesheet" href="../assets/css/bootstrap.min.css" /> -->
   </head>
   <body>
@@ -42,14 +42,15 @@
     <section class="header">
       <nav class="navbar navbar-expand-lg">
         <div class="container py-2">
-          <span class="fw-bold mb-0">
+          <a href="./" class="text-light text-decoration-none">
+            <span class="fw-bold mb-0">
             <img
-              src="../assets/images/logo.webp"
+              src="./assets/images/logo.webp"
               class="img-fluid"
               alt="logo"
               style="width: 150px"
             />
-          </span>
+          </span></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -65,18 +66,18 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item pe-3">
-                <a class="nav-link active" href="../students_internship/about"
+                <a class="nav-link active" href="./students_internship/about"
                   >About Us</a
                 >
               </li>
               <li class="nav-item pe-3">
-                <a class="nav-link active" href="../students_internship/contact"
+                <a class="nav-link active" href="./students_internship/contact"
                   >Contact</a
                 >
               </li>
             </ul>
             <form class="d-flex ms-auto">
-              <a class="text-decoration-none text-light" href="../internship">
+              <a class="text-decoration-none text-light" href="./internship">
                 <button
                   class="btn btn-primary register_button me-4"
                   type="button"
@@ -99,9 +100,7 @@
           <div class="col-12 text-center">
             <div>
               <h1 class="h1-tag">
-                Go with the trend! <span class="span-ai">AI</span>-driven
-                innovative software solutions 
-                to revolutionize your Industry!
+                Cloud ECS Infotech - Artificial Intelligence
               </h1>
               <h2 class="h2-tag">
                 A wise decision can change the fortunes of
@@ -117,7 +116,7 @@
             class="col-md-6 col-12 d-flex justify-content-center align-items-center"
           >
             <img
-              src="../assets/images/ai-content-1.webp"
+              src="./assets/images/ai-content-2.webp"
               alt="AI course"
               class="img-fluid"
             />
@@ -135,7 +134,7 @@
         </div>
         <div class="row mt-4">
           <div
-            class="col-md-6 col-12 d-flex justify-content-center align-items-center order-md-1 order-1"
+            class="col-md-6 col-12 d-flex justify-content-center align-items-center order-md-0 order-1"
           >
             <p class="p-tag mt-md-0 mt-3">
               Cloud ECS Infotech gives inventive AI solutions to various
@@ -147,10 +146,10 @@
             </p>
           </div>
           <div
-            class="col-md-6 col-12 order-md-0 order-0 d-flex justify-content-center align-items-center"
+            class="col-md-6 col-12 order-md-1 order-0 d-flex justify-content-center align-items-center"
           >
             <img
-              src="../assets/images/ai-content-2.webp"
+              src="./assets/images/ai-content-1.webp"
               alt="AI course"
               class="img-fluid"
             />
@@ -158,7 +157,7 @@
         </div>
         <div class="row mt-4">
           <div
-            class="col-md-6 col-12 d-flex justify-content-center align-items-center order-md-0 order-1"
+            class="col-md-6 col-12 d-flex justify-content-center align-items-center order-md-1 order-1"
           >
             <p class="p-tag mt-md-0 mt-3">
               Customer satisfaction is vital in every business. AI can
@@ -172,7 +171,7 @@
             class="col-md-6 col-12 order-md-0 order-0 d-flex justify-content-center align-items-center"
           >
             <img
-              src="../assets/images/ai-content-3.webp"
+              src="./assets/images/ai-content-3.webp"
               alt="AI course"
               class="img-fluid"
             />
@@ -193,7 +192,7 @@
             class="col-md-6 col-12 order-md-0 order-0 d-flex justify-content-center align-items-center"
           >
             <img
-              src="../assets/images/ai-content-4.webp"
+              src="./assets/images/ai-content-4.webp"
               alt="AI course"
               class="img-fluid"
             />
@@ -207,15 +206,17 @@
       <div class="container">
         <div class="row m-0 fotter_content">
           <div class="col-md-3 col-12 mb-3">
+            <a href="./" class="text-light text-decoration-none">
             <p>
               <img
-                src="../assets/images/footer_logo.webp"
+                src="./assets/images/footer_logo.webp"
                 loading="lazy"
                 alt="footer_logo"
                 class="img-fluid"
                 style="width: 60%; height: 60%"
               />
             </p>
+          </a>
             <p class="footer_text mb-4 media_align_text">
               Your Trusted, Technology and Digital Solutions partner in India.We
               offer a wide range of solutions, from Software Solutions to
@@ -231,7 +232,7 @@
                 aria-label="Visit our facebook page"
               >
                 <img
-                  src="../assets/images/facebook_footer.svg"
+                  src="./assets/images/facebook_footer.svg"
                   alt="facebook_footer"
                   class="img-fluid"
                   loading="lazy"
@@ -256,7 +257,7 @@
                 aria-label="Visit our linkedin page"
               >
                 <img
-                  src="../assets/images/linkedin_footer.svg"
+                  src="./assets/images/linkedin_footer.svg"
                   alt="linkedin_footer"
                   class="img-fluid"
                   loading="lazy"
@@ -281,7 +282,7 @@
                 aria-label="Visit our instagram page"
               >
                 <img
-                  src="../assets/images/instagram_footer.svg"
+                  src="./assets/images/instagram_footer.svg"
                   alt="instagram_footer"
                   class="img-fluid"
                   loading="lazy"
@@ -306,7 +307,7 @@
                 aria-label="Visit our youtube channel"
               >
                 <img
-                  src="../assets/images/youtube_footer.svg"
+                  src="./assets/images/youtube_footer.svg"
                   alt="youtube_footer"
                   class="img-fluid"
                   loading="lazy"
@@ -332,7 +333,7 @@
                 aria-label="Visit our twitter page"
               >
                 <img
-                  src="../assets/images/twitter_footer.svg"
+                  src="./assets/images/twitter_footer.svg"
                   alt="twitter_footer"
                   class="img-fluid"
                   loading="lazy"
@@ -357,18 +358,18 @@
             <ul style="list-style-type: none" class="media_align_text">
               <li class="footer_head">Pages</li>
               <li class="footer_text mt-3">
-                <a href="/" class="text-light text-decoration-none">Home</a>
+                <a href="./" class="text-light text-decoration-none">Home</a>
               </li>
               <li class="footer_text mt-3">
                 <a
-                  href="../students_internship/about"
+                  href="./students_internship/about"
                   class="text-light text-decoration-none"
                   >About Us</a
                 >
               </li>
               <li class="footer_text mt-3">
                 <a
-                  href="../students_internship/contact"
+                  href="./students_internship/contact"
                   class="text-light text-decoration-none"
                   >Contact Us</a
                 >
@@ -380,14 +381,14 @@
               <li class="footer_head">Useful links</li>
               <li class="footer_text mt-3">
                 <a
-                  href="../terms_and_conditions"
+                  href="./terms_and_conditions"
                   class="text-decoration-none text-light"
                   >Terms & Conditions</a
                 >
               </li>
               <li class="footer_text mt-3">
                 <a
-                  href="../privacy_policy"
+                  href="./privacy_policy"
                   class="text-decoration-none text-light"
                   >Privacy Policy</a
                 >
@@ -402,6 +403,6 @@
     </section>
     <!-- Footer Ends  -->
 
-    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
