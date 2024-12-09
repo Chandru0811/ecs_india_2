@@ -91,7 +91,7 @@ $(document).ready(function () {
         first_name: $("#first_name").val(),
         email: $("#email").val(),
         phone: $("#mobile").val(),
-        company_id: 2,
+        company_id: 43,
         company: "ECSCloudInfotech India",
         lead_status: "PENDING",
         description_info: $("#description_info").val(),
@@ -135,7 +135,7 @@ $(document).ready(function () {
     submitHandler: function (form) {
       const payload = {
         email: $("#enquiry_email").val(),
-        company_id: 2,
+        company_id: 43,
         company: "ECSCloudInfotech India",
         lead_status: "PENDING",
         lead_source: "WEBSITE",
@@ -180,6 +180,9 @@ $(document).ready(function () {
       course: {
         required: true,
       },
+      location: {
+        required: true,
+      },
     },
     messages: {
       full_name: {
@@ -201,6 +204,9 @@ $(document).ready(function () {
       },
       course: {
         required: "Please enter your course*",
+      },
+      location: {
+        required: "Please enter your Location*",
       },
     },
     errorPlacement: function (error, element) {
@@ -224,7 +230,11 @@ $(document).ready(function () {
         company_id: 43,
         company: "Cloud ECS Infotech",
         lead_status: "PENDING",
-        description_info: `Year of Passing : ${$("#year_of_passing").val()}, Course : ${$("#course").val()}, About Candidate : ${$("#about_me").val()}`,
+        description_info: `Location : ${$("#location").val()}, Course : ${$(
+          "#course"
+        ).val()}, Year of Passing : ${$(
+          "#year_of_passing"
+        ).val()}, About Candidate : ${$("#about_me").val()}`,
         lead_source: "HIRING FORM",
         country_code: "91",
         createdBy: $("#full_name").val(),
@@ -340,23 +350,23 @@ $(document).ready(function () {
            <div class="d-flex justify-content-between align-items-center py-2">
              <div class="text-dark">Sub Total</div>
              <div class="text-dark">₹ ${new Intl.NumberFormat("en-IN").format(
-      data.course_fee
-    )}</div>
+               data.course_fee
+             )}</div>
            </div>
            <div class="d-flex justify-content-between align-items-center py-2">
              <div class="text-dark">GST</div>
              <div class="text-dark">₹ ${new Intl.NumberFormat("en-IN").format(
-      data.course_gst
-    )}</div>
+               data.course_gst
+             )}</div>
            </div>
            <div style="width: 100%; border-bottom: 1px solid #2f3437"></div>
            <div class="d-flex justify-content-between align-items-center py-2">
              <div class="text-dark">Total</div>
              <div class="text-dark">₹ ${new Intl.NumberFormat("en-IN").format(
-      (
-        parseFloat(data.course_fee) + parseFloat(data.course_gst)
-      ).toFixed(2)
-    )}</div>
+               (
+                 parseFloat(data.course_fee) + parseFloat(data.course_gst)
+               ).toFixed(2)
+             )}</div>
            </div>
           </div>
           <div class="py-5">
@@ -660,11 +670,11 @@ $(document).ready(function () {
             </td>
             <td align="right" style="vertical-align: middle">
               ₹ ${new Intl.NumberFormat("en-IN").format(
-            (
-              parseFloat(modalData.course_fee) +
-              parseFloat(modalData.course_gst)
-            ).toFixed(2)
-          )}
+                (
+                  parseFloat(modalData.course_fee) +
+                  parseFloat(modalData.course_gst)
+                ).toFixed(2)
+              )}
             </td>
           </tr>
         </table>
