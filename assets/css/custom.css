@@ -483,3 +483,7 @@
 .active-dark-mode .form-control {
   color: #000 !important;
 }
+
+#hiringForm label.error {
+  font-size: 12px !important;
+}

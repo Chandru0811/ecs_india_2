@@ -2,19 +2,16 @@
 <html lang="en">
 
 <head>
-     <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-XWHQQM5H1G"
-    ></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XWHQQM5H1G"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
 
-      gtag("config", "G-XWHQQM5H1G");
+        gtag("config", "G-XWHQQM5H1G");
     </script>
     <title>Cloud ECS Infotech | We're hiring!</title>
     <meta name="description"
@@ -92,18 +89,18 @@
     <section class="my-5 hiring">
         <div class="container">
             <div class="row">
-                <div class="col-md-5 col-12 mb-4 order-md-1 order-2 d-flex flex-column justify-content-center">
+                <div class="col-md-5 col-12 mb-4 order-md-1 order-2">
                     <h1 style="font-size: 60px; font-weight: 600;">We're hiring!</h1>
                     <p class="mb-5 mt-3">Join our dynamic team and contribute to exciting projects. If you're passionate
                         and
                         ready to make an impact, apply now!</p>
-                    <img src="./assets/images/hiring.jpg" class="img-fluid" alt="Hiring" />
+                    <img src="./assets/images/hiring.webp" class="img-fluid" alt="Hiring" />
                 </div>
                 <div class="col-md-7 col-12 mb-4 order-md-2 order-1">
                     <div class="card p-4" style="border: none; background-color: #f1f1f3;">
                         <form id="hiringForm">
                             <div class="row p-4">
-                                <h3 class="mb-3">Enter your details here</h3>
+                                <h3 class="mb-4">Enter your details here</h3>
                                 <div class="col-md-6 col-12 mb-3">
                                     <label class="form-label">Full Name</label>
                                     <input type="text" class="form-control" name="full_name" id="full_name" required />
@@ -159,7 +156,7 @@
                 </div>
                 <div class="modal-body pt-0">
                     <!-- Error Icon -->
-                    <i class="fa-solid fa-circle-exclamation my-4" style="color: rgb(255, 80, 80); font-size: 70px"></i>
+                    <img src="./assets/images/exclamation.png" alt="check" class="img-fluid my-5" />
                     <p class="mb-0 errorMagnetSubHeading fw-bold pb-4">
                         We are sorry !
                     </p>
@@ -170,7 +167,7 @@
 
                     <!-- Contact Us Button -->
                     <a href="./contact" class="btn successMagnetButton btn-successrounded-5">
-                        <i class="fas fa-arrow m-0-left"></i> Contact Page
+                        Contact Page
                     </a>
                 </div>
             </div>
@@ -192,7 +189,7 @@
                 </div>
                 <div class="modal-body pt-0">
                     <!-- Success Video -->
-                    <i class="fa-solid fa-circle-check my-5" style="color: #28a745; font-size: 80px"></i>
+                    <img src="./assets/images/check.png" alt="check" class="img-fluid my-5" />
                     <p class="mb-0 SuccessMagnetSubHeading pb-4">
                         We will get back you soon!
                     </p>
