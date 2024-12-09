@@ -514,6 +514,13 @@
                   >Contact Us</a
                 >
               </li>
+              <li class="footer_text mt-3">
+                <a
+                  href="./hiring"
+                  class="text-light text-decoration-none"
+                  >We're Hiring</a
+                >
+              </li>
             </ul>
           </div>
           <div class="col-md-2 col-12">
