@@ -184,7 +184,7 @@
 }
 
 .hero .hero_bg_2 {
-  background-image: url("../images/Hero\ Circle\ 2.webp");
+  background-image: url("../images/Hero_Circle_2.webp");
   background-repeat: no-repeat;
   background-position: bottom left;
 }
@@ -265,13 +265,13 @@
 
 .Feedback {
   background-color: #000;
-  background-image: url("../images/Feedback\ Circle.webp");
+  background-image: url("../images/Feedback_Circle.webp");
   background-repeat: no-repeat;
   background-position: right top;
 }
 
 .Feedback .bg_circle {
-  background-image: url("../images/Feedback\ bottom\ circle.webp");
+  background-image: url("../images/Feedback_bottom_circle.webp");
   background-repeat: no-repeat;
   background-position: bottom left;
 }
