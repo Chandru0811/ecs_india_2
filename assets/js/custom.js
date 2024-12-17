@@ -183,6 +183,9 @@ $(document).ready(function () {
       location: {
         required: true,
       },
+      about_me: {
+        maxlength: 255,
+      },
     },
     messages: {
       full_name: {
@@ -207,6 +210,9 @@ $(document).ready(function () {
       },
       location: {
         required: "Please enter your Location*",
+      },
+      about_me: {
+        maxlength: "About Me cannot exceed 255 characters.",
       },
     },
     errorPlacement: function (error, element) {
