@@ -182,6 +182,7 @@ $(document).ready(function () {
       },
       location: {
         required: true,
+        maxlength: 30,
       },
       about_me: {
         maxlength: 255,
@@ -210,6 +211,7 @@ $(document).ready(function () {
       },
       location: {
         required: "Please enter your Location*",
+        maxlength: "Location cannot exceed 30 characters.",
       },
       about_me: {
         maxlength: "About Me cannot exceed 255 characters.",
