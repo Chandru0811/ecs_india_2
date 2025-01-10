@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body { 
+    background-color: #ffffff !important;
+}
+
+/* Header Starts  */
+
+@media screen and (max-width: 380px) and (min-width: 320px) {
+  .header-logo {
+    max-width: 120px;
+  }
+
+  .navbar-toggler .button {
+    max-width: 150px;
+  }
+
+  .button {
+    max-width: 200px;
+  }
+}
+
+.header {
+  border-bottom: 0.5px solid #e1e1e1;
+}
+
+.header .register_button {
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+
+.header .nav-link {
+  font-size: 90%;
+}
+
+.header .signin_btn {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* Header Ends  */
+
+/* Footer Starts  */
+
+.footer {
+  background-color: #323232;
+  color: #fff;
+  padding-bottom: 30px;
+  height: 23rem;
+}
+
+.footer .footer_text {
+  font-size: small;
+  /* color: #aeacac; */
+  color: #fff;
+}
+
+.footer .footer_head {
+  font-size: medium;
+  color: #fff;
+}
+
+.footer .icons {
+  background-color: #ffffff37;
+  padding-bottom: 13px;
+  padding-top: 8px;
+  padding-left: 13px;
+  padding-right: 13px;
+  border-radius: 20px;
+  margin-right: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footer_copy {
+  font-size: small;
+  color: #fff;
+  border-top: 0.5px solid #5c5c5c;
+  padding-top: 10px;
+}
+
+.fotter_content {
+  padding-top: 60px;
+}
+
+@media (max-width: 555px) {
+  .fotter_content {
+    padding-top: 30px;
+  }
+
+  .footer_icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (width >= 1600px) {
+    .section-fluid {
+        width: 1400px !important;
+        margin: auto;
+    }
+}
+
+/* ===== Hero section ===== */
+.h1-tag {
+    color: #008585;
+    font-weight: bold;
+    font-size: clamp(1.8rem, 1.4rem + 1.4vw, 3rem);
+
+}
+.bg-success {
+    background-color: #c4ff71 !important;
+    font-weight: 500 !important;
+    color: black !important;
+    padding: 0.8rem 1rem !important;
+}
+.h1-ptag{
+    font-weight: 300;
+}
+.free-img{
+    top: -25px;
+    right: 0;
+}
+.apply-btn {
+    background-color: #40af92;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .apply-btn:hover {
+    background-color: #2e8a6e; 
+    color: white;
+    transform: scale(1); 
+  }
+  
+  .apply-btn:focus {
+    outline: none !important; 
+    outline-offset: 2px; 
+    color: white;
+    background-color: #38a482; 
+  }
+
+
+
+ /* ===== Offer section ===== */
+ .offer_section_heading{
+    font-weight: 500;
+    font-size: clamp(1rem, 1.1rem + 1.1vw, 3rem);
+ }
+  .offer_section .card {
+    border: 1px solid #38a482;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+
+  /* ==== Course Details section ===== */
+.course_section_text{
+    font-size: calc(0.8rem + 0.2vw);
+    font-weight: 400;
+}
+@media (max-width: 768px) {
+    .course_section_text{
+        font-size: calc(0.65rem + 0.2vw);
+    }
+    
+}
+
+
+/* ===== Form section ===== */
+.form-container {
+    background-color: #40AF92;
+    color: #ffffff;
+    width: 80%;
+    top: 0px;
+    position: absolute;
+}
+.form-container input {
+    height: 2.6rem;
+}
+.form-btn{
+    background-color: #ffffff;
+    color: #40AF92;
+}
+.form-btn:hover{
+    background-color: #ffffff;
+    color: #40AF92;
+}
+.w-80 {
+    width: 33% !important;
+}
+@media (max-width: 767px) {
+    
+    .form-container {
+        position: relative;
+        width: 100% !important;
+        top: 0px !important;
+    }
+    
+}
+@media (max-width: 1024px) { 
+    .form-container {
+        /* position: relative; */
+        width: 100% !important;
+        top: -60px;
+    }
+    .form-container input::placeholder {
+        font-size: small;
+    }
+    .form-container textarea::placeholder {
+        font-size: small;
+    }
+    .w-80 {
+        /* width: 66% !important; */
+        position: relative;
+        right: 28px;
+    }
+}
+.text-danger {
+    font-size: small;
+}

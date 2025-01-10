@@ -262,6 +262,113 @@ $(document).ready(function () {
       });
     },
   });
+
+  // ====  Free certificate form validation   ====
+
+  $("#freeCourseHiringForm").validate({
+    rules: {
+      full_name: {
+        required: true,
+        minlength: 3,
+      },
+      email: {
+        required: true,
+        email: true,
+      },
+      mobile: {
+        required: true,
+        number: true,
+        minlength: 8,
+        maxlength: 10,
+      },
+      year_of_passing: {
+        required: true,
+      },
+      course: {
+        required: true,
+      },
+      location: {
+        required: true,
+        maxlength: 30,
+      },
+      about_me: {
+        maxlength: 255,
+      },
+    },
+    messages: {
+      full_name: {
+        required: "Please enter your full name*",
+        minlength: "Your name must be at least 2 characters long",
+      },
+      email: {
+        required: "Please enter your email*",
+        email: "Please enter a valid email address",
+      },
+      mobile: {
+        required: "Please enter your phone number*",
+        number: "Please enter a valid phone number",
+        minlength: "Your phone number must be at least 8 digits long",
+        maxlength: "Your phone number must be at most 10 digits long",
+      },
+      year_of_passing: {
+        required: "Please enter your year of passing*",
+      },
+      course: {
+        required: "Please enter your course*",
+      },
+      location: {
+        required: "Please enter your Location*",
+        maxlength: "Location cannot exceed 30 characters.",
+      },
+      about_me: {
+        maxlength: "About Me cannot exceed 255 characters.",
+      },
+    },
+    errorPlacement: function (error, element) {
+      error.addClass("text-danger mt-1");
+      error.insertAfter(element);
+    },
+    highlight: function (element) {
+      $(element).addClass("is-invalid");
+    },
+    unhighlight: function (element) {
+      $(element).removeClass("is-invalid");
+    },
+    submitHandler: function (form) {
+      if (!$("#freeCourseHiringForm").valid()) {
+        return false;
+      }
+      const payload = {
+        first_name: $("#full_name").val(),
+        email: $("#email").val(),
+        phone: $("#mobile").val(),
+        company_id: 53,
+        company: "Cloud ECS Infotech",
+        lead_status: "PENDING",
+        description_info: `Location : ${$("#location").val()}, Course : ${$(
+          "#course"
+        ).val()}, Year of Passing : ${$(
+          "#year_of_passing"
+        ).val()}, About Candidate : ${$("#about_me").val()}`,
+        lead_source: "HIRING FORM",
+        country_code: "91",
+        createdBy: $("#full_name").val(),
+      };
+      $.ajax({
+        url: "https://crmlah.com/ecscrm/api/newClient",
+        type: "POST",
+        contentType: "application/json",
+        data: JSON.stringify(payload),
+        success: function (response) {
+          showSuccessModal();
+          $(form).trigger("reset");
+        },
+        error: function () {
+          showErrorModal();
+        },
+      });
+    },
+  });
 });
 
 $(document).ready(function () {
