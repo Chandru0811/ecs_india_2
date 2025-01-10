@@ -91,14 +91,14 @@
               
             </ul>
             <form class="d-flex ms-lg-3 ms-md-auto">
-              <a class="text-decoration-none text-light" href="../internship">
+              <!-- <a class="text-decoration-none text-light" href="../internship"> -->
                 <button
                   class="btn apply-btn btn "
                   type="button"
                 >
                  Apply Now
                 </button>
-              </a>
+              <!-- </a> -->
             </form>
           </div>
         </div>
