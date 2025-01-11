@@ -42,6 +42,16 @@ $(document).ready(function () {
   function closePopup() {
     $(".modal").modal("hide");
   }
+  $.validator.addMethod(
+    "emailPattern",
+    function (value, element) {
+      return (
+        this.optional(element) ||
+        /^[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(value)
+      );
+    },
+    "Please enter a valid email address"
+  );
 
   // Contact Form Validation
   $("#contactForm").validate({
@@ -166,7 +176,7 @@ $(document).ready(function () {
       },
       email: {
         required: true,
-        email: true,
+        emailPattern: true,
       },
       mobile: {
         required: true,
@@ -195,7 +205,7 @@ $(document).ready(function () {
       },
       email: {
         required: "Please enter your email*",
-        email: "Please enter a valid email address",
+        emailPattern: "Please enter a valid email address",
       },
       mobile: {
         required: "Please enter your phone number*",
@@ -264,16 +274,7 @@ $(document).ready(function () {
   });
 
   // ====  Free certificate form validation   ==== //
-  $.validator.addMethod(
-    "emailPattern",
-    function (value, element) {
-      return (
-        this.optional(element) ||
-        /^[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(value)
-      );
-    },
-    "Please enter a valid email address"
-  );
+
   $("#freeCourseHiringForm").validate({
     rules: {
       full_name: {
@@ -356,7 +357,7 @@ $(document).ready(function () {
         lead_status: "PENDING",
         description_info: `Location : ${$(
           "#location"
-        ).val()} ^ Qualification : ${$("#course").val()} ^ Year of Passing : ${$(
+        ).val()} ^ Course : ${$("#course").val()} ^ Year of Passing : ${$(
           "#year_of_passing"
         ).val()} ^ About Candidate : ${$("#about_me").val()}`,
         lead_source: "HIRING FORM",
