@@ -369,7 +369,7 @@ $(document).ready(function () {
         contentType: "application/json",
         data: JSON.stringify(payload),
         success: function (response) {
-          showErrorModal();
+          showSuccessModal();
           $(form).trigger("reset");
         },
         error: function () {
