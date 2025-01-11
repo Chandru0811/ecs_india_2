@@ -93,7 +93,6 @@
               <!-- <a class="text-decoration-none text-light" href="../internship"> -->
               <button
                 class="btn apply-btn btn"
-                onclick="showErrorModal()"
                 type="button"
               >
                 Apply Now
