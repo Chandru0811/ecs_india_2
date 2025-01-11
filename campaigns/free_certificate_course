@@ -17,7 +17,7 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Free Certificate Course | Cloud ECS Infotech </title>
+    <title>Free Certificate Course | Cloud ECS Infotech</title>
 
     <meta
       name="title"
@@ -79,8 +79,8 @@
                 >
               </li>
               <li class="nav-item pe-3">
-                <a class="nav-link active" href="../internship"
-                  > Students Program</a
+                <a class="nav-link active" href="../internship">
+                  Students Program</a
                 >
               </li>
               <li class="nav-item pe-3">
@@ -88,16 +88,16 @@
                   >Contact</a
                 >
               </li>
-              
             </ul>
             <form class="d-flex ms-lg-3 ms-md-auto">
               <!-- <a class="text-decoration-none text-light" href="../internship"> -->
-                <button
-                  class="btn apply-btn btn "
-                  type="button"
-                >
-                 Apply Now
-                </button>
+              <button
+                class="btn apply-btn btn"
+                onclick="showErrorModal()"
+                type="button"
+              >
+                Apply Now
+              </button>
               <!-- </a> -->
             </form>
           </div>
@@ -155,105 +155,116 @@
       <section class="container-fluid offer_section">
         <div class="row m-0 d-flex flex-wrap">
           <p class="offer_section_heading text-center my-md-5 py-4">
-            Course Offered
+            Courses Offered
           </p>
-          <div class="col-md-4 col-6 px-md-5 d-flex flex-column">
+          <div class="col-md-4 col-6 px-md-3 px-lg-5 d-flex flex-column">
             <div
-              class="card py-md-5 py-4 d-flex justify-content-center align-items-center flex-grow-1"
+              class="card  d-flex justify-content-center align-items-center flex-grow-1"
             >
               <img
                 src="../assets/images/java_logo.webp"
                 alt="Course image"
-                class="img-fluid"
+                class="img-fluid my-md-5 my-4"
               />
+              <p class="card_p_tag fw-semibold mb-3">Java</p>
             </div>
           </div>
-          <div class="col-md-4 col-6 px-md-5 d-flex flex-column">
+          <div class="col-md-4 col-6 px-md-3 px-lg-5 d-flex flex-column">
             <div
-              class="card py-md-5 px-1 py-4 d-flex justify-content-center align-items-center flex-grow-1"
+              class="card  px-1 d-flex justify-content-center align-items-center flex-grow-1"
             >
               <img
                 src="../assets/images/python.webp"
                 alt="Course image"
-                class="img-fluid"
+                class="img-fluid py-md-5  py-4"
               />
+              <p class="card_p_tag fw-semibold mb-3">Python</p>
             </div>
           </div>
-          <div class="col-md-4 px-md-5 col-6 mt-md-0 mt-4 d-flex flex-column">
+          <div
+            class="col-md-4 px-md-3 px-lg-5 col-6 mt-md-0 mt-4 d-flex flex-column"
+          >
             <div
-              class="card py-md-5 px-1 py-4 d-flex justify-content-center align-items-center flex-grow-1"
+              class="card  px-1  d-flex justify-content-center align-items-center flex-grow-1"
             >
               <img
                 src="../assets/images/data_science_img.webp"
                 alt="Course image"
-                class="img-fluid"
+                class="img-fluid py-md-5 py-4"
               />
+              <p class="card_p_tag fw-semibold mb-3">Data Science</p>
             </div>
           </div>
-          <div class="col-md-4 px-md-5 col-6 mt-4 d-flex flex-column">
+          <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
             <div
-              class="card py-md-5 py-4 d-flex justify-content-center align-items-center flex-grow-1"
+              class="card px-1 d-flex justify-content-center align-items-center flex-grow-1"
             >
               <img
-                src="../assets/images/data_science_img.webp"
+                src="../assets/images/devops.webp"
                 alt="Course image"
-                class="img-fluid"
+                class="img-fluid py-md-5 py-4"
               />
+              <p class="card_p_tag fw-semibold mb-3">Dev/Sec Ops</p>
             </div>
           </div>
-          <div class="col-md-4 px-md-5 col-6 mt-4 d-flex flex-column">
+          <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
             <div
-              class="card py-md-5 py-4 d-flex justify-content-center align-items-center flex-grow-1"
+              class="card  d-flex justify-content-center align-items-center flex-grow-1"
             >
               <img
-                src="../assets/images/data_science_img.webp"
+                src="../assets/images/mobile_app_icon.webp"
                 alt="Course image"
-                class="img-fluid"
+                class="img-fluid py-md-5 py-4"
               />
+              <p class="card_p_tag fw-semibold mb-3">Mobile Development</p>
             </div>
           </div>
-          <div class="col-md-4 px-md-5 col-6 mt-4 d-flex flex-column">
+          <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
             <div
-              class="card py-md-5 py-4 d-flex justify-content-center align-items-center flex-grow-1"
+              class="card  d-flex justify-content-center align-items-center flex-grow-1"
             >
               <img
-                src="../assets/images/data_science_img.webp"
+                src="../assets/images/frontend.webp"
                 alt="Course image"
-                class="img-fluid"
+                class="img-fluid py-md-5 py-4"
               />
+              <p class="card_p_tag fw-semibold mb-3">Frontend Development</p>
             </div>
           </div>
-          <div class="col-md-4 px-md-5 col-6 mt-4 d-flex flex-column">
+          <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
             <div
-              class="card py-md-5 py-4 d-flex justify-content-center align-items-center flex-grow-1"
+              class="card px-1 d-flex justify-content-center align-items-center flex-grow-1"
             >
               <img
-                src="../assets/images/data_science_img.webp"
+                src="../assets/images/digital_marketing_icon.webp"
                 alt="Course image"
-                class="img-fluid"
+                class="img-fluid py-md-5 py-4"
               />
+              <p class="card_p_tag fw-semibold mb-3">Digital Marketing</p>
             </div>
           </div>
-          <div class="col-md-4 px-md-5 col-6 mt-4 d-flex flex-column">
+          <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
             <div
-              class="card py-md-5 py-4 d-flex justify-content-center align-items-center flex-grow-1"
+              class="card  d-flex justify-content-center align-items-center flex-grow-1"
             >
               <img
-                src="../assets/images/data_science_img.webp"
+                src="../assets/images/ui_ux_icon.webp"
                 alt="Course image"
-                class="img-fluid"
+                class="img-fluid py-md-5 py-4"
               />
+              <p class="card_p_tag fw-semibold mb-3 ">UI/UX Development</p>
             </div>
           </div>
-          <div class="col-md-4 px-md-5 col-6 mt-4 d-flex flex-column">
+          <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
             <div
-              class="card py-md-5 py-4 d-flex justify-content-center align-items-center flex-grow-1"
+              class="card  d-flex justify-content-center align-items-center flex-grow-1"
             >
               <img
-                src="../assets/images/data_science_img.webp"
+                src="../assets/images/sales_icon.webp"
                 alt="Course image"
-                class="img-fluid"
+                class="img-fluid py-md-5 py-4"
               />
+              <p class="card_p_tag fw-semibold mb-3">Sales Marketing</p>
             </div>
           </div>
         </div>
@@ -288,7 +299,7 @@
               />
             </div>
           </div>
-          <div class="col-md-6 d-flex flex-column ">
+          <div class="col-md-6">
             <p class="offer_section_heading text-center my-md-5 pt-5">
               Software Engineer
             </p>
@@ -422,7 +433,7 @@
             <p class="offer_section_heading text-center my-md-5 pt-5 pb-4">
               You Choose, we help you achieve
             </p>
-            <p class=" course_section_text my-md-5 px-md-5">
+            <p class="course_section_text my-md-5 px-md-5">
               We are not a training institute, but a software company that
               handles real project and deals with real world challenges every
               day
@@ -455,11 +466,20 @@
           </div>
           <div class="col-md-6 col-12 my-5">
             <div class="d-flex justify-content-center align-items-center">
-              <img src="../assets/images/form_img.webp" alt="Form Image " class="img-fluid w-80"/>
+              <img
+                src="../assets/images/form_img.webp"
+                alt="Form Image "
+                class="img-fluid w-80"
+              />
             </div>
           </div>
-          <div class="col-md-6 col-12 d-flex justify-content-center form-col align-items-center position-relative">
-            <form id="freeCourseHiringForm" class="form-container py-lg-5 py-md-3 py-3 px-lg-4 px-md-2 rounded-4 ">
+          <div
+            class="col-md-6 col-12 d-flex justify-content-center form-col align-items-center position-relative"
+          >
+            <form
+              id="freeCourseHiringForm"
+              class="form-container py-lg-5 py-md-3 py-3 px-lg-4 px-md-2 rounded-4"
+            >
               <div class="row p-4">
                 <div class="col-md-6 col-12 mb-4">
                   <!-- <label class="form-label">Full Name</label> -->
@@ -510,7 +530,7 @@
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Course"
+                    placeholder="Qualification"
                     name="course"
                     id="course"
                     required
@@ -530,6 +550,7 @@
                 <div class="col-12 my-4">
                   <!-- <label class="form-label">About Me</label> -->
                   <textarea
+                    oninput="this.value = this.value.replace(/\^/g, '')"
                     rows="5"
                     class="form-control"
                     placeholder="About Me"
@@ -538,10 +559,7 @@
                   ></textarea>
                 </div>
                 <div class="text-end">
-                  <button
-                    class="btn form-btn mt-3"
-                    type="submit"
-                  >
+                  <button class="btn form-btn mt-3" type="submit">
                     Submit
                   </button>
                 </div>
@@ -551,6 +569,112 @@
         </div>
       </section>
     </section>
+
+    <!-- error model -->
+    <div
+      class="modal fade"
+      id="errorModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="errorModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content modalContent">
+          <div
+            class="modal-header d-flex justify-content-between errorHeading shadow-none mb-2"
+            style="background-color: rgb(255, 80, 80); color: white"
+          >
+            <h5
+              class="modal-title"
+              id="errorModalLabel"
+              style="font-size: 28px"
+            >
+              There was an error
+            </h5>
+            <button
+              type="button"
+              class="close btn"
+              onclick="closeHiringPopup()"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body pt-0">
+            <!-- Error Icon -->
+            <img
+              src="../assets/images/exclamation.png"
+              alt="check"
+              class="img-fluid my-5"
+            />
+            <p class="mb-0 errorMagnetSubHeading fw-bold pb-4">
+              We are sorry !
+            </p>
+            <p class="mb-0 errorMagnetSubHeading text-muted fw-bold pb-2">
+              You can reach us on
+            </p>
+            <a
+              href="tel:+919361365818"
+              class="text-decoration-none text-dark text-underlined"
+            >
+              <p class="mb-0 errorMobile pb-4">+91 9361365818</p>
+            </a>
+            <!-- Contact Us Button -->
+            <!-- <a
+              href="./contact"
+              class="btn successMagnetButton btn-successrounded-5"
+            >
+              Contact Page
+            </a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div
+      class="modal fade text-center"
+      id="successModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="successModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content modalContent">
+          <div
+            class="modal-header d-flex justify-content-between"
+            style="background: #28a745; color: #fff"
+          >
+            <h5
+              class="modal-title"
+              id="successModalLabel"
+              style="font-size: 28px"
+            >
+              That's all required!
+            </h5>
+            <button
+              type="button"
+              class="close btn"
+              onclick="closeHiringPopup()"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body pt-0">
+            <!-- Success Video -->
+            <img
+              src="../assets/images/check.png"
+              alt="check"
+              class="img-fluid my-5"
+            />
+            <p class="mb-0 SuccessMagnetSubHeading pb-4">
+              We will get back you soon!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer Starts  -->
     <section class="footer">
@@ -762,5 +886,22 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
     <script src="../assets/js/custom.js"></script>
+    <script>
+      function closeHiringPopup() {
+        const errorModal = bootstrap.Modal.getInstance(
+          document.getElementById("errorModal")
+        );
+        const successModal = bootstrap.Modal.getInstance(
+          document.getElementById("successModal")
+        );
+
+        if (errorModal) {
+          errorModal.hide();
+        }
+        if (successModal) {
+          successModal.hide();
+        }
+      }
+    </script>
   </body>
 </html>

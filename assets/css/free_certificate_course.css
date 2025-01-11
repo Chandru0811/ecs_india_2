@@ -6,8 +6,8 @@
   box-sizing: border-box;
   font-family: "Poppins";
 }
-body { 
-    background-color: #ffffff !important;
+body {
+  background-color: #ffffff !important;
 }
 
 /* Header Starts  */
@@ -107,130 +107,140 @@ body {
 }
 
 @media (width >= 1600px) {
-    .section-fluid {
-        width: 1400px !important;
-        margin: auto;
-    }
+  .section-fluid {
+    width: 1400px !important;
+    margin: auto;
+  }
 }
 
 /* ===== Hero section ===== */
 .h1-tag {
-    color: #008585;
-    font-weight: bold;
-    font-size: clamp(1.8rem, 1.4rem + 1.4vw, 3rem);
-
+  color: #008585;
+  font-weight: bold;
+  font-size: clamp(1.8rem, 1.4rem + 1.4vw, 3rem);
 }
 .bg-success {
-    background-color: #c4ff71 !important;
-    font-weight: 500 !important;
-    color: black !important;
-    padding: 0.8rem 1rem !important;
+  background-color: #c4ff71 !important;
+  font-weight: 500 !important;
+  color: #26401f !important;
+  padding: 0.8rem 1rem !important;
 }
-.h1-ptag{
-    font-weight: 300;
+.h1-ptag {
+  font-weight: 300;
 }
-.free-img{
-    top: -25px;
-    right: 0;
+.free-img {
+  top: -25px;
+  right: 0;
 }
 .apply-btn {
-    background-color: #40af92;
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    font-weight: 500;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-  }
-  
-  .apply-btn:hover {
-    background-color: #2e8a6e; 
-    color: white;
-    transform: scale(1); 
-  }
-  
-  .apply-btn:focus {
-    outline: none !important; 
-    outline-offset: 2px; 
-    color: white;
-    background-color: #38a482; 
-  }
+  background-color: #40af92;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
 
+.apply-btn:hover {
+  background-color: #2e8a6e;
+  color: white;
+  transform: scale(1);
+}
 
+.apply-btn:focus {
+  outline: none !important;
+  outline-offset: 2px;
+  color: white;
+  background-color: #38a482;
+}
 
- /* ===== Offer section ===== */
- .offer_section_heading{
-    font-weight: 500;
-    font-size: clamp(1rem, 1.1rem + 1.1vw, 3rem);
- }
-  .offer_section .card {
-    border: 1px solid #38a482;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
+/* ===== Offer section ===== */
+.offer_section_heading {
+  font-weight: 500;
+  font-size: clamp(1rem, 1.1rem + 1.1vw, 3rem);
+}
+.offer_section .card {
+  border: 1px solid #38a482;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card_p_tag {
+  font-size: calc(0.5rem + 0.5vw);
+  text-align: center !important;
+  margin-top: auto;
+}
+@media (min-width: 1600px) {
+  .card_p_tag {
+    font-size: calc(0.2rem + 0.4vw);
   }
-
-  /* ==== Course Details section ===== */
-.course_section_text{
-    font-size: calc(0.8rem + 0.2vw);
-    font-weight: 400;
+}
+/* ==== Course Details section ===== */
+.course_section_text {
+  font-size: calc(0.8rem + 0.2vw);
+  font-weight: 400;
 }
 @media (max-width: 768px) {
-    .course_section_text{
-        font-size: calc(0.65rem + 0.2vw);
-    }
-    
+  .course_section_text {
+    font-size: calc(0.65rem + 0.2vw);
+  }
 }
-
 
 /* ===== Form section ===== */
 .form-container {
-    background-color: #40AF92;
-    color: #ffffff;
-    width: 80%;
-    top: 0px;
-    position: absolute;
+  background-color: #40af92;
+  color: #ffffff;
+  width: 80%;
+  top: 0px;
+  position: absolute;
 }
 .form-container input {
-    height: 2.6rem;
+  height: 2.6rem;
 }
-.form-btn{
-    background-color: #ffffff;
-    color: #40AF92;
+.form-btn {
+  background-color: #ffffff;
+  color: #40af92;
 }
-.form-btn:hover{
-    background-color: #ffffff;
-    color: #40AF92;
+.form-btn:hover {
+  background-color: #ffffff;
+  color: #40af92;
 }
 .w-80 {
-    width: 33% !important;
+  width: 33% !important;
 }
 @media (max-width: 767px) {
-    
-    .form-container {
-        position: relative;
-        width: 100% !important;
-        top: 0px !important;
-    }
-    
+  .form-container {
+    position: relative;
+    width: 100% !important;
+    top: 0px !important;
+  }
 }
-@media (max-width: 1024px) { 
-    .form-container {
-        /* position: relative; */
-        width: 100% !important;
-        top: -60px;
-    }
-    .form-container input::placeholder {
-        font-size: small;
-    }
-    .form-container textarea::placeholder {
-        font-size: small;
-    }
-    .w-80 {
-        /* width: 66% !important; */
-        position: relative;
-        right: 28px;
-    }
+@media (max-width: 1024px) {
+  .form-container {
+    /* position: relative; */
+    width: 100% !important;
+    top: -60px;
+  }
+  .form-container input::placeholder {
+    font-size: small;
+  }
+  .form-container textarea::placeholder {
+    font-size: small;
+  }
+  .w-80 {
+    /* width: 66% !important; */
+    position: relative;
+    right: 28px;
+  }
 }
 .text-danger {
-    font-size: small;
+  font-size: small;
+}
+
+/* Error and Success Modal */
+
+#successModal .modal-content,
+#errorModal .modal-content {
+  text-align: center;
 }
