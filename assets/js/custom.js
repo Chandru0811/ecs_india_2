@@ -1122,6 +1122,29 @@ $(document).ready(function () {
   });
 });
 
+$(document).ready(function () {
+  function populateOffcanvas() {
+    const name = sessionStorage.getItem("name");
+    const email = sessionStorage.getItem("email");
+    const joinDate = sessionStorage.getItem("join_date");
+    const role = sessionStorage.getItem("role");
+
+    $(".list-group a:nth-child(1)").text(name || "Unknown");
+    $(".list-group a:nth-child(2)").text(email || "No Email Provided");
+    $(".list-group a:nth-child(3)").html(
+      `<span>DOJ: </span>${joinDate || "N/A"}`
+    );
+
+    const roleText =
+      role === "2" ? "Employee" : role === "1" ? "Admin" : "Unknown";
+    $(".list-group a:nth-child(4)").text(roleText);
+  }
+
+  $("#userOffcanvas").on("show.bs.offcanvas", function () {
+    populateOffcanvas();
+  });
+});
+
 function check() {
   var checkOutAndCheckIn = document.querySelectorAll("#checkOut, #checkIn");
 

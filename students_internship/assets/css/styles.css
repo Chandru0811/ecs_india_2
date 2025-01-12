@@ -8482,7 +8482,7 @@ input[type="radio"] ~ label {
   cursor: pointer;
   margin-bottom: 0;
 }
-input[type="checkbox"] ~ label::before,
+/* input[type="checkbox"] ~ label::before,
 input[type="radio"] ~ label::before {
   content: " ";
   position: absolute;
@@ -8510,7 +8510,7 @@ input[type="radio"] ~ label::after {
   transform: rotate(-45deg);
   opacity: 0;
   transition: all 0.3s;
-}
+} */
 input[type="checkbox"]:checked ~ label::before,
 input[type="radio"]:checked ~ label::before {
   background-color: var(--color-primary);
