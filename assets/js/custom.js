@@ -924,3 +924,210 @@ document.addEventListener("DOMContentLoaded", function () {
     form.reset();
   });
 });
+
+// Login 
+
+$(document).ready(function () {
+  $("#loginForm").validate({
+    rules: {
+      employeeId: {
+        required: true,
+      },
+      password: {
+        required: true,
+      },
+    },
+    messages: {
+      employeeId: {
+        required: "Please enter your employee ID.",
+      },
+      password: {
+        required: "Please enter your password.",
+      },
+    },
+    errorElement: "div",
+    errorClass: "error",
+    errorPlacement: function (error, element) {
+      if (element.attr("name") === "employeeId") {
+        error.insertAfter(element.closest(".input-group"));
+      } else if (element.attr("name") === "password") {
+        error.insertAfter(element.closest(".input-group"));
+      }
+    },
+    submitHandler: function (form) {
+      const $submitButton = $(form).find("button[type='submit']");
+
+      $submitButton
+        .html('<i class="fa fa-spinner fa-spin"></i> Logging In...')
+        .prop("disabled", true);
+
+      const payload = {
+        emp_id: $("#employeeId").val(),
+        password: $("#password").val(),
+      };
+
+      $.ajax({
+        url: "https://ecsaio.com/ecsaio/public/api/emp/login",
+        type: "POST",
+        contentType: "application/json",
+        data: JSON.stringify(payload),
+        success: function (response) {
+          // Check if the response has a token or some error info
+          if (response.data) {
+            const { token, userDetails } = response.data;
+            sessionStorage.setItem("token", token);
+            sessionStorage.setItem("id", userDetails.id);
+            sessionStorage.setItem("name", userDetails.name);
+            sessionStorage.setItem("emp_id", userDetails.emp_id);
+            sessionStorage.setItem("email", userDetails.email);
+            sessionStorage.setItem("join_date", userDetails.join_date);
+            sessionStorage.setItem("role", userDetails.role);
+
+            $(form).trigger("reset");
+            window.location.href = "/check_in_out";
+          } else {
+            $submitButton.html("Log In").prop("disabled", false);
+          }
+        },
+        error: function (xhr, status, error) {
+          $submitButton.html("Log In").prop("disabled", false);
+          $(form).trigger("reset");
+          alert("Invalid employee ID or password.");
+        },
+      });
+    },
+  });
+});
+
+$(document).ready(function () {
+  $("#togglePassword").on("click", function () {
+    const passwordField = $("#password");
+    const passwordFieldType = passwordField.attr("type");
+
+    if (passwordFieldType === "password") {
+      passwordField.attr("type", "text");
+      $(this).html('<i class="bi bi-eye-slash-fill"></i>');
+    } else {
+      passwordField.attr("type", "password");
+      $(this).html('<i class="bi bi-eye-fill"></i>');
+    }
+  });
+});
+
+$(document).ready(function () {
+  $("#checkAttendance").on("submit", function (e) {
+    e.preventDefault();
+
+    const token = sessionStorage.getItem("token");
+
+    const selectedValue = $(
+      "input[id='checkOut']:checked, input[id='checkIn']:checked"
+    ).val();
+
+    if (!selectedValue) {
+      alert("No option selected");
+      return;
+    }
+    const workingMode = $("#workingModeSelect").val();
+
+    const work_log = $("#work_log").val();
+
+    const $submitButton = $(this).find("button[type='submit']");
+
+    $submitButton
+      .html('<i class="fa fa-spinner fa-spin"></i> Processing...')
+      .prop("disabled", true);
+
+    const ajaxConfig = {
+      type: "POST",
+      contentType: "application/json",
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+      complete: function () {
+        $submitButton.html("Submit").prop("disabled", false);
+      },
+    };
+
+    if (selectedValue === "checkIn") {
+      $.ajax({
+        ...ajaxConfig,
+        url: `https://ecsaio.com/ecsaio/public/api/emp/checkin?work_mode=${workingMode}?work_log=${work_log}`,
+        type: "POST",
+        contentType: "application/json",
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+        success: function (response) {
+          console.log("Check-In API Response:", response);
+          $("#successModal .SuccessMagnetSubHeading").html(
+            "You checked In successfully!"
+          );
+          $("#successModal").modal("show");
+          $("#checkAttendance")[0].reset();
+        },
+        error: function (xhr, status, error) {
+          if (xhr.status === 422) {
+            alert("You are already checked In!");
+          } else {
+            alert(
+              "An unexpected error occurred: " +
+                (xhr.responseJSON?.message || error)
+            );
+          }
+        },
+      });
+    } else if (selectedValue === "checkOut") {
+      $.ajax({
+        ...ajaxConfig,
+        url: `https://ecsaio.com/ecsaio/public/api/emp/checkout?work_mode=${workingMode}?work_log=${work_log}`,
+        type: "POST",
+        contentType: "application/json",
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+        success: function (response) {
+          console.log("Check-Out API Response:", response);
+          $("#successModal .SuccessMagnetSubHeading").html(
+            "You checked Out successfully!"
+          );
+          $("#successModal").modal("show");
+          $("#checkAttendance")[0].reset();
+        },
+        error: function (xhr, status, error) {
+          if (xhr.status === 422) {
+            alert("You are already checked out!");
+          } else {
+            alert(
+              "An unexpected error occurred: " +
+                (xhr.responseJSON?.message || error)
+            );
+          }
+        },
+      });
+    } else {
+      console.error("Invalid option selected:", selectedValue);
+      alert("Invalid selection. Please try again.");
+    }
+  });
+});
+
+function check() {
+  var checkOutAndCheckIn = document.querySelectorAll("#checkOut, #checkIn");
+
+  checkOutAndCheckIn.forEach((radio) => {
+    var parent = radio.closest(".check_inputs, .input_layout");
+
+    if (parent && radio.checked) {
+      parent.style.background = "green";
+      parent.style.boxShadow = "0 4px 8px rgba(0, 128, 0, 0.3)";
+      parent.style.color = "white";
+      parent.style.transition =
+        "background 0.3s, box-shadow 0.3s, color 0.3s, padding 0.3s";
+    } else if (parent) {
+      parent.style.background = "white";
+      parent.style.boxShadow = "none";
+      parent.style.color = "black";
+    }
+  });
+}

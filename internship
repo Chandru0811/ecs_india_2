@@ -239,6 +239,20 @@
               <button class="btn btn-primary join_us">Join Us</button>
             </div>
             </a>
+            <a href="./students_internship/login" class="text-decoration-none ps-3">
+              <i
+                id="user_canvas"
+                class="fa-duotone fa-solid fa-user"
+                style="
+                  background: #7cb8f8a4;
+                  color: #007bff;
+                  border-radius: 100px;
+                  padding: 8px;
+                  cursor: pointer;
+                "
+              >
+              </i>
+            </a>
 
             <!-- Start Mobile-Menu-Bar -->
             <div class="mobile-menu-bar d-block d-xl-none">
@@ -734,6 +748,57 @@
   </div>
   <!-- End Side Vav -->
   <a class="close_side_menu" href="javascript:void(0);"></a>
+
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Success modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" style="max-width: 300px;">
+      <div class="modal-content">
+          <div class="modal-body">
+              <div class="text-center my-3">
+                  <img class="mt-3 mb-5" src="./students_internship/assets/images/Success Mobile.png" alt="Success Mobile" />
+                  <h5>Payment Successful!</h5>
+                  <p style="font-size: smaller;">The payment of Rs. 100 has been successfully sent to ECS Cloud from your bank.</p>
+                  <a href="#" download="receipt.pdf" class="d-block my-3" style="color: #28a745;">Download Receipt</a>
+                  <div class="row justify-content-center my-5">
+                      <div class="col-auto">
+                          <button class="btn btn-success" style="width: 200px; height: 40px; font-size: medium;">Complete</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tryagain">
+  Fail modal
+</button>
+
+<div class="modal fade" id="tryagain" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" style="max-width: 300px;">
+      <div class="modal-content">
+          <div class="modal-body">
+              <div class="text-center my-3">
+                  <img class="mt-3 mb-5" src="./students_internship/assets/images/Fail Mobile.png" alt="Success Mobile" />
+                  <h5 style="margin-bottom: 0%;">Oh no!</h5>
+                  <h5>Something went wrong</h5>
+                  <p style="font-size: smaller; color: #f30606;" class="pb-5">We aren't able to process ypur payment. Please try again.</p>
+                  <div class="row justify-content-center my-5">
+                      <div class="col-auto">
+                          <button class="btn btn-outline-success" style="width: 200px; height: 40px; font-size: medium;">9876543212</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
 
   <main class="rbt-main-wrapper">
     <!-- Start Banner Area -->

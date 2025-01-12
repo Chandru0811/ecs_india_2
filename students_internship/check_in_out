@@ -1,0 +1,589 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XMZCCB8GKN"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-XMZCCB8GKN");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud ECS Infotech | Login</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="./assets/css/custom.css" />
+
+  </head>
+
+  <body class="body tg-heading-subheading animation-style3">
+    <nav
+      id="NavBar"
+      class="navbar mainNav shadow navbar-expand-xl navbar-light bg-light"
+    >
+      <div
+        class="container-fluid d-flex align-items-center justify-content-between"
+      >
+        <a href="/">
+          <img
+            src="./assets/images/image.png"
+            alt="logo"
+            class="img-fluid mb-2"
+          />
+        </a>
+        <div class="d-flex align-items-center mb-1">
+          <a href="tel:88941306" class="d-xl-none me-2">
+            <button class="btn btn-success call-us-btn" type="button">
+              Call us
+            </button>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse px-4" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+            <li class="nav-item">
+              <a class="nav-link p-2" href="./products"
+                >Products &nbsp;<i
+                  class="fa-solid fa-caret-down"
+                  style="font-size: smaller"
+                ></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2" href="./cloud_services"
+                >Cloud Services &nbsp;
+                <i
+                  class="fa-solid fa-caret-down"
+                  style="font-size: smaller"
+                ></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2" href="./solutions"
+                >Solutions &nbsp;
+                <i
+                  class="fa-solid fa-caret-down"
+                  style="font-size: smaller"
+                ></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2" href="./digital_marketing"
+                >Digital Marketing &nbsp;
+                <i
+                  class="fa-solid fa-caret-down"
+                  style="font-size: smaller"
+                ></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2" href="./about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2" href="./contactus">Contact</a>
+            </li>
+          </ul>
+          <span
+            class="navbar-text d-flex align-items-center justify-content-center"
+          >
+            <a
+              href="tel:8891306"
+              class="d-none d-xl-inline me-4 num fw-bold number-hover contact-number"
+              style="font-size: 24px; text-decoration: none"
+            >
+              +65 8894 1306
+            </a>
+            <a href="tel:65 8891306" class="d-none d-xl-inline">
+              <button class="btn btn-success call-us-btn" type="button">
+                Call us
+              </button>
+            </a>
+            <span class="ps-3">
+              <i
+                id="user_canvas"
+                class="fa-duotone fa-solid fa-user"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#userOffcanvas"
+                aria-controls="userOffcanvas"
+                style="
+                  background: #7cb8f8a4;
+                  color: #007bff;
+                  border-radius: 100px;
+                  padding: 8px;
+                  cursor: pointer;
+                "
+              >
+              </i>
+            </span>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="userOffcanvas"
+      aria-labelledby="userOffcanvasLabel"
+    >
+      <div class="offcanvas-header d-flex justify-content-end">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body d-flex flex-column">
+        <div class="flex-grow-1">
+          <div class="text-center">
+            <h3 class="cname_canvas">Ecs Cloud Infotech</h3>
+          </div>
+          <div class="text-center">
+            <i
+              class="fa-duotone fa-solid fa-user"
+              style="
+                background: #7cb8f8a4;
+                color: #007bff;
+                border-radius: 100%;
+                padding: 20px;
+                cursor: pointer;
+                font-size: 4rem;
+              "
+            ></i>
+          </div>
+
+          <div class="list-group list-group-flush pt-4 text-center">
+            <a
+              href="#"
+              class="list-group-item list-group-item-action text-uppercase"
+            >
+              Name
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              Email
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              <span>DOJ: </span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">
+              Role
+            </a>
+          </div>
+        </div>
+        <!-- Logout button at bottom -->
+        <div class="mt-auto">
+          <button class="btn btn-primary w-100" id="logoutBtn">
+            <i class="fas fa-sign-out-alt me-2"></i> Logout
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- check attendance  -->
+    <section class="login">
+      <div class="container">
+        <div class="row m-0">
+          <div class="col-lg-4 col-md-4 col-12 py-4">
+            <div class="p-3 bg-white attendance_card shadow">
+              <div class="text-center py-2">
+                <span class="login_title">Attendance</span>
+              </div>
+              <div class="card-body">
+                <form id="checkAttendance">
+                  <div class="d-flex justify-content-around gap-2">
+                    <div class="py-2">
+                      <div class="input-group input-group-sm check_inputs">
+                        <div
+                          class="form-control d-flex align-items-center gap-2 border-0 input_layout p-0"
+                        >
+                          <input
+                            type="radio"
+                            class="form-check-input"
+                            name="option"
+                            id="checkIn"
+                            value="checkIn"
+                            onclick="check()"
+                            required
+                          />
+                          <label
+                            for="checkIn"
+                            style="cursor: pointer !important"
+                            class="m-0 text-nowrap cursor-pointer cspace"
+                          >
+                            Check In
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="py-2">
+                      <div class="input-group input-group-sm check_inputs">
+                        <div
+                          class="form-control d-flex align-items-center gap-2 border-0 input_layout p-0"
+                        >
+                          <input
+                            type="radio"
+                            name="option"
+                            class="form-check-input"
+                            id="checkOut"
+                            value="checkOut"
+                            onclick="check()"
+                            required
+                          />
+                          <label
+                            for="checkOut"
+                            style="cursor: pointer !important"
+                            class="m-0 text-nowrap cspace"
+                            >Check Out</label
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="pt-3">
+                    <p class="working_title">Working Mode</p>
+                    <div class="workingmode px-3">
+                      <select
+                        id="workingModeSelect"
+                        name="workingModeSelect"
+                        class="form-select"
+                      >
+                        <option value="Work From Office" selected>
+                          Work from Office
+                        </option>
+                        <option value="Work From Home">Work from Home</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="pt-4">
+                    <p class="working_title">Work Log</p>
+                    <div class="worklog px-3">
+                      <textarea
+                        rows="3"
+                        class="form-control"
+                        name="work_log"
+                        id="work_log" 
+                      >
+                      </textarea>
+                    </div>
+                  </div>
+
+                  <div class="text-center pt-5 pb-3">
+                    <button
+                      type="submit"
+                      class="btn btn-primary w-100 login_submit"
+                    >
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-8 col-12 px-5">
+            <img
+              src="./assets/images/checkin_checkout.webp"
+              alt="checkin_checkout"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section>
+      <div
+        class="container-fluid py-2"
+        style="
+          background-color: #0a58ca;
+          padding-top: 31px !important;
+          color: white;
+        "
+        id="footer"
+      >
+        <div class="row m-0">
+          <div
+            class="col-md-3 col-lg-4 col-12 align-screen mb-3 d-flex flex-column justify-content-between"
+          >
+            <div>
+              <h5 class="fw-bold pb-3" style="font-size: 1.75em">
+                ECS Cloud Infotech Pte Ltd
+              </h5>
+              <p>
+                Your Trusted Cloud, Technology and Digital Solutions partner in
+                Singapore. We offer a wide range of solutions, from Cloud
+                Services to Software Solutions, Product solutions to Artificial
+                Intelligence and Digital Marketing & SEO services to ensure that
+                your business is on the right track ensuring sustainable growth
+                and improved profitability.
+              </p>
+            </div>
+            <img
+              class="lazyload img-fluid"
+              style="width: 120px; height: 120px"
+              data-src="./assets/images/QR_Code.webp"
+              alt="QR Code"
+            />
+          </div>
+          <div class="col-md-3 col-lg-2 col-12 align-screen mb-4 our_services">
+            <h4 class="fw-bold pb-3">Our Services</h4>
+            <a href="./products" style="text-decoration: none">
+              <p class="text-light">Products</p>
+            </a>
+            <a href="./cloud_services" style="text-decoration: none">
+              <p class="text-light">Cloud Services</p>
+            </a>
+            <a href="./solutions" style="text-decoration: none">
+              <p class="text-light">Solutions</p>
+            </a>
+            <a href="./digital_marketing" style="text-decoration: none">
+              <p class="text-light">Digital Marketing</p>
+            </a>
+          </div>
+          <div class="col-md-3 col-lg-2 col-12 align-screen mb-4">
+            <h4 class="fw-bold pb-3">Other Links</h4>
+            <a href="/" style="text-decoration: none">
+              <p class="text-light">Home</p>
+            </a>
+            <a href="./about" style="text-decoration: none">
+              <p class="text-light">About</p>
+            </a>
+            <a href="./contactus" style="text-decoration: none">
+              <p class="text-light">Contact</p>
+            </a>
+            <a href="./privacy_policy" style="text-decoration: none">
+              <p class="text-light">Privacy Policy</p>
+            </a>
+            <a href="./terms_of_service" style="text-decoration: none">
+              <p class="text-light">Terms of Service</p>
+            </a>
+          </div>
+          <div class="col-md-3 col-lg-4 col-12 align-screen mb-4">
+            <h4 class="fw-bold pb-3">Contact</h4>
+            <div class="d-flex align-items-center pb-3 align-screen">
+              <a
+                href="tel:88941306"
+                class="text-decoration-none text-white d-flex"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i
+                  class="fa-solid fa-phone"
+                  style="
+                    font-size: 22px;
+                    background: #faebd754;
+                    padding: 10px;
+                    border-radius: 5px;
+                  "
+                ></i
+                >&nbsp;
+                <h4 class="fw-bold footerNum">&nbsp;+65 8894 1306</h4>
+              </a>
+            </div>
+            <a
+              href="mailto:info@ecsaio.com"
+              class="text-decoration-none text-white"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="d-flex align-items-center align-screen">
+                <span class="mediaIconBg1 me-2">
+                  <i
+                    class="fa-solid fa-envelope"
+                    style="
+                      background: #faebd754;
+                      padding: 5px;
+                      border-radius: 5px;
+                      margin-top: 3px;
+                    "
+                  ></i>
+                </span>
+                <p class="mt-3 text-light footerText">info@ecsaio.com</p>
+              </div>
+            </a>
+            <a
+              href=" https://www.google.com/maps/place/The+Alexcier/@1.2916847,103.8111868,17z/data=!3m2!4b1!5s0x31da1a2cf1b2be13:0x7b0f9d88a36fdfbb!4m6!3m5!1s0x31da1bb95520771b:0xf2b9dfa378aa9a6e!8m2!3d1.2916793!4d103.8137617!16s%2Fg%2F11gyxjfkjk?entry=ttu&g_ep=EgoyMDI0MDkxOC4xIKXMDSoASAFQAw%3D%3D"
+              class="text-decoration-none text-white align-screen"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="d-flex align-items-md-start">
+                <span class="mediaIconBg1 me-2">
+                  <i
+                    class="fa-solid fa-location-dot px-2"
+                    style="
+                      background: #faebd754;
+                      padding: 5px;
+                      border-radius: 5px;
+                      margin-top: 3px;
+                    "
+                  ></i>
+                </span>
+                <p class="mt-1 text-light footerText">
+                  The Alexcier, 237 Alexandra Road, #04-10, Singapore-159929.
+                </p>
+              </div>
+            </a>
+            <!-- linked icons  -->
+            <div class="d-flex align-screen my-2">
+              <a
+                href="https://sg.linkedin.com/company/ecs-cloud-infotech"
+                class="p-1 text-decoration-none text-white"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="mediaIconBg">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </span>
+              </a>
+              <a
+                href="https://www.facebook.com/ecscloud/"
+                class="p-1 text-decoration-none text-white"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="mediaIconBg">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </span>
+              </a>
+              <a
+                href="https://www.instagram.com/ecscloudinfotech/"
+                class="p-1 text-decoration-none text-white"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="mediaIconBg">
+                  <i class="fa-brands fa-instagram"></i>
+                </span>
+              </a>
+              <a
+                href="https://www.youtube.com/channel/UCIbNIWhaDnRs-gFuJ0sTNCQ/videos"
+                class="p-1 text-decoration-none text-white"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="mediaIconBg">
+                  <i class="fa-brands fa-youtube"></i>
+                </span>
+              </a>
+              <a
+                href="https://www.tiktok.com/@ecsaio"
+                class="p-1 text-decoration-none text-white"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="mediaIconBg">
+                  <i class="fab fa-tiktok"></i>
+                </span>
+              </a>
+              <a
+                href="https://x.com/ecscloudinfote2"
+                class="p-1 text-decoration-none text-white"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="mediaIconBg">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div
+          class="footer-copyright py-2 d-flex align-items-center justify-content-center"
+        >
+          <p class="mb-0 ms-2 text-light">
+            &copy; 2024 | All Rights Reserved at ECS Cloud Infotech
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Success mode -->
+    <div
+      class="modal fade text-center"
+      id="successModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="successModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content modalContent">
+          <div class="modal-header" style="background: #28a745; color: #fff">
+            <h5
+              class="modal-title"
+              id="successModalLabel"
+              style="font-size: 28px"
+            >
+              That's all required !
+            </h5>
+            <button
+              type="button"
+              class="close btn"
+              onclick="closePopup()"
+              data-dismiss="modal"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body pt-0">
+            <!-- Success Video -->
+            <!-- <video src="./assets/images/home/Success.mp4" autoplay loop muted style="width: 300px; height: 200px"></video> -->
+
+            <i
+              class="fa-solid fa-circle-check my-5"
+              style="color: #28a745; font-size: 80px"
+            ></i>
+            <p class="mb-0 SuccessMagnetSubHeading pb-4">
+              We will get back you soon!
+            </p>
+
+            <!-- Back to Home Button -->
+            <a href="/">
+              <button class="btn successMagnetButton">Back to Website</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="../assets/js/custom.js"></script>
+    <script>
+      window.onload = () => {
+        const token = sessionStorage.getItem("token");
+
+        if (!token) {
+          window.location.href = "./";
+        }
+      };
+    </script>
+  </body>
+</html>
