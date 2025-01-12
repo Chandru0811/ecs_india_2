@@ -42,6 +42,16 @@ $(document).ready(function () {
   function closePopup() {
     $(".modal").modal("hide");
   }
+  $.validator.addMethod(
+    "emailPattern",
+    function (value, element) {
+      return (
+        this.optional(element) ||
+        /^[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(value)
+      );
+    },
+    "Please enter a valid email address"
+  );
 
   // Contact Form Validation
   $("#contactForm").validate({
@@ -166,7 +176,7 @@ $(document).ready(function () {
       },
       email: {
         required: true,
-        email: true,
+        emailPattern: true,
       },
       mobile: {
         required: true,
@@ -195,7 +205,7 @@ $(document).ready(function () {
       },
       email: {
         required: "Please enter your email*",
-        email: "Please enter a valid email address",
+        emailPattern: "Please enter a valid email address",
       },
       mobile: {
         required: "Please enter your phone number*",
@@ -238,11 +248,11 @@ $(document).ready(function () {
         company_id: 43,
         company: "Cloud ECS Infotech",
         lead_status: "PENDING",
-        description_info: `Location : ${$("#location").val()}, Course : ${$(
+        description_info: `Location : ${$("#location").val()} ^ Course : ${$(
           "#course"
-        ).val()}, Year of Passing : ${$(
+        ).val()} ^ Year of Passing : ${$(
           "#year_of_passing"
-        ).val()}, About Candidate : ${$("#about_me").val()}`,
+        ).val()} ^ About Candidate : ${$("#about_me").val()}`,
         lead_source: "HIRING FORM",
         country_code: "91",
         createdBy: $("#full_name").val(),
@@ -263,7 +273,7 @@ $(document).ready(function () {
     },
   });
 
-  // ====  Free certificate form validation   ====
+  // ====  Free certificate form validation   ==== //
 
   $("#freeCourseHiringForm").validate({
     rules: {
@@ -273,12 +283,12 @@ $(document).ready(function () {
       },
       email: {
         required: true,
-        email: true,
+        emailPattern: true,
       },
       mobile: {
         required: true,
         number: true,
-        minlength: 8,
+        minlength: 10,
         maxlength: 10,
       },
       year_of_passing: {
@@ -302,13 +312,13 @@ $(document).ready(function () {
       },
       email: {
         required: "Please enter your email*",
-        email: "Please enter a valid email address",
+        emailPattern: "Please enter a valid email address",
       },
       mobile: {
         required: "Please enter your phone number*",
         number: "Please enter a valid phone number",
-        minlength: "Your phone number must be at least 8 digits long",
-        maxlength: "Your phone number must be at most 10 digits long",
+        minlength: "Your phone number must be  10 digits",
+        maxlength: "Your phone number must be  10 digits",
       },
       year_of_passing: {
         required: "Please enter your year of passing*",
@@ -345,11 +355,11 @@ $(document).ready(function () {
         company_id: 53,
         company: "Cloud ECS Infotech",
         lead_status: "PENDING",
-        description_info: `Location : ${$("#location").val()}, Course : ${$(
-          "#course"
-        ).val()}, Year of Passing : ${$(
+        description_info: `Location : ${$(
+          "#location"
+        ).val()} ^ Course : ${$("#course").val()} ^ Year of Passing : ${$(
           "#year_of_passing"
-        ).val()}, About Candidate : ${$("#about_me").val()}`,
+        ).val()} ^ About Candidate : ${$("#about_me").val()}`,
         lead_source: "HIRING FORM",
         country_code: "91",
         createdBy: $("#full_name").val(),
@@ -920,7 +930,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const modal = document.getElementById("course-register");
   const form = document.getElementById("course_register");
 
-  modal.addEventListener("hidden.bs.modal", function () {
+  modal?.addEventListener("hidden.bs.modal", function () {
     form.reset();
   });
 });
