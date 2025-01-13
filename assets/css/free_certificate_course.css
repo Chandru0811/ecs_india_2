@@ -55,55 +55,14 @@ body {
 .footer {
   background-color: #323232;
   color: #fff;
-  padding-bottom: 30px;
-  height: 23rem;
+  /* padding-bottom: 30px;
+  height: 23rem; */
+  /* position: relative; */
 }
-
-.footer .footer_text {
-  font-size: small;
-  /* color: #aeacac; */
-  color: #fff;
-}
-
-.footer .footer_head {
-  font-size: medium;
-  color: #fff;
-}
-
-.footer .icons {
-  background-color: #ffffff37;
-  padding-bottom: 13px;
-  padding-top: 8px;
-  padding-left: 13px;
-  padding-right: 13px;
-  border-radius: 20px;
-  margin-right: 5px;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer .footer_copy {
-  font-size: small;
-  color: #fff;
-  border-top: 0.5px solid #5c5c5c;
-  padding-top: 10px;
-}
-
-.fotter_content {
-  padding-top: 60px;
-}
-
-@media (max-width: 555px) {
-  .fotter_content {
-    padding-top: 30px;
-  }
-
-  .footer_icons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
+.footer_image {
+  position: relative;
+  /* bottom: 0%; */
+  z-index: 1;
 }
 
 @media (width >= 1600px) {
@@ -167,15 +126,40 @@ body {
 }
 
 .card_p_tag {
-  font-size: calc(0.5rem + 0.5vw);
+  font-size: calc(0.8rem + 0.5vw);
   text-align: center !important;
   margin-top: auto;
 }
-@media (min-width: 1600px) {
+
+@media (width <= 767px) {
   .card_p_tag {
-    font-size: calc(0.2rem + 0.4vw);
+    font-size: calc(0.5rem + 0.4vw);
   }
 }
+@media (width >= 767px) {
+  .img-cont {
+    width: 24rem;
+  }
+  .h-20 {
+    height: 22rem;
+  }
+  .img-border {
+    border: 1.2px solid #38a482;
+    border-radius: 8px;
+    position: absolute;
+    top: -31px;
+    right: 0%;
+    width: 20rem;
+    height: 21rem;
+    z-index: -1;
+  }
+}
+@media (width >= 768px) and (width <= 820px) {
+  .h-20 {
+    height: 20rem;
+  }
+}
+
 /* ==== Course Details section ===== */
 .course_section_text {
   font-size: calc(0.8rem + 0.2vw);
