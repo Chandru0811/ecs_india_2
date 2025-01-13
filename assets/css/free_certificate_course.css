@@ -55,15 +55,15 @@ body {
 .footer {
   background-color: #323232;
   color: #fff;
-  /* padding-bottom: 30px;
-  height: 23rem; */
+  padding-bottom: 30px;
+  height: 23rem; 
   /* position: relative; */
 }
-.footer_image {
+/* .footer_image {
   position: relative;
-  /* bottom: 0%; */
+  bottom: 0%;
   z-index: 1;
-}
+} */
 
 @media (width >= 1600px) {
   .section-fluid {

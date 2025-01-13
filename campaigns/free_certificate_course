@@ -90,9 +90,11 @@
               </li>
             </ul>
             <form class="d-flex ms-lg-3 ms-md-auto">
-              <!-- <a class="text-decoration-none text-light" href="../internship"> -->
-              <button class="btn apply-btn btn" type="button">Apply Now</button>
-              <!-- </a> -->
+              <a class="text-decoration-none text-light" href="#form">
+                <button class="btn apply-btn btn" type="button">
+                  Apply Now
+                </button>
+              </a>
             </form>
           </div>
         </div>
@@ -127,9 +129,11 @@
               <p class="h1-ptag"># We teach you everything from scratch</p>
               <p class="h1-ptag"># Work on real projects, solve real bugs</p>
               <p class="h1-ptag"># Any degree or diploma</p>
-              <button type="button" class="apply-btn btn mt-4">
-                Apply Now
-              </button>
+              <a class="text-decoration-none text-light" href="#form">
+                <button type="button" class="apply-btn btn mt-4">
+                  Apply Now
+                </button>
+              </a>
             </div>
           </div>
           <div
@@ -256,7 +260,7 @@
               <img
                 src="../assets/images/sales.webp"
                 alt="Course image"
-                class="img-fluid py-md-5 py-4"
+                class="img-fluid py-md-5 py-4 px-1"
               />
               <p class="card_p_tag fw-semibold mb-3">Sales Marketing</p>
             </div>
@@ -282,16 +286,14 @@
           </div>
         </div>
         <div class="row m-0 mb-5">
-          <div
-            class="col-md-6 d-flex justify-content-center align-items-end "
-          >
+          <div class="col-md-6 d-flex justify-content-center align-items-end">
             <div class="img-cont position-relative">
               <div class="img-border d-none d-md-block"></div>
-                <img
-                  src="../assets/images/free_certificate_content_imge1.webp"
-                  alt="Content Image"
-                  class="img-fluid rounded-4 h-20"
-                />
+              <img
+                src="../assets/images/free_certificate_content_imge1.webp"
+                alt="Content Image"
+                class="img-fluid rounded-4 h-20"
+              />
             </div>
           </div>
           <div class="col-md-6">
@@ -311,11 +313,9 @@
         </div>
 
         <div class="row m-0 mb-5 pt-md-3">
-          <div
-            class="col-md-6 d-flex justify-content-center align-items-end"
-          >
-          <div class="img-cont position-relative">
-            <div class="img-border d-none d-md-block"></div>
+          <div class="col-md-6 d-flex justify-content-center align-items-end">
+            <div class="img-cont position-relative">
+              <div class="img-border d-none d-md-block"></div>
               <img
                 src="../assets/images/free_certificate_content_imge2.webp"
                 alt="Content Image"
@@ -340,15 +340,13 @@
           </div>
         </div>
         <div class="row m-0 mb-5 pt-md-3">
-          <div
-            class="col-md-6 d-flex justify-content-center align-items-end"
-          >
-          <div class="img-cont position-relative">
-            <div class="img-border d-none d-md-block"></div>
+          <div class="col-md-6 d-flex justify-content-center align-items-end">
+            <div class="img-cont position-relative">
+              <div class="img-border d-none d-md-block"></div>
               <img
                 src="../assets/images/free_certificate_content_imge3.webp"
                 alt="Content Image"
-                class="img-fluid rounded-4  h-20"
+                class="img-fluid rounded-4 h-20"
               />
             </div>
           </div>
@@ -368,15 +366,13 @@
           </div>
         </div>
         <div class="row m-0 mb-5 pt-md-3">
-          <div
-            class="col-md-6 d-flex justify-content-center align-items-end"
-          >
-          <div class="img-cont position-relative">
-            <div class="img-border d-none d-md-block"></div>
+          <div class="col-md-6 d-flex justify-content-center align-items-end">
+            <div class="img-cont position-relative">
+              <div class="img-border d-none d-md-block"></div>
               <img
                 src="../assets/images/free_certificate_content_imge4.webp"
                 alt="Content Image"
-                class="img-fluid rounded-4  h-20"
+                class="img-fluid rounded-4 h-20"
               />
             </div>
           </div>
@@ -396,11 +392,9 @@
           </div>
         </div>
         <div class="row m-0 mb-5 pt-md-3">
-          <div
-            class="col-md-6 d-flex justify-content-center align-items-end"
-          >
-          <div class="img-cont position-relative">
-            <div class="img-border d-none d-md-block"></div>
+          <div class="col-md-6 d-flex justify-content-center align-items-end">
+            <div class="img-cont position-relative">
+              <div class="img-border d-none d-md-block"></div>
               <img
                 src="../assets/images/free_certificate_content_imge5.webp"
                 alt="Content Image"
@@ -426,7 +420,7 @@
       </section>
 
       <!-- ==== Form Section ==== -->
-      <section class="container-fluid form_section mt-md-4" id="form">
+      <section class="container-fluid form_section mt-md-4">
         <div class="row m-0">
           <div class="col-12 mb-5">
             <p class="offer_section_heading text-center my-md-5 pt-5 pb-4">
@@ -457,6 +451,8 @@
             </p>
           </div>
         </div>
+      </section>
+      <section class="container-fluid form_section mt-md-4" id="form">
         <div class="row m-0">
           <div class="col-12 mb-5">
             <p class="offer_section_heading text-center my-md-5 pb-3">
@@ -477,7 +473,7 @@
           >
             <form
               id="freeCourseHiringForm"
-              class="form-container py-lg-5 py-md-3 py-3 px-lg-4 px-md-2 rounded-4"
+              class="form-container py-lg-5 py-md-3 py-3 px-lg-4 px-md-2 rounded-4" 
             >
               <div class="row p-4">
                 <div class="col-md-6 col-12 mb-4">
@@ -677,8 +673,8 @@
 
     <!-- Footer Starts  -->
     <section class="footer">
-      <div class="container-fluid sction-fluid px-0">
-        <img src="../assets/images/free certificates.webp" alt="Footer Image" class="img-fluid footer_image">
+      <div class="container px-0">
+        <!-- <img src="../assets/images/free certificates.webp" alt="Footer Image" class="img-fluid footer_image"> -->
       </div>
     </section>
     <!-- Footer Ends  -->
