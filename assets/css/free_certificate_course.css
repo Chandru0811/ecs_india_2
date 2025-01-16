@@ -53,10 +53,10 @@ body {
 /* Footer Starts  */
 
 .footer {
-  background-color: #323232;
-  color: #fff;
-  padding-bottom: 30px;
-  height: 23rem; 
+  background-color: #008585;
+  /* color: #fff; */
+  /* padding-bottom: 30px; */
+  /* height: 23rem;  */
   /* position: relative; */
 }
 /* .footer_image {
@@ -73,16 +73,20 @@ body {
 }
 
 /* ===== Hero section ===== */
+
+ .text-color {
+  color: #008585;
+ }
 .h1-tag {
   color: #008585;
   font-weight: bold;
   font-size: clamp(1.8rem, 1.4rem + 1.4vw, 3rem);
 }
 .bg-success {
-  background-color: #c4ff71 !important;
+  background-color: #cafff1 !important;
   font-weight: 500 !important;
-  color: #26401f !important;
-  padding: 0.8rem 1rem !important;
+  color: #007355 !important;
+  padding: 0.5rem 0.8rem !important;
 }
 .h1-ptag {
   font-weight: 300;
@@ -92,7 +96,7 @@ body {
   right: 0;
 }
 .apply-btn {
-  background-color: #40af92;
+  background-color: #008585;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -114,6 +118,12 @@ body {
 }
 
 /* ===== Offer section ===== */
+.offer_section {
+  background: linear-gradient(180deg, #E3FFF8 -11.99%, #FFFFFF 30.01%);
+}
+.offer_whyus {
+  
+}
 .offer_section_heading {
   font-weight: 500;
   font-size: clamp(1rem, 1.1rem + 1.1vw, 3rem);
@@ -126,9 +136,8 @@ body {
 }
 
 .card_p_tag {
-  font-size: calc(0.8rem + 0.5vw);
+  font-size: calc(0.6rem + 0.5vw);
   text-align: center !important;
-  margin-top: auto;
 }
 
 @media (width <= 767px) {
@@ -159,7 +168,10 @@ body {
     height: 20rem;
   }
 }
-
+.tab_heading {
+  border-left: #a2a2a2 3px solid;
+  padding-left: 1rem;
+}
 /* ==== Course Details section ===== */
 .course_section_text {
   font-size: calc(0.8rem + 0.2vw);
@@ -170,17 +182,68 @@ body {
     font-size: calc(0.65rem + 0.2vw);
   }
 }
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
 
+.description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.role {
+  font-size: 18px;
+  margin: 25px 0;
+  padding-left: 1.5rem;
+  cursor: pointer;
+  border-left: 3px solid #a2a2a2;
+  transition: border-color 0.3s;
+}
+
+.role.active {
+  /* color: #007bff; */
+  border-color: #008585;
+}
+
+.role-description {
+  display: none;
+  font-size: 14px;
+  color: #666;
+  margin-top: 8px;
+}
+
+.role.active .role-description {
+  display: block;
+}
+.role span {
+  font-weight: 600;
+}
 /* ===== Form section ===== */
+.form_section {
+  background: linear-gradient(to top, #E3FFF8 5%, #FFFFFF 95%);
+}
+.form_row {
+  background: url(../images/form_bg.png);
+  background-size: cover;
+ z-index: 1;
+}
 .form-container {
-  background-color: #40af92;
+  /* background-color: #40af92; */
   color: #ffffff;
-  width: 80%;
-  top: 0px;
-  position: absolute;
+  /* width: 80%; */
+  /* top: 0px;\ */
+  /* position: absolute; */
 }
 .form-container input {
   height: 2.6rem;
+}
+.form-check-input {
+  width: 1.5em !important;
+  height: 1.5em !important;
 }
 .form-btn {
   background-color: #ffffff;
@@ -190,8 +253,48 @@ body {
   background-color: #ffffff;
   color: #40af92;
 }
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+@media (max-width:767px) {
+  .options-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.radio-label{
+  color: black !important;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+input[type="radio"] {
+  margin-right: 8px;
+}
+.course:checked {
+  background-color: #008585 !important;
+  border: 1px solid #008585 !important;
+}
+.course:focus {
+  border: 1px solid #008585 !important;
+  box-shadow: 0 0 0 0.25rem #40af92;
+}
+.course:checked:focus {
+  border: 1px solid #008585 !important;
+  box-shadow: 0 0 0 0.25rem #40af92;
+}
+
 .w-80 {
   width: 33% !important;
+}
+.form-container input::placeholder {
+  font-size: small !important;
+}
+.form-container textarea::placeholder {
+  font-size: small !important;
 }
 @media (max-width: 767px) {
   .form-container {
@@ -206,12 +309,7 @@ body {
     width: 100% !important;
     top: -60px;
   }
-  .form-container input::placeholder {
-    font-size: small;
-  }
-  .form-container textarea::placeholder {
-    font-size: small;
-  }
+ 
   .w-80 {
     /* width: 66% !important; */
     position: relative;

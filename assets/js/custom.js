@@ -297,6 +297,9 @@ $(document).ready(function () {
       course: {
         required: true,
       },
+      selectedCourse: {
+        required: true,
+      },
       location: {
         required: true,
         maxlength: 30,
@@ -330,13 +333,22 @@ $(document).ready(function () {
         required: "Please enter your Location*",
         maxlength: "Location cannot exceed 30 characters.",
       },
+      selectedCourse: { // Add validation message for the course selection
+        required: "Please select a course*",
+      },
       about_me: {
         maxlength: "About Me cannot exceed 255 characters.",
       },
     },
     errorPlacement: function (error, element) {
-      error.addClass("text-danger mt-1");
-      error.insertAfter(element);
+      if (element.attr("name") === "selectedCourse") {
+        error.addClass("text-danger mt-1");
+        // console.log(element.closest(".course-options-group"))
+        error.insertAfter(element.closest(".course-options-group"));
+      } else {
+        error.addClass("text-danger mt-1");
+        error.insertAfter(element);
+      }
     },
     highlight: function (element) {
       $(element).addClass("is-invalid");
@@ -357,7 +369,7 @@ $(document).ready(function () {
         lead_status: "PENDING",
         description_info: `Location : ${$("#location").val()} ^ Course : ${$(
           "#course"
-        ).val()} ^ Year of Passing : ${$(
+        ).val()} ^ selected Course : ${$("input[name='selectedCourse']:checked").val()} ^ Year of Passing : ${$(
           "#year_of_passing"
         ).val()} ^ About Candidate : ${$("#about_me").val()}`,
         lead_source: "HIRING FORM",

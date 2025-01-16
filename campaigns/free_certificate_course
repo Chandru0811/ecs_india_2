@@ -35,6 +35,41 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="../assets/images/favicon.png" />
+    <!-- <link rel="canonical" href="https://ecsaio.in/" /> -->
+
+    <meta property="og:locale" content="en_In" />
+    <meta
+      property="og:title"
+      content="Upgrade Your Career with Free Certificate Courses by Cloud ECS Infotech"
+    />
+    <meta
+      property="og:description"
+      content="Learn new skills and get a professional certificate for free. Explore our free courses designed to enhance your expertise and help you succeed. Start your journey today!"
+    />
+    <meta
+      property="og:image"
+      content="../assets/images/cloud_ecs_infotech_og.webp"
+    />
+    <!-- <meta property="og:url" content="https://ecsaio.in/" /> -->
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta property="og:image:alt" content="Cloud ECS Infotech" />
+    <meta property="og:image:type" content="image/webp" />
+
+    <meta name="twitter:card" content="twitter image" />
+    <meta
+      name="twitter:title"
+      content="Free Certificate Course - Secure your career, get an edge in interviews"
+    />
+    <meta
+      name="twitter:description"
+      content="Enroll in our free certificate courses and elevate your knowledge. Gain valuable skills, earn recognized certificates, and grow your career. Limited seats sign up now!"
+    />
+    <meta
+      name="twitter:image"
+      content="../assets/images/cloud_ecs_infotech_twitter.webp"
+    />
 
     <!-- Css Link  -->
     <link
@@ -101,9 +136,9 @@
       </nav>
     </section>
     <!-- Header Ends  -->
-    <section class="section-fluid my-5">
+    <section class="section-fluid">
       <!-- ==== Hero ==== -->
-      <section class="container-fluid mb-5">
+      <section class="container-fluid px-0 hero_section">
         <div class="row m-0 d-flex">
           <div
             class="col-md-6 col-12 ps-md-5 d-flex flex-column justify-content-center"
@@ -111,7 +146,7 @@
             <div class="ps-lg-5 position-relative">
               <p class="badge bg-success">Work From Home</p>
               <h1 class="h1-tag">Certificate Course</h1>
-              <div
+              <!-- <div
                 class="position-absolute free-img d-flex justify-content-end"
               >
                 <img
@@ -119,7 +154,7 @@
                   alt="Free Image"
                   class="img-fluid w-50"
                 />
-              </div>
+              </div> -->
             </div>
 
             <div class="ps-lg-5 mt-4 pt-2">
@@ -139,128 +174,139 @@
           <div
             class="col-md-6 col-12 d-flex justify-content-center align-items-center mt-5 mt-md-0"
           >
-            <div class="">
+            <div class="position-relative" style="bottom: -77px">
               <img
-                src="../assets/images/free_certificate_hero_img.webp"
+                src="../assets/images/Hero.webp"
                 alt="Hero Image"
                 class="img-fluid"
               />
             </div>
           </div>
+          <div class="col-12 px-0">
+            <img
+              src="../assets/images/layered-waves-haikei 1.png"
+              alt="Hero Image"
+              class="img-fluid"
+            />
+          </div>
         </div>
       </section>
       <!-- ==== Offer Section ==== -->
-      <section class="container-fluid offer_section">
+      <section class="container-fluid offer_section pt-5">
         <div class="row m-0 d-flex flex-wrap">
-          <p class="offer_section_heading text-center my-md-5 py-4">
+          <p class="offer_section_heading text-center mb-0 pb-4 text-color">
             Courses Offered
           </p>
           <div class="col-md-4 col-6 px-md-3 px-lg-5 d-flex flex-column">
             <div
-              class="card d-flex justify-content-center align-items-center flex-grow-1"
+              class="d-flex flex-column justify-content-center align-items-center flex-grow-1"
             >
               <img
-                src="../assets/images/java_logo.webp"
+                src="../assets/images/Java.webp"
                 alt="Course image"
-                class="img-fluid my-md-5 my-4"
+                class="img-fluid mt-md-5 mt-4"
               />
-              <p class="card_p_tag fw-semibold mb-3">Java</p>
+              <p class="card_p_tag fw-semibold mb-3 mt-0">
+                Full stack developer -Java
+              </p>
             </div>
           </div>
           <div class="col-md-4 col-6 px-md-3 px-lg-5 d-flex flex-column">
             <div
-              class="card px-1 d-flex justify-content-center align-items-center flex-grow-1"
+              class="d-flex flex-column justify-content-center align-items-center flex-grow-1"
             >
               <img
-                src="../assets/images/python.webp"
+                src="../assets/images/Python_icon.webp"
                 alt="Course image"
-                class="img-fluid py-md-5 py-4"
+                class="img-fluid pt-md-5 pt-4"
               />
-              <p class="card_p_tag fw-semibold mb-3">Python</p>
+              <p class="card_p_tag fw-semibold mb-3 mt-0">
+                Full stack developer -Python
+              </p>
             </div>
           </div>
           <div
             class="col-md-4 px-md-3 px-lg-5 col-6 mt-md-0 mt-4 d-flex flex-column"
           >
             <div
-              class="card px-1 d-flex justify-content-center align-items-center flex-grow-1"
+              class="d-flex flex-column justify-content-center align-items-center flex-grow-1"
             >
               <img
-                src="../assets/images/data_science_img.webp"
+                src="../assets/images/Data_Science.webp"
                 alt="Course image"
-                class="img-fluid py-md-5 py-4"
+                class="img-fluid pt-md-5 pt-4"
               />
               <p class="card_p_tag fw-semibold mb-3">Data Science</p>
             </div>
           </div>
           <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
             <div
-              class="card px-1 d-flex justify-content-center align-items-center flex-grow-1"
+              class="d-flex flex-column justify-content-center align-items-center flex-grow-1"
             >
               <img
-                src="../assets/images/devops.webp"
+                src="../assets/images/Devsec Ops.webp"
                 alt="Course image"
-                class="img-fluid py-md-5 py-4"
+                class="img-fluid pt-md-5 pt-4"
               />
-              <p class="card_p_tag fw-semibold mb-3">Dev/Sec Ops</p>
+              <p class="card_p_tag fw-semibold mb-3">Dev/Sec Ops/Networking</p>
             </div>
           </div>
           <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
             <div
-              class="card d-flex justify-content-center align-items-center flex-grow-1"
+              class="d-flex flex-column justify-content-center align-items-center flex-grow-1"
             >
               <img
-                src="../assets/images/mobile_app_icon.webp"
+                src="../assets/images/mobile_dev.webp"
                 alt="Course image"
-                class="img-fluid py-md-5 py-4"
+                class="img-fluid pt-md-5 pt-4"
               />
               <p class="card_p_tag fw-semibold mb-3">Mobile Development</p>
             </div>
           </div>
           <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
             <div
-              class="card d-flex justify-content-center align-items-center flex-grow-1"
+              class="d-flex flex-column justify-content-center align-items-center flex-grow-1"
             >
               <img
-                src="../assets/images/frontend.webp"
+                src="../assets/images/frontend_dev.webp"
                 alt="Course image"
-                class="img-fluid py-md-5 py-4"
+                class="img-fluid pt-md-5 pt-4"
               />
               <p class="card_p_tag fw-semibold mb-3">Frontend Development</p>
             </div>
           </div>
           <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
             <div
-              class="card px-1 d-flex justify-content-center align-items-center flex-grow-1"
+              class="d-flex flex-column justify-content-center align-items-center flex-grow-1"
             >
               <img
-                src="../assets/images/digital_marketing_icon.webp"
+                src="../assets/images/digitel_markenting.webp"
                 alt="Course image"
-                class="img-fluid py-md-5 py-4"
+                class="img-fluid pt-md-5 pt-4"
               />
               <p class="card_p_tag fw-semibold mb-3">Digital Marketing</p>
             </div>
           </div>
           <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
             <div
-              class="card d-flex justify-content-center align-items-center flex-grow-1"
+              class="d-flex flex-column justify-content-center align-items-center flex-grow-1"
             >
               <img
-                src="../assets/images/ui_ux_icon.webp"
+                src="../assets/images/ui_ux.webp"
                 alt="Course image"
-                class="img-fluid py-md-5 py-4"
+                class="img-fluid pt-md-5 pt-4"
               />
               <p class="card_p_tag fw-semibold mb-3">UI/UX Development</p>
             </div>
           </div>
           <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
             <div
-              class="card d-flex justify-content-center align-items-center flex-grow-1"
+              class="d-flex flex-column justify-content-center align-items-center flex-grow-1"
             >
               <img
                 src="../assets/images/sales.webp"
                 alt="Course image"
-                class="img-fluid py-md-5 py-4 px-1"
+                class="img-fluid pt-md-5 pt-4 px-1"
               />
               <p class="card_p_tag fw-semibold mb-3">Sales Marketing</p>
             </div>
@@ -269,218 +315,165 @@
       </section>
 
       <!-- ==== Course Section ==== -->
-      <section class="container-fluid course_section mt-md-4">
-        <div class="row m-0">
-          <div class="col-12 mb-5">
-            <p class="offer_section_heading text-center my-md-5 pt-5 pb-4">
-              Pick that works the best for you
-            </p>
-            <p class="course_section_text my-md-5 pb-4 px-md-5">
-              From Digital Marketing to Data Science, Mobile App Development to
-              Sales & Marketing, we help you get industry ready. Never will you
-              ever fear an interview or lack confidence when talking about real
-              life scenarios. Because you already know everything about real
-              life projects, procedures and have hands on experience on real
-              life projects and solving real problems and bugs.
-            </p>
+      <section class="container-fluid course_section py-5">
+        <div class="row m-0 mb-5 pt-md-5">
+          <div class="col-md-6 col-12">
+            <div class="ps-md-4">
+              <p class="offer_whyus text-color mb-0">Why Us</p>
+              <p class="offer_section_heading">
+                Learn, Work, and Succeed with Us
+              </p>
+              <p class="course_section_text text-muted">
+                We’re not just about teaching; we’re about doing. Learn
+                industry-relevant skills through real projects, guided by
+                experts, and step into the workforce with confidence.
+              </p>
+              <a class="text-decoration-none text-light" href="#form">
+                <button type="button" class="apply-btn btn mt-4">
+                  Apply Now
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-12 mt-md-0 mt-4">
+            <div class="row m-0 mt-md-0 mt-5 addEventListener">
+              <div class="col-lg-6 col-12">
+                <img src="../assets/images/vector_1.png" alt="vector" />
+                <p class="text-color fs-5 mt-3">Real-world Experience</p>
+                <p class="course_section_text">
+                  Work on live projects that mirror real-world challenges. Gain
+                  practical experience that sets you apart from the competition.
+                </p>
+              </div>
+              <div class="col-lg-6 col-12">
+                <img src="../assets/images/Vector_2.png" alt="vector" />
+                <p class="text-color fs-5 mt-3">No Experience Required</p>
+                <p class="course_section_text">
+                  No prior experience? No problem. We guide you from scratch and
+                  help you build a strong foundation for your career. For all
+                  degrees and diplomas.
+                </p>
+              </div>
+            </div>
+            <div class="row mt-4 m-0">
+              <div class="col-lg-6 col-12">
+                <img src="../assets/images/vector_3.png" alt="vector" />
+                <p class="text-color fs-5 mt-3">Free Certification</p>
+                <p class="course_section_text">
+                  Earn a free industry-recognized certification upon course
+                  completion. Showcase your skills and boost your career
+                  prospects effortlessly.
+                </p>
+              </div>
+              <div class="col-lg-6 col-12">
+                <img src="../assets/images/vector_4.png" alt="vector" />
+                <p class="text-color fs-5 mt-3">100% Remote</p>
+                <p class="course_section_text">
+                  Study, learn, and grow—all from the comfort of your home. Our
+                  remote program ensures flexibility without compromising
+                  quality.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row m-0 mb-5">
-          <div class="col-md-6 d-flex justify-content-center align-items-end">
-            <div class="img-cont position-relative">
-              <div class="img-border d-none d-md-block"></div>
+        <div class="row m-0 my-5 pt-md-5">
+          <div
+            class="col-md-6 d-flex justify-content-center align-items-end pt-md-0 pt-4 order-md-0 order-1"
+          >
+            <div>
               <img
-                src="../assets/images/free_certificate_content_imge1.webp"
+                id="dynamic-image"
+                src="../assets/images/free_certificate_content_1.webp"
                 alt="Content Image"
-                class="img-fluid rounded-4 h-20"
+                class="img-fluid"
               />
             </div>
           </div>
-          <div class="col-md-6">
-            <p class="offer_section_heading text-center my-md-5 pt-5">
-              Software Engineer
-            </p>
-            <p class="course_section_text my-md-5 pt-3">
-              Get the dream job that every Indian fresher is hunting for. Work
-              on live projects. Get real scene exposure and tools. Learn how
-              coding is done in real development environment.
-            </p>
-            <p class="course_section_text my-md-5">
-              No experience required. We will walk you through as long as you
-              have the patience and commitment.
-            </p>
-          </div>
-        </div>
+          <div class="col-md-6 order-md-1 order-0">
+            <div>
+              <p class="offer_whyus text-color mb-0">What you Get</p>
+              <p class="offer_section_heading">Roles You Can Take On</p>
+              <p class="course_section_text text-muted">
+                Choose from exciting roles and shape your career in tech. From
+                coding to design, we provide the training and hands-on
+                experience you need to succeed. Let’s get you ready for your
+                dream job.
+              </p>
+            </div>
+            <div id="roles">
+              <div class="role">
+                <span class="">Software Engineer</span>
+                <p class="role-description">
+                  Get the dream job that every Indian fresher is hunting for.
+                  Work on live projects. Get real scene exposure and tools.
+                  Learn how coding is done in a real development environment.
+                </p>
+              </div>
+              <div class="role">
+                <span class="">Digital Marketing Expert</span>
+                <p class="role-description">
+                  Like to spend time on social media. Are you good at getting
+                  likes and shares for your posts? You can build a career out of
+                  it? A good, well paying one.
+                </p>
+              </div>
 
-        <div class="row m-0 mb-5 pt-md-3">
-          <div class="col-md-6 d-flex justify-content-center align-items-end">
-            <div class="img-cont position-relative">
-              <div class="img-border d-none d-md-block"></div>
-              <img
-                src="../assets/images/free_certificate_content_imge2.webp"
-                alt="Content Image"
-                class="img-fluid rounded-4 h-20"
-              />
+              <div class="role">
+                <span class="">UI/UX Designer</span>
+                <p class="role-description">
+                  Want to decide how websites and mobile apps will look like.
+                  Want to influence the look, feel and the user experience of
+                  various interfaces? Here is your chance to learn all those.
+                </p>
+              </div>
+              <div class="role">
+                <span class="">Graphics Artist</span>
+                <p class="role-description">
+                  Are you the creative type? Can come up with great ideas and
+                  colour schemes? Can create awesome posters and graphic
+                  elements? We can help you shape your career as a graphics
+                  designer.
+                </p>
+              </div>
+              <div class="role">
+                <span class="">Sales & Marketing Professional</span>
+                <p class="role-description">
+                  Are you someone who likes to spend time outdoors? We have you
+                  covered. We have enough space for sales and marketing
+                  professionals.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6">
-            <p class="offer_section_heading text-center my-md-5 pt-5">
-              Digital Marketing Expert
-            </p>
-            <p class="course_section_text my-md-5 pt-3">
-              Like to spend time on social media. Are you good at getting likes
-              and shares for your posts? You can build a career out of it? A
-              good, well paying one.
-            </p>
-            <p class="course_section_text my-md-5">
-              Digital Marketing professionals have high demand in the job
-              market. All we ask is you know enough about Facebook, YouTube and
-              Instagram.
-            </p>
-          </div>
-        </div>
-        <div class="row m-0 mb-5 pt-md-3">
-          <div class="col-md-6 d-flex justify-content-center align-items-end">
-            <div class="img-cont position-relative">
-              <div class="img-border d-none d-md-block"></div>
-              <img
-                src="../assets/images/free_certificate_content_imge3.webp"
-                alt="Content Image"
-                class="img-fluid rounded-4 h-20"
-              />
-            </div>
-          </div>
-          <div class="col-md-6">
-            <p class="offer_section_heading text-center my-md-5 pt-5">
-              Sales & Marketing Professional
-            </p>
-            <p class="course_section_text my-md-5 pt-3">
-              Are you someone who likes to spend time outdoors? We have you
-              covered. We have enough space for sales and marketing
-              professionals.
-            </p>
-            <p class="course_section_text my-md-5">
-              A charming character and a positive attitude is more than enough
-              for this profile. You are good fit if you have these qualities.
-            </p>
-          </div>
-        </div>
-        <div class="row m-0 mb-5 pt-md-3">
-          <div class="col-md-6 d-flex justify-content-center align-items-end">
-            <div class="img-cont position-relative">
-              <div class="img-border d-none d-md-block"></div>
-              <img
-                src="../assets/images/free_certificate_content_imge4.webp"
-                alt="Content Image"
-                class="img-fluid rounded-4 h-20"
-              />
-            </div>
-          </div>
-          <div class="col-md-6">
-            <p class="offer_section_heading text-center my-md-5 pt-5">
-              UI/UX Designer
-            </p>
-            <p class="course_section_text my-md-5 pt-3">
-              Want to decide how websites and mobile apps will look like. Want
-              to influence the look, feel and the user experience of various
-              interfaces? Here is your chance to learn all those.
-            </p>
-            <p class="course_section_text my-md-5">
-              Learn them all by working on real world projects for both web and
-              mobile apps.
-            </p>
-          </div>
-        </div>
-        <div class="row m-0 mb-5 pt-md-3">
-          <div class="col-md-6 d-flex justify-content-center align-items-end">
-            <div class="img-cont position-relative">
-              <div class="img-border d-none d-md-block"></div>
-              <img
-                src="../assets/images/free_certificate_content_imge5.webp"
-                alt="Content Image"
-                class="img-fluid rounded-4 h-20"
-              />
-            </div>
-          </div>
-          <div class="col-md-6">
-            <p class="offer_section_heading text-center my-md-5 pt-5">
-              Graphics Artist
-            </p>
-            <p class="course_section_text my-md-5 pt-3">
-              Are you the creative type? Can come up with great ideas and colour
-              schemes? Can create awesome posters and graphic elements? We can
-              help you shape your career as a graphics designer.
-            </p>
-            <p class="course_section_text my-md-5">
-              Get hands on training on social media marketing and other live
-              projects. Learn how real world needs are.
-            </p>
           </div>
         </div>
       </section>
 
       <!-- ==== Form Section ==== -->
-      <section class="container-fluid form_section mt-md-4">
-        <div class="row m-0">
-          <div class="col-12 mb-5">
-            <p class="offer_section_heading text-center my-md-5 pt-5 pb-4">
-              You Choose, we help you achieve
-            </p>
-            <p class="course_section_text my-md-5 px-md-5">
-              We are not a training institute, but a software company that
-              handles real project and deals with real world challenges every
-              day
-            </p>
-            <p class="course_section_text my-md-5 px-md-5">
-              We invite you to join our daily exercise of taming mammoth
-              problems starting from basic brainstorming to the final stages
-              where the software / mobile apps are tested for bugs and real
-              world scenario.
-            </p>
-            <p class="course_section_text my-md-5 px-md-5">
-              We don’t make you sit infront of black board and give you
-              lectures. Instead we will give you tasks and help you solve it. No
-              experience required other than knowledge you acquired through your
-              basic educational qualifactions.
-            </p>
-            <p class="course_section_text my-md-5 px-md-5">
-              Are you a student awaiting final results? A fresher or a person
-              with a degree or a diploma? You are welcome to join this
-              certificate course for free, which available only for a limited
-              period of time.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="container-fluid form_section mt-md-4" id="form">
-        <div class="row m-0">
-          <div class="col-12 mb-5">
-            <p class="offer_section_heading text-center my-md-5 pb-3">
-              Go ahead, book your spot
-            </p>
-          </div>
-          <div class="col-md-6 col-12 my-5">
-            <div class="d-flex justify-content-center align-items-center">
-              <img
-                src="../assets/images/form_img.webp"
-                alt="Form Image "
-                class="img-fluid w-80"
-              />
-            </div>
-          </div>
+
+      <section class="container-fluid form_section px-0 mt-3" id="form">
+        <div class="row m-0 form_row justify-content-center align-items-center">
           <div
-            class="col-md-6 col-12 d-flex justify-content-center form-col align-items-center position-relative"
+            class="col-12 col-md-8 col-lg-5 mb-5 d-flex flex-column justify-content-center align-items-center"
           >
+            <p class="text-color mb-0">Get in Touch</p>
+            <p class="offer_section_heading text-center">Apply Today!</p>
+            <p class="text-muted text-center">
+              Take the first step toward your dream career. Fill out the form,
+              and we’ll guide you through the process.
+            </p>
             <form
               id="freeCourseHiringForm"
-              class="form-container py-lg-5 py-md-3 py-3 px-lg-4 px-md-2 rounded-4" 
+              class="form-container rounded-4 mt-4 px-2"
             >
-              <div class="row p-4">
+              <div class="row">
                 <div class="col-md-6 col-12 mb-4">
-                  <!-- <label class="form-label">Full Name</label> -->
+                  <label class="form-label text-dark text-start mb-1"
+                    >Name</label
+                  >
                   <input
                     type="text"
-                    placeholder="Full Name"
+                    placeholder="Enter your full name"
                     class="form-control"
                     name="full_name"
                     id="full_name"
@@ -488,40 +481,48 @@
                   />
                 </div>
                 <div class="col-md-6 col-12 mb-4">
-                  <!-- <label class="form-label">WhatsApp Number</label> -->
+                  <label class="form-label text-dark text-start mb-1"
+                    >WhatsApp Number</label
+                  >
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="WhatsApp Number"
+                    placeholder="Where are you from?"
                     name="mobile"
                     id="mobile"
                     required
                   />
                 </div>
                 <div class="col-md-6 col-12 mb-4">
-                  <!-- <label class="form-label">Email</label> -->
+                  <label class="form-label text-dark text-start mb-1"
+                    >Email</label
+                  >
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Email"
+                    placeholder="Drop your email here"
                     name="email"
                     id="email"
                     required
                   />
                 </div>
                 <div class="col-md-6 col-12 mb-4">
-                  <!-- <label class="form-label">Location</label> -->
+                  <label class="form-label text-dark text-start mb-1"
+                    >Location</label
+                  >
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Location"
+                    placeholder="Where can we reach you on WhatsApp?"
                     name="location"
                     id="location"
                     required
                   />
                 </div>
                 <div class="col-md-6 col-12 mb-4">
-                  <!-- <label class="form-label">Course</label> -->
+                  <label class="form-label text-dark text-start mb-1"
+                    >Qualification</label
+                  >
                   <input
                     type="text"
                     class="form-control"
@@ -531,9 +532,12 @@
                     required
                   />
                 </div>
-                <div class="col-md-6 col-12 mb-=4">
-                  <!-- <label class="form-label">Year of Passing</label> -->
+                <div class="col-md-6 col-12 mb-4">
+                  <label class="form-label text-dark text-start mb-1"
+                    >Year of Passing</label
+                  >
                   <input
+                    oninput="this.value = this.value.replace(/[^0-9]/g, '')"
                     type="text"
                     class="form-control"
                     placeholder="Year of Passing"
@@ -542,20 +546,111 @@
                     required
                   />
                 </div>
+                <div class="col-12 mb-4">
+                  <div class="form-group">
+                    <label class="text-dark mb-2"
+                      >Which course are you interested in?</label
+                    >
+                    <div class="options-grid course-options-group">
+                      <label class="radio-label">
+                        <input
+                          type="radio"
+                          class="form-check-input course"
+                          name="selectedCourse"
+                          value="Full stack developer -Java"
+                        />
+                        Full stack developer -Java
+                      </label>
+                      <label class="radio-label">
+                        <input
+                          type="radio"
+                          class="form-check-input course"
+                          name="selectedCourse"
+                          value="data-science"
+                        />
+                        Data Science
+                      </label>
+                      <label class="radio-label">
+                        <input
+                          type="radio"
+                          class="form-check-input course"
+                          name="selectedCourse"
+                          value="digital-marketing"
+                        />
+                        Digital Marketing
+                      </label>
+                      <label class="radio-label">
+                        <input
+                          type="radio"
+                          class="form-check-input course"
+                          name="selectedCourse"
+                          value="Full stack developer -python"
+                        />
+                        Full stack developer -Python
+                      </label>
+                      <label class="radio-label">
+                        <input
+                          type="radio"
+                          class="form-check-input course"
+                          name="selectedCourse"
+                          value="mobile-development"
+                        />
+                        Mobile Development
+                      </label>
+                      <label class="radio-label">
+                        <input
+                          type="radio"
+                          class="form-check-input course"
+                          name="selectedCourse"
+                          value="ui-ux-design"
+                        />
+                        UI/UX Design
+                      </label>
+                      <label class="radio-label">
+                        <input
+                          type="radio"
+                          class="form-check-input course"
+                          name="selectedCourse"
+                          value="devsecops"
+                        />
+                        Dev/SecOps /Networking
+                      </label>
+                      <label class="radio-label">
+                        <input
+                          type="radio"
+                          class="form-check-input course"
+                          name="selectedCourse"
+                          value="frontend-development"
+                        />
+                        Front-End Development
+                      </label>
+                      <label class="radio-label">
+                        <input
+                          type="radio"
+                          class="form-check-input course"
+                          name="selectedCourse"
+                          value="sales-marketing"
+                        />
+                        Sales Marketing
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
                 <div class="col-12 my-4">
-                  <!-- <label class="form-label">About Me</label> -->
+                  <label class="form-label text-dark text-start mb-1">Message (Optional)</label>
                   <textarea
                     oninput="this.value = this.value.replace(/\^/g, '')"
                     rows="5"
                     class="form-control"
-                    placeholder="About Me"
+                    placeholder="Ask your questions or share your goals"
                     name="about_me"
                     id="about_me"
                   ></textarea>
                 </div>
-                <div class="text-end">
-                  <button class="btn form-btn mt-3" type="submit">
-                    Submit
+                <div class="text-center">
+                  <button type="submit" class="apply-btn btn mt-4">
+                    Apply Now
                   </button>
                 </div>
               </div>
@@ -672,9 +767,27 @@
     </div>
 
     <!-- Footer Starts  -->
-    <section class="footer">
-      <div class="container px-0">
-        <!-- <img src="../assets/images/free certificates.webp" alt="Footer Image" class="img-fluid footer_image"> -->
+    <section class="footer mt-3">
+      <div class="container px-0 py-5">
+        <div class="row m-0">
+          <div
+            class="col-auto d-flex justify-content-center align-items-center"
+          >
+            <img
+              src="../assets/images/footer_logo.webp"
+              alt="Logo"
+              class="img-fluid"
+            />
+          </div>
+          <div
+            class="col-md-10 col-12 d-flex justify-content-center align-items-end mt-5 mt-md-0 text-center"
+          >
+            <p class="text-light mb-0">
+              © 2025 Cloud ECS Infotech. All rights reserved.
+            </p>
+          </div>
+        </div>
+        <hr class="text-light" />
       </div>
     </section>
     <!-- Footer Ends  -->
@@ -700,6 +813,45 @@
           successModal.hide();
         }
       }
+    </script>
+    <script>
+      const roles = document.querySelectorAll(".role");
+      const image = document.getElementById("dynamic-image");
+      let currentIndex = 0;
+
+      // Array of image sources corresponding to roles
+      const images = [
+        "../assets/images/free_certificate_content_1.webp",
+        "../assets/images/free_certificate_content_2.webp",
+        "../assets/images/free_certificate_content_3.webp",
+        "../assets/images/free_certificate_content_4.webp",
+        "../assets/images/free_certificate_content_5.webp",
+      ];
+
+      function updateActiveRole(index) {
+        roles.forEach((role, i) => {
+          role.classList.toggle("active", i === index);
+        });
+        // Change the image based on the active role
+        image.src = images[index];
+      }
+
+      // Set up interval for auto-change
+      setInterval(() => {
+        currentIndex = (currentIndex + 1) % roles.length;
+        updateActiveRole(currentIndex);
+      }, 9000);
+
+      // Add click event listener
+      roles.forEach((role, index) => {
+        role.addEventListener("click", () => {
+          currentIndex = index;
+          updateActiveRole(index);
+        });
+      });
+
+      // Initialize the first active role and image
+      updateActiveRole(currentIndex);
     </script>
   </body>
 </html>
