@@ -355,9 +355,9 @@ $(document).ready(function () {
         company_id: 53,
         company: "Cloud ECS Infotech",
         lead_status: "PENDING",
-        description_info: `Location : ${$(
-          "#location"
-        ).val()} ^ Course : ${$("#course").val()} ^ Year of Passing : ${$(
+        description_info: `Location : ${$("#location").val()} ^ Course : ${$(
+          "#course"
+        ).val()} ^ Year of Passing : ${$(
           "#year_of_passing"
         ).val()} ^ About Candidate : ${$("#about_me").val()}`,
         lead_source: "HIRING FORM",
@@ -400,6 +400,7 @@ $(document).ready(function () {
       },
       city: {
         required: true,
+        maxlength: 30,
       },
       courses: {
         required: true,
@@ -422,6 +423,7 @@ $(document).ready(function () {
       },
       city: {
         required: "City is Required.",
+        maxlength: "City name must not exceed 30 characters.",
       },
       courses: {
         required: "Please select at least one course.",
@@ -836,25 +838,25 @@ $(document).ready(function () {
                   value="${response.rdata}"
                 />
                 <div style="text-align: center">
-                  <input
-                    name="submit"
-                    type="submit"
-                    style="
-                      display: inline-block;
-                      padding: 14px 28px;
-                      background-color: #0076f7;
-                      color: #fff;
-                      font-size: 16px;
-                      text-decoration: none;
-                      border-radius: 6px;
-                      border: none;
-                      cursor: pointer;
-                      box-shadow: 0 4px 10px rgba(255, 153, 0, 0.2);
-                      transition: background-color 0.3s;
-                      margin: 0 182px;
-                    "
-                    value="Complete your Payment"
+               <input
+                name="submit"
+                type="submit"
+                style="
+                  display: inline-block;
+                  padding: 14px 28px;
+                  background-color: #0076f7;
+                  color: #fff;
+                  font-size: 16px;
+                  text-decoration: none;
+                  border-radius: 6px;
+                  border: none;
+                  cursor: pointer ;
+                  box-shadow: 0 4px 10px rgba(255, 153, 0, 0.2);
+                  transition: background-color 0.3s, transform 0.2s;
+                  margin: 0 182px;"
+                  value="Complete your Payment"
                   />
+
                 </div>
               </form>
             </td>
@@ -873,21 +875,22 @@ $(document).ready(function () {
             <td align="left" style="vertical-align: middle">
               <img
                 src="https://sgitjobs.com/logo/Cloud_ECS_Infotech.png"
-                alt="dealsmachi"
+                alt="Cloud ECS infotech"
                 style="max-width: 150px; height: auto; margin-bottom: 10px"
               />
             </td>
             <td align="right" style="vertical-align: middle">
-              <p style="font-size: 12px; color: #333; margin: 0">
-                Connect with
-                <a
-                  href="https://ecsaio.in/"
-                  target="_blank"
-                  style="color: #005aea; text-decoration: none"
-                  >cloud ECS infotech</a
-                >
-                India
+             <p style="font-size: 12px; color: #333; margin: 0">
+              Connect with
+              <a
+                href="https://ecsaio.in/"
+                target="_blank"
+                style="color: #005aea; text-decoration: none"
+                >Cloud ECS Infotech</a
+              >
+              India
               </p>
+
             </td>
           </tr>
         </table>
@@ -935,7 +938,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// Login 
+// Login
 
 $(document).ready(function () {
   $("#loginForm").validate({
