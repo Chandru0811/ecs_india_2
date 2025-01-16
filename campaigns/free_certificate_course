@@ -207,7 +207,7 @@
                 class="img-fluid mt-md-5 mt-4"
               />
               <p class="card_p_tag fw-semibold mb-3 mt-0">
-                Full stack developer -Java
+                Full stack developer - Java
               </p>
             </div>
           </div>
@@ -221,7 +221,7 @@
                 class="img-fluid pt-md-5 pt-4"
               />
               <p class="card_p_tag fw-semibold mb-3 mt-0">
-                Full stack developer -Python
+                Full stack developer - Python
               </p>
             </div>
           </div>
@@ -248,7 +248,7 @@
                 alt="Course image"
                 class="img-fluid pt-md-5 pt-4"
               />
-              <p class="card_p_tag fw-semibold mb-3">Dev/Sec Ops/Networking</p>
+              <p class="card_p_tag fw-semibold mb-3 text-break">DevSecOps /Networking /Cybersecurity</p>
             </div>
           </div>
           <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
@@ -260,7 +260,7 @@
                 alt="Course image"
                 class="img-fluid pt-md-5 pt-4"
               />
-              <p class="card_p_tag fw-semibold mb-3">Mobile Development</p>
+              <p class="card_p_tag fw-semibold mb-3">Mobile App Development</p>
             </div>
           </div>
           <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
@@ -272,7 +272,7 @@
                 alt="Course image"
                 class="img-fluid pt-md-5 pt-4"
               />
-              <p class="card_p_tag fw-semibold mb-3">Frontend Development</p>
+              <p class="card_p_tag fw-semibold mb-3">Front End Development</p>
             </div>
           </div>
           <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
@@ -308,7 +308,7 @@
                 alt="Course image"
                 class="img-fluid pt-md-5 pt-4 px-1"
               />
-              <p class="card_p_tag fw-semibold mb-3">Sales Marketing</p>
+              <p class="card_p_tag fw-semibold mb-3">Sales and Marketing</p>
             </div>
           </div>
         </div>
@@ -319,7 +319,7 @@
         <div class="row m-0 mb-5 pt-md-5">
           <div class="col-md-6 col-12">
             <div class="ps-md-4">
-              <p class="offer_whyus text-color mb-0">Why Us</p>
+              <p class="offer_whyus text-color mb-0">Why Us ?</p>
               <p class="offer_section_heading">
                 Learn, Work, and Succeed with Us
               </p>
@@ -350,23 +350,22 @@
                 <p class="text-color fs-5 mt-3">No Experience Required</p>
                 <p class="course_section_text">
                   No prior experience? No problem. We guide you from scratch and
-                  help you build a strong foundation for your career. For all
-                  degrees and diplomas.
+                  help you build a strong foundation for your career.
                 </p>
               </div>
             </div>
             <div class="row mt-4 m-0">
               <div class="col-lg-6 col-12">
-                <img src="../assets/images/vector_3.png" alt="vector" />
+                <img src="../assets/images/Vector_3.png" alt="vector" />
                 <p class="text-color fs-5 mt-3">Free Certification</p>
                 <p class="course_section_text">
-                  Earn a free industry-recognized certification upon course
+                  Earn a free certificate upon course
                   completion. Showcase your skills and boost your career
                   prospects effortlessly.
                 </p>
               </div>
               <div class="col-lg-6 col-12">
-                <img src="../assets/images/vector_4.png" alt="vector" />
+                <img src="../assets/images/Vector_4.png" alt="vector" />
                 <p class="text-color fs-5 mt-3">100% Remote</p>
                 <p class="course_section_text">
                   Study, learn, and grow—all from the comfort of your home. Our
@@ -487,7 +486,7 @@
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Where are you from?"
+                    placeholder="Where can we reach you on WhatsApp?"
                     name="mobile"
                     id="mobile"
                     required
@@ -513,7 +512,7 @@
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Where can we reach you on WhatsApp?"
+                    placeholder="Where are you from?"
                     name="location"
                     id="location"
                     required
@@ -595,7 +594,7 @@
                           name="selectedCourse"
                           value="mobile-development"
                         />
-                        Mobile Development
+                        Mobile App Development
                       </label>
                       <label class="radio-label">
                         <input
@@ -606,14 +605,14 @@
                         />
                         UI/UX Design
                       </label>
-                      <label class="radio-label">
+                      <label class="radio-label ">
                         <input
                           type="radio"
                           class="form-check-input course"
                           name="selectedCourse"
                           value="devsecops"
                         />
-                        Dev/SecOps /Networking
+                        DevSecOps/Networking/Cybersecurity
                       </label>
                       <label class="radio-label">
                         <input
@@ -631,7 +630,7 @@
                           name="selectedCourse"
                           value="sales-marketing"
                         />
-                        Sales Marketing
+                        Sales and Marketing
                       </label>
                     </div>
                   </div>
@@ -643,7 +642,7 @@
                     oninput="this.value = this.value.replace(/\^/g, '')"
                     rows="5"
                     class="form-control"
-                    placeholder="Ask your questions or share your goals"
+                    placeholder="About me"
                     name="about_me"
                     id="about_me"
                   ></textarea>
@@ -823,9 +822,9 @@
       const images = [
         "../assets/images/free_certificate_content_1.webp",
         "../assets/images/free_certificate_content_2.webp",
-        "../assets/images/free_certificate_content_3.webp",
         "../assets/images/free_certificate_content_4.webp",
         "../assets/images/free_certificate_content_5.webp",
+        "../assets/images/free_certificate_content_3.webp",
       ];
 
       function updateActiveRole(index) {
