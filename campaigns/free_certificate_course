@@ -139,9 +139,9 @@
     <section class="section-fluid">
       <!-- ==== Hero ==== -->
       <section class="container-fluid px-0 hero_section">
-        <div class="row m-0 d-flex">
+        <div class="row m-0 d-flex mt-5 mt-md-4 mt-lg-0">
           <div
-            class="col-md-6 col-12 ps-md-5 d-flex flex-column justify-content-center"
+            class="col-md-6 col-12 ps-md-5 ps-3 d-flex flex-column justify-content-center"
           >
             <div class="ps-lg-5 position-relative">
               <p class="badge bg-success">Work From Home</p>
@@ -174,7 +174,7 @@
           <div
             class="col-md-6 col-12 d-flex justify-content-center align-items-center mt-5 mt-md-0"
           >
-            <div class="position-relative" style="bottom: -77px">
+            <div class="position-relative bottom" >
               <img
                 src="../assets/images/Hero.webp"
                 alt="Hero Image"
@@ -472,7 +472,6 @@
                   >
                   <input
                     type="text"
-                    placeholder="Enter your full name"
                     class="form-control"
                     name="full_name"
                     id="full_name"
@@ -486,7 +485,6 @@
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Where can we reach you on WhatsApp?"
                     name="mobile"
                     id="mobile"
                     required
@@ -499,7 +497,6 @@
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Drop your email here"
                     name="email"
                     id="email"
                     required
@@ -512,7 +509,6 @@
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Where are you from?"
                     name="location"
                     id="location"
                     required
@@ -525,7 +521,6 @@
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Qualification"
                     name="course"
                     id="course"
                     required
@@ -539,7 +534,6 @@
                     oninput="this.value = this.value.replace(/[^0-9]/g, '')"
                     type="text"
                     class="form-control"
-                    placeholder="Year of Passing"
                     name="year_of_passing"
                     id="year_of_passing"
                     required
@@ -547,7 +541,7 @@
                 </div>
                 <div class="col-12 mb-4">
                   <div class="form-group">
-                    <label class="text-dark mb-2"
+                    <label class="text-dark mb-3"
                       >Which course are you interested in?</label
                     >
                     <div class="options-grid course-options-group">
@@ -592,7 +586,7 @@
                           type="radio"
                           class="form-check-input course"
                           name="selectedCourse"
-                          value="mobile-development"
+                          value="Mobile-App-Development"
                         />
                         Mobile App Development
                       </label>
@@ -601,7 +595,7 @@
                           type="radio"
                           class="form-check-input course"
                           name="selectedCourse"
-                          value="ui-ux-design"
+                          value="UI/UX-Design"
                         />
                         UI/UX Design
                       </label>
@@ -610,16 +604,16 @@
                           type="radio"
                           class="form-check-input course"
                           name="selectedCourse"
-                          value="devsecops"
+                          value="DevSecOps/Networking/Cybersecurity"
                         />
-                        DevSecOps/Networking/Cybersecurity
+                        DevSecOps/Networking /Cybersecurity
                       </label>
                       <label class="radio-label">
                         <input
                           type="radio"
                           class="form-check-input course"
                           name="selectedCourse"
-                          value="frontend-development"
+                          value="Front-End-Development"
                         />
                         Front-End Development
                       </label>

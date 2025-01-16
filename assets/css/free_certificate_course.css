@@ -75,8 +75,16 @@ body {
 /* ===== Hero section ===== */
 
  .text-color {
-  color: #008585;
+  color: #008585 !important;
  }
+ .bottom {
+  bottom: -75px;
+ }
+ @media (max-width: 767px) {
+  .bottom {
+    bottom: -20px !important;
+   }
+  }
 .h1-tag {
   color: #008585;
   font-weight: bold;
