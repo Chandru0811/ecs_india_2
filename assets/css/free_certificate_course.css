@@ -78,12 +78,17 @@ body {
   color: #008585 !important;
  }
  .bottom {
-  bottom: -75px;
+  bottom: -73px;
  }
  @media (max-width: 767px) {
   .bottom {
     bottom: -20px !important;
    }
+  }
+  @media (min-width: 800px) and (max-width: 1024px){ 
+    .bottom {
+      bottom: -50px !important;
+     }
   }
 .h1-tag {
   color: #008585;

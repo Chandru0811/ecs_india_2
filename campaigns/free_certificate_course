@@ -141,7 +141,7 @@
       <section class="container-fluid px-0 hero_section">
         <div class="row m-0 d-flex mt-5 mt-md-4 mt-lg-0">
           <div
-            class="col-md-6 col-12 ps-md-5 ps-3 d-flex flex-column justify-content-center"
+            class="col-md-6 col-12 ps-md-5 ps-4 d-flex flex-column justify-content-center"
           >
             <div class="ps-lg-5 position-relative">
               <p class="badge bg-success">Work From Home</p>
@@ -194,9 +194,9 @@
       <!-- ==== Offer Section ==== -->
       <section class="container-fluid offer_section pt-5">
         <div class="row m-0 d-flex flex-wrap">
-          <p class="offer_section_heading text-center mb-0 pb-4 text-color">
+          <h2 class="offer_section_heading text-center mb-0 pb-4 text-color">
             Courses Offered
-          </p>
+          </h2>
           <div class="col-md-4 col-6 px-md-3 px-lg-5 d-flex flex-column">
             <div
               class="d-flex flex-column justify-content-center align-items-center flex-grow-1"
@@ -206,9 +206,9 @@
                 alt="Course image"
                 class="img-fluid mt-md-5 mt-4"
               />
-              <p class="card_p_tag fw-semibold mb-3 mt-0">
+              <h3 class="card_p_tag fw-semibold mb-3 mt-0">
                 Full stack developer - Java
-              </p>
+              </h3>
             </div>
           </div>
           <div class="col-md-4 col-6 px-md-3 px-lg-5 d-flex flex-column">
@@ -220,9 +220,9 @@
                 alt="Course image"
                 class="img-fluid pt-md-5 pt-4"
               />
-              <p class="card_p_tag fw-semibold mb-3 mt-0">
+              <h3 class="card_p_tag fw-semibold mb-3 mt-0">
                 Full stack developer - Python
-              </p>
+              </h3>
             </div>
           </div>
           <div
@@ -236,7 +236,7 @@
                 alt="Course image"
                 class="img-fluid pt-md-5 pt-4"
               />
-              <p class="card_p_tag fw-semibold mb-3">Data Science</p>
+              <h3 class="card_p_tag fw-semibold mb-3">Data Science</h3>
             </div>
           </div>
           <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
@@ -248,7 +248,7 @@
                 alt="Course image"
                 class="img-fluid pt-md-5 pt-4"
               />
-              <p class="card_p_tag fw-semibold mb-3 text-break">DevSecOps /Networking /Cybersecurity</p>
+              <h3 class="card_p_tag fw-semibold mb-3 text-break">DevSecOps /Networking /Cybersecurity</h3>
             </div>
           </div>
           <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
@@ -260,7 +260,7 @@
                 alt="Course image"
                 class="img-fluid pt-md-5 pt-4"
               />
-              <p class="card_p_tag fw-semibold mb-3">Mobile App Development</p>
+              <h3 class="card_p_tag fw-semibold mb-3">Mobile App Development</h3>
             </div>
           </div>
           <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
@@ -272,7 +272,7 @@
                 alt="Course image"
                 class="img-fluid pt-md-5 pt-4"
               />
-              <p class="card_p_tag fw-semibold mb-3">Front End Development</p>
+              <h3 class="card_p_tag fw-semibold mb-3">Front End Development</h3>
             </div>
           </div>
           <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
@@ -284,7 +284,7 @@
                 alt="Course image"
                 class="img-fluid pt-md-5 pt-4"
               />
-              <p class="card_p_tag fw-semibold mb-3">Digital Marketing</p>
+              <h3 class="card_p_tag fw-semibold mb-3">Digital Marketing</h3>
             </div>
           </div>
           <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
@@ -296,7 +296,7 @@
                 alt="Course image"
                 class="img-fluid pt-md-5 pt-4"
               />
-              <p class="card_p_tag fw-semibold mb-3">UI/UX Development</p>
+              <h3 class="card_p_tag fw-semibold mb-3">UI/UX Development</h3>
             </div>
           </div>
           <div class="col-md-4 px-md-3 px-lg-5 col-6 mt-4 d-flex flex-column">
@@ -308,7 +308,7 @@
                 alt="Course image"
                 class="img-fluid pt-md-5 pt-4 px-1"
               />
-              <p class="card_p_tag fw-semibold mb-3">Sales and Marketing</p>
+              <h3 class="card_p_tag fw-semibold mb-3">Sales and Marketing</h3>
             </div>
           </div>
         </div>
@@ -391,8 +391,8 @@
           </div>
           <div class="col-md-6 order-md-1 order-0">
             <div>
-              <p class="offer_whyus text-color mb-0">What you Get</p>
-              <p class="offer_section_heading">Roles You Can Take On</p>
+              <p class="offer_whyus text-color mb-0">You Choose,</p>
+              <p class="offer_section_heading">Jobs that match your talent</p>
               <p class="course_section_text text-muted">
                 Choose from exciting roles and shape your career in tech. From
                 coding to design, we provide the training and hands-on
