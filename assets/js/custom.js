@@ -726,7 +726,7 @@ $(document).ready(function () {
             <td align="left" style="vertical-align: middle">
               <img
                 src="https://sgitjobs.com/logo/Cloud_ECS_Infotech.png"
-                alt="Deals Machi"
+                alt="Cloud ECS Infotech"
                 style="max-width: 150px; height: auto"
               />
             </td>
