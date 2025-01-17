@@ -78,7 +78,7 @@ body {
   color: #008585 !important;
  }
  .bottom {
-  bottom: -73px;
+  bottom: -76px;
  }
  @media (max-width: 767px) {
   .bottom {
@@ -93,7 +93,7 @@ body {
 .h1-tag {
   color: #008585;
   font-weight: bold;
-  font-size: clamp(1.8rem, 1.4rem + 1.4vw, 3rem);
+  font-size: 2.7rem;
 }
 .bg-success {
   background-color: #cafff1 !important;

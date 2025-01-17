@@ -145,7 +145,7 @@
           >
             <div class="ps-lg-5 position-relative">
               <p class="badge bg-success">Work From Home</p>
-              <h1 class="h1-tag">Certificate Course</h1>
+              <h1 class="h1-tag">Free Certificate Course</h1>
               <!-- <div
                 class="position-absolute free-img d-flex justify-content-end"
               >
@@ -339,7 +339,7 @@
             <div class="row m-0 mt-md-0 mt-5 addEventListener">
               <div class="col-lg-6 col-12">
                 <img src="../assets/images/vector_1.png" alt="vector" />
-                <p class="text-color fs-5 mt-3">Real-world Experience</p>
+                <p class="text-color fs-5 mt-3">Real-world Projects</p>
                 <p class="course_section_text">
                   Work on live projects that mirror real-world challenges. Gain
                   practical experience that sets you apart from the competition.
@@ -541,11 +541,9 @@
                 </div>
                 <div class="col-12 mb-4">
                   <div class="form-group">
-                    <label class="text-dark mb-3"
-                      >Which course are you interested in?</label
-                    >
+                    <label class="text-dark mb-3">Which course are you interested in?</label>
                     <div class="options-grid course-options-group">
-                      <label class="radio-label">
+                      <label class="radio-label checkbox-style">
                         <input
                           type="radio"
                           class="form-check-input course"
@@ -554,7 +552,7 @@
                         />
                         Full stack developer -Java
                       </label>
-                      <label class="radio-label">
+                      <label class="radio-label checkbox-style">
                         <input
                           type="radio"
                           class="form-check-input course"
@@ -563,7 +561,7 @@
                         />
                         Data Science
                       </label>
-                      <label class="radio-label">
+                      <label class="radio-label checkbox-style">
                         <input
                           type="radio"
                           class="form-check-input course"
@@ -572,7 +570,7 @@
                         />
                         Digital Marketing
                       </label>
-                      <label class="radio-label">
+                      <label class="radio-label checkbox-style">
                         <input
                           type="radio"
                           class="form-check-input course"
@@ -581,7 +579,7 @@
                         />
                         Full stack developer -Python
                       </label>
-                      <label class="radio-label">
+                      <label class="radio-label checkbox-style">
                         <input
                           type="radio"
                           class="form-check-input course"
@@ -590,7 +588,7 @@
                         />
                         Mobile App Development
                       </label>
-                      <label class="radio-label">
+                      <label class="radio-label checkbox-style">
                         <input
                           type="radio"
                           class="form-check-input course"
@@ -599,7 +597,7 @@
                         />
                         UI/UX Design
                       </label>
-                      <label class="radio-label ">
+                      <label class="radio-label checkbox-style">
                         <input
                           type="radio"
                           class="form-check-input course"
@@ -608,7 +606,7 @@
                         />
                         DevSecOps/Networking /Cybersecurity
                       </label>
-                      <label class="radio-label">
+                      <label class="radio-label checkbox-style">
                         <input
                           type="radio"
                           class="form-check-input course"
@@ -617,7 +615,7 @@
                         />
                         Front-End Development
                       </label>
-                      <label class="radio-label">
+                      <label class="radio-label checkbox-style">
                         <input
                           type="radio"
                           class="form-check-input course"
@@ -628,6 +626,7 @@
                       </label>
                     </div>
                   </div>
+                  
                 </div>
 
                 <div class="col-12 my-4">
