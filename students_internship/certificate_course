@@ -1799,14 +1799,14 @@
                       class="form-control form-control-sm"
                       id="course_fee"
                       name="course_fee"
-                      value="799"
+                      value="100"
                     />
                     <input
                       type="hidden"
                       class="form-control form-control-sm"
                       id="course_gst"
                       name="course_gst"
-                      value="143.82"
+                      value="1"
                     />
                     <button
                       type="submit"
