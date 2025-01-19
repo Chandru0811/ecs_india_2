@@ -333,7 +333,8 @@ $(document).ready(function () {
         required: "Please enter your Location*",
         maxlength: "Location cannot exceed 30 characters.",
       },
-      selectedCourse: { // Add validation message for the course selection
+      selectedCourse: {
+        // Add validation message for the course selection
         required: "Please select a course*",
       },
       about_me: {
@@ -369,7 +370,9 @@ $(document).ready(function () {
         lead_status: "PENDING",
         description_info: `Location : ${$("#location").val()} ^ Course : ${$(
           "#course"
-        ).val()} ^ selected Course : ${$("input[name='selectedCourse']:checked").val()} ^ Year of Passing : ${$(
+        ).val()} ^ selected Course : ${$(
+          "input[name='selectedCourse']:checked"
+        ).val()} ^ Year of Passing : ${$(
           "#year_of_passing"
         ).val()} ^ About Candidate : ${$("#about_me").val()}`,
         lead_source: "HIRING FORM",
@@ -457,16 +460,6 @@ $(document).ready(function () {
         city: $("#city").val(),
         amount: amount,
       };
-      const apiData = {
-        name: $("#name").val(),
-        phoneNumber: $("#phone").val(),
-        email: $("#checkout_email").val(),
-        courseFee: $("#course_fee").val(),
-        courseGst: $("#course_gst").val(),
-        course: $("#courses").val(),
-        city: $("#city").val(),
-        amount: amount,
-      };
 
       console.log("Form Data:", modalData);
 
@@ -474,7 +467,7 @@ $(document).ready(function () {
         url: "https://crmlah.com/ecscrm/api/createEcsIndiaInternship",
         type: "POST",
         contentType: "application/json",
-        data: JSON.stringify(apiData),
+        data: JSON.stringify(modalData),
         success: function (response) {
           $("#course_register").trigger("reset");
           fillSecondModal(modalData);
@@ -540,12 +533,13 @@ $(document).ready(function () {
     event.preventDefault();
 
     const modalData = JSON.parse($(this).attr("data-modaldata"));
-
+    const {course_fee,course_gst,...value}=modalData;
+    const apiData ={...value,courseFee:course_fee,courseGst:course_gst}
     $.ajax({
       url: "https://crmlah.com/ecscrm/api/createBillDeskOrder",
       type: "POST",
       contentType: "application/json",
-      data: JSON.stringify(modalData),
+      data: JSON.stringify(apiData),
       success: function (response) {
         console.log(response);
         console.log("Order created successfully!");
