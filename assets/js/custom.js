@@ -457,6 +457,16 @@ $(document).ready(function () {
         city: $("#city").val(),
         amount: amount,
       };
+      const apiData = {
+        name: $("#name").val(),
+        phoneNumber: $("#phone").val(),
+        email: $("#checkout_email").val(),
+        courseFee: $("#course_fee").val(),
+        courseGst: $("#course_gst").val(),
+        course: $("#courses").val(),
+        city: $("#city").val(),
+        amount: amount,
+      };
 
       console.log("Form Data:", modalData);
 
@@ -464,7 +474,7 @@ $(document).ready(function () {
         url: "https://crmlah.com/ecscrm/api/createEcsIndiaInternship",
         type: "POST",
         contentType: "application/json",
-        data: JSON.stringify(modalData),
+        data: JSON.stringify(apiData),
         success: function (response) {
           $("#course_register").trigger("reset");
           fillSecondModal(modalData);
