@@ -998,7 +998,7 @@
             <div class="video-popup-wrapper">
               <img
                 class="w-100 rbt-radius"
-                src="./assets/images/about/banner.webp"
+                src="../assets/images/about_Banner_Transform.png"
                 alt="Video Images"
               />
               <a
@@ -1044,7 +1044,7 @@
                 <div class="read-more-btn mt--40">
                   <a
                     class="rbt-btn rbt-marquee-btn radius-round btn-gradient"
-                    href="./index.html"
+                    href="../"
                   >
                     <span data-text="Start Learning For Free"> Know More </span>
                   </a>

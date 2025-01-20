@@ -1345,9 +1345,9 @@
                         <span class="play-icon"></span>
                       </span>
                     </div>
-                    <span class="play-view-text d-block color-white"
+                    <!-- <span class="play-view-text d-block color-white"
                       ><i class="feather-eye"></i> Preview this course</span
-                    >
+                    > -->
                   </div>
                 </a>
                 <!-- End Viedo Wrapper  -->
@@ -1368,7 +1368,7 @@
                     </div>
                   </div>
 
-                  <div class="add-to-card-button mt--15">
+                  <!-- <div class="add-to-card-button mt--15">
                     <a
                       class="rbt-btn btn-gradient icon-hover w-100 d-block text-center"
                       href="#"
@@ -1378,7 +1378,7 @@
                         ><i class="feather-arrow-right"></i
                       ></span>
                     </a>
-                  </div>
+                  </div> -->
 
                   <div class="buy-now-btn mt--15">
                     <a
