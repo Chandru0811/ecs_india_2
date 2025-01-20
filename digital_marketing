@@ -44,14 +44,14 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container py-2">
           <a href="./" class="text-light text-decoration-none">
-          <span class="fw-bold mb-0">
-            <img
-              src="./assets/images/logo.webp"
-              class="img-fluid"
-              alt="logo"
-              style="width: 150px"
-            />
-          </span></a>
+            <span class="fw-bold mb-0">
+              <img
+                src="./assets/images/logo.webp"
+                class="img-fluid"
+                alt="logo"
+                style="width: 150px"
+              /> </span
+          ></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -100,9 +100,7 @@
         <div class="row my-5">
           <div class="col-12 text-center">
             <div>
-              <h1 class="h1-tag">
-                Cloud ECS Infotech - Digital Marketing
-              </h1>
+              <h1 class="h1-tag">Cloud ECS Infotech - Digital Marketing</h1>
               <h2 class="h2-tag">
                 Digital marketing is the lifeblood of modern businesses.
               </h2>
@@ -125,7 +123,11 @@
             class="col-md-6 col-12 d-flex justify-content-center align-items-center"
           >
             <p class="p-tag mt-md-0 mt-3">
-                Digital marketing is essential for driving brand awareness, generating leads, and increasing sales. Nowadays traditional marketing methods like print ads and TV commercials have become expensive, whereas digital marketing is comparatively inexpensive and effective.
+              Digital marketing is essential for driving brand awareness,
+              generating leads, and increasing sales. Nowadays traditional
+              marketing methods like print ads and TV commercials have become
+              expensive, whereas digital marketing is comparatively inexpensive
+              and effective.
             </p>
           </div>
         </div>
@@ -134,7 +136,10 @@
             class="col-md-6 col-12 d-flex justify-content-center align-items-center order-md-0 order-1"
           >
             <p class="p-tag mt-md-0 mt-3">
-                ECS Cloud Infotech is providing complete digital marketing solutions in India.   Our solutions include One Click Social Media Posting, SEO, Social Media Marketing, Customer Relationship Management, etc.
+              ECS Cloud Infotech is providing complete digital marketing
+              solutions in India. Our solutions include One Click Social Media
+              Posting, SEO, Social Media Marketing, Customer Relationship
+              Management, etc.
             </p>
           </div>
           <div
@@ -152,7 +157,10 @@
             class="col-md-6 col-12 d-flex justify-content-center align-items-center order-md-1 order-1"
           >
             <p class="p-tag mt-md-0 mt-3">
-                One Click Social Media Posting has revolutionized the industry.  One click is enough to make your post live on different platforms including Facebook, Instagram, YouTube, and X.  This saves time and energy and simplifies the entire procedure.
+              One Click Social Media Posting has revolutionized the industry.
+              One click is enough to make your post live on different platforms
+              including Facebook, Instagram, YouTube, and X. This saves time and
+              energy and simplifies the entire procedure.
             </p>
           </div>
           <div
@@ -170,7 +178,11 @@
             class="col-md-6 col-12 d-flex justify-content-center align-items-center order-md-0 order-1"
           >
             <p class="p-tag mt-md-0 mt-3">
-                SEO, is one of the critical components of a successful digital marketing strategy.  This is the process of optimizing your website to improve visibility on searching and thereby increasing organic traffic.  SEO will give you increased brand visibility, sustainable growth, long-term benefits, and competitive advantage.
+              SEO, is one of the critical components of a successful digital
+              marketing strategy. This is the process of optimizing your website
+              to improve visibility on searching and thereby increasing organic
+              traffic. SEO will give you increased brand visibility, sustainable
+              growth, long-term benefits, and competitive advantage.
             </p>
           </div>
           <div
@@ -191,15 +203,16 @@
       <div class="container">
         <div class="row m-0 fotter_content">
           <div class="col-md-3 col-12 mb-3">
-            <a href="./" class="text-light text-decoration-none"> <p>
-              <img
-                src="./assets/images/footer_logo.webp"
-                loading="lazy"
-                alt="footer_logo"
-                class="img-fluid"
-                style="width: 60%; height: 60%"
-              />
-            </p></a>
+            <a href="./" class="text-light text-decoration-none">
+              <p>
+                <img
+                  src="./assets/images/footer_logo.webp"
+                  loading="lazy"
+                  alt="footer_logo"
+                  class="img-fluid"
+                  style="width: 60%; height: 60%"
+                /></p
+            ></a>
             <p class="footer_text mb-4 media_align_text">
               Your Trusted, Technology and Digital Solutions partner in India.We
               offer a wide range of solutions, from Software Solutions to
@@ -380,12 +393,19 @@
           </div>
         </div>
         <p class="text-center footer_copy media_align_text">
-          &copy; 2024, All Rights Reserved @ Cloud ECS Infotech Pvt. Ltd.
+          &copy; <span id="copyRight"></span> All Rights Reserved @ Cloud ECS
+          Infotech Pvt. Ltd.
         </p>
       </div>
     </section>
     <!-- Footer Ends  -->
 
+    <!-- Copy Right -->
+    <script>
+      const currentYear = new Date().getFullYear();
+      const copyRightElement = document.getElementById("copyRight");
+      copyRightElement.innerHTML = `2024 - ${currentYear}`;
+    </script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

@@ -775,7 +775,7 @@
             class="col-md-10 col-12 d-flex justify-content-center align-items-end mt-5 mt-md-0 text-center"
           >
             <p class="text-light mb-0">
-              © 2025 Cloud ECS Infotech. All rights reserved.
+              © <span id="copyRight"></span> Cloud ECS Infotech. All rights reserved.
             </p>
           </div>
         </div>
@@ -785,6 +785,12 @@
     <!-- Footer Ends  -->
 
     <!-- Bootstrap Js  -->
+       <!-- Copy Right -->
+  <script>
+    const currentYear = new Date().getFullYear();
+    const copyRightElement = document.getElementById("copyRight");
+    copyRightElement.innerHTML = `2024 - ${currentYear}`;
+  </script>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>

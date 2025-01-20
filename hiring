@@ -547,7 +547,7 @@
           </div>
         </div>
         <p class="text-center footer_copy media_align_text">
-          &copy; 2024, All Rights Reserved @ Cloud ECS Infotech Pvt. Ltd.
+          &copy; <span id="copyRight"></span> All Rights Reserved @ Cloud ECS Infotech Pvt. Ltd.
         </p>
       </div>
     </section>
@@ -560,6 +560,12 @@
       crossorigin="anonymous"
     ></script>
     <!-- Main JS -->
+       <!-- Copy Right -->
+  <script>
+    const currentYear = new Date().getFullYear();
+    const copyRightElement = document.getElementById("copyRight");
+    copyRightElement.innerHTML = `2024 - ${currentYear}`;
+  </script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
     <script>

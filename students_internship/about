@@ -18,7 +18,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>About Us - Online Courses & Education</title>
-    
+
     <link rel="canonical" href="https://ecsaio.in/students_internship/about" />
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="" />
@@ -125,7 +125,9 @@
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.linkedin.com/company/ecs-cloud-infotech/posts/?feedView=all" target="_blank"
+                        <a
+                          href="https://www.linkedin.com/company/ecs-cloud-infotech/posts/?feedView=all"
+                          target="_blank"
                           ><i class="fab fa-linkedin-in"></i
                         ></a>
                       </li>
@@ -790,9 +792,7 @@
               class="social-icon social-default transparent-with-border justify-content-start mt--20"
             >
               <li>
-                <a
-                  href="https://www.facebook.com/CloudecsInfotech"
-                >
+                <a href="https://www.facebook.com/CloudecsInfotech">
                   <i class="feather-facebook"></i>
                 </a>
               </li>
@@ -807,7 +807,9 @@
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/company/ecs-cloud-infotech/posts/?feedView=all">
+                <a
+                  href="https://www.linkedin.com/company/ecs-cloud-infotech/posts/?feedView=all"
+                >
                   <i class="feather-linkedin"></i>
                 </a>
               </li>
@@ -841,7 +843,10 @@
             <li class="minicart-item">
               <div class="thumbnail">
                 <a href="#">
-                  <img src="assets/images/product/1.webp" alt="Product Images" />
+                  <img
+                    src="assets/images/product/1.webp"
+                    alt="Product Images"
+                  />
                 </a>
               </div>
               <div class="product-content">
@@ -998,7 +1003,7 @@
               />
               <a
                 class="rbt-btn rounded-player-2 popup-video position-to-top with-animation btn-theme-color"
-                href="https://www.youtube.com/@Cloudecsinfotechwatch?v=nA1Aqp0sPQo"
+                href="https://www.youtube.com/watch?v=48AMJ9HxvEU"
               >
                 <span class="play-icon"></span>
               </a>
@@ -1330,8 +1335,9 @@
                     <span>Location:</span> 766, Sakthi Tower Ln, <br />
                     Anna Salai, Thousand Lights, Chennai, Tamil Nadu 600002.
                   </li>
-<li>
-                    <span>Location:</span> NO 67/1, K.M.A Gardens. Kodungaiyur,<br />
+                  <li>
+                    <span>Location:</span> NO 67/1, K.M.A Gardens.
+                    Kodungaiyur,<br />
                     Chennai,Chennai, Tamil Nadu, 600118.
                   </li>
                 </ul>
@@ -1371,7 +1377,10 @@
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/company/ecs-cloud-infotech/posts/?feedView=all" target="_blank">
+                    <a
+                      href="https://www.linkedin.com/company/ecs-cloud-infotech/posts/?feedView=all"
+                      target="_blank"
+                    >
                       <i class="feather-linkedin"></i>
                     </a>
                   </li>
@@ -1406,7 +1415,7 @@
       <div class="container">
         <div class="row align-items-center">
           <p class="rbt-link-hover text-center">
-            Copyright © 2024 Cloud ECS Infotech Pvt Ltd. All Rights Reserved
+            Copyright © <span id="copyRight"></span> Cloud ECS Infotech Pvt Ltd. All Rights Reserved
           </p>
         </div>
       </div>
@@ -1426,6 +1435,12 @@
 
     <!-- JS
 ============================================ -->
+
+    <script>
+      const currentYear = new Date().getFullYear();
+      const copyRightElement = document.getElementById("copyRight");
+      copyRightElement.innerHTML = `2024 - ${currentYear}`;
+    </script>
     <!-- Modernizer JS -->
     <script src="assets/js/vendor/modernizr.min.js"></script>
     <!-- jQuery JS -->

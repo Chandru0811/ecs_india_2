@@ -1291,7 +1291,7 @@
       <div class="container">
         <div class="row align-items-center">
           <p class="rbt-link-hover text-center">
-            Copyright © 2024 Cloud ECS Infotech Pvt Ltd. All Rights Reserved
+            Copyright © <span id="copyRight"></span> Cloud ECS Infotech Pvt Ltd. All Rights Reserved
           </p>
         </div>
       </div>
@@ -1449,6 +1449,12 @@
     <script src="assets/js/vendor/Sortable.min.js"></script>
 
     <!-- Main JS -->
+       <!-- Copy Right -->
+  <script>
+    const currentYear = new Date().getFullYear();
+    const copyRightElement = document.getElementById("copyRight");
+    copyRightElement.innerHTML = `2024 - ${currentYear}`;
+  </script>
     <script src="assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>

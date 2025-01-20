@@ -44,7 +44,10 @@
     <meta property="og:image:type" content="image/webp" />
 
     <meta name="twitter:card" content="twitter image" />
-    <meta name="twitter:title" content="Cloud ECS Infotech | Your Favourite Technology Company" />
+    <meta
+      name="twitter:title"
+      content="Cloud ECS Infotech | Your Favourite Technology Company"
+    />
     <meta
       name="twitter:description"
       content="Cloud ECS Infotech is a technology and digital solutions provider with a variety of services ranging from artifical intelligence to custom software products and solutions. We are one of the leading providers in custom digital solutions in India. "
@@ -66,7 +69,6 @@
     <!-- Css Link  -->
     <link rel="stylesheet" href="./assets/css/custom.css" />
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-
   </head>
 
   <body>
@@ -1113,9 +1115,7 @@
                 >
               </li>
               <li class="footer_text mt-3">
-                <a
-                  href="./hiring"
-                  class="text-light text-decoration-none"
+                <a href="./hiring" class="text-light text-decoration-none"
                   >We're Hiring</a
                 >
               </li>
@@ -1142,7 +1142,7 @@
           </div>
         </div>
         <p class="text-center footer_copy media_align_text">
-          &copy; 2024, All Rights Reserved @ Cloud ECS Infotech Pvt. Ltd.
+          &copy; <span id="copyRight"></span> All Rights Reserved @ Cloud ECS Infotech Pvt. Ltd.
         </p>
       </div>
     </section>
@@ -1179,6 +1179,12 @@
           });
         });
       });
+    </script>
+    <!-- Copy Right -->
+    <script>
+      const currentYear = new Date().getFullYear();
+      const copyRightElement = document.getElementById("copyRight");
+      copyRightElement.innerHTML = `2024 - ${currentYear}`;
     </script>
 
     <script>
