@@ -1327,17 +1327,22 @@
                     </a>
                   </div> -->
 
-                  <div class="buy-now-btn mt--15">
+                  <div class="rbt-single-list action-btn mt--15">
                     <a
-                      class="rbt-btn btn-border icon-hover w-100 d-block text-center"
+                      class="rbt-btn btn-gradient hover-icon-reverse btn-md w-100"
                       href="#"
                       data-bs-toggle="modal"
                       data-bs-target="#course-register"
                     >
-                      <span class="btn-text">Buy Now</span>
-                      <span class="btn-icon"
-                        ><i class="feather-arrow-right"></i
-                      ></span>
+                      <span class="icon-reverse-wrapper">
+                        <span class="btn-text">Buy Now</span>
+                        <span class="btn-icon"
+                          ><i class="feather-arrow-right"></i
+                        ></span>
+                        <span class="btn-icon"
+                          ><i class="feather-arrow-right"></i
+                        ></span>
+                      </span>
                     </a>
                   </div>
 
