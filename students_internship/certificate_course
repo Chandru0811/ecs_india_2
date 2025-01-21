@@ -26,7 +26,10 @@
       href="https://ecsaio.in/students_internship/certificate_course"
     />
     <meta name="robots" content="noindex, follow" />
-    <meta name="description" content="Cloud ECS Infotech conducts various certificate courses to sharpen your skills.  Courses include Digital Marketing, UI/UX Design, Data Science, Web Development, Cyber Security, etc." />
+    <meta
+      name="description"
+      content="Cloud ECS Infotech conducts various certificate courses to sharpen your skills.  Courses include Digital Marketing, UI/UX Design, Data Science, Web Development, Cyber Security, etc."
+    />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -1022,7 +1025,12 @@
               </ul>
               <h2 class="title">Free Certificate Courses</h2>
               <p class="description">
-                Perform well in interviews, upgrade your skill set. Get a professional certificate from a leading industry player. 100% remote, Work from Home, Free Certificate Course from Cloud ECS Infotech. Choose from multiple courses, from Software Engineer to Digital Marketing Expert, Cybersecurity professional to Sales & Marketing. You choose, we help achieve.
+                Perform well in interviews, upgrade your skill set. Get a
+                professional certificate from a leading industry player. 100%
+                remote, Work from Home, Free one month internship program from
+                Cloud ECS Infotech. Choose from multiple courses, from Software
+                Engineer to Digital Marketing Expert, Cybersecurity professional
+                to Sales & Marketing. You choose, we help achieve.
               </p>
             </div>
           </div>
@@ -1039,7 +1047,7 @@
               <div class="rbt-course-feature-box rbt-shadow-box thuumbnail">
                 <img
                   class="w-100"
-                  src="./assets/images/banner/Certificate_Course.webp"
+                  src="../assets/images/Certificate Course glimpsed.webp"
                   alt="Certificate Courses"
                 />
               </div>
@@ -1144,7 +1152,7 @@
               <div class="row g-5 align-items-end mb--40">
                 <div class="col-lg-8 col-md-8 col-12">
                   <div class="section-title">
-                    <span class="subtitle bg-pink-opacity">Top Course</span>
+                    <span class="subtitle top-course">Top Course</span>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-12">
@@ -1304,7 +1312,7 @@
                     <div class="rbt-price position-">
                       <!-- <span class="off-price">₹ 799</span> -->
                       <span class="current-price text-success">Free</span>
-                      <!-- <span class="off-price">₹ 10,000</span> -->
+                      <span class="off-price">₹ 10,000</span>
                     </div>
                     <div class="discount-time">
                       <span
@@ -1326,15 +1334,20 @@
                     </a>
                   </div> -->
 
-                  <div class="buy-now-btn mt--15">
+                  <div class="rbt-single-list action-btn mt-md-5 ">
                     <a
-                      class="rbt-btn btn-border icon-hover w-100 d-block text-center"
-                      href="../campaigns/free_certificate_course"
+                      class="rbt-btn btn-gradient hover-icon-reverse btn-md w-100"
+                      href="../campaigns/free_certificate_course#form"
                     >
-                      <span class="btn-text">Join Now</span>
-                      <span class="btn-icon"
-                        ><i class="feather-arrow-right"></i
-                      ></span>
+                      <span class="icon-reverse-wrapper">
+                        <span class="btn-text">Join now</span>
+                        <span class="btn-icon"
+                          ><i class="feather-arrow-right"></i
+                        ></span>
+                        <span class="btn-icon"
+                          ><i class="feather-arrow-right"></i
+                        ></span>
+                      </span>
                     </a>
                   </div>
 
@@ -1395,14 +1408,14 @@
                     <hr class="mt--20" />
                     <div class="contact-with-us text-center">
                       <p>For details about the course</p>
-                      <p
+                      <a href="tel:+919361365818"
+                      ><p
                         class="rbt-badge-2 mt--10 justify-content-center w-100"
                       >
                         <i class="feather-phone mr--5"></i> Call Us:
-                        <a href="tel:+919361365818"
-                          ><strong>+91 9361365818</strong></a
-                        >
-                      </p>
+                       <strong>+91 9361365818</strong>
+                       
+                      </p></a >
                     </div>
                   </div>
                 </div>
@@ -1433,15 +1446,15 @@
           <div class="col-lg-6 col-md-6 mt_sm--15">
             <div class="course-action-bottom-right rbt-single-group">
               <div
-                class="rbt-single-list rbt-price large-size justify-content-center"
+                class="rbt-single-list rbt-price large-size justify-content-center "
               >
+              <span class="off-price me-3">$10,000</span>
                 <span class="current-price text-success me-4">Free</span>
-                <!-- <span class="off-price">$10,000</span> -->
               </div>
               <div class="rbt-single-list action-btn">
                 <a
                   class="rbt-btn btn-gradient hover-icon-reverse btn-md"
-                  href="../campaigns/free_certificate_course"
+                  href="../campaigns/free_certificate_course#form"
                 >
                   <span class="icon-reverse-wrapper">
                     <span class="btn-text">Join now</span>
@@ -1909,7 +1922,7 @@
               style="font-size: 12px"
             ></button>
           </div>
-          <div class="modal-body pt-0 text-center">
+          <div class="modal-body pt-0 pb-5 text-center">
             <i
               class="fa-solid fa-circle-check my-5"
               style="color: #28a745; font-size: 80px"
@@ -1936,8 +1949,8 @@
             </div>
 
             <!-- Back to Home Button -->
-            <a href="/" class="py-3">
-              <button class="btn successMagnetButton">Back to Website</button>
+            <a href="/" class="py-3 ">
+              <button class="btn successMagnetButton px-3 py-2 fs-5">Back to Website</button>
             </a>
           </div>
         </div>
@@ -1954,7 +1967,8 @@
       <div class="container">
         <div class="row align-items-center">
           <p class="rbt-link-hover text-center">
-            Copyright © <span id="copyRight"></span> Cloud ECS Infotech Pvt Ltd. All Rights Reserved
+            Copyright © <span id="copyRight"></span> Cloud ECS Infotech Pvt Ltd.
+            All Rights Reserved
           </p>
         </div>
       </div>
@@ -1974,12 +1988,12 @@
     <!-- JS
 ============================================ -->
 
-  <!-- Copy Right -->
-  <script>
-    const currentYear = new Date().getFullYear();
-    const copyRightElement = document.getElementById("copyRight");
-    copyRightElement.innerHTML = `2024 - ${currentYear}`;
-  </script>
+    <!-- Copy Right -->
+    <script>
+      const currentYear = new Date().getFullYear();
+      const copyRightElement = document.getElementById("copyRight");
+      copyRightElement.innerHTML = `2024 - ${currentYear}`;
+    </script>
     <!-- Modernizer JS -->
     <script src="assets/js/vendor/modernizr.min.js"></script>
     <!-- jQuery JS -->

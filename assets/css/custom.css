@@ -439,7 +439,9 @@
 
 /* Error ans Success Modal */
 .error {
-  color: #c4c4c4 !important;
+  color: #ff0000 !important;
+  font-size: 13px;
+  font-weight: 300;
 }
 
 .errorMagnetSubHeading {
@@ -486,4 +488,11 @@
 
 #hiringForm label.error {
   font-size: 12px !important;
+}
+
+.top-course {
+  color: #ffffff !important;
+  padding: 13px 24px !important;
+  background-size: 300% 100% !important;
+  background-image: linear-gradient(to right, #2f57ef, #b966e7, #b966e7, #2f57ef) !important;
 }
