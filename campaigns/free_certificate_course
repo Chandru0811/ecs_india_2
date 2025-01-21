@@ -763,20 +763,22 @@
       <div class="container px-0 py-5">
         <div class="row m-0">
           <div
-            class="col-auto d-flex justify-content-center align-items-center"
+            class=" d-flex justify-content-start align-items-center"
           >
             <img
               src="../assets/images/footer_logo.webp"
               alt="Logo"
               class="img-fluid"
             />
-          </div>
+          <!-- </div>
           <div
-            class="col-md-10 col-12 d-flex justify-content-center align-items-end mt-5 mt-md-0 text-center"
-          >
+            class="col-9 col-12 d-flex justify-content-center align-items-end mt-5 mt-md-0 text-center"
+          > -->
+          <div class="text-center flex-grow-1">
             <p class="text-light mb-0">
               © <span id="copyRight"></span> Cloud ECS Infotech. All rights reserved.
             </p>
+          </div>
           </div>
         </div>
         <hr class="text-light" />

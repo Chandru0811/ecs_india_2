@@ -1676,7 +1676,7 @@
                       font-weight: 500;
                     "
                   >
-                    Register Our Course
+                    Apply for Intership Program
                   </p>
                   <form id="course_register">
                     <div class="mb-4">
@@ -1795,7 +1795,7 @@
                       onmouseover="this.style.background='linear-gradient(to left, #2f57efbf 0%, #b964e3 100%)'"
                       onmouseout="this.style.background='linear-gradient(to right, #2f57efbf 0%, #b964e3 100%)'"
                     >
-                      Register a new course
+                    Apply Now
                     </button>
                   </form>
                 </div>
