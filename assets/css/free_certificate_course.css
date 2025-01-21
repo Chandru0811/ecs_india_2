@@ -254,6 +254,9 @@ body {
 .form-container input {
   height: 2.6rem;
 }
+.form-container textarea {
+  resize: none;
+}
 .form-check-input {
   width: 1.5em !important;
   height: 1.5em !important;
