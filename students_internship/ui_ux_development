@@ -1184,7 +1184,7 @@
                     <div class="rbt-card-img">
                       <a href="./skill_development">
                         <img
-                          src="./assets/images/banner/Skill_Development.webp"
+                          src="../assets/images/Skill_Development_card_img.webp"
                           alt="Card image"
                         />
                         <div class="rbt-badge-3 bg-white">
@@ -1227,7 +1227,7 @@
                     <div class="rbt-card-img">
                       <a href="./certificate_course">
                         <img
-                          src="./assets/images/banner/Certificate_Course.webp"
+                          src="../assets/images/Certificate_Course_card_img.webp"
                           alt="Card image"
                         />
                         <div class="rbt-badge-3 bg-white">
@@ -1275,7 +1275,7 @@
                   <div class="video-content">
                     <img
                       class="w-100 rbt-radius"
-                      src="./assets/images/others/video-01.webp"
+                      src="../assets/images/Preview This Course.webp"
                       alt="Video Images"
                     />
                     <div class="position-to-top">

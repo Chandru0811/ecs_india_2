@@ -67,7 +67,7 @@ body {
 
 @media (width >= 1600px) {
   .section-fluid {
-    width: 1400px !important;
+    width: 1500px !important;
     margin: auto;
   }
 }
@@ -241,8 +241,9 @@ body {
 }
 .form_row {
   background: url(../images/form_bg.png);
-  background-size: cover;
- z-index: 1;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 .form-container {
   /* background-color: #40af92; */

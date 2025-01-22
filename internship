@@ -807,7 +807,7 @@
                               color: #b550ff;">EMI Available
                             </span>
                           </div>
-                          <img src="./students_internship/assets/images/banner/Full_Internship.webp" alt="Full_Internship" />
+                          <img src="./assets/images/Full_Internship_card_img.webp" alt="Full_Internship" />
                           <div class="rbt-badge-3">
                             <span>-50%</span>
                             <span>Off</span>
@@ -854,7 +854,7 @@
                           right: 5px; font-size: 10px;
                           color: #b550ff;">
                         </span>
-                          <img src="./students_internship/assets/images/banner/Skill_Development.webp" alt="Skill_Development" />
+                          <img src="./assets/images/Skill_Development_card_img.webp" alt="Skill_Development" />
                           <div class="rbt-badge-3">
                             <span>-70%</span>
                             <span>Off</span>
@@ -901,7 +901,7 @@
                           right: 5px; font-size: 10px;
                           color: #b550ff;">
                         </span>
-                          <img src="./students_internship/assets/images/banner/Certificate_Course.webp" alt="Certificate_Course" />
+                          <img src="./assets/images/Certificate_Course_card_img.webp" alt="Certificate_Course" />
                           <div class="rbt-badge-3">
                             <span>-200%</span>
                             <span>Off</span>
@@ -1126,7 +1126,7 @@
                               color: #b550ff;">EMI Available
                     </span>
                   </div>
-                  <img src="./students_internship/assets/images/banner/Full_Internship.webp" alt="Full_Internship" />
+                  <img src="./assets/images/Full_Internship_card_img.webp" alt="Full_Internship" />
                   <div class="rbt-badge-3">
                     <span>-50%</span>
                     <span>Off</span>
@@ -1164,7 +1164,7 @@
                               color: #b550ff;">
                     </span>
                   </div>
-                  <img src="./students_internship/assets/images/banner/Skill_Development.webp" alt="Skill_Development" />
+                  <img src="./assets/images/Skill_Development_card_img.webp" alt="Skill_Development" />
                   <div class="rbt-badge-3">
                     <span>-70%</span>
                     <span>Off</span>
@@ -1200,7 +1200,7 @@
                               right: 5px; font-size: 10px;
                               color: #b550ff;">
                     </span>
-                  <img src="./students_internship/assets/images/banner/Certificate_Course.webp" alt="Certificate_Course" />
+                  <img src="./assets/images/Certificate_Course_card_img.webp" alt="Certificate_Course" />
                   <div class="rbt-badge-3">
                     <span>-200%</span>
                     <span>Off</span>

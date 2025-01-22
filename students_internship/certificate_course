@@ -1185,7 +1185,7 @@
                           </span>
                         </div>
                         <img
-                          src="./assets/images/banner/Skill_Development.webp"
+                          src="../assets/images/Skill_Development_card_img.webp"
                           alt="Card image"
                         />
                         <div class="rbt-badge-3 bg-white">
@@ -1242,7 +1242,7 @@
                           </span>
                         </div>
                         <img
-                          src="./assets/images/banner/Full_Internship.webp"
+                          src="../assets/images/Full_Internship_card_img.webp"
                           alt="Card image"
                         />
                         <div class="rbt-badge-3 bg-white">
@@ -1290,7 +1290,7 @@
                   <div class="video-content">
                     <img
                       class="w-100 rbt-radius"
-                      src="assets/images/others/video-01.webp"
+                      src="../assets/images/Preview_Female.webp"
                       alt="Video Images"
                     />
                     <div class="position-to-top">
