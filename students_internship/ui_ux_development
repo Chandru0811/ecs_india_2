@@ -1231,8 +1231,8 @@
                           alt="Card image"
                         />
                         <div class="rbt-badge-3 bg-white">
-                          <span>-200%</span>
-                          <span>Off</span>
+                          <span>Free</span>
+                          <!-- <span>Off</span> -->
                         </div>
                       </a>
                     </div>

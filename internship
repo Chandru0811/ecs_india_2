@@ -903,8 +903,8 @@
                         </span>
                           <img src="./assets/images/Certificate_Course_card_img.webp" alt="Certificate_Course" />
                           <div class="rbt-badge-3">
-                            <span>-200%</span>
-                            <span>Off</span>
+                            <span>Free</span>
+                          <!-- <span>Off</span> -->
                           </div>
                         </a>
                       </div>
@@ -1202,8 +1202,8 @@
                     </span>
                   <img src="./assets/images/Certificate_Course_card_img.webp" alt="Certificate_Course" />
                   <div class="rbt-badge-3">
-                    <span>-200%</span>
-                    <span>Off</span>
+                    <span>Free</span>
+                          <!-- <span>Off</span> -->
                   </div>
                 </a>
               </div>
@@ -1302,7 +1302,7 @@
 
               <!-- End Feature List  -->
               <div class="about-btn mt--40">
-                <a class="rbt-btn btn-gradient hover-icon-reverse" href="./about">
+                <a class="rbt-btn btn-gradient hover-icon-reverse" href="./students_internship/about">
                   <span class="icon-reverse-wrapper">
                     <span class="btn-text">More About Us</span>
                     <span class="btn-icon"><i class="feather-arrow-right"></i></span>
@@ -2236,7 +2236,7 @@
                 </p>
 
                 <div class="contact-btn mt--30">
-                  <a class="rbt-btn hover-icon-reverse btn-border-gradient radius-round" href="./contact">
+                  <a class="rbt-btn hover-icon-reverse btn-border-gradient radius-round" href="./students_internship/contact">
                     <div class="icon-reverse-wrapper">
                       <span class="btn-text">Contact Us</span>
                       <span class="btn-icon"><i class="feather-arrow-right"></i></span>

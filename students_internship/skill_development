@@ -47,7 +47,10 @@
       property="og:image"
       content="../assets/images/cloud_ecs_infotech_og.webp"
     />
-    <meta property="og:url" content="https://ecsaio.in/students_internship/skill_development" />
+    <meta
+      property="og:url"
+      content="https://ecsaio.in/students_internship/skill_development"
+    />
     <meta property="og:image:width" content="512" />
     <meta property="og:image:height" content="512" />
     <meta property="og:image:alt" content="Cloud ECS Infotech" />
@@ -1224,14 +1227,16 @@
                           alt="Certificate_Course"
                         />
                         <div class="rbt-badge-3 bg-white">
-                          <span>-200%</span>
-                          <span>Off</span>
+                          <span>Free</span>
+                          <!-- <span>Off</span> -->
                         </div>
                       </a>
                     </div>
                     <div class="rbt-card-body">
                       <h4 class="rbt-card-title">
-                        <a href="./certificate_course">Free Certificate Course</a>
+                        <a href="./certificate_course"
+                          >Free Certificate Course</a
+                        >
                       </h4>
 
                       <p class="rbt-card-text">
@@ -1263,7 +1268,7 @@
                 <!-- Start Viedo Wrapper  -->
                 <a
                   class="video-popup-with-text video-popup-wrapper text-center popup-video sidebar-video-hidden mb--15"
-                 href="https://www.youtube.com/watch?v=3NYCdSetF1w"
+                  href="https://www.youtube.com/watch?v=3NYCdSetF1w"
                 >
                   <div class="video-content">
                     <img
@@ -1316,7 +1321,7 @@
                       class="rbt-btn btn-gradient hover-icon-reverse btn-md w-100"
                       href="#"
                       data-bs-toggle="modal"
-                      data-bs-target="#course-register"
+                      data-bs-target="#skill-register"
                     >
                       <span class="icon-reverse-wrapper">
                         <span class="btn-text">Buy Now</span>
@@ -1388,13 +1393,13 @@
                     <div class="contact-with-us text-center">
                       <p>For details about the course</p>
                       <a href="tel:+919361365818"
-                      ><p
-                        class="rbt-badge-2 mt--10 justify-content-center w-100"
+                        ><p
+                          class="rbt-badge-2 mt--10 justify-content-center w-100"
+                        >
+                          <i class="feather-phone mr--5"></i> Call Us:
+                          <strong>+91 9361365818</strong>
+                        </p></a
                       >
-                        <i class="feather-phone mr--5"></i> Call Us:
-                       <strong>+91 9361365818</strong>
-                       
-                      </p></a >
                     </div>
                   </div>
                 </div>
@@ -1427,8 +1432,8 @@
               <div
                 class="rbt-single-list rbt-price large-size justify-content-center"
               >
-                <span class="current-price color-primary">₹ 30,000</span>
-                <span class="off-price">₹ 1,00,000</span>
+                <span class="current-price color-primary">₹ 1,00,000</span>
+                <span class="off-price">₹ 2,00,000</span>
               </div>
               <div class="rbt-single-list action-btn">
                 <a
@@ -1632,10 +1637,10 @@
     </footer>
     <!-- End Footer aera -->
 
-    <!-- course register modal -->
+    <!--skill course register modal -->
     <div
       class="modal fade"
-      id="course-register"
+      id="skill-register"
       tabindex="-1"
       aria-labelledby="currentModalLabel"
       aria-hidden="true"
@@ -1678,6 +1683,253 @@
                     Elevate your career with our specially designed skill
                     development course, created to help you stand out from the
                     crowd with the necessary skills and expertise.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-12 order-0 order-lg-1">
+                <div class="text-start">
+                  <p
+                    style="
+                      font-size: 24px;
+                      background: linear-gradient(
+                        90deg,
+                        #2f57efbf 0%,
+                        #c586eeab 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                      font-weight: 500;
+                    "
+                  >
+                    Apply for Intership Program
+                  </p>
+                  <form id="skill_register">
+                    <div class="mb-4">
+                      <input
+                        placeholder="Name"
+                        type="text"
+                        class="form-control form-control-sm"
+                        id="register_name"
+                        name="name"
+                        style="
+                          outline: none;
+                          box-shadow: none;
+                          background: whitesmoke;
+                        "
+                      />
+                      <style>
+                        #name::placeholder {
+                          color: black !important;
+                        }
+                      </style>
+                    </div>
+                    <div class="mb-4">
+                      <input
+                        placeholder="Email"
+                        type="email"
+                        class="form-control form-control-sm"
+                        id="register_checkout_email"
+                        name="checkout_email"
+                        style="
+                          outline: none;
+                          box-shadow: none;
+                          background: whitesmoke;
+                        "
+                      />
+                      <style>
+                        #checkout_email::placeholder {
+                          color: black !important;
+                        }
+                      </style>
+                    </div>
+                    <div class="mb-4">
+                      <input
+                        placeholder="Phone"
+                        type="text"
+                        class="form-control form-control-sm"
+                        id="register_phone"
+                        name="phone"
+                        style="
+                          outline: none;
+                          box-shadow: none;
+                          background: whitesmoke;
+                        "
+                      />
+                      <style>
+                        #phone::placeholder {
+                          color: black !important;
+                        }
+                      </style>
+                    </div>
+                    <div class="mb-4">
+                      <input
+                        placeholder="City"
+                        type="text"
+                        class="form-control form-control-sm"
+                        id="register_city"
+                        value=""
+                        name="city"
+                        style="
+                          outline: none;
+                          box-shadow: none;
+                          background: whitesmoke;
+                        "
+                      />
+                      <style>
+                        #city::placeholder {
+                          color: black !important;
+                        }
+                      </style>
+                    </div>
+                    <input
+                      type="hidden"
+                      class="form-control form-control-sm"
+                      id="register_courses"
+                      name="courses"
+                      value="Skill Development"
+                    />
+                    <input
+                      type="hidden"
+                      class="form-control form-control-sm"
+                      id="register_course_fee"
+                      name="course_fee"
+                      value="30000"
+                    />
+                    <input
+                      type="hidden"
+                      class="form-control form-control-sm"
+                      id="register_course_gst"
+                      name="course_gst"
+                      value="5400"
+                    />
+                    <button
+                      type="submit"
+                      class="btn btn-primary w-100 my-2"
+                      style="
+                        font-size: 1.5rem;
+                        border-radius: 6px;
+                        background: linear-gradient(
+                          to right,
+                          #2f57efbf 0%,
+                          #b964e3 100%
+                        );
+                        padding: 10px;
+                        border: none;
+                        transition: background 0.3s ease-in-out;
+                      "
+                      onmouseover="this.style.background='linear-gradient(to left, #2f57efbf 0%, #b964e3 100%)'"
+                      onmouseout="this.style.background='linear-gradient(to right, #2f57efbf 0%, #b964e3 100%)'"
+                    >
+                      Apply Now
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- checkout modal -->
+    <div
+      class="modal fade"
+      id="skill_checkout"
+      tabindex="-1"
+      aria-labelledby="newModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="d-flex justify-content-end pt-4 pe-4">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row m-0 p-3">
+              <div class="col-md-6 col-12">
+                <div class="text-start pt-3 pe-5">
+                  <p
+                    class="mb-1"
+                    style="
+                      font-weight: 500;
+                      background: linear-gradient(
+                        90deg,
+                        #2f57efbf 0%,
+                        #c586eeab 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    <b>Salary from Day 1</b>
+                  </p>
+                  <p class="pb-0 text-dark modal_title">Skill Development</p>
+                  <p class="py-1 text-dark">
+                    Elevate your career with our specially designed skill
+                    development course, created to help you stand out from the
+                    crowd with the necessary skills and expertise.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-12 amount-column"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Full course register modal -->
+    <div
+      class="modal fade"
+      id="course-register"
+      tabindex="-1"
+      aria-labelledby="currentModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="d-flex justify-content-end pt-4 pe-4">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- Modal content goes here -->
+            <div class="row m-0 p-3">
+              <div
+                class="col-md-6 col-12 order-1 order-lg-0 d-flex flex-column justify-content-center"
+              >
+                <div class="text-start pt-3 pe-5">
+                  <p
+                    class="mb-1"
+                    style="
+                      font-weight: 500;
+                      background: linear-gradient(
+                        90deg,
+                        #2f57efbf 0%,
+                        #c586eeab 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    <b>Salary from Day 1</b>
+                  </p>
+
+                  <p class="pb-0 text-dark modal_title">
+                    Full Internship - 100% Placement Assured !
+                  </p>
+                  <p class="py-1 text-dark">
+                    Your skill, our guarantee. Not only we offer 100% placement
+                    after the successful completion of the internship program,
+                    you get paid from the day one of joining the program.
                   </p>
                 </div>
               </div>
@@ -1757,6 +2009,47 @@
                       </style>
                     </div>
                     <div class="mb-4">
+                      <select
+                        class="form-select form-select-sm"
+                        id="courses"
+                        name="courses"
+                        style="
+                          height: 50px;
+                          border: 2px solid #ced4dabe;
+                          border-radius: 0.5rem;
+                          font-size: 1.7rem;
+                          background: whitesmoke;
+                        "
+                      >
+                        <option value="" selected>Select a course</option>
+                        <option value="FullStack Developer - Java">
+                          FullStack Developer - Java
+                        </option>
+                        <option value="FullStack Developer - Python">
+                          FullStack Developer - Python
+                        </option>
+                        <option value="Data Scientist">Data Scientist</option>
+                        <option value="DevSecOps / Networking / Cybersecurity">
+                          DevSecOps / Networking / Cybersecurity
+                        </option>
+                        <option value="Mobile App Development">
+                          Mobile App Development
+                        </option>
+                        <option value="Front End Development">
+                          Front End Development
+                        </option>
+                        <option value="Digital Marketing">
+                          Digital Marketing
+                        </option>
+                        <option value="UI/UX Development">
+                          UI/UX Development
+                        </option>
+                        <option value="Sales and Marketing">
+                          Sales and Marketing
+                        </option>
+                      </select>
+                    </div>
+                    <div class="mb-4">
                       <input
                         placeholder="City"
                         type="text"
@@ -1779,23 +2072,16 @@
                     <input
                       type="hidden"
                       class="form-control form-control-sm"
-                      id="courses"
-                      name="courses"
-                      value="Skill Development"
-                    />
-                    <input
-                      type="hidden"
-                      class="form-control form-control-sm"
                       id="course_fee"
                       name="course_fee"
-                      value="30000"
+                      value="100000"
                     />
                     <input
                       type="hidden"
                       class="form-control form-control-sm"
                       id="course_gst"
                       name="course_gst"
-                      value="5400"
+                      value="18000"
                     />
                     <button
                       type="submit"
@@ -1815,7 +2101,7 @@
                       onmouseover="this.style.background='linear-gradient(to left, #2f57efbf 0%, #b964e3 100%)'"
                       onmouseout="this.style.background='linear-gradient(to right, #2f57efbf 0%, #b964e3 100%)'"
                     >
-                    Apply Now
+                      Apply Now
                     </button>
                   </form>
                 </div>
@@ -1826,7 +2112,7 @@
       </div>
     </div>
 
-    <!-- checkout modal -->
+    <!--Full checkout modal -->
     <div
       class="modal fade"
       id="checkout"
@@ -1863,11 +2149,13 @@
                   >
                     <b>Salary from Day 1</b>
                   </p>
-                  <p class="pb-0 text-dark modal_title">Skill Development</p>
+                  <p class="pb-0 text-dark modal_title">
+                    Full Internship - 100% Placement Assured!
+                  </p>
                   <p class="py-1 text-dark">
-                    Elevate your career with our specially designed skill
-                    development course, created to help you stand out from the
-                    crowd with the necessary skills and expertise.
+                    Your skill, our guarantee. Not only we offer 100% placement
+                    after the successful completion of the internship program,
+                    you get paid from the day one of joining the program.
                   </p>
                 </div>
               </div>
@@ -1930,8 +2218,10 @@
             </div>
 
             <!-- Back to Home Button -->
-            <a href="/" class="py-3 ">
-              <button class="btn successMagnetButton px-3 py-2 fs-5">Back to Website</button>
+            <a href="/" class="py-3">
+              <button class="btn successMagnetButton px-3 py-2 fs-5">
+                Back to Website
+              </button>
             </a>
           </div>
         </div>
@@ -1948,7 +2238,8 @@
       <div class="container">
         <div class="row align-items-center">
           <p class="rbt-link-hover text-center">
-            Copyright © <span id="copyRight"></span> Cloud ECS Infotech Pvt Ltd. All Rights Reserved
+            Copyright © <span id="copyRight"></span> Cloud ECS Infotech Pvt Ltd.
+            All Rights Reserved
           </p>
         </div>
       </div>
@@ -1967,12 +2258,12 @@
 
     <!-- JS
 ============================================ -->
-  <!-- Copy Right -->
-  <script>
-    const currentYear = new Date().getFullYear();
-    const copyRightElement = document.getElementById("copyRight");
-    copyRightElement.innerHTML = `2024 - ${currentYear}`;
-  </script>
+    <!-- Copy Right -->
+    <script>
+      const currentYear = new Date().getFullYear();
+      const copyRightElement = document.getElementById("copyRight");
+      copyRightElement.innerHTML = `2024 - ${currentYear}`;
+    </script>
     <!-- Modernizer JS -->
     <script src="assets/js/vendor/modernizr.min.js"></script>
     <!-- jQuery JS -->

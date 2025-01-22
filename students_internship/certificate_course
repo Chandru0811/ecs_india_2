@@ -1446,15 +1446,17 @@
           <div class="col-lg-6 col-md-6 mt_sm--15">
             <div class="course-action-bottom-right rbt-single-group">
               <div
-                class="rbt-single-list rbt-price large-size justify-content-center "
+                class="rbt-single-list rbt-price large-size justify-content-center"
               >
-              <span class="off-price me-3">₹ 10,000</span>
-                <span class="current-price text-success me-4">Free</span>
+                <span class="current-price color-primary">₹ 1,00,000</span>
+                <span class="off-price">₹ 2,00,000</span>
               </div>
               <div class="rbt-single-list action-btn">
                 <a
                   class="rbt-btn btn-gradient hover-icon-reverse btn-md"
-                  href="../campaigns/free_certificate_course#form"
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#course-register"
                 >
                   <span class="icon-reverse-wrapper">
                     <span class="btn-text">Join now</span>
@@ -1652,7 +1654,7 @@
     <!-- End Footer aera -->
 
     <!-- course register modal -->
-    <div
+    <!-- <div
       class="modal fade"
       id="course-register"
       tabindex="-1"
@@ -1670,7 +1672,6 @@
             ></button>
           </div>
           <div class="modal-body">
-            <!-- Modal content goes here -->
             <div class="row m-0 p-3">
               <div
                 class="col-md-6 col-12 order-1 order-lg-0 d-flex flex-column justify-content-center"
@@ -1843,10 +1844,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- checkout modal -->
-    <div
+    <!-- <div
       class="modal fade"
       id="checkout"
       tabindex="-1"
@@ -1895,8 +1896,291 @@
           </div>
         </div>
       </div>
+    </div> -->
+
+      <!--Full course register modal -->
+      <div
+      class="modal fade"
+      id="course-register"
+      tabindex="-1"
+      aria-labelledby="currentModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="d-flex justify-content-end pt-4 pe-4">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- Modal content goes here -->
+            <div class="row m-0 p-3">
+              <div
+                class="col-md-6 col-12 order-1 order-lg-0 d-flex flex-column justify-content-center"
+              >
+                <div class="text-start pt-3 pe-5">
+                  <p
+                    class="mb-1"
+                    style="
+                      font-weight: 500;
+                      background: linear-gradient(
+                        90deg,
+                        #2f57efbf 0%,
+                        #c586eeab 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    <b>Salary from Day 1</b>
+                  </p>
+
+                  <p class="pb-0 text-dark modal_title">
+                    Full Internship - 100% Placement Assured !
+                  </p>
+                  <p class="py-1 text-dark">
+                    Your skill, our guarantee. Not only we offer 100% placement
+                    after the successful completion of the internship program,
+                    you get paid from the day one of joining the program.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-12 order-0 order-lg-1">
+                <div class="text-start">
+                  <p
+                    style="
+                      font-size: 24px;
+                      background: linear-gradient(
+                        90deg,
+                        #2f57efbf 0%,
+                        #c586eeab 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                      font-weight: 500;
+                    "
+                  >
+                    Apply for Intership Program
+                  </p>
+                  <form id="course_register">
+                    <div class="mb-4">
+                      <input
+                        placeholder="Name"
+                        type="text"
+                        class="form-control form-control-sm"
+                        id="name"
+                        name="name"
+                        style="
+                          outline: none;
+                          box-shadow: none;
+                          background: whitesmoke;
+                        "
+                      />
+                      <style>
+                        #name::placeholder {
+                          color: black !important;
+                        }
+                      </style>
+                    </div>
+                    <div class="mb-4">
+                      <input
+                        placeholder="Email"
+                        type="email"
+                        class="form-control form-control-sm"
+                        id="checkout_email"
+                        name="checkout_email"
+                        style="
+                          outline: none;
+                          box-shadow: none;
+                          background: whitesmoke;
+                        "
+                      />
+                      <style>
+                        #checkout_email::placeholder {
+                          color: black !important;
+                        }
+                      </style>
+                    </div>
+                    <div class="mb-4">
+                      <input
+                        placeholder="Phone"
+                        type="text"
+                        class="form-control form-control-sm"
+                        id="phone"
+                        name="phone"
+                        style="
+                          outline: none;
+                          box-shadow: none;
+                          background: whitesmoke;
+                        "
+                      />
+                      <style>
+                        #phone::placeholder {
+                          color: black !important;
+                        }
+                      </style>
+                    </div>
+                    <div class="mb-4">
+                      <select
+                        class="form-select form-select-sm"
+                        id="courses"
+                        name="courses"
+                        style="
+                          height: 50px;
+                          border: 2px solid #ced4dabe;
+                          border-radius: 0.5rem;
+                          font-size: 1.7rem;
+                          background: whitesmoke;
+                        "
+                      >
+                        <option value="" selected>Select a course</option>
+                        <option value="FullStack Developer - Java">
+                          FullStack Developer - Java
+                        </option>
+                        <option value="FullStack Developer - Python">
+                          FullStack Developer - Python
+                        </option>
+                        <option value="Data Scientist">Data Scientist</option>
+                        <option value="DevSecOps / Networking / Cybersecurity">
+                          DevSecOps / Networking / Cybersecurity
+                        </option>
+                        <option value="Mobile App Development">
+                          Mobile App Development
+                        </option>
+                        <option value="Front End Development">
+                          Front End Development
+                        </option>
+                        <option value="Digital Marketing">
+                          Digital Marketing
+                        </option>
+                        <option value="UI/UX Development">
+                          UI/UX Development
+                        </option>
+                        <option value="Sales and Marketing">
+                          Sales and Marketing
+                        </option>
+                      </select>
+                    </div>
+                    <div class="mb-4">
+                      <input
+                        placeholder="City"
+                        type="text"
+                        class="form-control form-control-sm"
+                        id="city"
+                        value=""
+                        name="city"
+                        style="
+                          outline: none;
+                          box-shadow: none;
+                          background: whitesmoke;
+                        "
+                      />
+                      <style>
+                        #city::placeholder {
+                          color: black !important;
+                        }
+                      </style>
+                    </div>
+                    <input
+                      type="hidden"
+                      class="form-control form-control-sm"
+                      id="course_fee"
+                      name="course_fee"
+                      value="100000"
+                    />
+                    <input
+                      type="hidden"
+                      class="form-control form-control-sm"
+                      id="course_gst"
+                      name="course_gst"
+                      value="18000"
+                    />
+                    <button
+                      type="submit"
+                      class="btn btn-primary w-100 my-2"
+                      style="
+                        font-size: 1.5rem;
+                        border-radius: 6px;
+                        background: linear-gradient(
+                          to right,
+                          #2f57efbf 0%,
+                          #b964e3 100%
+                        );
+                        padding: 10px;
+                        border: none;
+                        transition: background 0.3s ease-in-out;
+                      "
+                      onmouseover="this.style.background='linear-gradient(to left, #2f57efbf 0%, #b964e3 100%)'"
+                      onmouseout="this.style.background='linear-gradient(to right, #2f57efbf 0%, #b964e3 100%)'"
+                    >
+                      Apply Now
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
+     <!--Full checkout modal -->
+     <div
+     class="modal fade"
+     id="checkout"
+     tabindex="-1"
+     aria-labelledby="newModalLabel"
+     aria-hidden="true"
+   >
+     <div class="modal-dialog modal-dialog-centered modal-lg">
+       <div class="modal-content">
+         <div class="d-flex justify-content-end pt-4 pe-4">
+           <button
+             type="button"
+             class="btn-close"
+             data-bs-dismiss="modal"
+             aria-label="Close"
+           ></button>
+         </div>
+         <div class="modal-body">
+           <div class="row m-0 p-3">
+             <div class="col-md-6 col-12">
+               <div class="text-start pt-3 pe-5">
+                 <p
+                   class="mb-1"
+                   style="
+                     font-weight: 500;
+                     background: linear-gradient(
+                       90deg,
+                       #2f57efbf 0%,
+                       #c586eeab 100%
+                     );
+                     -webkit-background-clip: text;
+                     -webkit-text-fill-color: transparent;
+                   "
+                 >
+                   <b>Salary from Day 1</b>
+                 </p>
+                 <p class="pb-0 text-dark modal_title">
+                   Full Internship - 100% Placement Assured!
+                 </p>
+                 <p class="py-1 text-dark">
+                   Your skill, our guarantee. Not only we offer 100% placement
+                   after the successful completion of the internship program,
+                   you get paid from the day one of joining the program.
+                 </p>
+               </div>
+             </div>
+             <div class="col-md-6 col-12 amount-column"></div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
     <!-- checkout success modal -->
     <div
       class="modal fade"
@@ -1949,7 +2233,7 @@
             </div>
 
             <!-- Back to Home Button -->
-            <a href="/" class="py-3 ">
+            <a href="../" class="py-3 ">
               <button class="btn successMagnetButton px-3 py-2 fs-5">Back to Website</button>
             </a>
           </div>
