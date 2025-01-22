@@ -1168,7 +1168,7 @@
               <div class="row g-5 align-items-end mb--40">
                 <div class="col-lg-8 col-md-8 col-12">
                   <div class="section-title">
-                    <span class="subtitle top-course">Top Course</span>
+                    <span class="subtitle top-course">Top Courses</span>
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-12">
@@ -1421,7 +1421,7 @@
           <div class="col-lg-6 col-md-6">
             <div class="section-title text-center text-md-start">
               <h5 class="title mb--0">
-                The Complete Cloud ECS Infotech 2024: From Zero to Expert!
+                The Complete Cloud ECS Infotech 2025: From Zero to Expert!
               </h5>
             </div>
           </div>
@@ -1430,8 +1430,8 @@
               <div
                 class="rbt-single-list rbt-price large-size justify-content-center"
               >
-                <span class="current-price color-primary">$1,00,000</span>
-                <span class="off-price">$ 2,00,000</span>
+                <span class="current-price color-primary">₹ 1,00,000</span>
+                <span class="off-price">₹ 2,00,000</span>
               </div>
               <div class="rbt-single-list action-btn">
                 <a
