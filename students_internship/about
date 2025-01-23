@@ -994,8 +994,8 @@
     <div class="rbt-video-area">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            <div class="video-popup-wrapper">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <div class="video-popup-wrapper w-75">
               <img
                 class="w-100 rbt-radius"
                 src="../assets/images/About_Banner_Transform_Careers.webp"
