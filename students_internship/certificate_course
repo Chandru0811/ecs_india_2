@@ -1201,10 +1201,10 @@
                           <span class="current-price">₹ 30,000</span>
                           <span class="off-price">₹ 1,00,000</span>
                         </div>
+                        <a class="rbt-btn-link" href="./skill_development"
+                          >Learn More<i class="feather-arrow-right"></i
+                        ></a>
                       </div>
-                      <a class="rbt-btn-link" href="./skill_development"
-                        >Learn More<i class="feather-arrow-right"></i
-                      ></a>
                     </div>
                   </div>
                 </div>

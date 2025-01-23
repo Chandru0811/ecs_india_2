@@ -1246,10 +1246,10 @@
                           <span class="current-price text-success">Free</span>
                           <span class="off-price">₹ 10,000</span>
                         </div>
+                        <a class="rbt-btn-link" href="./certificate_course"
+                          >Learn More<i class="feather-arrow-right"></i
+                        ></a>
                       </div>
-                      <a class="rbt-btn-link" href="./certificate_course"
-                        >Learn More<i class="feather-arrow-right"></i
-                      ></a>
                     </div>
                   </div>
                 </div>
