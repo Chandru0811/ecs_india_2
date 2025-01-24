@@ -1030,12 +1030,13 @@
                 Engineer to Digital Marketing Expert, Cybersecurity professional
                 to Sales & Marketing. You choose, we help achieve.
               </p>
-              <div class="read-more-btn mt--40">
-                <a
-                  class="rbt-btn rbt-marquee-btn  btn-gradient"
-                  href="../campaigns/free_certificate_course"
-                >
-                  <span data-text="Start Learning For Free"> Know More </span>
+              <div class="about-btn mt--40">
+                <a class="rbt-btn btn-gradient hover-icon-reverse" href="../campaigns/free_certificate_course">
+                  <span class="icon-reverse-wrapper">
+                    <span class="btn-text">Know More</span>
+                    <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                    <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                  </span>
                 </a>
               </div>
             </div>
