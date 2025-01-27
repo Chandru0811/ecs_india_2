@@ -446,7 +446,8 @@ $(document).ready(function () {
     },
     submitHandler: function (form) {
       const amount = (
-        parseFloat($("#course_fee").val()) + parseFloat($("#course_gst").val())
+        parseFloat($("#register_course_fee").val()) +
+        parseFloat($("#register_course_gst").val())
       )
         .toFixed(2)
         .toString();
