@@ -236,15 +236,15 @@ body {
   font-weight: 600;
 }
 /* ===== Form section ===== */
-.form_section {
+/* .form_section {
   background: linear-gradient(to top, #E3FFF8 5%, #FFFFFF 95%);
-}
-.form_row {
+} */
+/* .form_row {
   background: url(../images/form_bg.png);
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: bottom;
-}
+} */
 .form-container {
   /* background-color: #40af92; */
   color: #ffffff;
@@ -271,7 +271,7 @@ body {
   color: #40af92;
 }
 
-.options-grid {
+/* .options-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
@@ -280,8 +280,8 @@ body {
   .options-grid {
     grid-template-columns: repeat(1, 1fr);
   }
-}
-.radio-label{
+} */
+/* .radio-label{
   color: black !important;
   display: flex;
   align-items: center;
@@ -302,7 +302,7 @@ input[type="radio"] {
 .course:checked:focus {
   border: 1px solid #008585 !important;
   box-shadow: 0 0 0 0.25rem #40af92;
-}
+} */
 
 .w-80 {
   width: 33% !important;

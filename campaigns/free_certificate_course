@@ -450,7 +450,7 @@
 
       <!-- ==== Form Section ==== -->
 
-      <section class="container-fluid form_section px-0 mt-3" id="form">
+      <section class="container-fluid form_section px-0" id="form">
         <div class="row m-0 form_row justify-content-center align-items-center">
           <div
             class="col-12 col-md-8 col-lg-5 mb-5 d-flex flex-column justify-content-center align-items-center"
@@ -539,7 +539,7 @@
                     required
                   />
                 </div>
-                <div class="col-12 mb-4">
+                <!-- <div class="col-12 mb-4">
                   <div class="form-group">
                     <label class="text-dark mb-3">Which course are you interested in?</label>
                     <div class="options-grid course-options-group">
@@ -627,9 +627,9 @@
                     </div>
                   </div>
                   
-                </div>
+                </div> -->
 
-                <div class="col-12 my-4">
+                <!-- <div class="col-12 my-4">
                   <label class="form-label text-dark text-start mb-1">Message (Optional)</label>
                   <textarea
                     oninput="this.value = this.value.replace(/[:^]/g, '')";
@@ -639,7 +639,7 @@
                     name="about_me"
                     id="about_me"
                   ></textarea>
-                </div>
+                </div> -->
                 <div class="text-center">
                   <button type="submit" class="apply-btn btn mt-4">
                     Apply Now
