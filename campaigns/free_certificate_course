@@ -457,10 +457,10 @@
           >
             <p class="text-color mb-0">Get in Touch</p>
             <p class="offer_section_heading text-center">Apply Today!</p>
-            <p class="text-muted text-center">
+            <!-- <p class="text-muted text-center">
               Take the first step toward your dream career. Fill out the form,
               and we’ll guide you through the process.
-            </p>
+            </p> -->
             <form
               id="freeCourseHiringForm"
               class="form-container rounded-4 mt-4 px-2"
