@@ -59,6 +59,7 @@ $(document).ready(function () {
       first_name: {
         required: true,
         minlength: 2,
+        maxlength:255,
       },
       email: {
         required: true,
@@ -78,6 +79,7 @@ $(document).ready(function () {
       first_name: {
         required: "Please enter your first name*",
         minlength: "Your name must be at least 2 characters long",
+        maxlength: "Name cannot exceed 255 characters.",
       },
       email: {
         required: "Please enter your email*",
@@ -173,6 +175,7 @@ $(document).ready(function () {
       full_name: {
         required: true,
         minlength: 3,
+        maxlength:255,
       },
       email: {
         required: true,
@@ -202,6 +205,7 @@ $(document).ready(function () {
       full_name: {
         required: "Please enter your full name*",
         minlength: "Your name must be at least 2 characters long",
+        maxlength: "Name cannot exceed 255 characters.",
       },
       email: {
         required: "Please enter your email*",
@@ -280,6 +284,7 @@ $(document).ready(function () {
       full_name: {
         required: true,
         minlength: 3,
+        maxlength:255,
       },
       email: {
         required: true,
@@ -312,6 +317,7 @@ $(document).ready(function () {
       full_name: {
         required: "Please enter your full name*",
         minlength: "Your name must be at least 2 characters long",
+        maxlength: "Name cannot exceed 255 characters.",
       },
       email: {
         required: "Please enter your email*",
@@ -591,6 +597,7 @@ $(document).ready(function () {
       name: {
         required: true,
         minlength: 3,
+        maxlength:255,
       },
       checkout_email: {
         required: true,
@@ -614,6 +621,7 @@ $(document).ready(function () {
       name: {
         required: "Name is Required.",
         minlength: "Your name must be at least 3 characters long.",
+        maxlength: "Name cannot exceed 255 characters.",
       },
       checkout_email: {
         required: "Email is Required.",
@@ -677,6 +685,7 @@ $(document).ready(function () {
       name: {
         required: true,
         minlength: 3,
+        maxlength:255,
       },
       checkout_email: {
         required: true,
@@ -700,6 +709,7 @@ $(document).ready(function () {
       name: {
         required: "Name is Required.",
         minlength: "Your name must be at least 3 characters long.",
+        maxlength: "Name cannot exceed 255 characters.",
       },
       checkout_email: {
         required: "Email is Required.",
