@@ -59,7 +59,7 @@ $(document).ready(function () {
       first_name: {
         required: true,
         minlength: 2,
-        maxlength:255,
+        maxlength: 255,
       },
       email: {
         required: true,
@@ -175,7 +175,7 @@ $(document).ready(function () {
       full_name: {
         required: true,
         minlength: 3,
-        maxlength:255,
+        maxlength: 255,
       },
       email: {
         required: true,
@@ -284,7 +284,7 @@ $(document).ready(function () {
       full_name: {
         required: true,
         minlength: 3,
-        maxlength:255,
+        maxlength: 255,
       },
       email: {
         required: true,
@@ -369,30 +369,32 @@ $(document).ready(function () {
       }
       let payload;
       console.log(window.location.pathname.split("/").pop());
-      if( window.location.pathname.split("/").pop()==="free_certificate_course"){
+      if (
+        window.location.pathname.split("/").pop() === "free_certificate_course"
+      ) {
         payload = {
-         first_name: $("#full_name").val(),
-         email: $("#email").val(),
-         phone: $("#mobile").val(),
-         company_id: 53,
-         company: "Cloud ECS Infotech",
-         lead_status: "PENDING",
-         description_info: `Location : ${$("#location").val()} ^ Course : ${$(
-           "#course"
-         ).val()} ^ selected Course : ${
-           $("input[name='selectedCourse']:checked").val()
-             ? $("input[name='selectedCourse']:checked").val()
-             : ""
-         } ^ Year of Passing : ${$(
-           "#year_of_passing"
-         ).val()} ^ About Candidate : ${
-           $("#about_me").val() ? $("#about_me").val() : ""
-         }`,
-         lead_source: "Free Course Internship",
-         country_code: "91",
-         createdBy: $("#full_name").val(),
-       };
-      }else {
+          first_name: $("#full_name").val(),
+          email: $("#email").val(),
+          phone: $("#mobile").val(),
+          company_id: 53,
+          company: "Cloud ECS Infotech",
+          lead_status: "PENDING",
+          description_info: `Location : ${$("#location").val()} ^ Course : ${$(
+            "#course"
+          ).val()} ^ selected Course : ${
+            $("input[name='selectedCourse']:checked").val()
+              ? $("input[name='selectedCourse']:checked").val()
+              : ""
+          } ^ Year of Passing : ${$(
+            "#year_of_passing"
+          ).val()} ^ About Candidate : ${
+            $("#about_me").val() ? $("#about_me").val() : ""
+          }`,
+          lead_source: "Free Course Internship",
+          country_code: "91",
+          createdBy: $("#full_name").val(),
+        };
+      } else {
         payload = {
           first_name: $("#full_name").val(),
           email: $("#email").val(),
@@ -425,13 +427,20 @@ $(document).ready(function () {
           showSuccessModal();
           console.log("payload", payload);
           $(form).trigger("reset");
-          const mailPayload = new FormData();
-          mailPayload.append("from", "ecscloudinfotech@gmail.com");
-          mailPayload.append("to", payload.email);
-          mailPayload.append("subject", `Join Our WhatsApp Channel for Updates on Your Free Certificate Course`);
-          mailPayload.append(
-            "htmlContent",
-            `
+          if (
+            window.location.pathname.split("/").pop() ===
+            "free_certificate_course"
+          ) {
+            const mailPayload = new FormData();
+            mailPayload.append("from", "ecscloudinfotech@gmail.com");
+            mailPayload.append("to", payload.email);
+            mailPayload.append(
+              "subject",
+              `Join Our WhatsApp Channel for Updates on Your Free Certificate Course`
+            );
+            mailPayload.append(
+              "htmlContent",
+              `
     <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -592,23 +601,24 @@ $(document).ready(function () {
   </body>
 </html>
     `
-          );
+            );
 
-          const apiUrl = "https://crmlah.com/ecscrm/api/sendMailWithOutToken";
-          $.ajax({
-            url: apiUrl,
-            method: "POST",
-            data: mailPayload,
-            processData: false,
-            contentType: false,
-            success: function (mailResponse) {
-              console.log(mailResponse.message);
-            },
-            error: function (mailError) {
-              console.error("Error sending mail:", mailError);
-              alert("An error occurred while sending the mail.");
-            },
-          });
+            const apiUrl = "https://crmlah.com/ecscrm/api/sendMailWithOutToken";
+            $.ajax({
+              url: apiUrl,
+              method: "POST",
+              data: mailPayload,
+              processData: false,
+              contentType: false,
+              success: function (mailResponse) {
+                console.log(mailResponse.message);
+              },
+              error: function (mailError) {
+                console.error("Error sending mail:", mailError);
+                alert("An error occurred while sending the mail.");
+              },
+            });
+          }
         },
         error: function () {
           showErrorModal();
@@ -624,7 +634,7 @@ $(document).ready(function () {
       name: {
         required: true,
         minlength: 3,
-        maxlength:255,
+        maxlength: 255,
       },
       checkout_email: {
         required: true,
@@ -712,7 +722,7 @@ $(document).ready(function () {
       name: {
         required: true,
         minlength: 3,
-        maxlength:255,
+        maxlength: 255,
       },
       checkout_email: {
         required: true,

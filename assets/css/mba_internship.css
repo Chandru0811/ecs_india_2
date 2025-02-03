@@ -56,7 +56,12 @@ body {
   font-weight: 500;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
-
+@media (min-width: 300px) and (max-width: 450px) {
+  .apply-btn {
+    padding: 9px 14px;
+    font-size: 12px;
+  }
+}
 .apply-btn:hover {
   background-color: #2e8a6e;
   color: white;
@@ -103,7 +108,7 @@ body {
 .bg-success {
   background-color: #cafff1 !important;
 }
-.fs-15{
+.fs-15 {
   font-size: calc(0.6rem + 0.5vw);
 }
 .fs-7 {
@@ -111,7 +116,7 @@ body {
 }
 
 .w-15 {
- width: 15px !important;
+  width: 15px !important;
 }
 /* common end */
 
@@ -140,27 +145,26 @@ body {
 }
 
 /* ==== advnc-section ==== */
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .advnc-section .h2-title {
-  font-size: calc(1.5rem + 1.5vw) !important;
+    font-size: calc(1.5rem + 1.5vw) !important;
   }
   .advnc-section .p-adv {
-  font-size: 15px !important;
-  }
- }
-/* ==== detail-section ==== */
-@media (max-width:768px) {
-  .detail-section .fs-2 {
-  font-size: calc(1.3rem + 0.8vw) !important;
-  }
-  .detail-section small {
-  font-size: 12px !important;
-  }
-  .detail-section .d-par {
-  font-size: 14px !important;
+    font-size: 15px !important;
   }
 }
-
+/* ==== detail-section ==== */
+@media (max-width: 768px) {
+  .detail-section .fs-2 {
+    font-size: calc(1.3rem + 0.8vw) !important;
+  }
+  .detail-section small {
+    font-size: 12px !important;
+  }
+  .detail-section .d-par {
+    font-size: 14px !important;
+  }
+}
 
 /* === Form Container ==== */
 .form-container {

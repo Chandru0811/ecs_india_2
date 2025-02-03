@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
-    <!-- <script
+    <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-XWHQQM5H1G"
     ></script>
@@ -14,7 +14,7 @@
       gtag("js", new Date());
 
       gtag("config", "G-XWHQQM5H1G");
-    </script> -->
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Free Certificate Course | Cloud ECS Infotech</title>
@@ -86,7 +86,7 @@
     <!-- Header Start  -->
     <section class="header">
       <nav class="navbar navbar-expand-lg">
-        <div class="container py-2">
+        <div class="container-fluid py-2 px-1 px-md-3">
           <span class="fw-bold mb-0">
             <img
               src="../assets/images/logo.webp"
@@ -95,43 +95,13 @@
               style="width: 150px"
             />
           </span>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <!-- <li class="nav-item pe-3">
-                <a class="nav-link active" href="../students_internship/about"
-                  >About Us</a
-                >
-              </li>
-              <li class="nav-item pe-3">
-                <a class="nav-link active" href="../internship">
-                  Students Program</a
-                >
-              </li>
-              <li class="nav-item pe-3">
-                <a class="nav-link active" href="../students_internship/contact"
-                  >Contact</a
-                >
-              </li> -->
-            </ul>
-            <form class="d-flex ms-lg-3 ms-md-auto">
-              <a class="text-decoration-none text-light" href="#form">
-                <button class="btn apply-btn btn" type="button">
-                  Apply Now
-                </button>
-              </a>
-            </form>
+            <ul class="navbar-nav ms-auto"></ul>
+          </div>
+          <div class="d-flex ms-lg-3 ms-md-auto">
+            <a class="text-decoration-none text-light" href="#form">
+              <button class="btn apply-btn btn" type="button">Apply Now</button>
+            </a>
           </div>
         </div>
       </nav>

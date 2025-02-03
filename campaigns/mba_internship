@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
-    <!-- <script
+    <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-XWHQQM5H1G"
     ></script>
@@ -14,7 +14,7 @@
       gtag("js", new Date());
 
       gtag("config", "G-XWHQQM5H1G");
-    </script> -->
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MBA Internship with Salary from Day 1 | Cloud ECS Infotech</title>
@@ -40,17 +40,32 @@
 
     <meta property="og:locale" content="en_In" />
     <meta property="og:title" content="MBA grads 1 year internship Program" />
-    <meta property="og:description" content="Are you an MBA? Need to secure your career? Want to work in the software industry? Try our 1 year internship with salary from day 1" />
-    <meta property="og:image" content="../assets/images/cloud_ecs_infotech_og.webp" />
-    <meta property="og:url" content="https://www.facebook.com/CloudecsInfotech" />
+    <meta
+      property="og:description"
+      content="Are you an MBA? Need to secure your career? Want to work in the software industry? Try our 1 year internship with salary from day 1"
+    />
+    <meta
+      property="og:image"
+      content="../assets/images/cloud_ecs_infotech_og.webp"
+    />
+    <meta
+      property="og:url"
+      content="https://www.facebook.com/CloudecsInfotech"
+    />
     <meta property="og:image:width" content="512" />
     <meta property="og:image:height" content="512" />
     <meta property="og:image:alt" content="Cloud ECS Infotech" />
     <meta property="og:image:type" content="image/webp" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="MBA 1 year Internship with Salary, Job Guarantee" />
-    <meta name="twitter:description" content="Secure your career, get salary from day 1, upgrade your skills with our Sales & Marketing Internship. One year internship with Job guarantee." />
+    <meta
+      name="twitter:title"
+      content="MBA 1 year Internship with Salary, Job Guarantee"
+    />
+    <meta
+      name="twitter:description"
+      content="Secure your career, get salary from day 1, upgrade your skills with our Sales & Marketing Internship. One year internship with Job guarantee."
+    />
     <meta name="twitter:site" content="@Cloudecsin/" />
     <meta
       name="twitter:image"
@@ -65,13 +80,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../assets/css/mba_internship.css" />
-    <!-- <link rel="stylesheet" href="../assets/css/bootstrap.min.css" /> -->
   </head>
   <body>
     <!-- Header Start  -->
     <section class="header px-2 section-fluid">
       <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid py-2">
+        <div class="container-fluid py-2 px-1 px-md-3">
           <span class="fw-bold mb-0">
             <img
               src="../assets/images/logo.webp"
@@ -80,28 +94,13 @@
               style="width: 150px"
             />
           </span>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-            </ul>
-            <form class="d-flex ms-lg-3 ms-md-auto">
-              <a class="text-decoration-none text-light" href="#form">
-                <button class="btn apply-btn btn" type="button">
-                  Apply Now
-                </button>
-              </a>
-            </form>
+            <ul class="navbar-nav ms-auto"></ul>
+          </div>
+          <div class="d-flex ms-lg-3 ms-md-auto">
+            <a class="text-decoration-none text-light" href="#form">
+              <button class="btn apply-btn btn" type="button">Apply Now</button>
+            </a>
           </div>
         </div>
       </nav>
@@ -110,13 +109,13 @@
 
     <section class="section-fluid">
       <!-- ==== Hero ==== -->
-      <section class="container-fluid px-0 ">
+      <section class="container-fluid px-0">
         <div class="row m-0 d-flex pt-5">
           <div
             class="col-md-6 col-12 ps-md-5 ps-4 d-flex flex-column justify-content-center"
           >
             <div class="ps-lg-5 position-relative">
-              <p class="fw-semibold">Are you an MBA?</p>
+              <h2 class="fw-semibold fs-6">Are you an MBA?</h2>
               <h1 class="h1-tag">1 Year Internship in Sales & Marketing</h1>
             </div>
 
@@ -125,7 +124,7 @@
                 <img
                   loading="eager"
                   src="../assets/images/RupeeVector.png"
-                  alt=""
+                  alt="Rupee.."
                   class="img-fluid"
                 />
                 Salary from Day 1
@@ -158,7 +157,7 @@
       <section class="container-fluid px-0 mt-5 mb-0 mb-md-5 advnc-section">
         <div class="row m-0">
           <div class="col-12 text-center pb-md-5 pb-4 pt-md-5 pt-4">
-            <h2 class="h2-title fw-semibold">What do you get?</h2>
+            <h3 class="h2-title fw-semibold">What do you get?</h3>
             <p class="text-muted">
               Comprehensive Training and a Guaranteed Career Boost
             </p>
@@ -171,9 +170,9 @@
                 class="img-fluid mb-4"
                 loading="lazy"
               />
-              <p class="fs-5 text-color fw-semibold mb-2">
+              <h4 class="fs-5 text-color fw-semibold mb-2">
                 Hands-on Industry Training
-              </p>
+              </h4>
               <p class="p-adv">
                 Gain practical experience and apply your theoretical knowledge
                 to real-world scenarios.
@@ -186,11 +185,11 @@
             <div class="flex-grow-1">
               <img
                 src="../assets/images/ri_shield-check-fill.png"
-                alt="Gear.."
+                alt="Shield.."
                 class="img-fluid mb-4"
                 loading="lazy"
               />
-              <p class="fs-5 text-color fw-semibold mb-2">Job Guarantee</p>
+              <h4 class="fs-5 text-color fw-semibold mb-2">Job Guarantee</h4>
               <p class="p-adv">
                 Secure your future with a guaranteed placement upon successful
                 completion.
@@ -207,9 +206,9 @@
                 class="img-fluid mb-4"
                 loading="lazy"
               />
-              <p class="fs-5 text-color fw-semibold mb-2">
+              <h4 class="fs-5 text-color fw-semibold mb-2">
                 Kick-Start Career Right from College
-              </p>
+              </h4>
               <p class="p-adv">
                 Transition seamlessly from academia to the professional world.
               </p>
@@ -225,7 +224,7 @@
             class="col-md-6 col-12 d-flex justify-content-center flex-column mb-5 mb-md-0"
           >
             <div class="ps-md-4">
-              <p class="fs-2 fw-semibold mb-2">Who can apply?</p>
+              <h3 class="fs-2 fw-semibold mb-2">Who can apply?</h3>
               <p class="text-muted mb-md-5 mb-3 d-par">
                 Tailored for Aspiring and Ambitious MBA Professionals
               </p>
@@ -233,7 +232,7 @@
                 <div class="col-1 px-md-2 px-0 text-center">
                   <img
                     src="../assets/images/akar-icons_pointer-right-fill.png"
-                    alt=".."
+                    alt="pointer.."
                     class="img-fluid w-15"
                   />
                 </div>
@@ -249,7 +248,7 @@
                 <div class="col-1 px-md-2 px-0 text-center">
                   <img
                     src="../assets/images/akar-icons_pointer-right-fill.png"
-                    alt=".."
+                    alt="pointer.."
                     class="img-fluid w-15"
                   />
                 </div>
@@ -264,9 +263,9 @@
               <div class="row mb-3">
                 <div class="col-1 px-md-2 px-0 text-center">
                   <img
-                  loading="lazy"
+                    loading="lazy"
                     src="../assets/images/akar-icons_pointer-right-fill.png"
-                    alt=".."
+                    alt="pointer.."
                     class="img-fluid w-15"
                   />
                 </div>
@@ -315,7 +314,7 @@
             class="col-md-6 col-12 d-flex justify-content-center flex-column mb-5 mb-md-0 order-md-1 order-0"
           >
             <div class="ps-md-4">
-              <p class="fs-2 fw-semibold mb-2">What are the benefits?</p>
+              <h3 class="fs-2 fw-semibold mb-2">What are the benefits?</h3>
               <p class="text-muted mb-md-5 mb-3 d-par">
                 Unlock Opportunities and Accelerate Your Career Growth
               </p>
@@ -323,7 +322,7 @@
                 <div class="col-1 px-md-2 px-0 text-center">
                   <img
                     src="../assets/images/akar-icons_pointer-right-fill.png"
-                    alt=".."
+                    alt="pointer.."
                     class="img-fluid w-15"
                   />
                 </div>
@@ -341,7 +340,7 @@
                 <div class="col-1 px-md-2 px-0 text-center">
                   <img
                     src="../assets/images/akar-icons_pointer-right-fill.png"
-                    alt=".."
+                    alt="pointer.."
                     class="img-fluid w-15"
                   />
                 </div>
@@ -359,7 +358,7 @@
                 <div class="col-1 px-md-2 px-0 text-center">
                   <img
                     src="../assets/images/akar-icons_pointer-right-fill.png"
-                    alt=".."
+                    alt="pointer.."
                     class="img-fluid w-15"
                   />
                 </div>
@@ -377,7 +376,7 @@
                 <div class="col-1 px-md-2 px-0 text-center">
                   <img
                     src="../assets/images/akar-icons_pointer-right-fill.png"
-                    alt=".."
+                    alt="pointer.."
                     class="img-fluid w-15"
                   />
                 </div>
@@ -393,7 +392,7 @@
               </div>
               <div class="mt-md-3 mt-3">
                 <a class="text-decoration-none text-light" href="#form">
-                  <button type="button" class="apply-btn btn mt-4" >
+                  <button type="button" class="apply-btn btn mt-4">
                     Apply Now
                   </button>
                 </a>
@@ -507,7 +506,8 @@
           <div
             class="d-flex flex-column flex-md-row justify-content-start align-items-center"
           >
-            <img loading="lazy"
+            <img
+              loading="lazy"
               src="../assets/images/footer_logo.webp"
               alt="Logo"
               class="img-fluid"
