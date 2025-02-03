@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
-    <script
+    <!-- <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-XWHQQM5H1G"
     ></script>
@@ -14,7 +14,7 @@
       gtag("js", new Date());
 
       gtag("config", "G-XWHQQM5H1G");
-    </script>
+    </script> -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Free Certificate Course | Cloud ECS Infotech</title>
@@ -36,7 +36,7 @@
       rel="stylesheet"
     />
     <link rel="icon" href="../assets/images/favicon.png" />
-    <!-- <link rel="canonical" href="https://ecsaio.in/" /> -->
+    <link rel="canonical" href="https://ecsaio.in/campaigns/free_certificate_course" />
 
     <meta property="og:locale" content="en_In" />
     <meta
@@ -51,13 +51,13 @@
       property="og:image"
       content="../assets/images/cloud_ecs_infotech_og.webp"
     />
-    <!-- <meta property="og:url" content="https://ecsaio.in/" /> -->
+    <meta property="og:url" content="https://www.facebook.com/CloudecsInfotech" />
     <meta property="og:image:width" content="512" />
     <meta property="og:image:height" content="512" />
     <meta property="og:image:alt" content="Cloud ECS Infotech" />
     <meta property="og:image:type" content="image/webp" />
 
-    <meta name="twitter:card" content="twitter image" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
       content="Free Certificate Course - Secure your career, get an edge in interviews"
@@ -66,6 +66,7 @@
       name="twitter:description"
       content="Enroll in our free certificate courses and elevate your knowledge. Gain valuable skills, earn recognized certificates, and grow your career. Limited seats sign up now!"
     />
+    <meta name="twitter:site" content="@Cloudecsin/" />
     <meta
       name="twitter:image"
       content="../assets/images/cloud_ecs_infotech_twitter.webp"
@@ -763,22 +764,23 @@
       <div class="container px-0 py-5">
         <div class="row m-0">
           <div
-            class=" d-flex justify-content-start align-items-center"
+            class="d-flex flex-column flex-md-row justify-content-start align-items-center"
           >
             <img
               src="../assets/images/footer_logo.webp"
               alt="Logo"
               class="img-fluid"
             />
-          <!-- </div>
-          <div
-            class="col-9 col-12 d-flex justify-content-center align-items-end mt-5 mt-md-0 text-center"
-          > -->
-          <div class="text-center flex-grow-1">
-            <p class="text-light mb-0">
-              © <span id="copyRight"></span> Cloud ECS Infotech. All rights reserved.
-            </p>
-          </div>
+            <!-- </div>
+            <div
+              class="col-9 col-12 d-flex justify-content-center align-items-end mt-5 mt-md-0 text-center"
+            > -->
+            <div class="text-center flex-grow-1 pt-5 pt-md-0">
+              <p class="text-light mb-0">
+                © <span id="copyRight"></span> Cloud ECS Infotech. All rights
+                reserved.
+              </p>
+            </div>
           </div>
         </div>
         <hr class="text-light" />

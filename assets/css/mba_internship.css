@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body {
+  background-color: #ffffff !important;
+}
+
+/* Header Starts  */
+
+@media screen and (max-width: 380px) and (min-width: 320px) {
+  .header-logo {
+    max-width: 120px;
+  }
+
+  .navbar-toggler .button {
+    max-width: 150px;
+  }
+
+  .button {
+    max-width: 200px;
+  }
+}
+
+.header {
+  border-bottom: 0.5px solid #e1e1e1;
+}
+
+.header .register_button {
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+
+.header .nav-link {
+  font-size: 90%;
+}
+
+.header .signin_btn {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.apply-btn {
+  background-color: #008585;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.apply-btn:hover {
+  background-color: #2e8a6e;
+  color: white;
+  transform: scale(1);
+}
+
+.apply-btn:focus {
+  outline: none !important;
+  outline-offset: 2px;
+  color: white;
+  background-color: #38a482;
+}
+/* Header Ends  */
+
+/* Footer Starts  */
+
+.footer {
+  background-color: #008585;
+  /* color: #fff; */
+  /* padding-bottom: 30px; */
+  /* height: 23rem;  */
+  /* position: relative; */
+}
+
+/* === common === */
+
+@media (width >= 1600px) {
+  .section-fluid {
+    width: 1500px !important;
+    margin: auto;
+  }
+}
+.text-color {
+  color: #008585 !important;
+}
+.badge {
+  --bs-badge-font-weight: 500 !important;
+  border-radius: 24px !important;
+  color: #045656;
+}
+.badge img {
+  max-width: 15px;
+}
+.bg-success {
+  background-color: #cafff1 !important;
+}
+.fs-15{
+  font-size: calc(0.6rem + 0.5vw);
+}
+.fs-7 {
+  font-size: calc(0.9rem + 0.5vw);
+}
+
+.w-15 {
+ width: 15px !important;
+}
+/* common end */
+
+/* ===== Hero section ===== */
+
+.h1-tag {
+  color: #008585;
+  font-weight: bold;
+  font-size: 2.7rem;
+}
+@media (max-width: 1024px) {
+  .h1-tag {
+    font-size: calc(1.4rem + 1.3vw);
+  }
+}
+.hero_section {
+  background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.8) 100%
+    ),
+    url("../images/Sales_Hero_bg.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ==== advnc-section ==== */
+@media (max-width:768px) {
+  .advnc-section .h2-title {
+  font-size: calc(1.5rem + 1.5vw) !important;
+  }
+  .advnc-section .p-adv {
+  font-size: 15px !important;
+  }
+ }
+/* ==== detail-section ==== */
+@media (max-width:768px) {
+  .detail-section .fs-2 {
+  font-size: calc(1.3rem + 0.8vw) !important;
+  }
+  .detail-section small {
+  font-size: 12px !important;
+  }
+  .detail-section .d-par {
+  font-size: 14px !important;
+  }
+}
+
+
+/* === Form Container ==== */
+.form-container {
+  /* background-color: #40af92; */
+  color: #ffffff;
+  /* width: 80%; */
+  /* top: 0px;\ */
+  /* position: absolute; */
+}
+.form-container input {
+  height: 2.6rem;
+}
+.form-container textarea {
+  resize: none;
+}
+.form-check-input {
+  width: 1.5em !important;
+  height: 1.5em !important;
+}
+.form-btn {
+  background-color: #ffffff;
+  color: #40af92;
+}
+.form-btn:hover {
+  background-color: #ffffff;
+  color: #40af92;
+}
+.form-container input::placeholder {
+  font-size: small !important;
+}
+.form-container textarea::placeholder {
+  font-size: small !important;
+}
+@media (max-width: 767px) {
+  .form-container {
+    position: relative;
+    width: 100% !important;
+    top: 0px !important;
+  }
+}
+@media (max-width: 1024px) {
+  .form-container {
+    /* position: relative; */
+    width: 100% !important;
+    top: -60px;
+  }
+}
+.text-danger {
+  font-size: small;
+}
+
+/* Error and Success Modal */
+
+#successModal .modal-content,
+#errorModal .modal-content {
+  text-align: center;
+}

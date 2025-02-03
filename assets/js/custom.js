@@ -367,28 +367,55 @@ $(document).ready(function () {
       if (!$("#freeCourseHiringForm").valid()) {
         return false;
       }
-      const payload = {
-        first_name: $("#full_name").val(),
-        email: $("#email").val(),
-        phone: $("#mobile").val(),
-        company_id: 53,
-        company: "Cloud ECS Infotech",
-        lead_status: "PENDING",
-        description_info: `Location : ${$("#location").val()} ^ Course : ${$(
-          "#course"
-        ).val()} ^ selected Course : ${
-          $("input[name='selectedCourse']:checked").val()
-            ? $("input[name='selectedCourse']:checked").val()
-            : ""
-        } ^ Year of Passing : ${$(
-          "#year_of_passing"
-        ).val()} ^ About Candidate : ${
-          $("#about_me").val() ? $("#about_me").val() : ""
-        }`,
-        lead_source: "HIRING FORM",
-        country_code: "91",
-        createdBy: $("#full_name").val(),
-      };
+      let payload;
+      console.log(window.location.pathname.split("/").pop());
+      if( window.location.pathname.split("/").pop()==="free_certificate_course"){
+        payload = {
+         first_name: $("#full_name").val(),
+         email: $("#email").val(),
+         phone: $("#mobile").val(),
+         company_id: 53,
+         company: "Cloud ECS Infotech",
+         lead_status: "PENDING",
+         description_info: `Location : ${$("#location").val()} ^ Course : ${$(
+           "#course"
+         ).val()} ^ selected Course : ${
+           $("input[name='selectedCourse']:checked").val()
+             ? $("input[name='selectedCourse']:checked").val()
+             : ""
+         } ^ Year of Passing : ${$(
+           "#year_of_passing"
+         ).val()} ^ About Candidate : ${
+           $("#about_me").val() ? $("#about_me").val() : ""
+         }`,
+         lead_source: "Free Course Internship",
+         country_code: "91",
+         createdBy: $("#full_name").val(),
+       };
+      }else {
+        payload = {
+          first_name: $("#full_name").val(),
+          email: $("#email").val(),
+          phone: $("#mobile").val(),
+          company_id: 54,
+          company: "Cloud ECS Infotech",
+          lead_status: "PENDING",
+          description_info: `Location : ${$("#location").val()} ^ Course : ${$(
+            "#course"
+          ).val()} ^ selected Course : ${
+            $("input[name='selectedCourse']:checked").val()
+              ? $("input[name='selectedCourse']:checked").val()
+              : ""
+          } ^ Year of Passing : ${$(
+            "#year_of_passing"
+          ).val()} ^ About Candidate : ${
+            $("#about_me").val() ? $("#about_me").val() : ""
+          }`,
+          lead_source: "MBA Intern Ship",
+          country_code: "91",
+          createdBy: $("#full_name").val(),
+        };
+      }
       $.ajax({
         url: "https://crmlah.com/ecscrm/api/newClient",
         type: "POST",
