@@ -411,7 +411,7 @@
             class="col-12 col-md-8 col-lg-5 mb-5 d-flex flex-column justify-content-center align-items-center"
           >
             <p class="text-color mb-0">Get in Touch</p>
-            <p class="fs-2 text-center fw-semibold">Apply Today!</p>
+            <h3 class="fs-2 text-center fw-semibold">Apply Today!</h3>
             <form id="freeCourseHiringForm" class="form-container mt-5 px-2">
               <div class="row">
                 <div class="col-md-6 col-12 mb-4">
