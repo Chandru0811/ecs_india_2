@@ -94,21 +94,6 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
-              <!-- <li class="nav-item pe-3">
-                <a class="nav-link active" href="../students_internship/about"
-                  >About Us</a
-                >
-              </li>
-              <li class="nav-item pe-3">
-                <a class="nav-link active" href="../internship">
-                  Students Program</a
-                >
-              </li>
-              <li class="nav-item pe-3">
-                <a class="nav-link active" href="../students_internship/contact"
-                  >Contact</a
-                >
-              </li> -->
             </ul>
             <form class="d-flex ms-lg-3 ms-md-auto">
               <a class="text-decoration-none text-light" href="#form">
@@ -125,7 +110,7 @@
 
     <section class="section-fluid">
       <!-- ==== Hero ==== -->
-      <section class="container-fluid px-0 hero_section">
+      <section class="container-fluid px-0 ">
         <div class="row m-0 d-flex pt-5">
           <div
             class="col-md-6 col-12 ps-md-5 ps-4 d-flex flex-column justify-content-center"
@@ -217,8 +202,8 @@
           >
             <div class="flex-grow-1">
               <img
-                src="../assets/images/material-symbols_rocket-rounded.png"
-                alt="Gear.."
+                src="../assets/images/rocket_vector.png"
+                alt="rocket.."
                 class="img-fluid mb-4"
                 loading="lazy"
               />
@@ -279,6 +264,7 @@
               <div class="row mb-3">
                 <div class="col-1 px-md-2 px-0 text-center">
                   <img
+                  loading="lazy"
                     src="../assets/images/akar-icons_pointer-right-fill.png"
                     alt=".."
                     class="img-fluid w-15"
@@ -427,10 +413,6 @@
           >
             <p class="text-color mb-0">Get in Touch</p>
             <p class="fs-2 text-center fw-semibold">Apply Today!</p>
-            <!-- <p class="text-muted text-center">
-                  Take the first step toward your dream career. Fill out the form,
-                  and we’ll guide you through the process.
-                </p> -->
             <form id="freeCourseHiringForm" class="form-container mt-5 px-2">
               <div class="row">
                 <div class="col-md-6 col-12 mb-4">
@@ -506,107 +488,6 @@
                     required
                   />
                 </div>
-                <!-- <div class="col-12 mb-4">
-                      <div class="form-group">
-                        <label class="text-dark mb-3">Which course are you interested in?</label>
-                        <div class="options-grid course-options-group">
-                          <label class="radio-label checkbox-style">
-                            <input
-                              type="radio"
-                              class="form-check-input course"
-                              name="selectedCourse"
-                              value="Full stack developer -Java"
-                            />
-                            Full stack developer -Java
-                          </label>
-                          <label class="radio-label checkbox-style">
-                            <input
-                              type="radio"
-                              class="form-check-input course"
-                              name="selectedCourse"
-                              value="data-science"
-                            />
-                            Data Science
-                          </label>
-                          <label class="radio-label checkbox-style">
-                            <input
-                              type="radio"
-                              class="form-check-input course"
-                              name="selectedCourse"
-                              value="digital-marketing"
-                            />
-                            Digital Marketing
-                          </label>
-                          <label class="radio-label checkbox-style">
-                            <input
-                              type="radio"
-                              class="form-check-input course"
-                              name="selectedCourse"
-                              value="Full stack developer -python"
-                            />
-                            Full stack developer -Python
-                          </label>
-                          <label class="radio-label checkbox-style">
-                            <input
-                              type="radio"
-                              class="form-check-input course"
-                              name="selectedCourse"
-                              value="Mobile-App-Development"
-                            />
-                            Mobile App Development
-                          </label>
-                          <label class="radio-label checkbox-style">
-                            <input
-                              type="radio"
-                              class="form-check-input course"
-                              name="selectedCourse"
-                              value="UI/UX-Design"
-                            />
-                            UI/UX Design
-                          </label>
-                          <label class="radio-label checkbox-style">
-                            <input
-                              type="radio"
-                              class="form-check-input course"
-                              name="selectedCourse"
-                              value="DevSecOps/Networking/Cybersecurity"
-                            />
-                            DevSecOps/Networking /Cybersecurity
-                          </label>
-                          <label class="radio-label checkbox-style">
-                            <input
-                              type="radio"
-                              class="form-check-input course"
-                              name="selectedCourse"
-                              value="Front-End-Development"
-                            />
-                            Front-End Development
-                          </label>
-                          <label class="radio-label checkbox-style">
-                            <input
-                              type="radio"
-                              class="form-check-input course"
-                              name="selectedCourse"
-                              value="sales-marketing"
-                            />
-                            Sales and Marketing
-                          </label>
-                        </div>
-                      </div>
-                      
-                    </div> -->
-
-                <!-- <div class="col-12 my-4">
-                      <label class="form-label text-dark text-start mb-1">Message (Optional)</label>
-                      <textarea
-                        oninput="this.value = this.value.replace(/[:^]/g, '')";
-                        rows="5"
-                        class="form-control"
-                        placeholder="About me"
-                        name="about_me"
-                        id="about_me"
-                      ></textarea>
-                    </div> -->
                 <div class="text-center">
                   <button type="submit" class="apply-btn btn mt-4">
                     Apply Now
@@ -626,7 +507,7 @@
           <div
             class="d-flex flex-column flex-md-row justify-content-start align-items-center"
           >
-            <img
+            <img loading="lazy"
               src="../assets/images/footer_logo.webp"
               alt="Logo"
               class="img-fluid"
