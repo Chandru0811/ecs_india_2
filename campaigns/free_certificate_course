@@ -630,11 +630,11 @@
         </div>
         <div class="row m-0 justify-content-center mx-2 align-items-center mt-5">
           <div
-            class="col-12 col-md-10 col-lg-7 mb-5 d-flex justify-content-center align-items-center card shadow"
+            class="col-12 col-md-10 col-lg-7 mb-5 d-flex justify-content-center align-items-center card"
           >
             <div class="row py-5  w-100">
               <div class="col-md-8 col-12">
-                <p class="fs-5 fw-semibold mb-0">
+                <p class="fs-5  mb-0">
                   You can also WhatsApp your Resume
                 </p>
                 <p class="mb-0">And we’ll respond back with the details.</p>
