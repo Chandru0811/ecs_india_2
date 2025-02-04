@@ -254,6 +254,11 @@
                                   >DevSecOps / Networking /Cybersecurity</a
                                 >
                               </li>
+                              <li class="vertical-nav-item">
+                                <a href="../campaigns/mba_internship"
+                                  >MBA-InternShip</a
+                                >
+                              </li>
                             </ul>
                           </div>
                           <div class="col-md-6 col-12">
@@ -342,6 +347,11 @@
                                   <li class="vertical-nav-item">
                                     <a href="./devsecops_networking"
                                       >DevSecOps / Networking /Cybersecurity</a
+                                    >
+                                  </li>
+                                  <li class="vertical-nav-item">
+                                    <a href="../campaigns/mba_internship"
+                                      >MBA-InternShip</a
                                     >
                                   </li>
                                 </ul>
