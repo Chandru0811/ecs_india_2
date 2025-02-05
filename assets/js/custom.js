@@ -383,9 +383,7 @@ $(document).ready(function () {
             $("input[name='selectedCourse']:checked").val()
               ? $("input[name='selectedCourse']:checked").val()
               : ""
-          } ^ Year of Passing : ${$(
-            "#year_of_passing"
-          ).val()} ^ About Candidate : ${
+          } ^ Year of Passing : ${$("#year_of_passing").val() ? $("#year_of_passing").val() : ""} ^ About Candidate : ${
             $("#about_me").val() ? $("#about_me").val() : ""
           }`,
           lead_source: "Free Course Internship",
@@ -404,9 +402,7 @@ $(document).ready(function () {
             $("input[name='selectedCourse']:checked").val()
               ? $("input[name='selectedCourse']:checked").val()
               : ""
-          } ^ Year of Passing : ${$(
-            "#year_of_passing"
-          ).val()} ^ About Candidate : ${
+          } ^ Year of Passing : ${$("#year_of_passing").val() ? $("#year_of_passing").val() : ""} ^ About Candidate : ${
             $("#about_me").val() ? $("#about_me").val() : ""
           }`,
           lead_source: "MBA Intern Ship",
