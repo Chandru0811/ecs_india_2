@@ -286,32 +286,32 @@ $(document).ready(function () {
         minlength: 3,
         maxlength: 255,
       },
-      email: {
-        required: true,
-        emailPattern: true,
-      },
+      // email: {
+      //   required: true,
+      //   emailPattern: true,
+      // },
       mobile: {
         required: true,
         number: true,
         minlength: 10,
         maxlength: 10,
       },
-      year_of_passing: {
-        required: true,
-      },
-      course: {
-        required: true,
-      },
+      // year_of_passing: {
+      //   required: true,
+      // },
+      // course: {
+      //   required: true,
+      // },
       // selectedCourse: {
       //   required: true,
       // },
-      location: {
-        required: true,
-        maxlength: 30,
-      },
-      about_me: {
-        maxlength: 255,
-      },
+      // location: {
+      //   required: true,
+      //   maxlength: 30,
+      // },
+      // about_me: {
+      //   maxlength: 255,
+      // },
     },
     messages: {
       full_name: {
@@ -319,33 +319,33 @@ $(document).ready(function () {
         minlength: "Your name must be at least 2 characters long",
         maxlength: "Name cannot exceed 255 characters.",
       },
-      email: {
-        required: "Please enter your email*",
-        emailPattern: "Please enter a valid email address",
-      },
+      // email: {
+      //   required: "Please enter your email*",
+      //   emailPattern: "Please enter a valid email address",
+      // },
       mobile: {
         required: "Please enter your phone number*",
         number: "Please enter a valid phone number",
         minlength: "Your phone number must be  10 digits",
         maxlength: "Your phone number must be  10 digits",
       },
-      year_of_passing: {
-        required: "Please enter your year of passing*",
-      },
-      course: {
-        required: "Please enter your course*",
-      },
-      location: {
-        required: "Please enter your Location*",
-        maxlength: "Location cannot exceed 30 characters.",
-      },
+      // year_of_passing: {
+      //   required: "Please enter your year of passing*",
+      // },
+      // course: {
+      //   required: "Please enter your course*",
+      // },
+      // location: {
+      //   required: "Please enter your Location*",
+      //   maxlength: "Location cannot exceed 30 characters.",
+      // },
       // selectedCourse: {
       //   // Add validation message for the course selection
       //   required: "Please select a course*",
       // },
-      about_me: {
-        maxlength: "About Me cannot exceed 255 characters.",
-      },
+      // about_me: {
+      //   maxlength: "About Me cannot exceed 255 characters.",
+      // },
     },
     errorPlacement: function (error, element) {
       if (element.attr("name") === "selectedCourse") {
@@ -379,9 +379,7 @@ $(document).ready(function () {
           company_id: 53,
           company: "Cloud ECS Infotech",
           lead_status: "PENDING",
-          description_info: `Location : ${$("#location").val()} ^ Course : ${$(
-            "#course"
-          ).val()} ^ selected Course : ${
+          description_info: `Location : ${$("#location").val() ? $("#location").val() : ""} ^ Course : ${$("#course").val() ? $("#course").val() : ""} ^ selected Course : ${
             $("input[name='selectedCourse']:checked").val()
               ? $("input[name='selectedCourse']:checked").val()
               : ""
@@ -402,9 +400,7 @@ $(document).ready(function () {
           company_id: 54,
           company: "Cloud ECS Infotech",
           lead_status: "PENDING",
-          description_info: `Location : ${$("#location").val()} ^ Course : ${$(
-            "#course"
-          ).val()} ^ selected Course : ${
+          description_info: `Location : ${$("#location").val() ? $("#location").val() : ""} ^ Course : ${$("#course").val() ? $("#course").val() : ""} ^ selected Course : ${
             $("input[name='selectedCourse']:checked").val()
               ? $("input[name='selectedCourse']:checked").val()
               : ""
@@ -427,183 +423,11 @@ $(document).ready(function () {
           showSuccessModal();
           console.log("payload", payload);
           $(form).trigger("reset");
-          const mailPayload = new FormData();
           if (
             window.location.pathname.split("/").pop() ===
-            "free_certificate_course"
+            "mba_internship"
           ) {
-            
-            mailPayload.append("from", "ecscloudinfotech@gmail.com");
-            mailPayload.append("to", payload.email);
-            mailPayload.append(
-              "subject",
-              `Join Our WhatsApp Channel for Updates on Your Free Certificate Course`
-            );
-            mailPayload.append(
-              "htmlContent",
-              `
-    <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Payment Request - Course Registration</title>
-    <style>
-      body {
-        background-color: #f7f9fc;
-        font-family: "Arial", sans-serif;
-        color: #333;
-        margin: 0;
-        padding: 0;
-      }
-
-      .container {
-        max-width: 650px;
-        background-color: #ffffff;
-        margin: 40px auto;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-        border-top: 5px solid #0076f7;
-        border-bottom: 3px solid #888888;
-      }
-
-      .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 25px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-      }
-
-      .header img {
-        width: 120px;
-      }
-
-      .headerText a {
-        font-size: 12px;
-        text-decoration: none;
-        color: #000;
-      }
-
-      .message {
-        padding: 10px 25px;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-      }
-
-      .message a {
-        color: #0076f7;
-      }
-
-      .footer img {
-        width: 120px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div
-        class="header"
-        style="padding: 25px; border-bottom: 1px solid #ddd; text-align: center"
-      >
-        <table
-          width="100%"
-          cellspacing="0"
-          cellpadding="0"
-          style="border-collapse: collapse"
-        >
-          <tr>
-            <td align="left" style="vertical-align: middle">
-              <img
-                src="https://sgitjobs.com/logo/Cloud_ECS_Infotech.png"
-                alt="Cloud ECS Infotech"
-                style="max-width: 150px; height: auto"
-              />
-            </td>
-            <td align="right" style="vertical-align: middle">
-              <div class="headerText" style="font-size: 14px; color: #333">
-                <a
-                  href="https://info@ecsaio.in/"
-                  target="_blank"
-                  style="text-decoration: none; color: #333"
-                >
-                  Your <span style="color: #005aea">info@ecsaio.in</span>
-                </a>
-                |
-                <a
-                  href="tel:918438670535"
-                  target="_blank"
-                  style="text-decoration: none; color: #333"
-                >
-                  +91 84386 70535
-                </a>
-              </div>
-            </td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="message">
-        <h4 style="margin: 3rem 0 0 0;">Dear ${payload.first_name},</h4>
-        <p style="margin: 3rem 0 0 0;">
-          Thank you for your application to our Free Certificate Course!
-        </p>
-        <p style="margin: 2rem 0 0 0;">
-          To stay updated on your upcoming sessions, please join our official Cloud ECS Infotech Pvt Ltd WhatsApp channel. Here, you'll receive important updates and information regarding the course.
-        </p>
-        <p style="margin: 2rem 0 0 0;">
-          Follow the link to join the channel: 
-        </p>
-        <p style="margin: 3px 0 0 0;">
-          🔗 <a href="https://whatsapp.com/channel/0029VazH0d7BlHpUQDF9Ou2P">https://whatsapp.com/channel/0029VazH0d7BlHpUQDF9Ou2P</a> 
-        </p>
-        <p style="margin: 3rem 0 0 0;">
-          We look forward to having you with us!
-        </p>
-        <p style="margin: 3rem 0 0 0;">
-          Best regards,
-        </p>
-        <p style="margin: 5px 0 2rem 0;">
-          Cloud ECS Infotech Pvt Ltd
-        </p>
-      </div>
-      
-
-      <div class="footer" style="padding: 15px 25px; text-align: center">
-        <table
-          width="100%"
-          cellspacing="0"
-          cellpadding="0"
-          style="border-collapse: collapse"
-        >
-          <tr>
-            <td align="left" style="vertical-align: middle">
-              <img
-                src="https://sgitjobs.com/logo/Cloud_ECS_Infotech.png"
-                alt="Cloud ECS infotech"
-                style="max-width: 150px; height: auto; margin-bottom: 10px"
-              />
-            </td>
-            <td align="right" style="vertical-align: middle">
-             <p style="font-size: 12px; color: #333; margin: 0">
-              Connect with
-              <a
-                href="https://ecsaio.in/"
-                target="_blank"
-                style="color: #005aea; text-decoration: none"
-                >Cloud ECS Infotech</a
-              >
-              India
-              </p>
-
-            </td>
-          </tr>
-        </table>
-      </div>
-    </div>
-  </body>
-</html>
-    `
-            );
-          }else {
+            const mailPayload = new FormData();
             mailPayload.append("from", "ecscloudinfotech@gmail.com");
             mailPayload.append("to", payload.email);
             mailPayload.append(
@@ -774,7 +598,6 @@ $(document).ready(function () {
 </html>
     `
             );
-          }
             const apiUrl = "https://crmlah.com/ecscrm/api/sendMailWithOutToken";
             $.ajax({
               url: apiUrl,
@@ -790,7 +613,7 @@ $(document).ready(function () {
                 alert("An error occurred while sending the mail.");
               },
             });
-        
+          }
         },
         error: function () {
           showErrorModal();

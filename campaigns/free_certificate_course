@@ -469,7 +469,7 @@
                     required
                   />
                 </div>
-                <div class="col-md-6 col-12 mb-4">
+                <!-- <div class="col-md-6 col-12 mb-4">
                   <label class="form-label text-dark text-start mb-1"
                     >Email</label
                   >
@@ -517,7 +517,7 @@
                     id="year_of_passing"
                     required
                   />
-                </div>
+                </div> -->
                 <!-- <div class="col-12 mb-4">
                   <div class="form-group">
                     <label class="text-dark mb-3">Which course are you interested in?</label>
