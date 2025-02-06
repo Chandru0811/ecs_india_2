@@ -438,7 +438,7 @@
                     required
                   />
                 </div>
-                <div class="col-md-6 col-12 mb-4">
+                <!-- <div class="col-md-6 col-12 mb-4">
                   <label class="form-label text-dark text-start mb-1"
                     >Email</label
                   >
@@ -449,8 +449,8 @@
                     id="email"
                     required
                   />
-                </div>
-                <div class="col-md-6 col-12 mb-4">
+                </div> -->
+                <!-- <div class="col-md-6 col-12 mb-4">
                   <label class="form-label text-dark text-start mb-1"
                     >Location</label
                   >
@@ -461,8 +461,8 @@
                     id="location"
                     required
                   />
-                </div>
-                <div class="col-md-6 col-12 mb-4">
+                </div> -->
+                <!-- <div class="col-md-6 col-12 mb-4">
                   <label class="form-label text-dark text-start mb-1"
                     >Qualification</label
                   >
@@ -473,8 +473,8 @@
                     id="course"
                     required
                   />
-                </div>
-                <div class="col-md-6 col-12 mb-4">
+                </div> -->
+                <!-- <div class="col-md-6 col-12 mb-4">
                   <label class="form-label text-dark text-start mb-1"
                     >Year of Passing</label
                   >
@@ -486,7 +486,7 @@
                     id="year_of_passing"
                     required
                   />
-                </div>
+                </div> -->
                 <div class="text-center">
                   <button type="submit" class="apply-btn btn mt-4">
                     Apply Now
