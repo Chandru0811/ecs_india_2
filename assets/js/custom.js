@@ -390,7 +390,26 @@ $(document).ready(function () {
           country_code: "91",
           createdBy: $("#full_name").val(),
         };
-      } else {
+      } else if ( window.location.pathname.split("/").pop() === "digital_marketing_internship") {
+        payload = {
+          first_name: $("#full_name").val(),
+          email: $("#email").val(),
+          phone: $("#mobile").val(),
+          company_id: 55,
+          company: "Cloud ECS Infotech",
+          lead_status: "PENDING",
+          description_info: `Location : ${$("#location").val() ? $("#location").val() : ""} ^ Course : ${$("#course").val() ? $("#course").val() : ""} ^ selected Course : ${
+            $("input[name='selectedCourse']:checked").val()
+              ? $("input[name='selectedCourse']:checked").val()
+              : ""
+          } ^ Year of Passing : ${$("#year_of_passing").val() ? $("#year_of_passing").val() : ""} ^ About Candidate : ${
+            $("#about_me").val() ? $("#about_me").val() : ""
+          }`,
+          lead_source: "Digital Marketing Intern",
+          country_code: "91",
+          createdBy: $("#full_name").val(),
+        };
+      }else {
         payload = {
           first_name: $("#full_name").val(),
           email: $("#email").val(),

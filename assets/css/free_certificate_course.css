@@ -324,6 +324,12 @@ input[type="radio"] {
     width: 100% !important;
     top: 0px !important;
   }
+  .contact-card .fs-5 {
+    font-size: calc(1rem + 0.5vw) !important;
+}
+.contact-card .card-p {
+    font-size: 13px !important;
+}
 }
 
 

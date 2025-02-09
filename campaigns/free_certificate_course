@@ -628,18 +628,18 @@
             </form>
           </div>
         </div>
-        <div class="row m-0 justify-content-center mx-2 align-items-center mt-5">
+        <div class="row m-0 justify-content-center contact-card mx-2 align-items-center mt-md-5 mt-4">
           <div
             class="col-12 col-md-10 col-lg-7 mb-5 d-flex justify-content-center align-items-center card"
           >
-            <div class="row py-5  w-100">
+            <div class="row py-md-5 py-4  w-100">
               <div class="col-md-8 col-12">
                 <p class="fs-5  mb-0">
                   You can also WhatsApp your Resume
                 </p>
-                <p class="mb-0">And we’ll respond back with the details.</p>
+                <p class="card-p mb-0">And we’ll respond back with the details.</p>
               </div>
-              <div class="col-md-4 col-12 d-flex justify-content-center align-items-center mt-5 mt-md-0">
+              <div class="col-md-4 col-12 d-flex justify-content-center align-items-center mt-4 mt-md-0">
                 <a
                   href="https://wa.me/918438670535?text=Hi"
                   target="_blank"
