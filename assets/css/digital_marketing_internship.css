@@ -101,6 +101,7 @@ body {
   --bs-badge-font-weight: 500 !important;
   border-radius: 5px !important;
   color: #045656;
+  font-size: 14px !important;
 }
 .badge img {
   max-width: 15px;
@@ -124,7 +125,7 @@ body {
 .h1-tag {
   color: #008585;
   font-weight: bold;
-  font-size: 2.7rem;
+  font-size: 2.5rem;
 }
 @media (max-width: 1024px) {
   .h1-tag {
@@ -148,6 +149,9 @@ body {
     }
     .advnc-section .p-adv {
       font-size: 15px !important;
+    }
+    .badge {
+        font-size: 12px !important;
     }
   }
 

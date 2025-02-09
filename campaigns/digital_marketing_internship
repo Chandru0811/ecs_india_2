@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
-    <script
+    <!-- <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-XWHQQM5H1G"
     ></script>
@@ -14,7 +14,7 @@
       gtag("js", new Date());
 
       gtag("config", "G-XWHQQM5H1G");
-    </script>
+    </script> -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Marketing Internship with Salary | Cloud ECS Infotech</title>
@@ -111,11 +111,11 @@ Salary" />
             class="col-md-6 col-12 ps-md-5 ps-4 d-flex flex-column justify-content-center"
           >
             <div class="ps-lg-5 position-relative">
-                <p class="badge bg-success px-2 py-2">
+                <p class="badge bg-success fw-semibold px-2 py-2">
                     Work From Home
                   </p>
                 <h1 class="h1-tag">Digital Marketing Internship</h1>
-                <h2 class="text-muted fs-6">1 Year Internship with Salary from Day 1</h2>
+                <h2 class="text-muted fs-6 pt-md-3 pt-2">1 Year Internship with Salary from Day 1</h2>
             </div>
 
             <div class="ps-lg-5 mt-4 pt-2">
