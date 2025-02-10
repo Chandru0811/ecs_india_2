@@ -145,10 +145,13 @@ body {
 /* ==== advnc-section ==== */
 @media (max-width: 768px) {
     .advnc-section .h2-title {
-      font-size: calc(1.5rem + 1.5vw) !important;
+      font-size: calc(1.2rem + 1.1vw) !important;
+    }
+    .advnc-section .fs-5 {
+      font-size: calc(0.9rem + 0.7vw) !important;
     }
     .advnc-section .p-adv {
-      font-size: 15px !important;
+      font-size: 14px !important;
     }
     .badge {
         font-size: 12px !important;
