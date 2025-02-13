@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
-    <!-- <script
+    <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-XWHQQM5H1G"
     ></script>
@@ -14,7 +14,7 @@
       gtag("js", new Date());
 
       gtag("config", "G-XWHQQM5H1G");
-    </script> -->
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Internship with Salary from Day 1 | Cloud ECS Infotech</title>
@@ -110,22 +110,27 @@
             class="col-md-6 col-12 ps-md-3 ps-lg-5 ps-4 d-flex flex-column justify-content-center"
           >
             <div class="ps-lg-5 position-relative">
-              <p class="badge bg-success fw-semibold px-2 py-2">
-                Job-Assured Internship Program
+              <p class="badge bg-success px-3 py-2 rounded-3 fw-semibold">
+                <img
+                  loading="eager"
+                  src="../assets/images/RupeeVector.png"
+                  alt="Rupee.."
+                  class="img-fluid"
+                />
+                Salary from Day 1
               </p>
               <h1 class="h1-tag">Become an AI Engineer</h1>
-              <h2 class="text-muted fs-6 pt-md-3 pt-2 mb-3">
-                Join the future of AI with our guaranteed internship program!
+              <h2 class="text-muted fs-5 pt-md-3 pt-2 mb-3 pb-1">
+                2025 is year of Generative AI (LLMs) and AI agents
               </h2>
               <p class="mb-2 text-muted hp-fs">
-                # Master AWS Gen AI for live project development.
+                # Massive Salary After Placement
               </p>
               <p class="mb-2 text-muted hp-fs">
-                # AI Engineers are the highest paid professionals globally.
+                # Work On Live Gen AI Projects
               </p>
               <p class="mb-2 text-muted hp-fs">
-                # Gain hands-on experience with tools like ChatGPT, Gemini,
-                Deepseek and more.
+                # Gain expertise in ChatGPT, Gemini, Deepseek, Ollama, Claude.
               </p>
             </div>
 
@@ -297,14 +302,19 @@
             class="col-md-4 col-12 d-flex justify-content-center justify-content-lg-center justify-content-md-end align-items-center py-3 py-md-0"
           >
             <div class="">
-                <a class="text-decoration-none" href="https://us06web.zoom.us/meeting/register/KT8b33jvT5Sh8sdYwYjmcQ?_x_zm_rtaid=NY6-2hrZSr2BWByVCikKUg.1739435504677.40bcf9b581cad1d4f5e4120089600be7&_x_zm_rhtaid=39" target="_blank" rel="noopener noreferrer">
-              <button
-                type="button"
-                class="btn btn-primary py-lg-3 px-lg-4 py-md-2 px-md-3"
+              <a
+                class="text-decoration-none"
+                href="https://us06web.zoom.us/meeting/register/KT8b33jvT5Sh8sdYwYjmcQ?_x_zm_rtaid=NY6-2hrZSr2BWByVCikKUg.1739435504677.40bcf9b581cad1d4f5e4120089600be7&_x_zm_rhtaid=39"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Add to Schedule
-              </button>
-            </a>
+                <button
+                  type="button"
+                  class="btn btn-primary py-lg-3 px-lg-4 py-md-2 px-md-3"
+                >
+                  Add to Schedule
+                </button>
+              </a>
             </div>
           </div>
         </div>
