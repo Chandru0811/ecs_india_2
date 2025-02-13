@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
-    <script
+    <!-- <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-XWHQQM5H1G"
     ></script>
@@ -14,7 +14,7 @@
       gtag("js", new Date());
 
       gtag("config", "G-XWHQQM5H1G");
-    </script>
+    </script> -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Internship with Salary from Day 1 | Cloud ECS Infotech</title>
@@ -297,12 +297,14 @@
             class="col-md-4 col-12 d-flex justify-content-center justify-content-lg-center justify-content-md-end align-items-center py-3 py-md-0"
           >
             <div class="">
+                <a class="text-decoration-none" href="https://us06web.zoom.us/meeting/register/KT8b33jvT5Sh8sdYwYjmcQ?_x_zm_rtaid=NY6-2hrZSr2BWByVCikKUg.1739435504677.40bcf9b581cad1d4f5e4120089600be7&_x_zm_rhtaid=39" target="_blank" rel="noopener noreferrer">
               <button
                 type="button"
                 class="btn btn-primary py-lg-3 px-lg-4 py-md-2 px-md-3"
               >
                 Add to Schedule
               </button>
+            </a>
             </div>
           </div>
         </div>
